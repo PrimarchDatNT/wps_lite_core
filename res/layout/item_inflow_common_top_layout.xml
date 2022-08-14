@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/left_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wps_doc_tail_common_top_left" />
+    <Space android:id="@id/anchor_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <cn.wpsx.support.ui.KColorfulImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.329987dip" android:src="@drawable/wps_doc_tail_common_top_dot" android:layout_toRightOf="@id/anchor_view" android:layout_centerHorizontal="true" android:layout_marginStart="20.0dip" android:layout_toEndOf="@id/anchor_view" />
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/menu_btn" android:focusable="true" android:clickable="true" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/public_more" android:scaleType="center" android:layout_alignParentRight="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    <TextView android:textSize="20.0dip" android:textStyle="bold|italic" android:textColor="@color/mainTextColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="18.0dip" android:text="@string/reader_doc_inflow_tail_tips_new" android:layout_below="@id/left_icon" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+</RelativeLayout>

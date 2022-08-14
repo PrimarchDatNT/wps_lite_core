@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_business_consult" android:tag="@string/home_user_account_job_business_consult" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_business_consult" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_business_self_employed" android:tag="@string/home_user_account_job_business_self_employed" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_business_self_employed" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_business_beautyworld" android:tag="@string/home_user_account_job_business_beautyworld" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_business_beautyworld" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_business_travel" android:tag="@string/home_user_account_job_business_travel" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_business_travel" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_business_restaurant" android:tag="@string/home_user_account_job_business_restaurant" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_business_restaurant" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_business_entertainment" android:tag="@string/home_user_account_job_business_entertainment" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_business_entertainment" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_business_trade" android:tag="@string/home_user_account_job_business_trade" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_business_trade" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_business_car" android:tag="@string/home_user_account_job_business_car" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_business_car" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_business_property" android:tag="@string/home_user_account_job_business_property" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_business_property" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_business_propertymanagement" android:tag="@string/home_user_account_job_business_propertymanagement" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_business_propertymanagement" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_business_decorate" android:tag="@string/home_user_account_job_business_decorate" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_business_decorate" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

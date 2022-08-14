@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="288.0dip" android:layout_height="384.0dip">
+            <ImageView android:id="@id/home_popup_imageview" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <TextView android:textSize="9.0dip" android:textColor="@color/color_alpha_80_white" android:gravity="center" android:layout_gravity="end|center|top" android:id="@id/ad_sign" android:background="@drawable/public_home_popup_ad_sign_background" android:visibility="gone" android:layout_width="25.0dip" android:layout_height="14.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:text="@string/infoflow_spread" android:maxLines="1" />
+        </FrameLayout>
+        <TextView android:textSize="11.0dip" android:textColor="@color/white_40" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tv_tips_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+        <View android:id="@id/popup_place_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="25.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/home_popup_ad_close" android:background="@drawable/pub_popup_btn_close" android:layout_width="30.0dip" android:layout_height="30.0dip" android:scaleType="fitXY" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

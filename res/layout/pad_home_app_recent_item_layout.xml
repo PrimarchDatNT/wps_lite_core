@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.RedDotLayout android:id="@id/red_dot_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip">
+        <cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:gravity="start" android:orientation="horizontal" android:background="@drawable/pad_public_app_list_white_round_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_vertical" android:id="@id/img" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/pub_app_tool_default" android:layout_marginStart="20.0dip" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginLeft="10.0dip" android:maxLines="2" android:layout_marginStart="10.0dip" />
+        </cn.wps.moffice.common.beans.RippleAlphaLinearLayout>
+    </FrameLayout>
+</cn.wps.moffice.common.beans.RedDotLayout>

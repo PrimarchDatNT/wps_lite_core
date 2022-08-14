@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="20.0dip" android:layout_height="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.reader.view.RingProgressBar android:id="@id/ringProgressBar" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" />
+    <ImageView android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/wps_reader_readtime_star" android:layout_centerInParent="true" />
+    <View android:id="@id/vPoint" android:background="@drawable/wps_reader_readtime_circlepoint" android:visibility="invisible" android:layout_width="5.5dip" android:layout_height="5.5dip" android:layout_alignParentRight="true" />
+</RelativeLayout>

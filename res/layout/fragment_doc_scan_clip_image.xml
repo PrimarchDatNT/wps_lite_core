@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/scanDefaultBackgroundColor" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/fl_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="35.0dip" android:layout_above="@id/edit_bottom" android:layout_below="@id/collection_tip">
+        <cn.wps.moffice.main.scan.util.imageview.CanvasView android:id="@id/cv_cut" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_above="@id/filter_panel" android:layout_below="@id/magnifying_glass" />
+    </RelativeLayout>
+    <View android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_above="@id/edit_bottom" />
+    <include android:id="@id/edit_bottom" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_alignParentBottom="true" layout="@layout/part_doc_san_clip_image_bottom" />
+</RelativeLayout>

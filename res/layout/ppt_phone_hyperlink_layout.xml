@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ppt_hyperlink_root" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.presentation.control.common.PptTitleBar android:id="@id/ppt_hyperlink_titleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
+    <ScrollView android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ppt_hyperlink_content" android:paddingLeft="@dimen/phone_ss_fullscreen_panel_padding_little" android:paddingRight="@dimen/phone_ss_fullscreen_panel_padding_little" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/phone_ss_fullscreen_panel_padding_little" android:paddingEnd="@dimen/phone_ss_fullscreen_panel_padding_little">
+            <LinearLayout android:orientation="vertical" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="11.0dip" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_hyperlink_linkto" style="@style/phone_public_font_m_gray" />
+                <cn.wps.moffice.common.beans.NewSpinner android:gravity="bottom" android:id="@id/ppt_hyperlink_tab_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            </LinearLayout>
+            <FrameLayout android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/ppt_hyperlink_web_page_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="11.0dip" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_hyperlink_address" style="@style/phone_public_font_m_gray" />
+                    <cn.wps.moffice.common.beans.EditTextDropDown android:gravity="start|bottom|center" android:id="@id/ppt_hyperlink_web_address" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="13.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ppt_hyperlink_email_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="11.0dip" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/et_hyperlink_email_address" style="@style/phone_public_font_m_gray" />
+                    <cn.wps.moffice.common.beans.MyAutoCompleteTextView android:ellipsize="end" android:gravity="start|bottom|center" android:id="@id/ppt_hyperlink_email_address" android:background="@drawable/phone_public_edittext_errorable_bg" android:paddingLeft="0.0dip" android:paddingRight="@dimen/phone_public_small_icon_width" android:nextFocusDown="@id/ppt_hyperlink_mail_theme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:singleLine="true" android:selectAllOnFocus="false" android:paddingStart="0.0dip" android:paddingEnd="@dimen/phone_public_small_icon_width" />
+                    <TextView android:textSize="11.0dip" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/public_hyperlink_email_subject" style="@style/phone_public_font_m_gray" />
+                    <cn.wps.moffice.common.beans.EditTextCustom android:gravity="start|bottom|center" android:id="@id/ppt_hyperlink_mail_theme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:minHeight="40.0dip" android:singleLine="true" android:selectAllOnFocus="false" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ppt_hyperlink_slide_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="11.0dip" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_hyperlink_position" style="@style/phone_public_font_m_gray" />
+                    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <EditText android:gravity="bottom" android:id="@id/ppt_hyperlink_slide_index" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:hint="@string/ppt_hyperlink_slide_tips" android:paddingEnd="24.0dip" />
+                        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/public_slide_select_arrow_right" android:layout_centerVertical="true" android:layout_marginEnd="2.0dip" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <TextView android:textSize="11.0dip" android:gravity="start" android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/public_hyperlink_diplaytext" style="@style/phone_public_font_m_gray" />
+            <cn.wps.moffice.common.beans.EditTextCustom android:gravity="start|bottom|center" android:id="@id/ppt_hyperlink_show_word" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:minHeight="40.0dip" android:singleLine="true" />
+            <Button android:layout_gravity="center" android:id="@id/ppt_hyperlink_delete" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="36.669983dip" android:layout_marginTop="21.329987dip" android:layout_marginBottom="29.329987dip" android:text="@string/public_hyperlink_delete" android:paddingStart="40.0dip" android:paddingEnd="40.0dip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

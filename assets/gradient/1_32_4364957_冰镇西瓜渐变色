@@ -1,0 +1,1 @@
+<GradFill tooltips="冰镇西瓜渐变色"><a:gradFill flip="none" rotWithShape="1"><a:gsLst><a:gs pos="100000"><a:srgbClr val="FF1744"/></a:gs><a:gs pos="0"><a:srgbClr val="FF8A80"/></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="100000" t="100000"/></a:path><a:tileRect r="-100000" b="-100000"/></a:gradFill></GradFill>

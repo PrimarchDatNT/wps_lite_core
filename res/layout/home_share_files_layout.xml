@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/public_think_divide" />
+    <FrameLayout android:background="@color/whiteNavBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.main.cloud.roaming.phone.controller.CommonTabLayout android:id="@id/tab_layout" android:layout_width="wrap_content" android:layout_height="48.0dip" />
+    </FrameLayout>
+    <include android:visibility="gone" layout="@layout/public_think_divide" />
+    <androidx.viewpager.widget.ViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

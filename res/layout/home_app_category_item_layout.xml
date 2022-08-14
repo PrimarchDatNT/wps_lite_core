@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/container_view" android:background="@drawable/public_home_app_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="8.0dip">
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/img" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/pub_app_classify_all" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/mainTextColor" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="13.0dip" android:text="" />
+    </cn.wps.moffice.common.beans.RippleAlphaLinearLayout>
+</FrameLayout>

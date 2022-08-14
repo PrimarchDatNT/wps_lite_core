@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/home_list_pinned_header_layout" android:background="@color/secondBackgroundColor" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="42.0dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:id="@id/public_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/showModeLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/public_image_bg_style_bounded">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/showModeButton" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/pub_list_screening_thumbnail" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:layout_gravity="center_vertical" android:id="@id/showModeTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginBottom="1.0dip" android:text="@string/public_thumbnail" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/pad_record_filter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" style="@style/public_image_bg_style_bounded">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/pad_record_filter_img" android:padding="1.0dip" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/pub_list_screening_filter" android:contentDescription="@null" android:layout_marginEnd="2.0dip" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:id="@id/pad_record_filter_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_modify_format" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pad_multiselect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" style="@style/public_image_bg_style_bounded">
+            <cn.wpsx.support.ui.KNormalImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/pub_list_screening_selection" android:contentDescription="@null" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginBottom="1.0dip" android:text="@string/public_multiselect" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

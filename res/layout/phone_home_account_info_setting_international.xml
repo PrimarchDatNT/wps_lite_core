@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/home_setting_group_item_txt">
+                <TextView android:textSize="10.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/home_account_info_complete_tips" android:background="@color/public_content_divide_vline_color" android:layout_width="fill_parent" android:layout_height="19.0dip" />
+                <TextView android:layout_gravity="start|center" android:paddingLeft="@dimen/home_item_padding_left" android:paddingRight="@dimen/home_item_padding_right" android:text="@string/documentmanager_qing_setting_common_account_login_type_wps" android:paddingStart="@dimen/home_item_padding_left" android:paddingEnd="@dimen/home_item_padding_right" style="@style/home_account_info_setting_item_title" />
+                <TextView android:layout_gravity="end|center" android:id="@id/home_account_info_account" android:paddingLeft="@dimen/home_item_padding_left" android:paddingRight="@dimen/home_item_padding_right" android:paddingStart="@dimen/home_item_padding_left" android:paddingEnd="@dimen/home_item_padding_right" style="@style/home_account_info_setting_item_content" />
+            </FrameLayout>
+            <TextView android:gravity="center_vertical" android:paddingLeft="@dimen/home_item_padding_left" android:paddingRight="@dimen/home_item_padding_right" android:text="@string/home_account_info" android:paddingStart="@dimen/home_item_padding_left" android:paddingEnd="@dimen/home_item_padding_right" style="@style/public_separator_title_style" />
+            <FrameLayout android:id="@id/home_account_info_avatar_group" android:paddingRight="6.0dip" android:paddingEnd="6.0dip" style="@style/home_setting_group_item_txt">
+                <TextView android:layout_gravity="start|center" android:text="@string/home_account_wps_avatar" android:layout_centerVertical="true" style="@style/home_account_info_setting_item_title" />
+                <ImageView android:layout_gravity="end|center" android:id="@id/home_account_info_avatar" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="20.0dip" android:src="@drawable/phone_home_drawer_icon_loginavatar" android:layout_centerVertical="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="20.0dip" />
+                <ImageView android:layout_gravity="end|center" android:background="@drawable/phone_home_member_arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" />
+            </FrameLayout>
+            <View android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/public_separator_line" />
+            <RelativeLayout android:id="@id/home_account_info_nickname_group" android:paddingRight="6.0dip" android:paddingEnd="6.0dip" style="@style/home_setting_group_item_txt">
+                <TextView android:id="@id/home_account_info_nickname_titleview" android:text="@string/home_account_nickname" android:layout_centerVertical="true" style="@style/home_account_info_setting_item_title" />
+                <TextView android:ellipsize="end" android:gravity="end|center" android:id="@id/home_account_info_nickname" android:layout_marginLeft="12.0dip" android:layout_marginRight="20.0dip" android:text="@string/home_account_address_undefine" android:singleLine="true" android:layout_toRightOf="@id/home_account_info_nickname_titleview" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="20.0dip" android:layout_toEndOf="@id/home_account_info_nickname_titleview" android:layout_alignParentEnd="true" style="@style/home_account_info_setting_item_content" />
+                <ImageView android:background="@drawable/phone_home_member_arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/public_separator_line" />
+            <RelativeLayout android:id="@id/home_account_info_levelname_group" android:paddingRight="6.0dip" android:paddingEnd="6.0dip" style="@style/home_setting_group_item_txt">
+                <TextView android:id="@id/home_account_info_levelname_titleview" android:text="@string/home_account_address_levelname" android:layout_centerVertical="true" style="@style/home_account_info_setting_item_title" />
+                <TextView android:ellipsize="end" android:gravity="end" android:id="@id/home_account_info_levelname" android:layout_marginLeft="12.0dip" android:layout_marginRight="20.0dip" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" style="@style/home_account_info_setting_item_content" />
+                <ImageView android:id="@id/home_account_info_member_level_icon" android:background="@drawable/foreign_home_my_userinfo_member_go" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="16.0dip" android:scaleType="fitXY" android:layout_toLeftOf="@id/home_account_info_levelname" android:layout_centerVertical="true" android:layout_toStartOf="@id/home_account_info_levelname" />
+                <ImageView android:background="@drawable/phone_home_member_arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="top" android:id="@id/home_account_info_birthday_group" android:paddingRight="6.0dip" android:visibility="gone" android:paddingEnd="6.0dip" style="@style/home_setting_group_item_txt">
+                <View android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" style="@style/public_separator_line" />
+                <TextView android:id="@id/home_account_info_birthday_titleview" android:text="@string/home_account_birthday" android:layout_centerVertical="true" style="@style/home_account_info_setting_item_title" />
+                <TextView android:ellipsize="end" android:gravity="end" android:id="@id/home_account_info_birthday" android:layout_marginLeft="12.0dip" android:layout_marginRight="20.0dip" android:text="@string/home_account_address_undefine" android:singleLine="true" android:layout_toRightOf="@id/home_account_info_birthday_titleview" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="20.0dip" android:layout_toEndOf="@id/home_account_info_birthday_titleview" android:layout_alignParentEnd="true" style="@style/home_account_info_setting_item_content" />
+                <ImageView android:background="@drawable/phone_home_member_arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="top" android:id="@id/home_account_info_gender_group" android:paddingRight="6.0dip" android:visibility="gone" android:paddingEnd="6.0dip" style="@style/home_setting_group_item_txt">
+                <View android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" style="@style/public_separator_line" />
+                <TextView android:id="@id/home_account_info_gender_titleview" android:text="@string/home_account_gender" android:layout_centerVertical="true" style="@style/home_account_info_setting_item_title" />
+                <TextView android:ellipsize="end" android:gravity="end" android:id="@id/home_account_info_gender" android:layout_marginLeft="12.0dip" android:layout_marginRight="20.0dip" android:text="@string/home_account_address_undefine" android:singleLine="true" android:layout_toRightOf="@id/home_account_info_gender_titleview" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="20.0dip" android:layout_toEndOf="@id/home_account_info_gender_titleview" android:layout_alignParentEnd="true" style="@style/home_account_info_setting_item_content" />
+                <ImageView android:background="@drawable/phone_home_member_arrow" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/public_separator_line" />
+            <RelativeLayout android:id="@id/home_account_info_userid_group" style="@style/home_setting_group_item_txt">
+                <TextView android:id="@id/home_account_info_userid_titleview" android:text="@string/home_account_userid" android:layout_centerVertical="true" style="@style/home_account_info_setting_item_title" />
+                <TextView android:ellipsize="end" android:gravity="end" android:id="@id/home_account_info_userid" android:layout_marginLeft="12.0dip" android:layout_marginRight="0.0dip" android:singleLine="true" android:layout_toRightOf="@id/home_account_info_userid_titleview" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="0.0dip" android:layout_toEndOf="@id/home_account_info_userid_titleview" android:layout_alignParentEnd="true" style="@style/home_account_info_setting_item_content" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="top" android:id="@id/home_account_info_phone_group" style="@style/home_setting_group_item_txt">
+                <View style="@style/public_separator_line" />
+                <TextView android:id="@id/home_account_info_phone_titleview" android:text="@string/home_open_phone" android:layout_centerVertical="true" style="@style/home_account_info_setting_item_title" />
+                <TextView android:ellipsize="end" android:gravity="end" android:id="@id/home_account_info_phone" android:layout_marginLeft="12.0dip" android:layout_marginRight="0.0dip" android:singleLine="true" android:layout_toRightOf="@id/home_account_info_phone_titleview" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="0.0dip" android:layout_toEndOf="@id/home_account_info_phone_titleview" android:layout_alignParentEnd="true" style="@style/home_account_info_setting_item_content" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="top" android:id="@id/home_account_info_job_hobby_group" style="@style/home_setting_group_item_txt">
+                <View style="@style/public_separator_line" />
+                <TextView android:id="@id/home_account_info_job_hobby_titleview" android:text="@string/home_account_job_hobby" android:layout_centerVertical="true" style="@style/home_account_info_setting_item_title" />
+                <TextView android:ellipsize="end" android:gravity="end" android:id="@id/home_account_info_job_hobby" android:layout_marginLeft="12.0dip" android:layout_marginRight="0.0dip" android:text="@string/home_account_address_undefine" android:singleLine="true" android:layout_toRightOf="@id/home_account_info_job_hobby_titleview" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="0.0dip" android:layout_toEndOf="@id/home_account_info_job_hobby_titleview" android:layout_alignParentEnd="true" style="@style/home_account_info_setting_item_content" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/div_line" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View style="@style/public_separator_notitle_view" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/home_account_info_setting_identitylayout" style="@style/home_setting_group_item_txt">
+                <TextView android:layout_gravity="start|center" android:text="@string/home_account_type" style="@style/home_account_info_setting_item_title" />
+                <TextView android:id="@id/home_account_info_setting_identity" style="@style/home_account_info_setting_item_content" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/home_account_info_setting_ownedEnterprisesLayout" style="@style/home_setting_group_item_txt">
+                <View style="@style/public_separator_line" />
+                <TextView android:layout_gravity="start|center" android:text="@string/home_account_company" style="@style/home_account_info_setting_item_title" />
+                <TextView android:id="@id/home_account_info_setting_ownedEnterprises" style="@style/home_account_info_setting_item_content" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/home_account_info_address_group" style="@style/home_setting_group_item_txt">
+                <View style="@style/public_separator_line" />
+                <TextView android:layout_gravity="start|center" android:id="@id/home_account_info_address_group_title" android:text="@string/home_account_address" style="@style/home_account_info_setting_item_title" />
+                <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <TextView android:ellipsize="end" android:id="@id/home_account_info_address" android:maxWidth="120.0dip" android:text="@string/home_account_address_undefine" style="@style/home_account_info_setting_item_content" />
+            </FrameLayout>
+            <RelativeLayout android:id="@id/home_manage_account_group" android:background="@drawable/phone_public_list_transparent_selector" android:paddingLeft="@dimen/home_item_padding_left" android:paddingRight="@dimen/home_item_padding_right" android:layout_width="fill_parent" android:layout_height="@dimen/home_settings_group_item_height" android:paddingStart="@dimen/home_item_padding_left" android:paddingEnd="@dimen/home_item_padding_right">
+                <View style="@style/public_separator_line" />
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_manage_account" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/home_item_padding_left" android:paddingTop="15.0dip" android:paddingRight="@dimen/home_item_padding_right" android:paddingBottom="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/home_item_padding_left" android:paddingEnd="@dimen/home_item_padding_right">
+                <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/logout" android:layout_width="fill_parent" android:layout_height="44.0dip" android:text="@string/documentmanager_logout" style="@style/phone_public_buttonStyle_red" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:layout_gravity="center" android:id="@id/home_circle_progressbar_root" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLargeInverse" />
+    </FrameLayout>
+</FrameLayout>

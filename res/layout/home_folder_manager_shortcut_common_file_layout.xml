@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/folder_manager_common_file_swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/folder_manager_common_file_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/phone_public_list_white_selector" android:cacheColorHint="#00000000" android:divider="@null" />
+    </cn.wps.moffice.common.beans.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

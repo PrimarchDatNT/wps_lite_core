@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/input_name_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/home_clouddocs_team_setting_create_group_texthint" android:singleLine="true" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_clouddocs_team_setting_create_group_tips" style="@style/home_open_item_txt_small_style" />
+</LinearLayout>

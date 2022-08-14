@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/scanDefaultBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/filter_panel" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/iv_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <include android:id="@id/filter_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/filter_tool_bar" layout="@layout/part_doc_scan_edit_filter_panel" />
+    <include android:id="@id/filter_tool_bar" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_alignParentBottom="true" layout="@layout/part_doc_scan_filter_tool_bar" />
+</RelativeLayout>

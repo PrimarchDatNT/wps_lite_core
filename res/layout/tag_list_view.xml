@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/no_tag_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsImgId="@drawable/phone_home_no_tag_icon" app:tipsText="@string/tag_no_tag_to_select" />
+    <cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:id="@id/add_tag" android:background="@drawable/public_tag_addtag_shape" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:textSize="18.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/tag_add_new" />
+    </cn.wps.moffice.common.beans.RippleAlphaLinearLayout>
+    <ListView android:id="@id/tag_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:divider="@null" android:layout_above="@id/add_tag" android:layout_alignParentTop="true" />
+</RelativeLayout>

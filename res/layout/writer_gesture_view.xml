@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.writer.handwrite.GestureView android:id="@id/writer_gestureview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/writer_gestureview_tipQaView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip" android:layoutDirection="ltr" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip">
+        <ImageView android:id="@id/writer_gestureview_close" android:layout_width="@dimen/writer_handwrite_closebtn_size" android:layout_height="@dimen/writer_handwrite_closebtn_size" android:layout_marginLeft="3.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/public_ink_close" android:contentDescription="@string/reader_public_close" android:layout_marginStart="3.0dip" android:layout_marginEnd="0.0dip" style="@style/public_more_list_button_bg_style" />
+        <TextView android:textSize="@dimen/public_context_bar_text_size" android:gravity="center" android:id="@id/writer_gestureview_tips" android:background="@drawable/tips_item_bg" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/public_context_bar_item_height" android:layout_below="@id/writer_gestureview_close" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" />
+    </RelativeLayout>
+</FrameLayout>

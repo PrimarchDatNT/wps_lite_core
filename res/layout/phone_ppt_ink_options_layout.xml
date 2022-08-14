@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ppt_ink_root_view" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.phone.ToggleBar android:id="@id/ppt_ink_disable_toggle" android:layout_marginBottom="0.0dip" app:toggleLeftText="@string/public_ink_stop" style="@style/ppt_toggle_bar_style" />
+        <View style="@style/v10_phone_public_panel_bottom_divideline" />
+        <cn.wps.moffice.common.beans.phone.ToggleBar android:id="@id/ppt_ink_by_finger_toggle" android:layout_marginBottom="0.0dip" app:toggleLeftText="@string/public_ink_by_finger" style="@style/ppt_toggle_bar_style" />
+        <View android:id="@id/pen_finger_divider" style="@style/v10_phone_public_panel_divide_view" />
+    </LinearLayout>
+</ScrollView>

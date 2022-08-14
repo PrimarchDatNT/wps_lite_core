@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="phone_public_online_devices_layout">@layout/phone_public_devices_portal_layout</item>
+    <item type="layout" name="wps_drive_path_gallery_for_saveas">@layout/phone_home_path_gallery_for_component</item>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.NotDispatchTouchAlphaRelativeLayout android:id="@id/link_setting_period_item_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/link_setting_period_item" android:background="@drawable/phone_public_list_white_selector" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="63.669983dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/public_payment_expiry_date" android:layout_weight="1.0" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:id="@id/link_setting_period_days" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View android:id="@id/link_settings_divide_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" />
+            </cn.wps.moffice.common.beans.NotDispatchTouchAlphaRelativeLayout>
+            <cn.wps.moffice.common.beans.NotDispatchTouchAlphaRelativeLayout android:id="@id/link_setting_access_record_item_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/link_setting_access_record_item" android:background="@drawable/phone_public_list_white_selector" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="63.669983dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_access_record" android:drawablePadding="5.0dip" android:drawableEnd="@drawable/pub_vip_wps_member_48px" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:gravity="end" android:id="@id/link_setting_access_count" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </LinearLayout>
+                <View android:id="@id/link_settings_access_record_divide_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" />
+            </cn.wps.moffice.common.beans.NotDispatchTouchAlphaRelativeLayout>
+            <include layout="@layout/public_layout_linkshare_cover_page" />
+            <cn.wps.moffice.common.linkShare.linkmodify.view.ShareCoverEntranceView android:id="@id/share_pic_setting_list_entrance_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.0px" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

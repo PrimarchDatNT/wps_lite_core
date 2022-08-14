@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/pay_page_ad_banner_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen_50dp">
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/pay_page_ad_pic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/pay_page_ad_banner_close" android:layout_width="@dimen/dimen_18dp" android:layout_height="@dimen/dimen_18dp" android:layout_marginTop="2.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/public_close" android:layout_alignParentRight="true" android:layout_marginEnd="2.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.phone.scrollbar.KScrollBar android:gravity="center_vertical" android:id="@id/oversea_pay_kscrollbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/oversea_pay_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

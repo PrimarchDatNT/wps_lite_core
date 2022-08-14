@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/v10_phone_public_paneltab_indicator_height" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/bg_white_item" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/v10_phone_public_bg_with_margin" android:scaleType="fitXY" custom:tick_color="@color/v10_public_tick_color_black_with_alpha" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/bg_eye_protection_green_item" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/v10_public_read_background_eye_protection_green" android:scaleType="fitXY" custom:selected_cover_color="@color/disableColor" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/bg_cowhide_yellow_item" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/v10_public_read_background_cowhide_yellow" android:scaleType="fitXY" custom:selected_cover_color="@color/disableColor" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/bg_dark_brown_item" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/v10_public_read_background_dark_brown" android:scaleType="fitXY" custom:selected_cover_color="@color/disableColor" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/bg_light_blue_item" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/v10_public_read_background_light_blue" android:scaleType="fitXY" custom:selected_cover_color="@color/disableColor" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/bg_light_prink_item" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/v10_public_read_background_light_pink" android:scaleType="fitXY" custom:selected_cover_color="@color/disableColor" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/bg_blue_green_item" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/v10_public_read_background_blue_green" android:scaleType="fitXY" custom:selected_cover_color="@color/disableColor" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="60.0dip" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/bg_dark_blue_item" android:focusable="true" android:clickable="true" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/v10_public_read_background_drak_blue" android:scaleType="fitXY" custom:selected_cover_color="@color/disableColor" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

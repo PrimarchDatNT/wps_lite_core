@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/loading_dot" android:visibility="invisible" android:layout_width="9.0dip" android:layout_height="9.0dip" />
+    <View android:background="@drawable/loading_dot" android:visibility="invisible" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginLeft="6.0dip" android:layout_marginStart="6.0dip" />
+    <View android:background="@drawable/loading_dot" android:visibility="invisible" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginLeft="6.0dip" android:layout_marginStart="6.0dip" />
+</LinearLayout>

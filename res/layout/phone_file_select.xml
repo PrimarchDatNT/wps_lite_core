@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/phone_home_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/phone_file_select_title" layout="@layout/phone_file_select_titlebar" />
+    <ViewStub android:id="@id/public_roaming_tips_layout" android:layout="@layout/home_roaming_header_tips" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/phone_file_select_warp_tab" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.main.fileselect.view.FileSelectTabPageIndicator android:id="@id/phone_file_select_top_bars" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+        <View android:id="@id/wps_drive_title_shadow" android:layout_alignBottom="@id/phone_file_select_top_bars" style="@style/phone_home_top_shadow" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <cn.wps.moffice.main.fileselect.view.FileSelectViewPager android:id="@id/phone_file_select_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/phone_public_bottom_merge_doc_tool_bar" />
+</LinearLayout>

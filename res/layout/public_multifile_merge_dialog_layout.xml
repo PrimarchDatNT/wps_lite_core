@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:gravity="center_vertical" android:id="@id/word_merge_sort_desc" android:background="@color/boldLineColor" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/phone_ss_sheet_merge_word" android:paddingStart="16.0dip" />
+            <cn.wps.moffice.main.fileselect.multiselect.view.listview.MergeFileDragSortListView android:id="@id/merge_files_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:cacheColorHint="#00000000" android:divider="@null" />
+        </LinearLayout>
+        <View android:layout_gravity="top" style="@style/phone_home_top_shadow" />
+    </FrameLayout>
+    <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/public_file_not_found_tips_no_found" android:background="@color/backgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsImgId="@drawable/pub_404_no_document" app:tipsText="@string/public_no_recovery_file_record" />
+    <include android:layout_gravity="bottom" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/phone_public_bottom_merge_doc_tool_bar" />
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@drawable/phone_single_left_pic_banner_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <FrameLayout android:id="@id/layout_title_top" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layoutDirection="ltr">
+            <cn.wps.moffice.common.infoflow.SpreadView android:layout_gravity="center|right" android:id="@id/banner_spread" android:background="@drawable/phone_single_pic_banner_close_logo_bg" android:layout_width="wrap_content" android:layout_height="16.0dip" app:onlyBannerPopWindow="true">
+                <LinearLayout android:gravity="end|center" android:layout_gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageView android:layout_gravity="start|center" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/public_ad_spread_close" android:scaleType="fitStart" />
+                    <TextView android:textSize="10.0dip" android:textColor="#ccffffff" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/ad_sign" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="5.0dip" android:maxWidth="30.0dip" android:text="@string/infoflow_spread" android:maxLines="1" />
+                </LinearLayout>
+            </cn.wps.moffice.common.infoflow.SpreadView>
+            <ImageView android:layout_gravity="right" android:id="@id/native_banner_ad_privacy_info" android:visibility="visible" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginTop="3.0dip" android:scaleType="fitXY" android:layout_alignBaseline="@id/top_ad_banner" />
+            <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:id="@id/native_banner_ad_choices_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/top_ad_banner" />
+        </FrameLayout>
+        <cn.wpsx.support.ui.KFrameLayout android:id="@id/fl_ad_main_image" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_alignParentLeft="true" app:kmui_radius="4.0dip">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/native_ad_main_image" android:layout_width="50.0dip" android:layout_height="fill_parent" android:scaleType="center" android:adjustViewBounds="true" />
+        </cn.wpsx.support.ui.KFrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/fl_ad_main_image" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/native_ad_title" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:maxLines="1" android:singleLine="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/native_ad_text" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,1 @@
+<GradFill tooltips="橘子渐变色"><a:gradFill flip="none" rotWithShape="1"><a:gsLst><a:gs pos="25000"><a:srgbClr val="FFAE41"/></a:gs><a:gs pos="75000"><a:srgbClr val="FFDC7A"/></a:gs><a:gs pos="0"><a:srgbClr val="FF6B2E"/></a:gs><a:gs pos="100000"><a:srgbClr val="FFF6B6"/></a:gs></a:gsLst><a:lin ang="18900000" scaled="1"/><a:tileRect/></a:gradFill></GradFill>

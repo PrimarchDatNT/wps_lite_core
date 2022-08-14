@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/public_panel_item_third_bg_selector" android:layout_width="fill_parent" android:layout_height="@dimen/public_docinfo_mail_item_height">
+        <ImageView android:id="@id/documents_filebrowser_launcher_image" android:layout_width="@dimen/phone_public_text_image_width" android:layout_height="@dimen/phone_public_text_image_height" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_toRightOf="@id/documents_filebrowser_launcher_image" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/documents_filebrowser_launcher_image">
+            <TextView android:textSize="@dimen/phone_public_dialog_button_fontsize" android:textColor="@color/mainTextColor" android:id="@id/documents_filebrowser_launcher_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/phone_public_dialog_button_fontsize_introduce" android:textColor="@color/descriptionColor" android:id="@id/documents_filebrowser_launcher_text_introduce" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+        </LinearLayout>
+        <View android:id="@id/share_item_div" android:background="@color/lineColor" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignLeft="@id/content" android:layout_alignParentBottom="true" android:layout_alignStart="@id/content" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/pdf_edit_super_note_bottom_item" android:background="@drawable/pdf_subsecondbg_4corner_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <FrameLayout android:layout_width="16.0dip" android:layout_height="16.0dip">
+            <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:id="@id/pdf_edit_super_note_bottom_item_normal_img" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/comp_style_mark_square" android:scaleType="centerInside" />
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/pdf_edit_super_note_bottom_item_colorful_img" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/comp_style_mark_square" android:scaleType="centerInside" />
+        </FrameLayout>
+        <cn.wps.moffice.pdf.shell.annotation.panels.common.PDFAnnoDotView android:layout_gravity="center_vertical" android:id="@id/pdf_edit_super_note_check_icon" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pdf_superscript_icon" app:anno_dot_has_more_btn="true" app:anno_dot_radius="7.0dip" />
+    </LinearLayout>
+</cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/public_func_notify_setting_layout" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginLeft="@dimen/home_membership_padding_left" android:layout_marginRight="@dimen/home_membership_padding_right" android:layout_marginStart="@dimen/home_membership_padding_left" android:layout_marginEnd="@dimen/home_membership_padding_right">
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="16.0sp" android:textColor="#ff535252" android:id="@id/tips_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="50.0dip" android:text="@string/notify_docs_state_title" android:layout_marginEnd="50.0dip" MaxLine="1" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="11.0sp" android:id="@id/tips_details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="50.0dip" android:text="@string/notify_docs_state_details" android:layout_below="@id/tips_title" android:layout_marginEnd="50.0dip" MaxLine="1" />
+        <include android:id="@id/public_func_notify_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" layout="@layout/public_switch_layout" />
+    </RelativeLayout>
+    <View android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" />
+</LinearLayout>

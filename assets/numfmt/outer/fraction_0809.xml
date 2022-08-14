@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--英语（英国）-->
+<resource>
+    <outer type="string-array" size="">
+		<item>Up to one digit (1/4)</item>
+		<item>Up to two digits (21/25)</item>
+		<item>Up to three digits (312/943)</item>
+		<item>As halves (1/2)</item>
+		<item>As quarters (2/4)</item>
+		<item>As eighths (4/8)</item>
+		<item>As sixteenths (8/16)</item>
+		<item>As tenths (3/10)</item>
+		<item>As hundredths (30/100)</item>
+	</outer>
+</resource>

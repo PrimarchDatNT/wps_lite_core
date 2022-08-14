@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.pdf.shell.pageadjust.ScaleImageView android:gravity="center" android:layout_gravity="center" android:id="@id/page_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/place_holder" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip">
+        <ImageView android:src="@drawable/phone_pdf_thumbnails_loading_icon" style="@style/phone_pdf_thumbnail_loading_img" />
+    </LinearLayout>
+</FrameLayout>

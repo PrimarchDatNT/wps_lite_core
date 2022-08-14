@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ListView android:id="@id/merge_add_files_list" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
+            <TextView android:textSize="15.0dip" android:textColor="#ffb3b3b3" android:gravity="center" android:layout_gravity="center" android:id="@id/merge_no_file_tips" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/public_searchnotfound" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <View android:layout_gravity="top" style="@style/phone_home_top_shadow" />
+        </FrameLayout>
+        <Button android:enabled="false" android:ellipsize="middle" android:gravity="center" android:id="@id/merge_add_file_confirm_btn" android:text="@string/public_ok" android:layout_weight="0.0" style="@style/phone_public_buttonStyle_fill_bottom_button" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/material_progress_bar_cycle" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

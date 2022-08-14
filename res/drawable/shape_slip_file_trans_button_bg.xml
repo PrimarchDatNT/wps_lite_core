@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <stroke android:width="1.0px" android:color="@color/borderLineColor" />
+            <solid android:color="@color/buttonThirdDisableColor" />
+            <corners android:radius="3.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <stroke android:width="1.0px" android:color="@color/borderLineColor" />
+            <solid android:color="@color/buttonThirdPressedColor" />
+            <corners android:radius="3.0dip" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <stroke android:width="1.0px" android:color="@color/borderLineColor" />
+            <solid android:color="@color/buttonThirdColor" />
+            <corners android:radius="3.0dip" />
+        </shape>
+    </item>
+</selector>

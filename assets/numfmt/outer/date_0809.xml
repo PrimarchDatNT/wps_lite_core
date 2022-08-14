@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 英语（英国） -->
+<resource>
+    <inner type="string-array" size="">
+		<item>dd/mm/yyyy</item>
+		<item>[$-F800]dddd\,\ mmmm\ dd\,\ yyyy</item>
+		<item>dd/mm/yyyy;@</item>
+		<item>dd/mm/yy;@</item>
+		<item>d/m/yy;@</item>
+		<item>d\.m\.yy;@</item>
+		<item>yyyy\-mm\-dd;@</item>
+		<item>[$-809]dd\ mmmm\ yyyy;@</item>
+		<item>[$-809]d\ mmmm\ yyyy;@</item>
+	</inner>
+</resource>

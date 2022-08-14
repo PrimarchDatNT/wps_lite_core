@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:gravity="center_vertical" android:id="@id/history_preview_top_tips" android:background="@color/bannerBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="39.669983dip" android:text="@string/public_published_tips" android:paddingStart="@dimen/home_item_padding_left" />
+    <RelativeLayout android:id="@id/history_preview_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/history_preview_top_tips">
+        <cn.wps.moffice.webview.BussinesSecurityWebView android:id="@id/history_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/history_recover_layout" />
+        <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/network_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/history_recover_layout" app:tipsBtnText="@string/ppt_retry" app:tipsImgId="@drawable/pub_404_no_internet" app:tipsText="@string/documentmanager_cloudfile_no_network" />
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:id="@id/history_recover_layout" android:background="@color/secondBackgroundColor" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <cn.wps.moffice.common.beans.phone.CornerRectLinerLayout android:gravity="center" android:orientation="horizontal" android:id="@id/history_recover_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" app:backgroundColor="@color/buttonSecondaryColor" app:corner="4.0dip" app:strokeWidth="1.0px">
+                <ImageView android:id="@id/history_recovery_btn_vip_icon" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_vipbutton_vip_54px" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/whiteMainTextColor" android:id="@id/phone_secret_folder_use_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/history_preview_recover" android:layout_marginStart="8.0dip" />
+            </cn.wps.moffice.common.beans.phone.CornerRectLinerLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

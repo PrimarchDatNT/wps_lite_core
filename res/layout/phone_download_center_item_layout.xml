@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center|left" android:id="@id/group_title" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckBox android:layout_gravity="center_vertical" android:id="@id/checkbox" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="16.0dip" android:button="@drawable/ad_download_center_item_checkbox_bg" />
+        <cn.wps.moffice.common.beans.RoundCornerImageView android:id="@id/icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="13.0dip" android:paddingRight="22.0dip" android:paddingBottom="11.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="5.0dip">
+                        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@id/score_icon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/download_center_item_score" />
+                            <TextView android:textSize="11.0dip" android:textColor="#fff46d43" android:ellipsize="end" android:id="@id/score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                        </LinearLayout>
+                        <TextView android:textSize="11.0dip" android:textColor="@color/descriptionColor" android:ellipsize="end" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                    </LinearLayout>
+                    <TextView android:textSize="11.0dip" android:textColor="@color/descriptionColor" android:ellipsize="end" android:id="@id/desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                </LinearLayout>
+                <Button android:textSize="13.0dip" android:textColor="#ff417ff9" android:ellipsize="end" android:gravity="center" android:id="@id/button" android:background="@drawable/ad_download_center_item_btn_bg" android:layout_width="52.0dip" android:layout_height="26.0dip" android:layout_marginRight="16.0dip" android:singleLine="true" />
+            </LinearLayout>
+            <View android:id="@id/item_divider" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/group_divider" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

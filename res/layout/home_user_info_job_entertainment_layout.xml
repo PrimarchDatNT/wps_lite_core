@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_entertainment_movies" android:tag="@string/home_user_account_job_entertainment_movies" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_entertainment_movies" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_entertainment_sport" android:tag="@string/home_user_account_job_entertainment_sport" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_entertainment_sport" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_entertainment_music" android:tag="@string/home_user_account_job_entertainment_music" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_entertainment_music" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.SelectLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_user_account_job_entertainment_model" android:tag="@string/home_user_account_job_entertainment_model" android:background="@drawable/home_userinfo_bg_red_box_selector" android:clickable="true" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="13.0dip" android:textColor="@drawable/home_user_info_red_color_selector" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_user_account_job_entertainment_model" />
+            </cn.wps.moffice.common.beans.phone.SelectLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="78.0dip" android:layout_height="31.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.wpsx.support.ui.KNormalImageView android:layout_width="49.0dip" android:layout_height="70.0dip" android:layout_marginTop="72.0dip" android:src="@drawable/home_login_bind_phone_icon" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="248.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/public_identity_cmcc_tip" android:lineSpacingExtra="5.0dip" />
+                    <cn.wps.moffice.common.beans.phone.CornerRectLinerLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/local_phone_number_layout" android:layout_width="248.0dip" android:layout_height="45.0dip" android:layout_marginTop="50.0dip" custom:backgroundColor="@color/backgroundColor" custom:corner="3.0dip" custom:strokeColor="@color/subLineColor" custom:strokeWidth="1.0px">
+                        <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:scaleType="center" android:text="@string/home_login_local_phone_number" android:layout_marginStart="13.0dip" />
+                        <View android:id="@id/divider" android:background="@color/lineColor" android:layout_width="0.33000004dip" android:layout_height="20.0dip" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip" />
+                        <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:id="@id/tvPhoneNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </cn.wps.moffice.common.beans.phone.CornerRectLinerLayout>
+                    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/home_login_phone_approve_by_chinamobile" />
+                </LinearLayout>
+                <Button android:textSize="14.0dip" android:gravity="center" android:id="@id/btnLocalPhoneLogin" android:layout_width="248.0dip" android:layout_height="44.0dip" android:layout_marginTop="24.0dip" android:text="@string/home_login_bind_local_phone" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+                <Button android:textSize="14.0dip" android:gravity="center" android:id="@id/btnOtherPhoneLogin" android:layout_width="248.0dip" android:layout_height="45.0dip" android:layout_marginTop="20.0dip" android:text="@string/home_login_bind_other_phone" style="@style/phone_public_buttonStyle_gray_4dp_corner_dark_compat" />
+                <LinearLayout android:gravity="start|center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="248.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                    <cn.wps.moffice.common.beans.phone.CustomBackgroundCheckbox android:id="@id/cbAgree" android:clickable="true" android:layout_width="12.0dip" android:layout_height="12.0dip" android:checked="true" custom:drawableOff="@drawable/public_blue_rect_checkbox_off" custom:drawableOn="@drawable/public_blue_rect_checkbox_on" />
+                    <TextView android:textSize="11.0dip" android:textColor="@color/descriptionColor" android:id="@id/tvPolicy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/home_login_agree_china_mobile_bind_clause" android:layout_marginStart="8.0dip" />
+                </LinearLayout>
+                <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:layout_gravity="bottom|center" android:id="@id/tv_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/public_realname_identity_notnow" />
+            </LinearLayout>
+        </ScrollView>
+        <View android:id="@id/id_phone_home_top_shadow" android:layout_below="@id/normal_mode_title" style="@style/phone_home_top_shadow" />
+    </RelativeLayout>
+    <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

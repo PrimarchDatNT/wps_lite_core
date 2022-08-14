@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helps>
+	<help>
+		<name>Interesting Sudoku Game.xlsx</name>
+		<file>Sudoku.xlsx</file>
+		<language>en</language>
+	</help>
+	<help>
+		<name>Get Started with WPS Office for Android.pdf</name>
+		<file>guide.pdf</file>
+		<language>en</language>
+	</help>
+	<help>
+		<name>เริ่มใช้ WPS ใน Android.pdf</name>
+		<file>ThGuide.pdf</file>
+		<language>th</language>
+	</help>
+	<help>
+		<name>รู้จักกับ WPS สเปรตซีต.xlsx</name>
+		<file>ThExcel.xlsx</file>
+		<language>th</language>
+	</help>
+	<help>
+		<name>WPS新規使用者ガイドファイル.pdf</name>
+		<file>JPGuide.pdf</file>
+		<language>ja</language>
+	</help>
+	<help>
+		<name>WPSスプレッドシートを知りましょう.xlsx</name>
+		<file>JPExcel.xlsx</file>
+		<language>ja</language>
+	</help>
+</helps>

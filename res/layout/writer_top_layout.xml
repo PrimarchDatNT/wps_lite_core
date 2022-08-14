@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.writer.shell.comments.view.InterceptedLinearLayout android:orientation="vertical" android:id="@id/writer_top_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/writer_maintoolbar" android:background="@color/WPSNavBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/writer_middle_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.common.beans.KAnimationLayout android:orientation="vertical" android:id="@id/writer_edittoolbar" android:background="@color/public_toolbar_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/writer_tool_top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/border_ruler_view" android:visibility="gone" android:layout="@layout/writer_border_ruler" android:inflatedId="@id/border_ruler_view" android:layout_width="fill_parent" android:layout_height="25.0dip" />
+    <View android:id="@id/toolbar_bottom_hline" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/arrow_scroll_view" />
+    <View android:id="@id/writer_toolbar_shadow" android:background="@drawable/pad_comp_titlebar_dropshadow" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</cn.wps.moffice.writer.shell.comments.view.InterceptedLinearLayout>

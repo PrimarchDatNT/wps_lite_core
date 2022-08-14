@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/normal_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.foreigntemplate.newfile.fragment.view.WhRationLineLayout android:id="@id/top_area" android:layout_width="fill_parent" android:layout_height="fill_parent" app:wh_ration="16:9">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.wps.moffice.common.beans.ForeignRoundRectImageView android:id="@id/item_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_image_bg_null_style_bounded" />
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/is_pay_template_icon" android:visibility="gone" android:layout_width="17.0dip" android:layout_height="16.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="1.0dip" android:src="@drawable/is_pay_template_icon" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_marginEnd="1.0dip" />
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/my_download_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/foreign_template_download_icon" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/item_corner_icon" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </cn.wps.moffice.foreigntemplate.newfile.fragment.view.WhRationLineLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_below="@id/top_area">
+        <ImageView android:id="@id/item_type_icon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:scaleType="fitCenter" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:singleLine="true" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/public_panel_item_third_bg_selector" android:paddingTop="@dimen/public_common_margin_12_dp" android:paddingBottom="@dimen/public_common_margin_12_dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <FrameLayout android:id="@id/font_size" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="96.0dip" android:layout_height="100.0dip" android:layout_marginRight="8.0dip">
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/phone_public_font_size" style="@style/v10_phone_public_panel_title_text_style" />
+                    <TextView android:textSize="15.0sp" android:textColor="@color/mainTextColor" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/pdf_edit_text_textsize" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="20" />
+                </LinearLayout>
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="250.0dip" android:layout_height="100.0dip" android:layout_marginRight="8.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <cn.wpsx.support.ui.KNormalImageView android:id="@id/pdf_edit_text_panel_font_increase" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/comp_style_size_add" android:layout_weight="1.0" style="@style/public_image_bg_style" />
+                    <cn.wpsx.support.ui.KNormalImageView android:id="@id/pdf_edit_text_panel_font_decrease" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/comp_style_size_minus" android:layout_weight="1.0" style="@style/public_image_bg_style" />
+                    <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center_vertical" android:orientation="vertical" android:id="@id/pdf_edit_text_panel_font_bold" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+                        <cn.wps.moffice.common.beans.ColorFilterImageButton android:layout_gravity="center" android:clickable="false" android:src="@drawable/comp_style_font_bold" app:image_selector_color="@drawable/v10_phone_public_textimageview_pdf_selector" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_font_panel_imageitem_style" />
+                    </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center_vertical" android:orientation="vertical" android:id="@id/pdf_edit_text_panel_font_italic" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+                        <cn.wps.moffice.common.beans.ColorFilterImageButton android:layout_gravity="center" android:clickable="false" android:src="@drawable/comp_style_font_italic" app:image_selector_color="@drawable/v10_phone_public_textimageview_pdf_selector" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_font_panel_imageitem_style" />
+                    </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+                    <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center_vertical" android:orientation="vertical" android:id="@id/pdf_edit_text_panel_font_underline" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+                        <cn.wps.moffice.common.beans.ColorFilterImageButton android:layout_gravity="center" android:clickable="false" android:src="@drawable/comp_style_font_underline" app:image_selector_color="@drawable/v10_phone_public_textimageview_pdf_selector" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_font_panel_imageitem_style" />
+                    </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+                    <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center_vertical" android:orientation="vertical" android:id="@id/pdf_edit_text_panel_font_delete_line" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+                        <cn.wps.moffice.common.beans.ColorFilterImageButton android:layout_gravity="center" android:clickable="false" android:src="@drawable/comp_style_font_del_line" app:image_selector_color="@drawable/v10_phone_public_textimageview_pdf_selector" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_font_panel_imageitem_style" />
+                    </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.wps.moffice.pdf.shell.common.views.gridview.ColorsGridView android:id="@id/pdf_edit_text_gridview" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape_noripple" android:layout_width="fill_parent" android:layout_height="fill_parent" android:numColumns="5" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

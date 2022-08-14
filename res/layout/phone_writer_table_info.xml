@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.FitSystemWindowLinearLayout android:orientation="vertical" android:id="@id/user_table_info_root" android:tag="layout/phone_writer_table_info_0" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_1" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/writer_user_table_name" android:layout_marginStart="16.0dip" />
+        <EditText android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center_vertical" android:id="@id/user_table_name" android:tag="binding_2" android:background="@null" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:singleLine="false" android:maxLength="15" android:inputType="text" android:imeOptions="actionDone" android:layout_marginStart="16.0dip" />
+    </LinearLayout>
+    <View android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <androidx.core.widget.NestedScrollView android:id="@id/table_key_contain" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/table_info" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/table_info_add" android:tag="binding_3" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/writer_table_info_add" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/table_info_add_layout" android:tag="binding_4" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:src="@drawable/comp_table_conditional_formatting_new" android:layout_marginStart="16.0dip" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/writer_table_info_add" android:layout_marginStart="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <Button android:textSize="16.0dip" android:id="@id/table_info_save" android:tag="binding_5" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/writer_fill_table_save" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+</cn.wps.moffice.common.beans.FitSystemWindowLinearLayout>

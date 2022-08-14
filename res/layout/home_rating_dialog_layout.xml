@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.main.rating.RatingDialogLayout android:layout_gravity="center" android:id="@id/dialog_background" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.cardview.CardView android:id="@id/dialog_cardview" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="#00000000" app:cardCornerRadius="0.0dip" app:cardElevation="@dimen/phone_public_dialog_shadow_elevation" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="true">
+        <include layout="@layout/home_rating_guide_en" />
+    </cn.wps.moffice.common.beans.cardview.CardView>
+</cn.wps.moffice.main.rating.RatingDialogLayout>

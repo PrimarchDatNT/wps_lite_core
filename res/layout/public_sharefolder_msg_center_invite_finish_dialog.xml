@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_invite_collaborators_invite_succeed" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/public_invite_collaborators_invite_succeed_tips" android:lineSpacingMultiplier="1.2" />
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_width="242.0dip" android:layout_height="127.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/pub_msg_center_new_msg_webp" />
+        <Button android:id="@id/ok" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="16.0dip" android:text="@string/public_fine" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+    </LinearLayout>
+</ScrollView>

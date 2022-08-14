@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <!-- 货币符号格式码，与currency_xxx.xml个数和顺序一致 -->
+    <!-- 注意，item里的空格不能删除 -->
+    <inner type="string-array" size="">
+		<item>-</item>
+		<item>"¥"</item>
+		<item>\$</item>
+		<item>"US$"</item>
+		<item>[$$-1004]</item>
+		<item>[$$-409]</item>
+		<item>\ [$$-C0C]</item>
+		<item>[$$-83E]</item>
+		<item>[$$-2C0A]\ </item>
+		<item>[$$-500A]\ </item>
+		<item>[$$b-400A]\ </item>
+		<item>[$$U-380A]\ </item>
+		<item>[$£-809]</item>
+		<item>[$£-491]</item>
+		<item>[$¥-804]</item>
+		<item>[$¥-411]</item>
+		<item>[$¥-850]</item>
+		<item>[$₭-454]</item>
+		<item>[$₩-412]</item>
+		<item>[$€-80C]\ </item>
+		<item>[$€-C07]\ </item>
+		<item>[$€-83C]</item>
+		<item>[$€-410]\ </item>
+		<item>\ [$€-816]</item>
+		<item>[$R$-416]\ </item>
+		<item>[$HK$-C04]</item>
+		<item>[$р.-419]</item>
+		<item>\ [$€-40C]</item>
+		<item>\ [$‎€‎-407]</item>
+		<item>[$$-80A]</item>
+		<item>\ [$‎€‎-C0A]</item>
+		<item>\ [$‎€‎-40A]</item>
+		<item>[$NT$-404]</item>
+		<item>[$₪-40D]\ </item>
+		<item>[$ر.س.-401]\ </item>
+		<item>\ [$лв.-402]</item>
+		<item>\ [$Kč-405]</item>
+		<item>[$kr.-406]\ </item>
+		<item>\ [$€-408]</item>
+		<item>\ [$€-40B]</item>
+		<item>\ [$Ft-40E]</item>
+		<item>[$€-413]\ </item>
+		<item>[$kr-414]\ </item>
+		<item>\ [$zł-415]</item>
+		<item>\ [$lei-418]</item>
+		<item>\ [$kn-41A]</item>
+		<item>\ [$€-41B]</item>
+		<item>[$฿-41E]</item>
+		<item>\ [$₺-41F]</item>
+		<item>[$Rp-421]</item>
+		<item>[$₴-422]</item>
+		<item>\ [$€-424]</item>
+		<item>\ [$€-425]</item>
+		<item>[$LS-426]\ </item>
+		<item>\ [$Lt-427]</item>
+		<item>[$ريال-429]\ </item>
+		<item>\ [$₫-42A]</item>
+		<item>\ [$ден.-42F]</item>
+		<item>[$₹-439]\ </item>
+		<item>\ [$Din.-81A]</item>
+		<item>\ [$‎kr-41D]</item>
+		<item>\ [$KM-141A]</item>
+		<item>[$RM-43E]</item>
+	</inner>
+	
+    <!-- $#,##0;[红色]-$#,##0 -->
+    <currency-1 type="string-array" size="">
+        <item>-</item>
+        <item>\$</item>
+        <item>"US$"</item>
+        <item>[$$-1004]</item>
+        <item>[$$-409]</item>
+        <item>[$$-83E]</item>
+        <item>[$$-500A]\ </item>
+        <item>[$$b-400A]\ </item>
+        <item>[$$U-380A]\ </item>
+        <item>[$£-809]</item>
+        <item>[$£-491]</item>
+        <item>[$¥-411]</item>
+        <item>[$₩-412]</item>
+        <item>[$€-C07]\ </item>
+        <item>[$€-83C]</item>
+        <item>[$€-410]\ </item>
+        <item>[$R$-416]\ </item>
+        <item>[$HK$-C04]</item>
+        <item>[$NT$-404]</item>
+        <item>[$$-80A]</item>
+        <item>[$฿-41E]</item>
+        <item>[$Rp-421]</item>
+        <item>[$LS-426]\ </item>
+        <item>[$RM-43E]</item>
+    </currency-1>
+    
+    <!-- ¥#,##0;[红色]¥-#,##0 -->
+    <currency-2 type="string-array" size="">
+        <item>"¥"</item>
+        <item>[$$-2C0A]\ </item>
+        <item>[$¥-804]</item>
+        <item>[$¥-850]</item>
+        <item>[$€-80C]\ </item>
+        <item>[$₪-40D]\ </item>
+        <item>[$ر.س.-401]\ </item>
+        <item>[$kr.-406]\ </item>
+        <item>[$€-413]\ </item>
+        <item>[$kr-414]\ </item>
+        <item>[$ريال-429]\ </item>
+        <item>[$₹-439]\ </item>
+    </currency-2>
+    
+    <!-- #,##0 [$$-C0C];[红色]-#,##0 [$$-C0C] -->
+	<currency-rev type="string-array" size="">
+	    <item>\ [$€-816]</item>
+	    <item>[$р.-419]</item>
+		<item>\ [$$-C0C]</item>
+		<item>[$₭-454]</item>
+		<item>\ [$€-40C]</item>
+		<item>\ [$€-407]</item>
+		<item>\ [$‎kr-41D]</item>
+		<item>\ [$‎€‎-C0A]</item>
+		<item>\ [$‎€‎-40A]</item>
+	    <item>\ [$лв.-402]</item>
+		<item>\ [$Kč-405]</item>
+		<item>\ [$€-408]</item>
+		<item>\ [$€-40B]</item>
+		<item>\ [$Ft-40E]</item>
+		<item>\ [$zł-415]</item>
+		<item>\ [$lei-418]</item>
+		<item>\ [$kn-41A]</item>
+		<item>\ [$€-41B]</item>
+		<item>\ [$₺-41F]</item>
+		<item>[$₴-422]</item>
+		<item>\ [$€-424]</item>
+		<item>\ [$€-425]</item>
+		<item>\ [$Lt-427]</item>
+		<item>\ [$₫-42A]</item>
+		<item>\ [$ден.-42F]</item>
+		<item>\ [$Din.-81A]</item>
+		<item>\ [$KM-141A]</item>
+	</currency-rev>
+</resource>

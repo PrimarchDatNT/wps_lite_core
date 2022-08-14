@@ -1,0 +1,1 @@
+<GradFill tooltips="薄荷冰渐变色"><a:gradFill flip="none" rotWithShape="1"><a:gsLst><a:gs pos="0"><a:srgbClr val="CFF9AE"/></a:gs><a:gs pos="90000"><a:srgbClr val="49E7CE"/></a:gs></a:gsLst><a:path path="circle"><a:fillToRect l="100000" t="100000"/></a:path><a:tileRect r="-100000" b="-100000"/></a:gradFill></GradFill>

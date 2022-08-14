@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.AlphaRelativeLayout android:background="@color/secondBackgroundColor" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.docer.picstore.V10RoundRectImageView android:id="@id/model_item_img" android:layout_width="109.0dip" android:layout_height="75.0dip" android:layout_marginRight="14.0dip" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/iv_free_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/icon_docer_mark_flag" android:layout_alignTop="@id/model_item_img" android:layout_alignRight="@id/model_item_img" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/model_item_img" android:layout_alignTop="@id/model_item_img">
+        <ImageView android:layout_gravity="top" android:id="@id/iv_home_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/public_phone_search_nulmber_first" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:id="@id/tv_home_model_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="个人简历" android:maxLines="2" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/rl_bottom" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/model_item_img" android:layout_alignBottom="@id/model_item_img">
+        <ImageView android:id="@id/iv_home_model_type" android:layout_width="21.0dip" android:layout_height="10.0dip" android:src="@drawable/public_phone_search_home_doc" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/descriptionColor" android:ellipsize="end" android:gravity="right" android:id="@id/tv_search_tags" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="大厂风格" android:maxLines="1" android:layout_toRightOf="@id/iv_home_model_type" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:id="@id/bottom_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignLeft="@id/rl_bottom" android:layout_alignParentBottom="true" />
+</cn.wps.moffice.common.beans.AlphaRelativeLayout>

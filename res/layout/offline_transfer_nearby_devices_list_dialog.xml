@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/offline_transfer_bottom_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/descriptionColor" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/offline_transfer_nearby" android:layout_marginStart="16.0dip" />
+        <ImageView android:id="@id/refresh" android:layout_width="@dimen/dimen_24dp" android:layout_height="@dimen/dimen_24dp" android:src="@drawable/pub_offline_transfer_refresh" android:layout_centerVertical="true" android:layout_marginEnd="17.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/devices_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/snackBar_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

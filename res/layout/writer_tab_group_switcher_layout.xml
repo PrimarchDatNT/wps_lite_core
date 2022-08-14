@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/item_selected_bg" android:paddingLeft="7.0dip" android:paddingTop="6.0dip" android:paddingRight="7.0dip" android:paddingBottom="6.0dip" android:visibility="invisible" android:layout_width="@dimen/public_pad_titlebar_menu_item_width" android:layout_height="fill_parent" android:src="@drawable/writer_pad_title_menu_item_bg" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tab_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

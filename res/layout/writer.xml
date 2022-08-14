@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.writer.global.WriterFrame android:id="@id/writer_layout" android:background="@color/backgroundColor" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="writer frame"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/writer_scrollDocEndMark" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="1.0dip" android:contentDescription="scrollDocEndMark" />
+    <cn.wps.moffice.writer.shell.infoflow.WriterInfoFlowV android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/infoflow_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.writer.shell.infoflow.WriterInfoFlowH android:gravity="center_horizontal" android:id="@id/infoflow_horizonal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.wps.moffice.writer.shell.infoflow.WriterDocEndTipH android:id="@id/doc_end_tip_horz" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <cn.wps.moffice.writer.shell.infoflow.InfoFlowListViewH android:layout_gravity="center_horizontal" android:id="@id/infoflow_list_h" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_infoflow_list" />
+            <cn.wps.moffice.writer.global.draw.EditorView android:id="@id/text_editor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </cn.wps.moffice.writer.shell.infoflow.WriterInfoFlowH>
+        <cn.wps.moffice.common.infoflow.DocEndTipV android:id="@id/doc_end_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.wps.moffice.common.infoflow.hongbao.DocEndAdHongbaoView android:id="@id/the_end" android:background="@color/boldLineColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <cn.wps.moffice.writer.shell.infoflow.InfoFlowListViewV android:layout_gravity="center_horizontal" android:id="@id/infoflow_list_v" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/public_infoflow_list" />
+    </cn.wps.moffice.writer.shell.infoflow.WriterInfoFlowV>
+</cn.wps.moffice.writer.global.WriterFrame>

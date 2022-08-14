@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.RippleAlphaRelativeLayout android:id="@id/rc_item_container" android:layout_width="fill_parent" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/imageView_wrap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:id="@id/icon_image_view" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/pub_import_file_local" android:contentDescription="@string/public_picture" />
+    </FrameLayout>
+    <TextView android:textSize="9.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/free_text_view" android:background="@drawable/limit_free_bg" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="13.0dip" android:layout_marginLeft="-13.0dip" android:layout_marginTop="8.0dip" android:text="@string/public_time_limit_free" android:layout_toRightOf="@id/imageView_wrap" android:layout_marginStart="-13.0dip" android:layout_toEndOf="@id/imageView_wrap" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:id="@id/title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_below="@id/imageView_wrap" android:layout_centerHorizontal="true" android:textAlignment="center" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/descriptionColor" android:id="@id/introduce_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title_text_view" android:layout_centerHorizontal="true" android:textAlignment="center" android:layout_marginHorizontal="1.0dip" />
+</cn.wps.moffice.common.beans.RippleAlphaRelativeLayout>

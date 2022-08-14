@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.menudrawer.AlphaTextView android:textSize="@dimen/phone_public_fontsize_dp_s" android:textColor="@color/descriptionColor" android:id="@id/tv_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_transfer_checkout_by_pc_devices" />
+    <cn.wps.moffice.common.beans.menudrawer.AlphaTextView android:textSize="@dimen/phone_public_fontsize_dp_s" android:textColor="@color/secondaryColor" android:id="@id/tv_how" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/home_transfer_dialog_how2" />
+</LinearLayout>

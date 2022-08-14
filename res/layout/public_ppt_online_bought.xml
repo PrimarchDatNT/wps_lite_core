@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.insertpic.OrientListenerLayout android:orientation="vertical" android:id="@id/orientation_layout" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/titlebar_divider" style="@style/phone_home_top_shadow" />
+        <include android:id="@id/login_layout" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="54.0dip" layout="@layout/wps_docer_login_layout" />
+        <include android:id="@id/renew_docer_vip_layout" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip" layout="@layout/internal_template_mine_renew_docer_vip_banner" />
+        <cn.wps.moffice.docer.widget.DocerCommonErrorPage android:id="@id/mine_error_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsBtnText="@string/public_template_click_look" app:tipsImgId="@drawable/pub_404_no_template" app:tipsText="@string/template_none" />
+        <cn.wps.moffice.docer.widget.DocerCommonErrorPage android:id="@id/open_docker_vip_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:extLayout="@layout/internal_template_open_docer_vip_layout" app:tipsImgId="@drawable/pub_404_vip_docer_member_guidance" app:tipsText="@string/public_membership_docer_vip_introduce" />
+        <cn.wps.moffice.common.beans.phone.recycleview.LoadingRecyclerView android:id="@id/template_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </cn.wps.moffice.common.insertpic.OrientListenerLayout>
+    <cn.wps.moffice.common.brand.BrandProgressBarCycle android:id="@id/template_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

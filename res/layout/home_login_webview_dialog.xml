@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.webview.BussinesSecurityWebView android:id="@id/home_roaming_login_webview" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.wps.moffice.common.beans.circleloadingview.CircleLoaderView android:layout_gravity="center" android:id="@id/home_roaming_login_progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View style="@style/phone_home_top_shadow" />
+    </FrameLayout>
+</LinearLayout>

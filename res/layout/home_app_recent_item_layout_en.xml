@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/public_selected_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.RedDotLayout android:id="@id/red_dot_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/img" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pub_app_tool_default" />
+    </cn.wps.moffice.common.beans.RedDotLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/text" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="8.0dip" android:maxLines="2" android:textAlignment="center" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" />
+    <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:id="@id/is_charge" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="-89.0dip" android:layout_below="@id/red_dot_num_tv" />
+</cn.wps.moffice.common.beans.RippleAlphaLinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.pdf.shell.common.shellpanel.ShellParentPanel android:id="@id/pdf_shell_fullscreen_below_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.pdf.shell.common.shellpanel.ShellParentPanel android:id="@id/pdf_shell_top_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <cn.wps.moffice.pdf.shell.common.shellpanel.ShellParentPanel android:id="@id/pdf_shell_bottom_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <cn.wps.moffice.pdf.shell.common.shellpanel.ShellParentPanel android:id="@id/pdf_shell_left_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/pdf_shell_bottom_panel" android:layout_below="@id/pdf_shell_top_panel" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    <cn.wps.moffice.pdf.shell.common.shellpanel.ShellParentPanel android:id="@id/pdf_shell_right_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/pdf_shell_bottom_panel" android:layout_below="@id/pdf_shell_top_panel" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <ImageView android:visibility="gone" android:layout_below="@id/pdf_shell_top_panel" style="@style/public_top_shadow" />
+    <cn.wps.moffice.pdf.shell.common.shellpanel.ShellParentDimPanel android:id="@id/pdf_shell_fullscreen_above_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.pdf.shell.common.shellpanel.ShellParentDimPanel android:id="@id/pdf_shell_fullscreen_float_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" content_direction="all" />
+    <cn.wps.moffice.pdf.common.TopTipsContainerLayout android:id="@id/pdf_top_tips_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pdf_shell_top_panel" />
+</RelativeLayout>

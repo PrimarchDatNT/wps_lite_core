@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:id="@id/wps_drive_login_layout_root" android:background="@color/backgroundColor" android:paddingBottom="20.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/wps_drive_login_layout_content" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/wps_drive_login_layout_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wps_drive_login_icon" />
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/documentmanager_qing_clouddoc" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_wps_drive_login_introduce" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:id="@id/wps_drive_login_describe" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/home_wps_drive_login_describe" />
+            <Button android:gravity="center" android:id="@id/wps_drive_login_btn" android:layout_width="280.0dip" android:layout_height="42.0dip" android:layout_marginTop="57.0dip" android:text="@string/home_wps_drive_login_use_now" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+            <Button android:textSize="16.0dip" android:ellipsize="end" android:gravity="center" android:id="@id/wps_drive_use_guide_btn" android:visibility="gone" android:layout_width="280.0dip" android:layout_height="42.0dip" android:layout_marginTop="14.0dip" android:text="@string/public_how_to_use_wps_cloud_service" android:singleLine="true" style="@style/phone_public_buttonStyle_gray_4dp_corner_dark_compat" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/cyan_blue" android:gravity="center" android:id="@id/wps_drive_login_page_text_link" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.669983dip" android:maxLines="1" android:singleLine="true" />
+        </LinearLayout>
+        <ViewStub android:id="@id/wps_drive_scene_login_view_stub" android:layout="@layout/wps_drive_scene_login_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</ScrollView>

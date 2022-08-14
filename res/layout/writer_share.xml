@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/writer_share_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/titlebar_group" android:background="@color/public_titlebar_writer_bg" android:layout_width="fill_parent" android:layout_height="@dimen/public_title_bar_height">
+        <cn.wps.moffice.common.beans.phone.AlphaButton android:id="@id/writer_share_btn_cancel" android:text="@string/public_cancel" style="@style/public_toolbar_cancel" />
+        <TextView android:textColor="#7f000000" android:ellipsize="start" android:gravity="center" android:id="@id/writer_share_txt_num" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/documentmanager_send_characters_with_spaces" android:singleLine="true" android:layout_weight="1.0" />
+        <cn.wps.moffice.common.beans.phone.AlphaButton android:id="@id/writer_share_btn_ok" android:text="@string/documentmanager_send" style="@style/public_toolbar_ok" />
+    </LinearLayout>
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

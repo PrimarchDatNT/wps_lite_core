@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/template_downloaded" layout="@layout/pad_documents_template_shop_downloaded" />
+    <include android:id="@id/template_usertemplate" android:visibility="gone" layout="@layout/pad_documents_template_shop_usertemplate" />
+    <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

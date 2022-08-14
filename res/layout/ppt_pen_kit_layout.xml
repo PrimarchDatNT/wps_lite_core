@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.TouchEventInterceptFrameLayout android:id="@id/ppt_pen_kit_root" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:id="@id/ppt_pen_kit_close" android:layout_marginLeft="4.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/comp_common_back" android:layout_marginStart="4.0dip" android:layout_marginEnd="12.0dip" style="@style/ppt_penkit_titlebar_style" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/ppt_pen_kit_hw" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:id="@id/ppt_pen_kit_undo" android:src="@drawable/comp_common_cancel_white" style="@style/ppt_penkit_titlebar_style" />
+            <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:id="@id/ppt_pen_kit_redo" android:src="@drawable/comp_common_return_white" style="@style/ppt_penkit_titlebar_style" />
+            <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:id="@id/ppt_pen_kit_save" android:layout_marginRight="3.0dip" android:src="@drawable/pad_comp_common_submit" android:layout_marginEnd="3.0dip" style="@style/ppt_penkit_titlebar_style" />
+        </LinearLayout>
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <com.huawei.stylus.penengine.view.HwHandWritingView android:id="@id/ppt_pen_kit_hand_writing" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <TextView android:textSize="11.0sp" android:textColor="@color/disableColor" android:gravity="center" android:id="@id/penkit_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="58.0dip" android:text="@string/writer_comment_penkit_tips" />
+    <FrameLayout android:id="@id/ppt_pen_kit_mark" android:background="@color/scanTipTextBgColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:id="@id/ppt_circle_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:barColor1="@color/buttonSecondaryColor" app:barColor2="@color/buttonSecondaryColor" app:barColor3="@color/buttonSecondaryColor" app:barColor4="@color/buttonSecondaryColor" />
+    </FrameLayout>
+</cn.wps.moffice.common.TouchEventInterceptFrameLayout>

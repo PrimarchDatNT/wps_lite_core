@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/phone_public_dialog_content_view_margin_s" android:paddingBottom="@dimen/phone_public_dialog_content_view_margin_s" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.RecordEditText android:textColor="@color/mainTextColor" android:id="@id/input_watermark_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="20" style="@style/phone_public_font_m_black" />
+        <TextView android:id="@id/input_watermark_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+    </LinearLayout>
+</ScrollView>

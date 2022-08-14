@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/poppanel_title" android:layout_width="wrap_content" android:layout_height="54.669983dip" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" />
+    <View style="@style/div_line" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/poppanel_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <Button android:textSize="16.0dip" android:gravity="center" android:layout_gravity="center" android:id="@id/upgrade_button" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:text="@string/home_update_buy_membership" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/phone_public_buttonStyle_red_3dp_corner_dark_compat" />
+    <View android:layout_width="fill_parent" android:layout_height="16.0dip" />
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="74.0dip" android:minHeight="56.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" android:paddingEnd="@dimen/public_history_version_padding">
+            <cn.wps.moffice.main.local.home.newui.docinfo.historyVersion.ConnectingLineView android:id="@id/history_version_connecting_line" android:background="@android:color/transparent" android:layout_width="64.0dip" android:layout_height="fill_parent" app:circleDrawRadius="4.0dip" app:drawLineMode="drawLineMode_two" app:endOffsetY="0.25" app:lineWidth="1.0dip">
+                <TextView android:textSize="10.0dip" android:textColor="@color/secondaryColor" android:gravity="center" android:layout_gravity="center" android:id="@id/first_item_tag_text" android:background="@drawable/phone_public_bule_stroke_9dp_corner" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="18.0dip" android:text="@string/public_history_current" />
+            </cn.wps.moffice.main.local.home.newui.docinfo.historyVersion.ConnectingLineView>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/history_version_common_item" android:background="@color/secondBackgroundColor" android:paddingRight="@dimen/public_history_version_padding" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingEnd="@dimen/public_history_version_padding">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:id="@id/public_history_ver_modified_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:gravity="center_vertical" android:id="@id/public_history_ver_doc_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="8.0dip" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="10.0dip" android:textColor="@color/descriptionColor" android:ellipsize="end" android:gravity="center" android:id="@id/public_history_ver_author" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150.0dip" android:maxLines="1" android:singleLine="true" />
+                        <TextView android:textSize="10.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/public_history_ver_op_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:maxLines="1" android:layout_marginStart="3.0dip" />
+                    </LinearLayout>
+                    <TextView android:textSize="10.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/public_history_ver_tag_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="3.669983dip" android:layout_marginRight="0.0dip" android:maxLines="1" android:layout_marginStart="1.0dip" android:layout_marginEnd="0.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/public_history_right_operation_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <cn.wpsx.support.ui.KButton android:textSize="10.0dip" android:textColor="@color/subTextColor" android:id="@id/public_history_right_operation_preview" android:visibility="gone" android:layout_width="38.0dip" android:layout_height="18.0dip" android:text="@string/public_preview_file" app:kmui_pressAlphaEnableWhenRipple="true" style="@style/phone_public_buttonStyle_solid_fff5f5f5_4dp_corner" />
+                <ImageView android:id="@id/public_history_right_operation_more" android:padding="6.0dip" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/pub_file_status_more" android:layout_marginStart="19.0dip" style="@style/public_image_bg_style" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/descriptionColor" android:id="@id/public_history_ver_flag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_history_latest_version" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="64.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="64.0dip" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/history_version_timetile" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/phone_divide_bar_style">
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:id="@id/history_version_time_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

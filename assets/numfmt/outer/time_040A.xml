@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 欧洲西语（西班牙（西班牙）传统风格） -->
+<resource>
+    <inner type="string-array" size="">
+		<item>h:mm:ss;@</item>
+		<item>hh:mm:ss;@</item>
+		<item>hh:mm;@</item>
+		<item>hh"H"mm"'";@</item>
+	</inner>
+</resource>

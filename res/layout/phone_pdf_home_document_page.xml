@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_home_activity_titlebar_wrap" android:layout_width="fill_parent" android:layout_height="90.0dip">
+        <include android:id="@id/phone_home_activity_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/phone_pdf_home_page_titlebar" />
+        <cn.wps.moffice.main.fileselect.view.FileSelectTabPageIndicator android:id="@id/phone_file_select_top_bars" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/phone_home_main_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/phone_home_activity_titlebar_wrap">
+        <cn.wps.moffice.main.fileselect.view.FileSelectViewPager android:id="@id/phone_file_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:layout_below="@id/phone_home_activity_titlebar_wrap" style="@style/phone_home_top_shadow" />
+</RelativeLayout>

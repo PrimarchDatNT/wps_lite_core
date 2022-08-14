@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <inner type="string-array" size="">
+		<item>h:mm;@</item>
+		<item>[$-409]h:mm\ AM/PM;@</item>
+		<item>h:mm:ss;@</item>
+		<item>[$-409]h:mm:ss\ AM/PM;@</item>
+		<item>mm:ss.0;@</item>
+		<item>[h]:mm:ss;@</item>
+		<item>[$-409]m/d/yy\ h:mm\ AM/PM;@</item>
+		<item>m/d/yy\ h:mm;@</item>
+	</inner>
+</resource>

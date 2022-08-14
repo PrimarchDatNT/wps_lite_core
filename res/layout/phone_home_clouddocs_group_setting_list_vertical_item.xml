@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/public_image_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.CircleImageView android:layout_gravity="center" android:id="@id/group_member_icon" style="@style/phone_home_listview_item_icon" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/group_member_name" android:paddingLeft="@dimen/group_item_member" android:paddingTop="6.0dip" android:paddingRight="@dimen/group_item_member" android:layout_width="wrap_content" android:text="name" android:maxLines="1" android:paddingStart="@dimen/group_item_member" android:paddingEnd="@dimen/group_item_member" style="@style/phone_home_listview_item_content_title" />
+</LinearLayout>

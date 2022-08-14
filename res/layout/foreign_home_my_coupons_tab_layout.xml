@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/tips_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip">
+        <cn.wps.moffice.common.beans.GifView android:id="@id/tips_img_view" android:layout_width="126.0dip" android:layout_height="126.0dip" android:scaleType="fitCenter" />
+        <TextView android:textSize="14.0dip" android:textColor="#ffbbc3d6" android:id="@id/tips_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/documentmanager_file_loading" />
+    </LinearLayout>
+    <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/foreign_home_my_coupins_tab_no_network" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsImgId="@drawable/pub_404_no_internet" app:tipsText="@string/documentmanager_cloudfile_no_network" />
+    <ListView android:id="@id/coupon_list_view" android:background="#fff2f2f2" android:paddingLeft="20.0dip" android:paddingTop="23.0dip" android:paddingRight="20.0dip" android:paddingBottom="23.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="17.0dip" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" />
+    <View android:layout_gravity="top" android:background="#ffd2d2d2" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</FrameLayout>

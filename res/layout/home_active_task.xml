@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/home_active_task_list" android:background="@android:color/white" android:paddingLeft="@dimen/home_task_active_task_item_space_hor" android:paddingTop="@dimen/home_task_active_task_item_space_ver" android:paddingRight="@dimen/home_task_active_task_item_space_hor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@android:color/transparent" android:paddingStart="@dimen/home_task_active_task_item_space_hor" android:paddingEnd="@dimen/home_task_active_task_item_space_hor" />
+    <FrameLayout android:id="@id/progressbar" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

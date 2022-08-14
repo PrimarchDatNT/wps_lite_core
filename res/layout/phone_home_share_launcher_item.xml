@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:background="@drawable/public_panel_item_third_bg_selector" style="@style/phone_public_dialog_list_item_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/documents_filebrowser_launcher_image" style="@style/phone_public_dialog_list_item_image" />
+    <LinearLayout android:gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/phone_public_dialog_button_fontsize" android:textColor="@color/mainTextColor" android:gravity="start|center" android:id="@id/documents_filebrowser_launcher_text" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <TextView android:textSize="@dimen/phone_public_dialog_button_fontsize_introduce" android:textColor="@color/phone_public_dialog_gray_intro_text_color" android:gravity="start|center" android:id="@id/documents_filebrowser_launcher_text_introduce" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

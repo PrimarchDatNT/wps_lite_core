@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:focusable="true" android:descendantFocusability="beforeDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/whiteColor" app:cardCornerRadius="5.0dip" app:cardElevation="4.0dip" app:cardUseCompatPadding="true" style="@style/public_keyboard_mouse_no_background_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.phone.AlphaFrameLayout android:layout_gravity="center" android:id="@id/ppt_play_pen_eraser_clear" android:background="@drawable/ppt_play_ink_eraser_bg" android:layout_width="187.0dip" android:layout_height="42.0dip" android:layout_margin="16.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="@color/black" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ppt_play_mode_eraser_clear" />
+    </cn.wps.moffice.common.beans.phone.AlphaFrameLayout>
+</androidx.cardview.widget.CardView>

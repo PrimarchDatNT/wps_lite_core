@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.bottombar.QuickBar android:id="@id/public_phone_quick_bar" android:background="@drawable/phone_public_panel_topbar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" custom:itemSelectedBackgroundColor="@color/subBackgroundColor" custom:itemTextColors="@color/v10_phone_writer_quickbar_item_text_color" custom:tintNormal="@color/normalIconColor" custom:tintSelected="@color/WPSMainColor" />
+</FrameLayout>

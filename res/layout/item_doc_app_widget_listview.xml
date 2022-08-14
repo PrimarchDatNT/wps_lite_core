@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/root_item_doc_app_widget_ll" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/icon_item_doc_app_widget_iv" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/public_icon" />
+        <LinearLayout android:orientation="vertical" android:id="@id/msg_item_doc_app_widget_view" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginStart="12.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/mainTextColor" android:ellipsize="end" android:id="@id/name_item_doc_app_widget_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/descriptionColor" android:ellipsize="end" android:id="@id/sub_text_item_doc_app_widget_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:id="@id/line_item_doc_app_widget_tv" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="42.0dip" android:layout_marginStart="42.0dip" />
+</LinearLayout>

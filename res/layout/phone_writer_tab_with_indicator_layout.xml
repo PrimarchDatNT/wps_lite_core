@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.common.beans.phone.indicator.PanelIndicator android:layout_gravity="bottom|center" android:id="@id/viewpager_indicator" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_paneltab_indicator_height" />
+    <cn.wps.moffice.common.beans.phone.indicator.PanelIndicatorPopView android:layout_gravity="bottom" android:id="@id/viewpager_indicator_pop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/v10_phone_public_paneltab_indicator_pop_margin_bottom" />
+</FrameLayout>

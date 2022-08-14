@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/tips_bar_container" android:background="@color/bannerBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:gravity="start|center" android:id="@id/tips_bar_prompt" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/save_as_local_tips_title" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    </FrameLayout>
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/choose_position_layout" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:gravity="center" android:id="@id/choose_position" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_centerInParent="true" style="@style/phone_public_font_s_gray" />
+        <LinearLayout android:id="@id/add_folder_layout" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <View android:background="@drawable/vertical_shadow" android:layout_width="3.0dip" android:layout_height="40.0dip" />
+            <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/add_folder" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="46.0dip" android:layout_height="40.0dip" android:src="@drawable/public_icon_newfolder" android:scaleType="centerInside" android:contentDescription="@string/reader_public_new_dir" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/public_image_bg_style_bounded" />
+        </LinearLayout>
+        <include android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/add_folder_layout" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="false" android:layout_toStartOf="@id/add_folder_layout" android:layout_alignParentStart="true" layout="@layout/phone_home_path_gallery_for_component" />
+    </RelativeLayout>
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="vertical" android:id="@id/home_page" android:background="@color/backgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.common.beans.KCustomFileListView android:id="@id/filelist_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.circleloadingview.CircleLoaderView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

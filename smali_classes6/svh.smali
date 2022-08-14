@@ -1,0 +1,377 @@
+.class public Lsvh;
+.super Ljava/lang/Object;
+.source "KCharSorter.java"
+
+
+# static fields
+.field public static a:[I
+
+.field public static b:[I
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    const/16 v0, 0xf4
+
+    new-array v0, v0, [I
+
+    .line 1
+    fill-array-data v0, :array_0
+
+    sput-object v0, Lsvh;->a:[I
+
+    .line 2
+    sput-object v0, Lsvh;->b:[I
+
+    return-void
+
+    :array_0
+    .array-data 4
+        0x0
+        0x1
+        0x1
+        0x5
+        0x2
+        0x2
+        0x3
+        0x1
+        0x5
+        0x5
+        0x6
+        0x1
+        0x7
+        0x4
+        0x8
+        0x5
+        0x9
+        0x3
+        0xa
+        0x4
+        0xb
+        0x3
+        0xc
+        0x4
+        0xf
+        0x1
+        0x13
+        0x5
+        0x16
+        0x1
+        0x1b
+        0x5
+        0x1e
+        0x1
+        0x1f
+        0x5
+        0x20
+        0x3
+        0x21
+        0x1
+        0xa0
+        0x3
+        0xa1
+        0x6
+        0xa2
+        0x1
+        0xa4
+        0x6
+        0xa5
+        0x1
+        0xa7
+        0x6
+        0xa9
+        0x1
+        0xaa
+        0x6
+        0xab
+        0x1
+        0xad
+        0x6
+        0xae
+        0x1
+        0xaf
+        0x6
+        0xb5
+        0x1
+        0xb6
+        0x6
+        0xb7
+        0x2
+        0xb8
+        0x6
+        0xbb
+        0x1
+        0xbc
+        0x6
+        0xc0
+        0x1
+        0xd7
+        0x6
+        0xd8
+        0x1
+        0xe0
+        0x6
+        0xe2
+        0x1
+        0xe8
+        0x6
+        0xeb
+        0x1
+        0xec
+        0x6
+        0xee
+        0x1
+        0xf2
+        0x6
+        0xf4
+        0x1
+        0xf7
+        0x6
+        0xf8
+        0x1
+        0xf9
+        0x6
+        0xfb
+        0x1
+        0xfc
+        0x6
+        0xfd
+        0x1
+        0x100
+        0x6
+        0x300
+        0x1
+        0x370
+        0x6
+        0x3d0
+        0x1
+        0x400
+        0x6
+        0x500
+        0x1
+        0x93d
+        0x3
+        0x93e
+        0x1
+        0x964
+        0x3
+        0x966
+        0x1
+        0xf08
+        0x2
+        0xf15
+        0x1
+        0x1100
+        0x0
+        0x1200
+        0x1
+        0x1e00
+        0x6
+        0x1f00
+        0x1
+        0x2000
+        0x6
+        0x2005
+        0x3
+        0x2006
+        0x6
+        0x200b
+        0x5
+        0x200e
+        0x1
+        0x2010
+        0x6
+        0x2013
+        0x2
+        0x2015
+        0x6
+        0x2022
+        0x2
+        0x2023
+        0x6
+        0x202a
+        0x1
+        0x202c
+        0x6
+        0x202d
+        0x1
+        0x202f
+        0x6
+        0x20aa
+        0x1
+        0x20ab
+        0x6
+        0x27c0
+        0x1
+        0x2e80
+        0x0
+        0x2fe0
+        0x1
+        0x2ff0
+        0x0
+        0x3000
+        0x3
+        0x3001
+        0x0
+        0x31a0
+        0x1
+        0x31f0
+        0x0
+        0x4dc0
+        0x1
+        0x4e00
+        0x0
+        0x9fb0
+        0x1
+        0xa000
+        0x0
+        0xa4d0
+        0x1
+        0xa960
+        0x0
+        0xa980
+        0x1
+        0xac00
+        0x0
+        0xd800
+        0x1
+        0xd840
+        0x0
+        0xd86a
+        0x1
+        0xdc00
+        0x5
+        0xe000
+        0x6
+        0xf0a8
+        0x2
+        0xf0a9
+        0x6
+        0xf0b7
+        0x2
+        0xf0b8
+        0x6
+        0xf900
+        0x0
+        0xfb00
+        0x6
+        0xfb1d
+        0x1
+        0xfdea
+        0x3
+        0xfdeb
+        0x1
+        0xfe30
+        0x0
+        0xfe70
+        0x1
+        0xfeff
+        0x5
+        0xff00
+        0x0
+        0xfff0
+        0x1
+    .end array-data
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static a(I)I
+    .locals 5
+
+    .line 1
+    sget-object v0, Lsvh;->b:[I
+
+    array-length v0, v0
+
+    ushr-int/lit8 v0, v0, 0x1
+
+    add-int/lit8 v0, v0, -0x1
+
+    const/4 v1, 0x0
+
+    :goto_0
+    if-ge v1, v0, :cond_1
+
+    add-int v2, v1, v0
+
+    add-int/lit8 v2, v2, 0x1
+
+    ushr-int/lit8 v2, v2, 0x1
+
+    .line 2
+    sget-object v3, Lsvh;->b:[I
+
+    shl-int/lit8 v4, v2, 0x1
+
+    aget v3, v3, v4
+
+    if-gt v3, p0, :cond_0
+
+    move v1, v2
+
+    goto :goto_0
+
+    :cond_0
+    add-int/lit8 v2, v2, -0x1
+
+    move v0, v2
+
+    goto :goto_0
+
+    .line 3
+    :cond_1
+    sget-object p0, Lsvh;->b:[I
+
+    shl-int/lit8 v0, v1, 0x1
+
+    add-int/lit8 v0, v0, 0x1
+
+    aget p0, p0, v0
+
+    return p0
+.end method
+
+.method public static b(C)I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 1
+    invoke-static {p0, v0}, Lsvh;->c(CI)I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static c(CI)I
+    .locals 1
+
+    .line 1
+    invoke-static {p0}, Lsvh;->a(I)I
+
+    move-result p0
+
+    const/4 v0, 0x6
+
+    if-ne p0, v0, :cond_0
+
+    const/4 p0, 0x1
+
+    if-ne p1, p0, :cond_0
+
+    const/4 p0, 0x0
+
+    :cond_0
+    return p0
+.end method

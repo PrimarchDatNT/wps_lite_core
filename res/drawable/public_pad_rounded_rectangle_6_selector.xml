@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/public_pad_rounded_rectangle_6_hovered_shape" android:state_hovered="true" />
+    <item android:drawable="@drawable/public_pad_rounded_rectangle_6_shape" />
+</selector>

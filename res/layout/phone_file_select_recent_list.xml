@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/phone_home_root" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/roaming_record_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.main.common.viewcontrols.LoadMoreListView android:id="@id/file_select_recent_content_list" android:visibility="visible" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" />
+    </cn.wps.moffice.common.beans.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fileselect_list_tips" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/file_select_no_document_img" android:layout_width="90.0dip" android:layout_height="90.0dip" android:src="@drawable/pub_404_no_document" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center" android:id="@id/empty_text" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/public_no_recovery_file_record" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:id="@id/circle_progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

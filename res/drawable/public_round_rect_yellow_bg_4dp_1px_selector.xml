@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/buttonRippleColor"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_pressed="true" android:drawable="@drawable/public_round_rect_yellow_bg_82" />
+            <item android:state_enabled="false" android:drawable="@drawable/public_round_rect_yellow_bg_83" />
+            <item android:drawable="@drawable/public_round_rect_yellow_bg_81" />
+        </selector>
+    </item>
+</ripple>

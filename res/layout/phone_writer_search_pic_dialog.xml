@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.writer.beans.DialogTitleBar android:id="@id/search_pic_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
+        <FrameLayout android:id="@id/search_pic_thumb" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <GridView android:gravity="center" android:id="@id/search_pic_gridview" android:padding="@dimen/public_select_pic_gridview_spacing" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:horizontalSpacing="@dimen/public_select_pic_gridview_spacing" android:verticalSpacing="@dimen/public_select_pic_gridview_spacing" android:stretchMode="columnWidth" android:numColumns="4" android:layerType="software" android:layoutDirection="ltr" android:paddingStart="@dimen/public_select_pic_gridview_spacing" android:paddingEnd="@dimen/public_select_pic_gridview_spacing" />
+            <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/search_pic_failure_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsImgId="@drawable/pub_404_no_image" app:tipsText="@string/writer_find_picnull" />
+            <View android:layout_gravity="top" style="@style/phone_home_top_shadow" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/search_pic_preview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <cn.wps.moffice.writer.shell.search.pic.FloatPreviewPager android:id="@id/search_pic_preview_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/search_pic_preview_bottombar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:textSize="16.0dip" android:textColor="@color/subTextColor" android:ellipsize="middle" android:gravity="center" android:id="@id/search_pic_savepic" android:layout_width="0.0dip" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/public_vipshare_savepic" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+                    <Button android:textSize="16.0dip" android:textColor="@color/whiteMainTextColor" android:ellipsize="middle" android:gravity="center" android:id="@id/search_pic_locator" android:background="@drawable/cyan_blue_btn_selector" android:layout_width="0.0dip" android:layout_height="42.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/writer_find_findindocument" android:layout_weight="1.0" android:layout_marginEnd="16.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <View android:layout_gravity="top" style="@style/phone_home_top_shadow" />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/search_pic_progress_bar_cycle" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--意大利语-->
+<resource>
+    <outer type="string-array" size="">
+		<item>Fino ad una cifra  (1/4)</item>
+		<item>Fino a due cifre (21/25)</item>
+		<item>Fino a tre cifre (312/943)</item>
+		<item>Come metà  (1/2)</item>
+		<item>Come quarti  (2/4)</item>
+		<item>Come ottavi  (4/8)</item>
+		<item>Come sedicesimi  (8/16)</item>
+		<item>Come decimi  (3/10)</item>
+		<item>Come centesimi  (30/100)</item>
+	</outer>
+</resource>

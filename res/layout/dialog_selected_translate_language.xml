@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/rg_selected_language" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_simplified_chinese" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" style="@style/public_image_bg_style_no_borderless">
+            <cn.wps.moffice.common.CustomRadioButton android:textColor="@android:color/black" android:id="@id/rb_simplified_chinese" android:clickable="false" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/doc_scan_simplified_chinese" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_chinese_traditional" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" style="@style/public_image_bg_style_no_borderless">
+            <cn.wps.moffice.common.CustomRadioButton android:textColor="@android:color/black" android:id="@id/rb_chinese_traditional" android:clickable="false" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/doc_scan_chinese_traditional" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_english" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip" style="@style/public_image_bg_style_no_borderless">
+            <cn.wps.moffice.common.CustomRadioButton android:textColor="@android:color/black" android:id="@id/rb_english" android:clickable="false" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/doc_scan_english" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/phone_documents_qing_roamingdoc_update_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_qing_documentroam_update_dialog_title" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <ImageView android:id="@id/phone_documents_qing_roamingdoc_update_icon" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/public_warning_icon" android:scaleType="centerInside" />
+        <TextView android:id="@id/phone_documents_qing_roamingdoc_update_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="0.0dip" android:text="@string/documentmanager_qing_documentroam_update_dialog_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="0.0dip" />
+    </LinearLayout>
+</LinearLayout>

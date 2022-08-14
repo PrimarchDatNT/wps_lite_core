@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.colorselect.ColorImageView android:id="@id/public_fontsize_minus_btn" android:focusable="true" android:layout_width="@dimen/public_toolbar_typeface_item_height" android:layout_height="@dimen/public_toolbar_typeface_item_height" android:src="@drawable/pad_comp_style_size_minus" android:scaleType="centerInside" android:contentDescription="@string/reader_public_font_decrease" style="@style/public_image_bg_style" />
+    <View android:background="@color/subLineColor" android:layout_width="1.0px" android:layout_height="@dimen/public_toolbar_typeface_item_height" />
+    <Button android:textSize="@dimen/phone_public_large_text_size" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/public_fontsize_show_btn" android:background="@drawable/phone_public_list_selector" android:layout_width="0.0dip" android:layout_height="@dimen/public_toolbar_typeface_item_height" android:singleLine="true" android:layout_weight="1.0" />
+    <View android:background="@color/subLineColor" android:layout_width="1.0px" android:layout_height="@dimen/public_toolbar_typeface_item_height" />
+    <cn.wps.moffice.common.beans.phone.colorselect.ColorImageView android:id="@id/public_fontsize_plus_btn" android:focusable="true" android:layout_width="@dimen/public_toolbar_typeface_item_height" android:layout_height="@dimen/public_toolbar_typeface_item_height" android:src="@drawable/pad_comp_style_size_add" android:scaleType="centerInside" android:contentDescription="@string/reader_public_font_increase" style="@style/public_image_bg_style" />
+</merge>

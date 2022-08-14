@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/verify_page" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:background="@drawable/public_file_size_reduce_dash_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:src="@drawable/public_paper_check_verifying" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="11.0dip" android:text="@string/paper_check_verifying" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="center_horizontal" android:id="@id/verify_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="19.0dip" android:text="@string/paper_check_pp_verifying_desc" android:textAlignment="center" />
+            <View android:background="@color/boldLineColor" android:layout_height="8.0dip" style="@style/div_line" />
+            <cn.wps.moffice.main.papercheck.impl.CheckItemView android:id="@id/item_check_format" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+            <View android:id="@id/item_check_format_line" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/div_line" />
+            <cn.wps.moffice.main.papercheck.impl.CheckItemView android:id="@id/item_check_size" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+            <View android:id="@id/item_check_size_line" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/div_line" />
+            <cn.wps.moffice.main.papercheck.impl.CheckItemView android:id="@id/item_check_title" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+            <View android:id="@id/item_check_title_line" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/div_line" />
+            <cn.wps.moffice.main.papercheck.impl.CheckItemView android:id="@id/item_check_char" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+            <View android:id="@id/item_check_char_line" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/div_line" />
+            <cn.wps.moffice.main.papercheck.impl.CheckItemView android:id="@id/item_check_auth" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" />
+            <View android:id="@id/item_check_auth_line" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" style="@style/div_line" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:enabled="false" android:layout_gravity="center_horizontal" android:id="@id/paper_checking_button" android:text="@string/paper_check_verifying" style="@style/phone_public_buttonStyle_fill_bottom_button" />
+</LinearLayout>

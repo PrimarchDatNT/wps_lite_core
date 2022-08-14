@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 西班牙语（现代、西班牙） -->
+<resouce>
+<thous-separator type="string">.</thous-separator>
+<decimal-point type="string">,</decimal-point>
+<general type="string">Estándar</general>
+<color-name type="string-array" size="9">
+<item>Negro</item>
+<item>Azul</item>
+<item>Aguamarina</item>
+<item>verde</item>
+<item>Magenta</item>
+<item>Rojo</item>
+<item>Blanco</item>
+<item>Amarillo</item>
+<item>Color</item>
+</color-name>
+<long-week type="string-array" size="7">
+<item>domingo</item>
+<item>lunes</item>
+<item>martes</item>
+<item>miércoles</item>
+<item>jueves</item>
+<item>viernes</item>
+<item>sábado</item>
+</long-week>
+<short-week type="string-array" size="7">
+<item>dom</item>
+<item>lun</item>
+<item>mar</item>
+<item>mié</item>
+<item>jue</item>
+<item>vie</item>
+<item>sáb</item>
+</short-week>
+<long-month type="string-array" size="12">
+<item>enero</item>
+<item>febrero</item>
+<item>marzo</item>
+<item>abril</item>
+<item>mayo</item>
+<item>junio</item>
+<item>julio</item>
+<item>agosto</item>
+<item>septiembre</item>
+<item>octubre</item>
+<item>noviembre</item>
+<item>diciembre</item>
+</long-month>
+<short-month type="string-array" size="12">
+<item>ene</item>
+<item>feb</item>
+<item>mar</item>
+<item>abr</item>
+<item>may</item>
+<item>jun</item>
+<item>jul</item>
+<item>ago</item>
+<item>sep</item>
+<item>oct</item>
+<item>nov</item>
+<item>dic</item>
+</short-month>
+<shortest-month type="string-array" size="12">
+<item>e</item>
+<item>f</item>
+<item>m</item>
+<item>a</item>
+<item>m</item>
+<item>j</item>
+<item>j</item>
+<item>a</item>
+<item>s</item>
+<item>o</item>
+<item>n</item>
+<item>d</item>
+</shortest-month>
+<am-pm type="string-array" size="2">
+<item>AM</item>
+<item>PM</item>
+</am-pm>
+<year type="string">a</year>
+<month type="string">m</month>
+<day type="string">d</day>
+<hour type="string">h</hour>
+<minute type="string">m</minute>
+<second type="string">s</second>
+<escape type="string">\</escape>
+<f400-f800 type="string-array" size="2">
+<item>h:mm:ss</item>
+<item>[$-c0a]dddd\, dd \d\e mmmm \d\e yyyy</item>
+</f400-f800>
+</resouce>

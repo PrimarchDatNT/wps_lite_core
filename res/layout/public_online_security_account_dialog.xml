@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.TitleBar android:id="@id/security_account_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" app:title_bar_text="@string/public_online_security_encrypt_title" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.wps.moffice.common.beans.CircleImageView android:layout_gravity="center_horizontal" android:id="@id/security_account_img" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginTop="100.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/phone_home_drawer_icon_avatar" android:scaleType="centerCrop" />
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="18.0dip" android:textColor="#ff535252" android:layout_gravity="center_horizontal" android:id="@id/security_account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" />
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="12.0dip" android:textColor="#ff9b9b9b" android:layout_gravity="center_horizontal" android:id="@id/security_account_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0dip" android:textColor="#ff535252" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="62.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="62.0dip" android:layout_marginBottom="55.0dip" android:text="@string/public_online_security_encrypt_account_desc" android:layout_marginStart="62.0dip" android:layout_marginEnd="62.0dip" />
+                <Button android:gravity="center" android:id="@id/security_account_btn" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="12.0dip" android:text="@string/public_online_security_encrypt_account_ok" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" style="@style/phone_public_wpsdrive_buttonStyle_blue_3dp_corner" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+</LinearLayout>

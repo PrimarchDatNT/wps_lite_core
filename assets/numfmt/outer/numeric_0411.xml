@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <template type="string-array" size="">
+        <item>%s0%s_);[Red]\(%s0%s\)</item>
+		<item>%s0%s_);\(%s0%s\)</item>
+		<item>%s0%s;[Red]%s0%s</item>
+		<item>%s0%s_ </item>
+		<item>%s0%s_ ;[Red]\-%s0%s\ </item>
+		<item>%s0%s;"△ "%s0%s</item>
+		<item>%s0%s;"▲ "%s0%s</item>
+	</template>
+	<pattern type="string-array" size="">
+		<item>(#,##)?0(\.0+)?_\);\[Red\]\\\((#,##)?0(\.0+)?\\\)</item>
+		<item>(#,##)?0(\.0+)?_\);\\\((#,##)?0(\.0+)?\\\)</item>
+		<item>(#,##)?0(\.0+)?;\[Red\](#,##)?0(\.0+)?</item>
+		<item>(#,##)?0(\.0+)?_ </item>
+		<item>(#,##)?0(\.0+)?_ ;\[Red\]\\-(#,##)?0(\.0+)?\\ </item>
+		<item>(#,##)?0(\.0+)?;"△ "(#,##)?0(\.0+)?</item>
+		<item>(#,##)?0(\.0+)?;"▲ "(#,##)?0(\.0+)?</item>
+	</pattern>
+</resource>

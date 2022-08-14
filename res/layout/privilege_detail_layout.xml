@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/privilege_detail_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.plugin.common.view.ViewTitleBar android:id="@id/plugin_privilege_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fl_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fl_title" />
+</RelativeLayout>

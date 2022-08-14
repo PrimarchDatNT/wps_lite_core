@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.SecondFullScreenLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/phone_setting_roaming_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </cn.wps.moffice.common.beans.SecondFullScreenLayout>
+</FrameLayout>

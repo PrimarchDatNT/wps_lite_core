@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/phone_public_panel_with_back_titlebar_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.apptoolbar.BackTitleBar android:id="@id/phone_public_panel_with_back_titlebar_titlebar" android:background="@color/phone_public_panel_title_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/phone_public_item_height_small" />
+    <View android:id="@id/phone_public_top_line" android:background="@color/phone_public_horizon_divideline_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <cn.wps.moffice.common.beans.LockableScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/phone_public_panel_with_back_titlebar_content" android:background="@color/color_white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

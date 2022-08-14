@@ -1,0 +1,33 @@
+.class public Ltew$a;
+.super Lldw;
+.source "ReadableBuffers.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Ltew;->a(Lsew;)Lsew;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Lsew;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lldw;-><init>(Lsew;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public close()V
+    .locals 0
+
+    return-void
+.end method

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_pdf_edit_titlebar_panel" android:tag="effect_drawwindow_View" android:background="@color/navBackgroundColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pdf_edit_panel" android:layout_width="fill_parent" android:layout_height="@dimen/public_title_bar_height">
+            <RelativeLayout android:id="@id/image_ok_layout" android:paddingLeft="16.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="2.0dip" style="@style/public_image_bg_style">
+                <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="@dimen/v10_phone_public_titlebar_title_text_size" android:textColor="@color/subTextColor" android:gravity="center_vertical" android:id="@id/pdf_edit_ok" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/public_done" MaxLine="1" />
+                <ImageView android:id="@id/image_vip" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="11.0dip" android:src="@drawable/pub_vip_wps_member_42" android:layout_toRightOf="@id/pdf_edit_ok" android:layout_toEndOf="@id/pdf_edit_ok" />
+            </RelativeLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/pdf_edit_undo" android:visibility="gone" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/v10_public_titlebar_undo" android:tint="@color/v10_phone_public_titlebar_text_color" android:contentDescription="@string/reader_public_redo" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" style="@style/v10_phone_public_titlebar_icon" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="@dimen/v10_phone_public_titlebar_title_text_size" android:textColor="@color/mainTextColor" android:gravity="center_vertical" android:id="@id/image_insert" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:text="@string/documentmanager_addPic" android:layout_marginEnd="16.0dip" MaxLine="1" />
+        </LinearLayout>
+        <View android:background="@color/secondBoldLineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.MyScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/writer_item_number_number_0" android:background="@drawable/public_toolbar_grid_item_selector_roundrect" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/reader_public_empty" pressAlphaEnabled="false">
+                <cn.wpsx.support.ui.KNormalImageView android:focusable="false" android:src="@drawable/pad_comp_nothing_writer" style="@style/writer_popwindow_grid_icon_image" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/writer_item_number_number_1" android:background="@drawable/public_toolbar_grid_item_selector_roundrect" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:contentDescription="@string/reader_public_empty" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" pressAlphaEnabled="false">
+                <cn.wpsx.support.ui.KNormalImageView android:focusable="false" android:src="@drawable/pad_comp_numbering_1" style="@style/writer_popwindow_grid_icon_image" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/writer_item_number_number_2" android:background="@drawable/public_toolbar_grid_item_selector_roundrect" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:contentDescription="@string/reader_public_empty" android:layout_marginEnd="16.0dip" pressAlphaEnabled="false">
+                <cn.wpsx.support.ui.KNormalImageView android:focusable="false" android:src="@drawable/pad_comp_numbering_2" style="@style/writer_popwindow_grid_icon_image" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/writer_item_number_number_3" android:background="@drawable/public_toolbar_grid_item_selector_roundrect" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:contentDescription="@string/reader_public_empty" android:layout_marginEnd="16.0dip" pressAlphaEnabled="false">
+                <cn.wpsx.support.ui.KNormalImageView android:focusable="false" android:src="@drawable/pad_comp_numbering_3" style="@style/writer_popwindow_grid_icon_image" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/writer_item_number_number_4" android:background="@drawable/public_toolbar_grid_item_selector_roundrect" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/reader_public_empty" pressAlphaEnabled="false">
+                <cn.wpsx.support.ui.KNormalImageView android:focusable="false" android:src="@drawable/pad_comp_numbering_4_writer" style="@style/writer_popwindow_grid_icon_image" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/writer_item_number_number_5" android:background="@drawable/public_toolbar_grid_item_selector_roundrect" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:contentDescription="@string/reader_public_empty" android:layout_marginEnd="16.0dip" pressAlphaEnabled="false">
+                <cn.wpsx.support.ui.KNormalImageView android:focusable="false" android:src="@drawable/pad_comp_numbering_5_writer" style="@style/writer_popwindow_grid_icon_image" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/writer_item_number_number_6" android:background="@drawable/public_toolbar_grid_item_selector_roundrect" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/reader_public_empty" pressAlphaEnabled="false">
+                <cn.wpsx.support.ui.KNormalImageView android:focusable="false" android:src="@drawable/pad_comp_numbering_6_writer" style="@style/writer_popwindow_grid_icon_image" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/writer_item_number_number_7" android:background="@drawable/public_toolbar_grid_item_selector_roundrect" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="0.0dip" android:contentDescription="@string/reader_public_empty" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" pressAlphaEnabled="false">
+                <cn.wpsx.support.ui.KNormalImageView android:focusable="false" android:src="@drawable/pad_comp_numbering_7" style="@style/writer_popwindow_grid_icon_image" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</cn.wps.moffice.common.beans.MyScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="end|center" android:id="@id/pad_search_img" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pad_pub_nav_search" android:contentDescription="@null" />
+</LinearLayout>

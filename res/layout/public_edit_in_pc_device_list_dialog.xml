@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="25.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/title" android:background="@drawable/public_bottom_dialog_title_nav_bg" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_send_to_pc_edit" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <FrameLayout android:id="@id/fl_connect" android:background="@drawable/phone_public_list_transparent_selector" android:paddingLeft="16.0dip" android:paddingTop="14.0dip" android:paddingRight="16.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip">
+                <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center_vertical" android:id="@id/iv_connect" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/public_transfer_mix_scan" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center_vertical" android:id="@id/tv_connect" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:text="@string/public_qrcode_login_to_pc" android:layout_marginStart="36.0dip" />
+            </FrameLayout>
+            <View android:id="@id/v_bold_has_device" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            <FrameLayout android:layout_gravity="center" android:id="@id/fl_no_device_connect" android:background="@drawable/public_bottom_dialog_sub_bg" android:layout_width="328.0dip" android:layout_height="56.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip">
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/public_transfer_mix_scan" />
+                    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center_vertical" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/public_qrcode_login_to_pc" android:layout_marginStart="16.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+            <cn.wps.moffice.main.local.home.filetransfer.WrapContentListView android:id="@id/device_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="56.0dip" style="@style/public_wpsdrive_list_style" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/tv_tips" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="-56.0dip" android:minHeight="56.0dip" android:text="@string/public_send_to_pc_edit_tips" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

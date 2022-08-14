@@ -1,0 +1,56 @@
+.class public final Lbs4$f;
+.super Ljava/lang/Object;
+.source "AdsShowPremiumPopMenu.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lbs4;->b(Landroid/app/Activity;Ljava/lang/String;)Z
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic B:Landroid/app/Activity;
+
+
+# direct methods
+.method public constructor <init>(Landroid/app/Activity;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lbs4$f;->B:Landroid/app/Activity;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 3
+
+    .line 1
+    new-instance v0, Landroid/content/Intent;
+
+    iget-object v1, p0, Lbs4$f;->B:Landroid/app/Activity;
+
+    const-class v2, Lcn/wps/moffice/common/premium/MemberShipJumpPaySuccessActivity;
+
+    invoke-direct {v0, v1, v2}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
+
+    .line 2
+    iget-object v1, p0, Lbs4$f;->B:Landroid/app/Activity;
+
+    invoke-virtual {v1, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
+
+    return-void
+.end method

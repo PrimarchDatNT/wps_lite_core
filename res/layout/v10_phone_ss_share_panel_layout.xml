@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ss_share_container" android:paddingBottom="@dimen/v10_phone_public_paneltab_indicator_height" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/layout_link_share_item_common_view" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/v10_phone_ss_share_as" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/secondBoldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/oversea_class_room_entrance" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wps.moffice.main.classroom.HomeworkEntranceView android:id="@id/entrance_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View style="@style/v10_phone_public_panel_divide_view" />
+        </LinearLayout>
+        <TextView android:id="@id/share_more_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/phone_ss_panel_content_left_right_space" android:layout_marginTop="12.0dip" android:layout_marginRight="@dimen/phone_ss_panel_content_left_right_space" android:layout_marginBottom="5.0dip" android:text="@string/public_more_share_way" android:layout_marginStart="@dimen/phone_ss_panel_content_left_right_space" android:layout_marginEnd="@dimen/phone_ss_panel_content_left_right_space" style="@style/v10_phone_public_panel_title_text_style" />
+        <LinearLayout android:orientation="vertical" android:id="@id/v10_phone_ss_send_file_ways" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

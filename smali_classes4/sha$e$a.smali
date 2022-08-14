@@ -1,0 +1,34 @@
+.class public Lsha$e$a;
+.super Lcom/google/gson/reflect/TypeToken;
+.source "PaperDownRepetService.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lsha$e;->s([Ljava/lang/Void;)Ljava/util/ArrayList;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/gson/reflect/TypeToken<",
+        "Ljava/util/ArrayList<",
+        "Lgha;",
+        ">;>;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Lsha$e;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Lcom/google/gson/reflect/TypeToken;-><init>()V
+
+    return-void
+.end method

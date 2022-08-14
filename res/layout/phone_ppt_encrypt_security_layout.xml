@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/phone_public_encrypt_security_item" />
+        <View android:id="@id/online_security_divideline" style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/file_permission" android:layout_width="fill_parent" android:layout_marginLeft="35.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="35.0dip" android:layout_marginEnd="0.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item_third">
+            <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_safty_power" style="@style/v10_phone_public_panel_list_img" />
+            <RelativeLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="wrap_content" android:text="@string/public_permission_info" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/v10_phone_public_panel_list_item_text_style" />
+            </RelativeLayout>
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+        <cn.wps.moffice.presentation.control.common.ToggleToolbarItemView android:id="@id/v10_phone_ppt_encrypt_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/v10_phone_ppt_encrypt_divider" style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+        <cn.wps.moffice.presentation.control.common.ToolbarItemView android:id="@id/v10_phone_ppt_modify_pw_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="35.0dip" android:layout_marginEnd="0.0dip" />
+        <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+        <include layout="@layout/phone_public_move_to_secret_folder_item" />
+        <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/wps_drive_total_no_document_img" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="140.0dip" android:src="@drawable/pub_404_no_document" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center" android:id="@id/empty_text" android:visibility="gone" android:layout_width="260.0dip" android:layout_height="wrap_content" android:text="@string/public_no_recovery_file_record" />
+    <cn.wpsx.support.ui.KTextView android:id="@id/total_empty_tips_button" android:visibility="gone" android:layout_marginTop="6.0dip" app:kmui_pressAlphaEnableWhenRipple="true" app:kmui_pressAlphaEnabled="true" style="@style/add_file_style" />
+</LinearLayout>

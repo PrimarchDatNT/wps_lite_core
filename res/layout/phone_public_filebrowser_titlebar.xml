@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/home_title_container" android:layout_width="fill_parent" android:layout_height="@dimen/new_phone_documents_maintoolbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/home_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/home_search_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:customLayout="@layout/phone_public_filebrowser_titlebar_search_layout" />
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/home_delete_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_public_top_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/phone_home_top_shadow" />
+    </LinearLayout>
+</FrameLayout>

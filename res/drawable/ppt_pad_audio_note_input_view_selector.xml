@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/ppt_pad_audio_note_input_view_selected" />
+    <item android:drawable="@drawable/ppt_pad_audio_note_input_view_normal" />
+</selector>

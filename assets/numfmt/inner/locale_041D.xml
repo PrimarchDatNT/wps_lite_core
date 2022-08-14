@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 瑞典语(瑞典) -->
+<resouce>
+<thous-separator type="string"> </thous-separator>
+<decimal-point type="string">,</decimal-point>
+<general type="string">Standard</general>
+<color-name type="string-array" size="9">
+<item>Svart</item>
+<item>Blå</item>
+<item>Cyanblå</item>
+<item>Grön</item>
+<item>Magenta</item>
+<item>Röd</item>
+<item>Vit</item>
+<item>Gul</item>
+<item>Färg</item>
+</color-name>
+<long-week type="string-array" size="7">
+<item>söndag</item>
+<item>måndag</item>
+<item>tisdag</item>
+<item>onsdag</item>
+<item>torsdag</item>
+<item>fredag</item>
+<item>lördag</item>
+</long-week>
+<short-week type="string-array" size="7">
+<item>sö</item>
+<item>må</item>
+<item>ti</item>
+<item>on</item>
+<item>to</item>
+<item>fr</item>
+<item>lö</item>
+</short-week>
+<long-month type="string-array" size="12">
+<item>januari</item>
+<item>februari</item>
+<item>mars</item>
+<item>april</item>
+<item>maj</item>
+<item>juni</item>
+<item>juli</item>
+<item>augusti</item>
+<item>september</item>
+<item>oktober</item>
+<item>november</item>
+<item>december</item>
+</long-month>
+<short-month type="string-array" size="12">
+<item>jan</item>
+<item>feb</item>
+<item>mar</item>
+<item>apr</item>
+<item>maj</item>
+<item>jun</item>
+<item>jul</item>
+<item>aug</item>
+<item>sep</item>
+<item>okt</item>
+<item>nov</item>
+<item>dec</item>
+</short-month>
+<shortest-month type="string-array" size="12">
+<item>j</item>
+<item>f</item>
+<item>m</item>
+<item>a</item>
+<item>m</item>
+<item>j</item>
+<item>j</item>
+<item>a</item>
+<item>s</item>
+<item>o</item>
+<item>n</item>
+<item>d</item>
+</shortest-month>
+<am-pm type="string-array" size="2">
+<item>AM</item>
+<item>PM</item>
+</am-pm>
+<year type="string">Å</year>
+<month type="string">M</month>
+<day type="string">D</day>
+<hour type="string">t</hour>
+<minute type="string">m</minute>
+<second type="string">s</second>
+<escape type="string">\</escape>
+<date-slash type="string">-</date-slash>
+<f400-f800 type="string-array" size="2">
+<item>hh:mm:ss</item>
+<item>[$-41d]\d\e\n d mmmm yyyy</item>
+</f400-f800>
+</resouce>

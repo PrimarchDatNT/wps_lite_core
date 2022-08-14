@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/et_filter_func_icon" android:padding="@dimen/phone_ss_filter_btn_drawable_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/et_filter_func_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="2" app:autoSizeMaxTextSize="11.0dip" app:autoSizeMinTextSize="8.0dip" app:autoSizeTextType="uniform" />
+</LinearLayout>

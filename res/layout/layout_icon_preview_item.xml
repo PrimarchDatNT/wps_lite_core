@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/mVIconPreviewItem" android:background="@drawable/shape_icon_item_preview_bg" android:layout_width="fill_parent" android:layout_height="98.0dip" android:layout_marginBottom="16.0dip">
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/mIvIconPreviewItem" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="16.0dip" android:scaleType="centerInside" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/black" android:ellipsize="end" android:gravity="center" android:id="@id/mTvIconPreviewName" android:layout_width="85.0dip" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:maxLines="1" />
+    </cn.wps.moffice.common.beans.RippleAlphaLinearLayout>
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/mIvPicItemDownload" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_margin="6.0dip" android:src="@drawable/icon_pic_item_download" android:scaleType="centerInside" android:layout_alignRight="@id/mVIconPreviewItem" android:layout_alignBottom="@id/mVIconPreviewItem" android:layout_alignEnd="@id/mVIconPreviewItem" />
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/mVIconPreviewDocer" android:layout_width="12.0dip" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/icon_docer_mark_flag" android:layout_alignTop="@id/mVIconPreviewItem" android:layout_alignRight="@id/mVIconPreviewItem" />
+</RelativeLayout>

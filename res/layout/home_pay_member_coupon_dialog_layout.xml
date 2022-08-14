@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/phone_public_pop_track" android:layout_width="274.0dip" android:layout_height="394.0dip">
+            <FrameLayout android:orientation="vertical" android:background="@drawable/public_coupon_card_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="120.0dip" android:layout_height="wrap_content">
+                    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="50.0dip" android:textColor="#fffc6a58" android:id="@id/coupon_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="8" MaxLine="1" />
+                    <TextView android:textSize="14.0dip" android:textColor="#fffc6a58" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/home_price_unit" />
+                </LinearLayout>
+                <TextView android:textSize="10.0dip" android:textColor="#ffdf9d41" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="76.0dip" android:text="@string/home_pay_coupon_retain_desc" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/whiteMainTextColor" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="113.0dip" android:text="@string/home_pay_wps_member_coupon" />
+                <TextView android:textSize="10.0dip" android:textColor="#99ffffff" android:layout_gravity="center_horizontal" android:id="@id/coupon_limit_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="134.0dip" />
+            </FrameLayout>
+            <TextView android:textSize="16.0dip" android:textColor="#ff535252" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/home_pay_continue_withcoupon_tips_1" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_pay_continue_withcoupon_tips" />
+            <TextView android:textSize="16.0dip" android:ellipsize="middle" android:gravity="center" android:id="@id/continue_buy_btn" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="35.0dip" android:layout_marginTop="26.0dip" android:layout_marginRight="35.0dip" android:text="@string/home_pay_to_use_now" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/cancel_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="16.0dip" android:text="@string/home_pay_cancel_coupon" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <cn.wpsx.support.ui.KTextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:paddingTop="11.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/public_collaborator_list_section" android:layout_marginStart="16.0dip" />
+</LinearLayout>

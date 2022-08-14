@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_search_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="2.0" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/mi_bottom_search_btn_text_size" android:textColor="#a5000000" android:gravity="center" android:id="@id/search_backward_btn" android:paddingTop="@dimen/mi_bottom_search_item_paddingV" android:paddingBottom="@dimen/mi_bottom_search_item_paddingV" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/mi_bottom_search_item_marginH" android:layout_marginBottom="@dimen/mi_bottom_search_item_marginB" android:text="@string/writer_mi_search_prev" android:layout_weight="0.48" android:layout_marginEnd="@dimen/mi_bottom_search_item_marginH" android:elevation="2.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="1.0">
+        <TextView android:textSize="@dimen/mi_bottom_search_btn_text_size" android:textColor="#a5000000" android:gravity="center" android:id="@id/search_forward_btn" android:paddingTop="@dimen/mi_bottom_search_item_paddingV" android:paddingBottom="@dimen/mi_bottom_search_item_paddingV" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mi_bottom_search_item_marginH" android:layout_marginBottom="@dimen/mi_bottom_search_item_marginB" android:text="@string/writer_mi_search_next" android:layout_weight="0.48" android:layout_marginStart="@dimen/mi_bottom_search_item_marginH" android:elevation="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

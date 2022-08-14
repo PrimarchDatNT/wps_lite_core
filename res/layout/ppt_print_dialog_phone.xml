@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.presentation.control.common.PptTitleBar android:id="@id/ppt_print_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
+        <cn.wps.moffice.presentation.control.common.HorizonTabBar android:id="@id/ppt_print_horizon_tabbar" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_tabbar_height" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.wps.moffice.presentation.control.print.printsettings.PrintSettingsView android:id="@id/ppt_printsetting_page" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ListView android:scrollbarThumbVertical="@color/progressTrackColor" android:id="@id/ppt_printpreview_page" android:background="@color/boldLineColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/ppt_progressbar_layout" />
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sync-adapter android:accountType="cn.wps.moffice" android:contentAuthority="cn.wps.moffice_i18n.sync.provider" android:userVisible="true" android:supportsUploading="false" android:allowParallelSyncs="false" android:isAlwaysSyncable="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

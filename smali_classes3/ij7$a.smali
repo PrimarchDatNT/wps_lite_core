@@ -1,0 +1,107 @@
+.class public Lij7$a;
+.super Ljava/lang/Object;
+.source "WPSDriveCompanySwitchTabView.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lij7;->e1(Landroid/view/View;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic B:Lij7;
+
+
+# direct methods
+.method public constructor <init>(Lij7;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lij7$a;->B:Lij7;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lij7$a;->B:Lij7;
+
+    invoke-virtual {v0}, Lij7;->H5()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    .line 2
+    iget-object v0, p0, Lij7$a;->B:Lij7;
+
+    invoke-virtual {v0}, Lhj7;->n3()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    .line 3
+    iget-object v0, p0, Lij7$a;->B:Lij7;
+
+    new-instance v1, Lij7$a$a;
+
+    invoke-direct {v1, p0}, Lij7$a$a;-><init>(Lij7$a;)V
+
+    invoke-virtual {v0, v1}, Lkj7;->z5(Ljava/lang/Runnable;)V
+
+    .line 4
+    iget-object v0, p0, Lij7$a;->B:Lij7;
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lij7;->k6(Lij7;Z)Z
+
+    goto :goto_0
+
+    .line 5
+    :cond_0
+    iget-object v0, p0, Lij7$a;->B:Lij7;
+
+    invoke-static {v0}, Lij7;->j6(Lij7;)Z
+
+    move-result v0
+
+    if-nez v0, :cond_2
+
+    .line 6
+    iget-object v0, p0, Lij7$a;->B:Lij7;
+
+    invoke-static {v0}, Lij7;->h6(Lij7;)V
+
+    goto :goto_0
+
+    .line 7
+    :cond_1
+    iget-object v0, p0, Lij7$a;->B:Lij7;
+
+    invoke-static {v0}, Lij7;->i6(Lij7;)Lce9$b;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lce9$b;->i()V
+
+    :cond_2
+    :goto_0
+    return-void
+.end method

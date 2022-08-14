@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.ofd.shell.toolbar.pad.ToolBarTabSwitcher android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.ofd.shell.toolbar.pad.TabItemBG android:id="@id/tab_selected_bg" android:background="@drawable/pdf_maintoolbar_tabitem_rounded_rect" android:visibility="invisible" android:layout_width="58.0dip" android:layout_height="24.0dip" android:layout_marginTop="6.0dip" />
+    <cn.wps.moffice.ofd.shell.toolbar.pad.TabItem android:id="@id/ofd_maintoolbar_view" android:layout_marginLeft="7.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="7.0dip" android:text="@string/public_view" MaxLine="1" style="@style/pdf_maintoolbar_tabitem" />
+    <cn.wps.moffice.ofd.shell.toolbar.pad.TabItem android:id="@id/ofd_maintoolbar_pageinfo" android:layout_marginLeft="7.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="7.0dip" android:text="@string/ofd_pageinfo_title" android:layout_toRightOf="@id/ofd_maintoolbar_view" android:layout_toEndOf="@id/ofd_maintoolbar_view" MaxLine="1" style="@style/pdf_maintoolbar_tabitem" />
+    <cn.wps.moffice.ofd.shell.toolbar.pad.TabItem android:id="@id/ofd_maintoolbar_annotation" android:visibility="gone" android:layout_marginLeft="7.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="7.0dip" android:text="@string/pdf_tab_annotation" android:layout_toRightOf="@id/ofd_maintoolbar_pageinfo" android:layout_toEndOf="@id/ofd_maintoolbar_pageinfo" MaxLine="1" style="@style/pdf_maintoolbar_tabitem" />
+</cn.wps.moffice.ofd.shell.toolbar.pad.ToolBarTabSwitcher>

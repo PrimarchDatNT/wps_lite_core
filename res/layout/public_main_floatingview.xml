@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/close_floatiamge" android:layout_width="36.0dip" android:layout_height="@dimen/public_float_close_btn_height">
+        <cn.wps.moffice.common.beans.RippleAlphaImageView android:id="@id/close_floatiamge_iv" android:visibility="visible" android:clickable="true" android:layout_width="10.0dip" android:layout_height="10.0dip" android:scaleType="fitXY" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <cn.wps.moffice.common.beans.RippleAlphaImageView android:id="@id/alive_floatiamge" android:visibility="visible" android:clickable="true" android:layout_width="36.0dip" android:layout_height="84.0dip" android:scaleType="fitXY" />
+    <cn.wps.moffice.common.beans.RippleAlphaImageView android:id="@id/sleep_floatiamge" android:visibility="gone" android:clickable="true" android:layout_width="36.0dip" android:layout_height="84.0dip" android:scaleType="fitXY" />
+</LinearLayout>

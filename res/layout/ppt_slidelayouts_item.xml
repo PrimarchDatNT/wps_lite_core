@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ppt_slideLayout_btn1" android:padding="3.0dip" android:layout_width="98.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.presentation.control.layout.PictureView android:layout_gravity="center_horizontal" android:id="@id/ppt_slidelayout_item_img" android:layout_width="92.0dip" android:layout_height="72.0dip" android:scaleType="fitXY" pressAlphaEnableWhenRipple="false" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ppt_slidelayout_item_title" android:layout_width="92.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom_bar" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ViewStub android:id="@id/stub_send_email_layout" android:layout="@layout/public_template_send_email_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="0.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/preview_use_ll" android:background="@color/buttonMainColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/template_purchase_icon_iv" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/template_purchase_diamond" android:scaleType="fitXY" android:layout_marginEnd="10.0dip" />
+                        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="17.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/preview_use" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="48.0dip" android:text="@string/preview_use_now_zero" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ListView android:id="@id/preview_refresh_list_view" android:background="@color/secondBackgroundColor" android:paddingBottom="14.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="20.0dip" android:layout_above="@id/bottom_bar" android:overScrollMode="never" />
+    </RelativeLayout>
+    <cn.wps.moffice.main.cloud.drive.view.TouchInterceptLinearLayout android:gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLargeInverse" />
+    </cn.wps.moffice.main.cloud.drive.view.TouchInterceptLinearLayout>
+</RelativeLayout>

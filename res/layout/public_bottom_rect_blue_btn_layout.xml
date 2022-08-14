@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textSize="16.0dip" android:gravity="center" android:id="@id/link_modify_send_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:text="@string/documentmanager_send" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/phone_public_buttonStyle_blue_4dp_corner"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

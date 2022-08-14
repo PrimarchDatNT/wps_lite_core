@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:fontcustom="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="vertical" android:id="@id/font_title_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/title" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Font name" />
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_gravity="center|right" android:id="@id/font_noexist" android:paddingLeft="@dimen/public_fontname_name_btn_spacing" android:paddingRight="@dimen/public_fontname_right_space" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="@dimen/phone_public_xsmall_icon_height" android:src="@drawable/pub_list_font_nonexistent" android:scaleType="fitXY" />
+        <cn.wps.moffice.common.fontname.CircleProgressBar android:layout_gravity="center|right" android:id="@id/font_circleprogressbar" android:paddingLeft="@dimen/public_fontname_name_btn_spacing" android:paddingRight="@dimen/public_fontname_right_space" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="@dimen/phone_public_xsmall_icon_height" android:scaleType="fitXY" fontcustom:animationAngles="330.0" fontcustom:animationDuration="1000" fontcustom:circleColor="@color/progressTrackColor" fontcustom:circleRaduis="10.0dip" fontcustom:circleWidth="2.0dip" fontcustom:progressColor="@color/secondaryColor" fontcustom:progressStartAngle="-90.0" />
+    </FrameLayout>
+    <cn.wps.moffice.common.fontname.FontTitleCloudItemView android:id="@id/font_title_cloud_item_view1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="7.0" android:layout_marginEnd="8.0dip" />
+    <FrameLayout android:orientation="horizontal" android:id="@id/font_title_cloud_item_layout" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="17.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.wps.moffice.common.fontname.FontTitleCloudItemView android:id="@id/font_title_cloud_item_view2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" android:layout_marginEnd="8.0dip" />
+            <cn.wps.moffice.common.fontname.FontTitleCloudItemView android:id="@id/font_title_cloud_item_view3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" android:layout_marginEnd="8.0dip" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/font_title_more" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="0.0dip" android:layout_height="fill_parent" android:minWidth="26.0dip" android:layout_weight="1.0" android:layout_marginEnd="0.0dip">
+                <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:clickable="false" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/comp_common_more" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

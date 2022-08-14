@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/secondBackgroundColor" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/tool_title_ll" android:background="@drawable/public_round_rect_blue_bg_4dp_1px_selector" android:layout_width="fill_parent" android:layout_height="42.0dip">
+        <TextView android:textColor="@color/public_btn_text_selector_light" android:layout_gravity="center" android:id="@id/tool_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pdf_convert_pdf_to_doc" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/titlebar" android:background="@color/phone_public_titlebar_writer_bg" android:layout_width="fill_parent" android:layout_height="@dimen/phone_public_titlebar_height" />
+        <View android:id="@id/title_shadow" android:background="@drawable/phone_public_top_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+    </LinearLayout>
+    <View android:id="@id/toolbar" android:background="@drawable/phone_public_bottombar_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="52.0dip" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="center" android:id="@id/circle_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:id="@id/circle_progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

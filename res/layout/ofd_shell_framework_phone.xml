@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.ofd.shell.common.shellpanel.ShellParentPanel android:id="@id/ofd_shell_top_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <cn.wps.moffice.ofd.shell.common.shellpanel.ShellParentPanel android:id="@id/ofd_shell_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ofd_pagenum_margin" android:layout_centerHorizontal="true" />
+        <FrameLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wps.moffice.ofd.shell.common.shellpanel.ShellParentPanel android:layout_gravity="bottom" android:id="@id/ofd_shell_bottom_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+            <cn.wps.moffice.ofd.shell.common.shellpanel.ShellParentPanel android:layout_gravity="bottom" android:id="@id/ofd_shell_fullscreen_above_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView android:visibility="gone" android:layout_below="@id/ofd_shell_top_panel" style="@style/public_top_shadow" />
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/phonetic_complete_layout" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/title_lay" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_gravity="top" style="@style/phone_home_top_shadow" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/phonetic_play_layout" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_below="@id/title_lay">
+        <RelativeLayout android:id="@id/phonetic_play_img_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0" style="@style/public_image_bg_style">
+            <ImageView android:id="@id/phonetic_play_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/phonetic_file_pause" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:id="@id/phonetic_play_cur_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_weight="0.0" />
+        <SeekBar android:id="@id/phonetic_play_progress_bar" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxHeight="2.0dip" android:progressDrawable="@drawable/phonetic_seekbar_style" android:minHeight="2.0dip" android:thumb="@drawable/phonetic_seekbar_thumb_bg" android:thumbOffset="0.0dip" android:layout_weight="1.0" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:id="@id/phonetic_play_all_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="28.0dip" android:layout_weight="0.0" />
+    </LinearLayout>
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/phonetic_play_layout" />
+    <ScrollView android:id="@id/phonetic_play_scrollview" android:paddingTop="20.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/export_layout" android:layout_below="@id/phonetic_play_layout" android:overScrollMode="never">
+        <cn.wps.moffice.common.phonetic.ui.play.PhoneticEditText android:id="@id/phonetic_text_view" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="20.0dip" android:lineSpacingMultiplier="1.5" android:inputType="textMultiLine" android:textCursorDrawable="@drawable/phonetic_edittext_cursor_bg" style="?android:textViewStyle" />
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/export_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_above="@id/phonetic_flynote_text" android:layout_alignParentRight="true">
+        <FrameLayout android:id="@id/phonetic_export_btn_shade" android:layout_width="65.0dip" android:layout_height="65.0dip">
+            <FrameLayout android:id="@id/phonetic_export_btn" android:background="@drawable/phonetic_shade_bg" android:layout_width="65.0dip" android:layout_height="65.0dip">
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/phonetic_export_btn" />
+            </FrameLayout>
+        </FrameLayout>
+        <FrameLayout android:id="@id/phonetic_control_edit_btn_shade" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="20.0dip">
+            <FrameLayout android:id="@id/phonetic_control_edit_btn" android:background="@drawable/phonetic_shade_bg" android:layout_width="65.0dip" android:layout_height="65.0dip">
+                <ImageView android:layout_gravity="center" android:id="@id/edit_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/phonetic_file_edit" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/phonetic_flynote_text" android:layout_width="fill_parent" android:layout_height="17.0dip" android:text="@string/phonetic_flynote_text" android:layout_alignParentBottom="true" />
+</RelativeLayout>

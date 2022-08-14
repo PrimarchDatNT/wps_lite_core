@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="50.0dip" android:minHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/func_guide_pdf_pay_icon" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_centerVertical="true" />
+    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="12.0sp" android:textColor="@color/subTextColor" android:id="@id/func_guide_pdf_pay_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:includeFontPadding="false" android:layout_toRightOf="@id/func_guide_pdf_pay_icon" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/func_guide_pdf_pay_icon" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="end|center" android:id="@id/func_guide_pdf_pay_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="end|center" android:id="@id/func_guide_pdf_pay_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/func_guide_payment_arrow" />
+    </FrameLayout>
+</RelativeLayout>

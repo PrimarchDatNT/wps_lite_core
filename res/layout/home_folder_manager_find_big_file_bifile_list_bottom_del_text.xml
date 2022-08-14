@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/folder_manager_divide_line_light" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="18.0dip" android:textColor="#fff47f70" android:gravity="center" android:id="@id/folder_manager_find_big_file_delete_view_tv" android:background="@color/folder_manager_common_white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/public_delete" />
+</LinearLayout>

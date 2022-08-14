@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="22.0dip" android:paddingRight="22.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="22.0dip" android:paddingEnd="22.0dip">
+        <LinearLayout android:orientation="vertical" android:paddingTop="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:background="@drawable/public_pay_failed_icon" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginBottom="14.0dip" />
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="16.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/tips_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip" android:text="@string/public_purchase_unable_restore" android:singleLine="true" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@drawable/public_restore_purchase_red_point" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="2.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="0.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip" android:layout_marginEnd="0.0dip">
+                    <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_purchase_ensure_account_tip" android:includeFontPadding="false" />
+                    <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="14.0dip" android:textStyle="bold" android:gravity="center" android:id="@id/public_restore_purchase_signin_button" android:layout_width="wrap_content" android:layout_height="34.0dip" android:layout_marginTop="18.0dip" android:minWidth="120.0dip" android:text="@string/public_signin" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/public_restore_purchase_download" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="36.0dip">
+                <View android:background="@drawable/public_restore_purchase_red_point" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="2.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="0.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip" android:layout_marginEnd="0.0dip">
+                    <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_purchase_get_premium_app_tip" android:includeFontPadding="false" />
+                    <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="14.0dip" android:textStyle="bold" android:gravity="center" android:id="@id/public_restore_purchase_download_button" android:layout_width="wrap_content" android:layout_height="34.0dip" android:layout_marginTop="18.0dip" android:minWidth="120.0dip" android:text="@string/public_download" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:gravity="center" android:id="@id/public_restore_purchase_help_tip_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@string/public_purchase_need_help_tip" />
+    </LinearLayout>
+</ScrollView>

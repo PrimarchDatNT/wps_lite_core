@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_add_scan" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+        <cn.wpsx.support.ui.KNormalImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/doc_scan_add_scan" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="12.0sp" android:textColor="@drawable/selector_doc_scan_convert_text_color" android:id="@id/tv_scan" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/doc_scan_add_scan_document" MaxLine="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_delete" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/iv_delete" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/doc_scan_delete_black" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="12.0sp" android:textColor="@drawable/selector_doc_scan_convert_text_color" android:id="@id/tv_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/public_delete" MaxLine="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_save_as_album" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/iv_save" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/comp_multimedia_pic" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="12.0sp" android:textColor="@drawable/selector_doc_scan_convert_text_color" android:id="@id/tv_save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/public_vipshare_savepic" MaxLine="1" pressAlphaEnableWhenRipple="false" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_share" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/iv_share" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/doc_scan_share" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="12.0sp" android:textColor="@drawable/selector_doc_scan_convert_text_color" android:id="@id/tv_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/public_share" MaxLine="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_splicing" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/image_splicing" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/splicing_tab_splice" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="12.0sp" android:textColor="@drawable/selector_doc_scan_convert_text_color" android:id="@id/text_splicing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/doc_scan_splicing_funcname" MaxLine="1" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ll_export" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/iv_export" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/doc_scan_export" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="12.0sp" android:textColor="@drawable/selector_doc_scan_convert_text_color" android:id="@id/tv_export" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/doc_scan_export_document" MaxLine="1" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.SecondFullScreenLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.MyScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/follow_fb_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/home_membership_padding_left" android:layout_marginRight="10.0dip" android:adjustViewBounds="true" android:minHeight="@dimen/home_settings_group_item_height" android:layout_marginStart="@dimen/home_membership_padding_left" android:layout_marginEnd="10.0dip">
+                <cn.wps.moffice.common.beans.AutoAdjustButton android:gravity="center" android:id="@id/btn_follow" android:text="@string/public_follow" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" MaxLine="1" style="@style/public_item_button_style" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/settings_follow_fb" android:layout_toLeftOf="@id/btn_follow" android:layout_centerVertical="true" android:layout_marginEnd="20.0dip" android:layout_toStartOf="@id/btn_follow" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/join_fb_wps_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/home_membership_padding_left" android:layout_marginRight="10.0dip" android:adjustViewBounds="true" android:minHeight="@dimen/home_settings_group_item_height" android:layout_marginStart="@dimen/home_membership_padding_left" android:layout_marginEnd="10.0dip">
+                <cn.wps.moffice.common.beans.AutoAdjustButton android:gravity="center" android:id="@id/btn_join" android:text="@string/public_meeting_join" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" MaxLine="1" style="@style/public_item_button_style" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/public_join_fb_wps_group" android:layout_toLeftOf="@id/btn_join" android:layout_centerVertical="true" android:layout_marginEnd="20.0dip" android:layout_toStartOf="@id/btn_join" />
+            </RelativeLayout>
+        </LinearLayout>
+    </cn.wps.moffice.common.beans.MyScrollView>
+</cn.wps.moffice.common.beans.SecondFullScreenLayout>

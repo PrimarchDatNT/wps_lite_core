@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_preview_image_content_bar" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/doc_scan_convert_dialog_height"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_to_text" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/iv_convert_to_text" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/scan_pic2text_icon" android:scaleType="centerCrop" />
+            <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_doc_scan_convert_text_color" android:id="@id/tv_convert_to_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/doc_scn_recognize_txt" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_to_et" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/iv_convert_to_et" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/scan_pic2et_icon" android:scaleType="centerCrop" />
+            <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_doc_scan_convert_text_color" android:id="@id/tv_convert_to_et" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/doc_scan_extract_to_et" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/convert_to_ppt" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/iv_convert_to_ppt" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/scan_pic2ppt_icon" android:scaleType="centerCrop" />
+            <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_doc_scan_convert_text_color" android:id="@id/tv_convert_to_ppt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/doc_scan_export_to_ppt" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/rl_to_pdf" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/iv_convert_to_pdf" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/scan_pic2pdf_icon" android:scaleType="centerCrop" />
+            <TextView android:textSize="11.0dip" android:textColor="@drawable/selector_doc_scan_convert_text_color" android:id="@id/tv_convert_to_pdf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/doc_scan_export_to_pdf" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

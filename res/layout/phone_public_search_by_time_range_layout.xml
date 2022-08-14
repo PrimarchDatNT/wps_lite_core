@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/cardview_outer" android:background="@drawable/rectangle_search_by_time_range_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/public_dialog_list_icon_text_height">
+        <TextView android:textSize="@dimen/public_titlebar_medium_textsize" android:textColor="@color/mainTextColor" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/search_sort_by_time_title" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/public_titlebar_medium_textsize" android:textColor="@color/subTextColor" android:id="@id/text_finish" android:padding="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="11.0dip" android:text="@string/search_by_time_finish" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="11.0dip" android:layout_alignParentEnd="true" style="@style/public_image_bg_style" />
+    </RelativeLayout>
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <ListView android:id="@id/listview_search_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/phone_public_dialog_list_selector" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:layout_below="@id/path_gallery_container" android:layout_alignWithParentIfMissing="true" />
+</LinearLayout>

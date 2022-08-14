@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <inner type="string-array" size="">
+		<item>h:mm;@</item>
+		<item>[$-409]h:mm\ AM/PM;@</item>
+		<item>h:mm:ss;@</item>
+		<item>[$-409]h:mm:ss\ AM/PM;@</item>
+		<item>h"时"mm"分";@</item>
+		<item>h"时"mm"分"ss"秒";@</item>
+		<item>上午/下午h"时"mm"分";@</item>
+		<item>上午/下午h"时"mm"分"ss"秒";@</item>
+		<item>[DBNum1][$-804]h"时"mm"分";@</item>
+		<item>[DBNum1][$-804]上午/下午h"时"mm"分";@</item>
+	</inner>
+</resource>

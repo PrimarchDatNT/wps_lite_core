@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:paddingLeft="16.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="0.0dip" style="@style/public_image_bg_style">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:gravity="start|center" android:layout_gravity="start|center" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="175.0dip" android:maxLines="2" android:layout_weight="1.0" android:layout_marginEnd="10.5dip" app:autoSizeMinTextSize="10.0sp" app:autoSizeTextType="uniform" style="@style/home_membership_month_txt_style" />
+            <LinearLayout android:layout_gravity="end|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.5dip" android:layout_marginEnd="16.0dip">
+                <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:ellipsize="middle" android:layout_gravity="end|center" android:id="@id/desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="1.0dip" style="@style/home_membership_month_txt_style" />
+                <ImageView android:layout_gravity="end|center" android:id="@id/arrow" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_list_screening_right_arrow" android:layout_marginStart="1.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </FrameLayout>
+</FrameLayout>

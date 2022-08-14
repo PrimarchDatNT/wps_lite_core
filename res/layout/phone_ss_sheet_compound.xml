@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/phone_ss_sheet_compound_pager_layout" android:paddingLeft="@dimen/phone_ss_dash_bar_sheet_padding" android:paddingRight="@dimen/phone_ss_dash_bar_sheet_padding" android:layout_width="@dimen/phone_ss_dash_bar_sheet_width" android:layout_height="wrap_content" android:layout_centerInParent="true" android:paddingStart="@dimen/phone_ss_dash_bar_sheet_padding" android:paddingEnd="@dimen/phone_ss_dash_bar_sheet_padding">
+        <cn.wps.moffice.spreadsheet.phone.sheets.SheetTabsPager android:id="@id/phone_ss_sheet_compound_pager" android:layout_width="fill_parent" android:layout_height="@dimen/phone_ss_dash_bar_sheet_height" />
+    </FrameLayout>
+</merge>

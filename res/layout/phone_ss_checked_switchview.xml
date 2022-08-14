@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/public_list_selector_bg_special" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/et_state_title" android:paddingLeft="0.0dip" android:paddingRight="@dimen/et_prot_sheet_switchstateimgv_width" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:paddingStart="0.0dip" android:paddingEnd="@dimen/et_prot_sheet_switchstateimgv_width" android:layout_alignParentStart="true" style="@style/phone_public_font_m_black" />
+    <ImageView android:id="@id/et_switch_state_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/phone_public_toggle_off" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

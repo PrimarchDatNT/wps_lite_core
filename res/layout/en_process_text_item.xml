@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="16.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/file" android:background="@drawable/process_text_ripple_item_bg" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="70.0dip" android:minHeight="59.0dip" android:maxLines="2" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:elevation="0.0dip" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/phone_public_bottombar_layout">
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/memery_tips" android:text="@string/writer_memery_tips" MaxLine="2" style="@style/phone_public_bottombar_tip" />
+        <cn.wps.moffice.common.beans.phone.AlphaAutoText android:id="@id/memery_tips_btn" android:text="@string/public_go" style="@style/phone_public_bottombar_tipbtn" />
+    </LinearLayout>
+</LinearLayout>

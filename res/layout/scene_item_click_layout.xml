@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bg_ll" android:background="@drawable/phone_public_list_scene_round_selector" android:layout_width="fill_parent" android:layout_height="56.0dip">
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/cover_iv" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/subTextColor" android:ellipsize="end" android:id="@id/name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="10.0dip" android:maxLines="2" android:layout_marginStart="6.0dip" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

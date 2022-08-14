@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/total_search_doc_content_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/search_total_search_time_select" />
+        <com.wps.moffice.view.LoadMoreRecyclerView android:id="@id/total_search_doc_recycle_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/home_search_doc_default" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

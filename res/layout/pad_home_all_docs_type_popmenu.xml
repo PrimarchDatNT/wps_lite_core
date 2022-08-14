@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@id/pad_home_alldocs_all" layout="@layout/pad_checkbox_with_text_item" />
+        <include android:id="@id/pad_home_alldocs_doc" layout="@layout/pad_checkbox_with_text_item" />
+        <include android:id="@id/pad_home_alldocs_ppt" layout="@layout/pad_checkbox_with_text_item" />
+        <include android:id="@id/pad_home_alldocs_xls" layout="@layout/pad_checkbox_with_text_item" />
+        <include android:id="@id/pad_home_alldocs_pdf" layout="@layout/pad_checkbox_with_text_item" />
+        <include android:id="@id/pad_home_alldocs_txt" layout="@layout/pad_checkbox_with_text_item" />
+        <include android:id="@id/pad_home_alldocs_other" layout="@layout/pad_checkbox_with_text_item" />
+    </LinearLayout>
+</ScrollView>

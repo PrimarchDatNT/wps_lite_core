@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="vertical" android:id="@id/ppt_remote_nofile" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/ppt_phone_remote_page_nofile" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/ppt_phone_remote_relative_nofile" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/ppt_remote_nofile_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <ImageView android:id="@id/Remote_nofile_title_bar_bottom_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/phone_public_top_shadow" android:scaleType="fitXY" android:layout_below="@id/ppt_phone_remote_relative_nofile" />
+                <cn.wpsx.support.ui.KColorfulImageView android:id="@id/ppt_phone_remote_nofile_guide_image" android:layout_width="@dimen/ppt_phone_remote_nofile_guide_height" android:layout_height="@dimen/ppt_phone_remote_nofile_guide_height" android:src="@drawable/ppt_remote_no_file" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/ppt_phone_remote_operator_tip_text_size" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ppt_phone_remote_operator_noFile_margin_top" android:text="@string/ppt_remote_operator_noFile" android:layout_below="@id/ppt_phone_remote_nofile_guide_image" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/ppt_remote_img_shadow_nofile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/ppt_remote_connection_pc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY">
+            <LinearLayout android:orientation="vertical" android:id="@id/ppt_phone_remote_page_back" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY">
+                <RelativeLayout android:id="@id/ppt_phone_remote_relative_connection_pc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/ppt_remote_connectPC_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <ImageView android:id="@id/Remote_connection_title_bar_bottom_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/phone_public_top_shadow" android:scaleType="fitXY" />
+                <RelativeLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/remote_pc_guide_layout" android:paddingLeft="@dimen/ppt_phone_remote_page_tip_pandding_left_right" android:paddingRight="@dimen/ppt_phone_remote_page_tip_pandding_left_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ppt_phone_remote_guide_connection_margin_top" android:paddingStart="@dimen/ppt_phone_remote_page_tip_pandding_left_right" android:paddingEnd="@dimen/ppt_phone_remote_page_tip_pandding_left_right">
+                    <ImageView android:id="@id/remote_pc_picture01" android:layout_width="@dimen/ppt_phone_remote_connetion_pc_width" android:layout_height="@dimen/ppt_phone_remote_connetion_pc_height" android:layout_marginTop="0.0dip" android:src="@drawable/ppt_remote_connection_pc" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+                    <ImageView android:id="@id/remote_phone_pictrue" android:layout_width="@dimen/ppt_phone_remote_connetion_phone_width" android:layout_height="@dimen/ppt_phone_remote_connetion_phone_height" android:layout_marginTop="0.0dip" android:src="@drawable/ppt_remote_connection_phone" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+                    <cn.wps.moffice.common.remotecontrol.WaitingBar android:id="@id/waitingBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="51.0dip" android:layout_toLeftOf="@id/remote_phone_pictrue" android:layout_toRightOf="@id/remote_pc_picture01" android:layout_toStartOf="@id/remote_phone_pictrue" android:layout_toEndOf="@id/remote_pc_picture01" />
+                    <TextView android:textSize="@dimen/ppt_phone_remote_operator_tip_text_size" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ppt_phone_remote_operator_connection_margin_top" android:text="@string/public_shareplay_connection" android:layout_below="@id/remote_phone_pictrue" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <ImageView android:id="@id/ppt_remote_img_shadow_back" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/ppt_remote_player" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/ppt_phone_remote_page_controller_player" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/ppt_phone_remote_relative_player" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/ppt_remote_player_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </RelativeLayout>
+                <ImageView android:id="@id/Remote_player_title_bar_bottom_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/phone_public_top_shadow" android:scaleType="fitXY" android:layout_below="@id/ppt_phone_remote_relative_player" />
+                <ImageButton android:id="@id/ppt_phone_remote_player_imageBtn" android:background="@color/backgroundColor" android:layout_width="@dimen/ppt_phone_remote_player_guide_height" android:layout_height="@dimen/ppt_phone_remote_player_guide_height" android:src="@drawable/public_autoplay_play_drawable" android:layout_centerInParent="true" />
+                <TextView android:textSize="@dimen/ppt_phone_remote_operator_tip_text_size" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ppt_phone_remote_operator_noFile_margin_top" android:text="@string/ppt_remote_operator_player" android:layout_below="@id/ppt_phone_remote_player_imageBtn" android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/ppt_remote_img_shadow_player" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/ppt_remote_scanner_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="top" android:id="@id/ppt_remote_scanner_title_bar" style="@style/ppt_remote_scanner_title_bar_style">
+            <cn.wps.moffice.common.remotecontrol.AlphaImageView android:id="@id/ppt_remote_scanner_title_bar_return" android:src="@drawable/phone_documents_left_arrow" style="@style/phone_public_titlebar_return" />
+            <View android:background="@drawable/qrcode_color_divider" style="@style/phone_public_titlebar_divide_vline" />
+            <TextView android:textSize="@dimen/ppt_phone_remote_scan_title_text_size" android:textColor="@color/descriptionColor" android:gravity="center_vertical" android:id="@id/ppt_remote_scanner_title" android:text="@string/ppt_remote" android:layout_weight="1.0" style="@style/phone_documents_toolbar_title" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/ppt_remote_controller_operator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.remotecontrol.RemoteControllerPageView android:layout_gravity="center_vertical" android:id="@id/ppt_remote_page_controller" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:layout_gravity="start|center" android:id="@id/ppt_remote_page_view_bottom" layout="@layout/ppt_phone_remote_controller_main" />
+            <include android:layout_gravity="start|center" android:id="@id/ppt_remote_page_view_mid" layout="@layout/ppt_phone_remote_controller_main" />
+            <include android:layout_gravity="start|center" android:id="@id/ppt_remote_page_view_top_androidn" layout="@layout/ppt_phone_remote_controller_main_androidn" />
+            <include android:layout_gravity="start|center" android:id="@id/ppt_remote_page_view_top" layout="@layout/ppt_phone_remote_controller_main" />
+            <ImageView android:id="@id/ppt_remote_img_clicker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ppt_remote_touch_circle_black" />
+            <ImageView android:id="@id/ppt_remote_img_move" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ppt_remote_circle" />
+        </cn.wps.moffice.common.remotecontrol.RemoteControllerPageView>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/ppt_remote_operator_title_bar" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/phone_documents_maintoolbar_height">
+                <RelativeLayout android:id="@id/public_remmote_timer_player_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_alignParentLeft="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" android:layout_alignParentStart="true">
+                    <TextView android:textSize="@dimen/ppt_phone_remote_title_text_size" android:textColor="@color/subTextColor" android:id="@id/public_tv_meeting_functionbar_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppt_phone_remote_titlebar_timer_margin_left" android:layout_marginTop="@dimen/ppt_phone_remote_top_pandding" android:layout_marginRight="0.0dip" android:text="00:00" android:layout_alignParentLeft="true" android:layout_marginStart="@dimen/ppt_phone_remote_titlebar_timer_margin_left" android:layout_marginEnd="0.0dip" android:layout_alignParentStart="true" />
+                    <cn.wpsx.support.ui.KImageView android:id="@id/phone_ppt_play_timer_setting" android:layout_width="25.0dip" android:layout_height="@dimen/phone_public_button_titlebar_height" android:src="@drawable/phone_ppt_timer_arrow_down_icon" android:layout_toRightOf="@id/public_tv_meeting_functionbar_timer" android:layout_centerVertical="true" android:layout_toEndOf="@id/public_tv_meeting_functionbar_timer" />
+                </RelativeLayout>
+                <cn.wps.moffice.common.remotecontrol.AlphaImageView android:id="@id/ppt_phone_remote_titlebar_disconnect_btn" android:background="@drawable/phone_public_exitplay" android:paddingLeft="@dimen/phone_public_button_titlebar_padding" android:paddingRight="@dimen/phone_public_button_titlebar_padding" android:layout_width="@dimen/phone_public_button_titlebar_height" android:layout_height="@dimen/phone_public_button_titlebar_height" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/ppt_phone_remote_top_quit_margin" android:layout_marginRight="@dimen/ppt_phone_remote_disconnect_btn_margin_right" android:minWidth="@dimen/phone_public_button_titlebar_height" android:layout_alignParentRight="true" android:paddingStart="@dimen/phone_public_button_titlebar_padding" android:paddingEnd="@dimen/phone_public_button_titlebar_padding" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/ppt_phone_remote_disconnect_btn_margin_right" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <ImageView android:id="@id/Remote_main_title_bar_bottom_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginBottom="0.0dip" android:src="@drawable/phone_public_top_shadow" android:scaleType="fitXY" android:layout_below="@id/ppt_remote_operator_title_bar" />
+            <LinearLayout android:id="@id/public_remote_timer_player" android:background="@drawable/phone_public_pop_track" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="0.0dip" android:layout_below="@id/ppt_remote_operator_title_bar" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" android:layout_marginEnd="0.0dip">
+                <include android:layout_gravity="center" android:id="@id/ppt_remote_page_view_bottom" layout="@layout/ppt_play_timer_dropbox_layout" />
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

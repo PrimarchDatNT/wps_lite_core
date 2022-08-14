@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/container_view" android:background="@drawable/public_home_app_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginBottom="8.0dip">
+        <ImageView android:id="@id/img" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="23.0dip" android:layout_marginTop="31.0dip" android:layout_marginBottom="31.0dip" android:src="@drawable/pad_pub_app_classify_all" android:layout_marginStart="23.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="13.0dip" android:text="test" android:layout_marginStart="13.0dip" />
+    </cn.wps.moffice.common.beans.RippleAlphaLinearLayout>
+</FrameLayout>

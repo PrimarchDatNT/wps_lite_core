@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 西班牙语（现代） -->
+<resource>
+    <inner type="string-array" size="">
+		<item>dd/mm/yyyy</item>
+		<item>[$-F800]dddd\,\ mmmm\ dd\,\ yyyy</item>
+		<item>d\-m;@</item>
+		<item>d\-m\-yy;@</item>
+		<item>dd\-mm\-yy;@</item>
+		<item>[$-C0A]d\-mmm;@</item>
+		<item>[$-C0A]d\-mmm\-yy;@</item>
+		<item>[$-C0A]dd\-mmm\-yy;@</item>
+		<item>[$-C0A]mmm\-yy;@</item>
+		<item>[$-C0A]mmmm\-yy;@</item>
+		<item>[$-C0A]d\ "de" mmmm\ "de"\ yyyy;@</item>
+		<item>[$-409]d\-m\-yy\ h:mm\ AM/PM;@</item>
+		<item>d\-m\-yy\ h:mm;@</item>	
+		<item>[$-C0A]mmmmm;@</item>	
+		<item>[$-C0A]mmmmm\-yy;@</item>	
+		<item>d\-m\-yyyy;@</item>	
+		<item>[$-C0A]d\-mmm\-yyyy;@</item>	
+	</inner>
+</resource>

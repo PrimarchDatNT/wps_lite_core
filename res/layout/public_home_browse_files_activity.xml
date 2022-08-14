@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/event_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/browse_files_recyclerview" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

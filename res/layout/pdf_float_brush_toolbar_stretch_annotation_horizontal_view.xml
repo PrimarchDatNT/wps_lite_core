@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.pad.BrushToolbarView android:gravity="center" android:orientation="horizontal" android:id="@id/pdf_paint_tool_stretch_view" android:background="@drawable/pdf_float_brush_toolbar_background" android:layout_width="wrap_content" android:layout_height="48.0dip" android:elevation="4.0dip" app:shrink_size="48.0dip" app:stretch_size="278.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="24.0dip" android:layout_height="24.0dip" />
+    <cn.wps.moffice.pdf.shell.toolbar.pad.ColorPenRippleImageView android:id="@id/pdf_main_float_paint_tool_bar_pen_one" android:src="@drawable/pad_comp_style_pen_no_color" app:is_pen="true" style="@style/pdf_brush_toolbar_icon_stretch_img" />
+    <cn.wps.moffice.pdf.shell.toolbar.pad.ColorPenRippleImageView android:id="@id/pdf_main_topbar_highlight_pen_one" android:src="@drawable/pad_comp_style_highlighter_no_color" style="@style/pdf_brush_toolbar_icon_stretch_img" />
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/pdf_main_topbar_eraser" android:src="@drawable/pad_comp_style_eraser_color" style="@style/pdf_brush_toolbar_icon_stretch_img" />
+    <View android:tag="divider" style="@style/pdf_pad_edit_topbar_stretch_divider" />
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/pdf_main_topbar_circle_select" android:src="@drawable/pad_comp_pdf_mark_select_by_circle" style="@style/pdf_brush_toolbar_icon_stretch_img" />
+    <View android:tag="divider" style="@style/pdf_pad_edit_topbar_stretch_divider" />
+    <View android:layout_width="10.0dip" android:layout_height="10.0dip" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pdf_main_topbar_recognition_type_anchor" android:background="@drawable/public_toolbar_grid_item_selector" android:layout_width="40.0dip" android:layout_height="40.0dip">
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/pdf_icon_main_topbar_recognition_type_anchor" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/pad_comp_common_brush_pdf" />
+        <View android:layout_width="6.0dip" android:layout_height="6.0dip" />
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/pdf_main_topbar_recognition_type_arrow" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/pad_comp_common_arrow_down" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pdf_main_topbar_annotation_setting" android:background="@drawable/public_toolbar_grid_item_selector" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip">
+        <View android:layout_width="10.0dip" android:layout_height="10.0dip" />
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/pdf_icon_main_topbar_annotation_setting" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/comp_common_setting" />
+        <View android:layout_width="6.0dip" android:layout_height="6.0dip" />
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/pdf_brush_tool_annotation_setting_arrow" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/pad_comp_common_arrow_down" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View android:layout_width="24.0dip" android:layout_height="24.0dip" />
+</cn.wps.moffice.common.beans.pad.BrushToolbarView>

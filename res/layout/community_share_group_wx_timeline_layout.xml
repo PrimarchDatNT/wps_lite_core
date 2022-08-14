@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="328.0dip" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="186.0dip">
+            <ImageView android:id="@id/iv_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <cn.wps.moffice.common.beans.CircleImageView android:id="@id/iv_avatar" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="30.0dip" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/whiteMainTextColor" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="20.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/iv_avatar" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/whiteMainTextColor" android:id="@id/tv_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/tv_title" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <TextView android:textSize="14.0dip" android:textColor="@color/public_title_bar_text_gray_color" android:ellipsize="end" android:id="@id/tv_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="20.0dip" android:maxLines="5" android:lineSpacingExtra="1.5999756dip" android:lineSpacingMultiplier="1.2" />
+        <View android:id="@id/divider" android:background="@color/devide_color" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="20.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_qrcode" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="fitCenter" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="82.0dip" android:layout_marginLeft="14.0dip" android:layout_toRightOf="@id/iv_qrcode">
+                <TextView android:textSize="12.0dip" android:textColor="@color/public_title_bar_text_gray_color" android:id="@id/tv_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/community_share_from_group" android:singleLine="true" android:includeFontPadding="false" />
+                <TextView android:textSize="11.0dip" android:textColor="#ff9b9b9b" android:id="@id/tv_press_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/community_long_press_to_mini_program" android:singleLine="true" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

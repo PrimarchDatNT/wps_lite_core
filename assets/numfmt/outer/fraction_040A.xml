@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 欧洲西语（西班牙西班牙语（传统）） -->
+<resource>
+    <outer type="string-array" size="">
+		<item>Hasta un dígito (1/4)</item>
+		<item>Hasta dos dígitos (21/25)</item>
+		<item>Hasta tres dígitos (312/943)</item>
+		<item>Como medios (1/2)</item>
+		<item>Como cuartos (2/4)</item>
+		<item>Como octavos (4/8)</item>
+		<item>Como dieciseisavos (8/16)</item>
+		<item>Como décimas (3/10)</item>
+		<item>Como centésimas (30/100)</item>
+	</outer>
+</resource>

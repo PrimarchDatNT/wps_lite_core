@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/phone_public_list_selector" style="@style/phone_public_dialog_list_item_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/checkbox_radio_btn" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/phone_public_dialog_content_list_item_margin" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/phone_public_dialog_content_list_item_margin" style="@style/public_radio_button_base" />
+    <TextView android:id="@id/checkbox_text" android:text="@string/documentmanager_sort_filetime" style="@style/phone_public_dialog_list_item_imagetext" />
+</LinearLayout>

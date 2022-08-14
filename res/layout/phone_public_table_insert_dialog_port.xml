@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarThumbVertical="@color/progressTrackColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:id="@id/phone_table_insert_preview_group_anchor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="27.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="27.0dip" android:layout_marginStart="27.0dip" android:layout_marginEnd="27.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/phone_table_insert_styles_group_anchor" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</ScrollView>

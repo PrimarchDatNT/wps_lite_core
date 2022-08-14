@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tab_btn_group" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.NavigationBarBtn android:id="@id/tab_btn_left" style="@style/public_navigationbarlr_btn" />
+    <View android:id="@id/tab_divider" style="@style/public_navigationbarlr_divider" />
+    <cn.wps.moffice.common.beans.NavigationBarBtn android:id="@id/tab_btn_right" style="@style/public_navigationbarlr_btn" />
+</LinearLayout>

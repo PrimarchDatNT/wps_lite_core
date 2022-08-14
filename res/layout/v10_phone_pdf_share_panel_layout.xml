@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/pdf_bottom_tool_quick_show_titlebar" />
+    <ScrollView android:id="@id/shard_send_scroll" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:id="@id/shard_send_linear" android:paddingBottom="@dimen/v10_phone_public_paneltab_indicator_height" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/v10_phone_pdf_share_as" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/layout_link_share_item_common_view" />
+            </LinearLayout>
+            <ViewStub android:id="@id/oversea_anti_counterfeit" android:layout="@layout/layout_pdf_share_anti_counterfeit" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View android:id="@id/v10_phone_pdf_share_as_divider" style="@style/v10_phone_public_panel_boldline_view" />
+            <LinearLayout android:orientation="vertical" android:id="@id/oversea_class_room_entrance" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.wps.moffice.main.classroom.HomeworkEntranceView android:id="@id/entrance_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View style="@style/v10_phone_public_panel_divide_view" />
+            </LinearLayout>
+            <TextView android:textSize="11.0dip" android:textColor="@color/descriptionColor" android:id="@id/share_more_tag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="5.0dip" android:text="@string/public_share_more" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/share_file_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

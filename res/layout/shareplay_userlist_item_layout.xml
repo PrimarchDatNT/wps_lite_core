@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:id="@id/shareplay_agora_online" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginLeft="12.0dip" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" />
+        <cn.wps.moffice.common.beans.CircleImageView android:id="@id/shareplay_agora_user_img" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="22.0dip" android:layout_centerVertical="true" android:layout_marginStart="22.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:ellipsize="middle" android:id="@id/shareplay_agora_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="16.0dip" android:singleLine="true" android:layout_toLeftOf="@id/shareplay_agora_user_role" android:layout_toRightOf="@id/shareplay_agora_user_img" android:layout_centerVertical="true" android:layout_marginStart="14.0dip" android:layout_marginEnd="16.0dip" android:layout_toStartOf="@id/shareplay_agora_user_role" android:layout_toEndOf="@id/shareplay_agora_user_img" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/shareplay_agora_user_role" android:background="@drawable/shareplay_user_role_me_bg" android:layout_width="45.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="60.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="60.0dip" />
+    </RelativeLayout>
+</RelativeLayout>

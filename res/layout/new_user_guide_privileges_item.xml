@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/mainTextColor" android:gravity="center_vertical" android:id="@id/pdf_privileges_name_img" android:paddingLeft="9.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="2" android:layout_weight="1.0" android:paddingStart="9.0dip" app:autoSizeMaxTextSize="12.0sp" app:autoSizeMinTextSize="10.0sp" app:autoSizeTextType="uniform" />
+    <ImageView android:id="@id/pdf_privileges_basic_img" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_weight="1.0" />
+    <ImageView android:id="@id/pdf_privileges_premium_img" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_weight="1.0" />
+</LinearLayout>

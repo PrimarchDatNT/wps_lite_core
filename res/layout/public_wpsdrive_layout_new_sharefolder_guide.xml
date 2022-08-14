@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center" android:id="@id/card_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.cardview.CardView android:layout_gravity="center" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="395.66406dip" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip" custom:cardCornerRadius="12.0dip" custom:cardElevation="@dimen/phone_public_dialog_shadow_elevation" custom:cardPreventCornerOverlap="true" custom:cardUseCompatPadding="true">
+                <RelativeLayout android:paddingTop="72.66998dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/share_folder_guide_pic" android:layout_width="201.0dip" android:layout_height="110.0dip" android:src="@drawable/pub_sharefolder_pic_sent_to_group_webp" />
+                        <TextView android:textSize="18.0dip" android:textColor="@color/mainTextColor" android:id="@id/share_folder_guide_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.669983dip" android:text="@string/public_send_to_group_chat" />
+                        <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/share_folder_guide_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.3299866dip" android:text="@string/public_share_folder_description_v1" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="48.669983dip" android:layout_alignParentBottom="true">
+                        <cn.wps.moffice.common.beans.CircleImageView android:id="@id/public_wpsdrive_share_folder_invite_avatar" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+                        <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/public_wpsdrive_share_folder_invite_member_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.669983dip" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </cn.wps.moffice.common.beans.cardview.CardView>
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="151.0dip">
+            <View android:id="@id/inner_separator" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <include android:id="@id/public_wpsdrive_new_folder_bottom_layout" android:layout_width="fill_parent" android:layout_height="151.0dip" layout="@layout/layout_wpsdrive_new_sharefolder_guide_bottom" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

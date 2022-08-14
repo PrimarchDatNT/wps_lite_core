@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.spreadsheet.control.EtTitleBar android:id="@id/et_chart_quicklayout_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.common.chart.quicklayout.QuickLayoutGridView android:id="@id/et_chart_quicklayout_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

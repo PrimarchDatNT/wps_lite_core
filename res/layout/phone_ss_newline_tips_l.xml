@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="56.0dip" android:layout_height="56.0dip">
+        <ImageView android:background="@drawable/phone_ss_newline_tip_bg_l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </LinearLayout>
+</LinearLayout>

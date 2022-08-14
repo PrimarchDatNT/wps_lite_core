@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/secondBackgroundColor" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:orientation="horizontal" android:id="@id/filter_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/rl_down_num_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0dip" android:textColor="@color/home_template_text_color" android:id="@id/down_num_text" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="5.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center" android:id="@id/rl_filter_hot" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0dip" android:textColor="@color/home_template_text_color" android:id="@id/filter_hot_text" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="5.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center" android:id="@id/rl_filter_new" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0dip" android:textColor="@color/home_template_text_color" android:id="@id/filter_new_text" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="5.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center|right" android:id="@id/rl_filter_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="14.0dip" android:textColor="@color/home_template_text_color" android:id="@id/filter_text" android:paddingTop="10.0dip" android:paddingRight="5.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/template_filter" android:drawablePadding="5.0dip" android:layout_centerInParent="true" />
+                <ImageView android:id="@id/iv_filer_text" android:paddingBottom="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/public_search_filter" android:layout_toRightOf="@id/filter_text" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <View android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <cn.wps.moffice.templatecommon.ext.widget.GridListView android:id="@id/main_content_gridview" android:paddingBottom="14.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:overScrollMode="never" />
+                </RelativeLayout>
+                <cn.wps.moffice.docer.store.view.TemplateTextLinkView android:id="@id/tl_bottom_toolbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:background="#ffd0d0d0" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <FrameLayout android:id="@id/internal_template_membership" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <cn.wps.moffice.common.beans.phone.RoundRectLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/membership_docer_vip_content" android:background="@color/value_add_guide_orange" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" app:round_rect_radius="@dimen/home_template_item_round_radius">
+                        <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/internal_template_introduce_docer_vip" />
+                        <TextView android:textSize="@dimen/home_template_banner_text_size" android:textColor="@color/whiteMainTextColor" android:ellipsize="end" android:id="@id/purchase_desc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/public_membership_docer_vip_introduce" android:maxLines="1" android:layout_marginStart="6.0dip" />
+                    </cn.wps.moffice.common.beans.phone.RoundRectLinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/template_use" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                        <cn.wps.moffice.common.beans.AutoAdjustButton android:id="@id/month_card_btn" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" MaxLine="1" style="@style/phone_public_buttonStyle_orange_noradius" />
+                        <cn.wps.moffice.common.beans.AutoAdjustButton android:textColor="@drawable/phone_public_template_open_docer_text_color" android:id="@id/apply_template_card_btn" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" MaxLine="1" style="@style/phone_public_buttonStyle_white_noradius" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <cn.wps.moffice.docer.widget.DocerCommonErrorPage android:id="@id/error_page" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <RelativeLayout android:id="@id/main_loading_default" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/listview_loading_view" />
+            </RelativeLayout>
+            <View android:layout_width="fill_parent" android:layout_height="2.0dip" style="@style/phone_home_top_shadow" />
+        </FrameLayout>
+    </LinearLayout>
+    <cn.wps.moffice.presentation.control.layout.summary.widget.TemplateFloatPreviewPager android:id="@id/float_preview_pager" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

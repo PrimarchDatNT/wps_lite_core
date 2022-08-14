@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/et_autosum_dialog_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.spreadsheet.control.common.CustomScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:id="@id/et_autosum_dialog_scrollview" android:scrollbars="vertical" android:layout_width="120.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/et_autosum_dialog_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/public_toolbar_popupwindow_justtext_min_width">
+            <Button android:id="@id/et_autosum_button_sum" android:text="@string/et_toolbar_autosum_sum" style="@style/public_toolbar_popupwindow_btn" />
+            <ImageView style="@style/et_toolbar_popupwindow_btn_spliter" />
+            <Button android:id="@id/et_autosum_button_average" android:text="@string/et_toolbar_autosum_average" style="@style/public_toolbar_popupwindow_btn" />
+            <ImageView style="@style/et_toolbar_popupwindow_btn_spliter" />
+            <Button android:id="@id/et_autosum_button_count" android:text="@string/et_toolbar_autosum_count" style="@style/public_toolbar_popupwindow_btn" />
+            <ImageView style="@style/et_toolbar_popupwindow_btn_spliter" />
+            <Button android:id="@id/et_autosum_button_max" android:text="@string/et_toolbar_autosum_max" style="@style/public_toolbar_popupwindow_btn" />
+            <ImageView style="@style/et_toolbar_popupwindow_btn_spliter" />
+            <Button android:id="@id/et_autosum_button_min" android:text="@string/et_toolbar_autosum_min" style="@style/public_toolbar_popupwindow_btn" />
+            <ImageView style="@style/et_toolbar_popupwindow_btn_spliter" />
+            <Button android:id="@id/et_autosum_button_morefunc" android:text="@string/et_toolbar_autosum_morefunc" style="@style/public_toolbar_popupwindow_btn" />
+        </LinearLayout>
+    </cn.wps.moffice.spreadsheet.control.common.CustomScrollView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.cardview.CardView android:id="@id/card_content" android:layout_width="@dimen/comp_cloud_titlebar_save_panel_width" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" app:cardCornerRadius="4.0dip" app:contentPadding="0.0dip">
+        <cn.wps.moffice.common.saveicongroup.statuspanel.SavePopBannerStViewGroup android:layout_gravity="center_horizontal" android:id="@id/save_popstviewgroup" android:layout_width="@dimen/comp_cloud_titlebar_save_panel_width" android:layout_height="wrap_content" />
+    </cn.wps.moffice.common.beans.cardview.CardView>
+</FrameLayout>

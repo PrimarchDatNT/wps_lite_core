@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center_horizontal" android:id="@id/textimage_imageview" android:layout_width="@dimen/v10_phone_public_textimageview_icon_size" android:layout_height="@dimen/v10_phone_public_textimageview_icon_size" android:src="@drawable/comp_common_shear" android:scaleType="fitCenter" />
+    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="11.0dip" android:textColor="@color/mainTextColor" android:gravity="center_horizontal" android:id="@id/textimage_textview" android:paddingTop="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/phone_public_text_image_text_width" android:text="@string/public_cut" MaxLine="2" />
+</LinearLayout>

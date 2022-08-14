@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/scf_bottom_bar_layout" android:background="@color/phone_public_list_press_color_noalpha" android:layout_width="fill_parent" android:layout_height="49.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="top" style="@style/phone_documents_title_split_line" />
+    <LinearLayout android:gravity="center" android:id="@id/scf_bottom_bar_delete_mode_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.phone.SelectorAlphaViewGroup android:gravity="center" android:id="@id/scf_delete_several" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/img_delete" android:background="@android:color/transparent" android:src="@drawable/phone_documents_filebrowser_delete" style="@style/phone_public_bottom_item" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/mainColor" android:id="@id/scf_delete_text" android:background="@android:color/transparent" android:paddingLeft="15.0dip" android:paddingRight="0.0dip" android:clickable="false" android:layout_width="wrap_content" android:paddingStart="15.0dip" android:paddingEnd="0.0dip" style="@style/phone_public_bottom_item" />
+            </LinearLayout>
+        </cn.wps.moffice.common.beans.phone.SelectorAlphaViewGroup>
+    </LinearLayout>
+</FrameLayout>

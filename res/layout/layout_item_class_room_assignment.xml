@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.RoundRectImageView android:id="@id/iv_student_avatar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/dimen_16dp" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_15dp" android:layout_marginRight="33.0dip" android:layout_toLeftOf="@id/rightContainer" android:layout_toRightOf="@id/iv_student_avatar" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen_15dp" android:layout_marginEnd="33.0dip" android:layout_toStartOf="@id/rightContainer" android:layout_toEndOf="@id/iv_student_avatar">
+        <TextView android:textSize="@dimen/dimen_15sp" android:textColor="@color/mainTextColor" android:ellipsize="end" android:id="@id/tv_student_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/descriptionColor" android:id="@id/tv_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_3dp" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/rightContainer" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+        <TextView android:textSize="11.0sp" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="end|center" android:id="@id/tv_to_correct" android:background="@drawable/background_class_room_correct_button" android:visibility="visible" android:layout_width="65.0dip" android:layout_height="28.0dip" android:layout_marginRight="@dimen/dimen_16dp" android:text="@string/class_correct" android:layout_marginEnd="@dimen/dimen_16dp" />
+        <FrameLayout android:id="@id/fl_corrected_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+            <TextView android:textSize="11.0sp" android:textColor="#ffea5035" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/tv_score" android:layout_width="72.0dip" android:layout_height="28.0dip" android:layout_marginRight="@dimen/dimen_16dp" android:layout_marginEnd="@dimen/dimen_16dp" />
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center|right|top" android:layout_width="@dimen/dimen_20dp" android:layout_height="@dimen/dimen_20dp" android:src="@drawable/class_room_corrected" />
+        </FrameLayout>
+    </FrameLayout>
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="@dimen/dimen_10dp" android:layout_toRightOf="@id/iv_student_avatar" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dimen_10dp" android:layout_toEndOf="@id/iv_student_avatar" />
+</RelativeLayout>

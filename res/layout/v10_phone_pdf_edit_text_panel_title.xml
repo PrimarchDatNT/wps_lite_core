@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center_vertical" android:id="@id/pdf_edit_text_float_font_increase" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/comp_style_size_add" android:layout_weight="1.0" style="@style/public_image_bg_style" />
+    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center_vertical" android:id="@id/pdf_edit_text_float_font_decrease" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/comp_style_size_minus" android:layout_weight="1.0" style="@style/public_image_bg_style" />
+    <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/pdf_edit_text_float_font_bold" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+        <cn.wps.moffice.common.beans.ColorFilterImageButton android:layout_gravity="center" android:clickable="false" android:src="@drawable/comp_style_font_bold" app:image_selector_color="@drawable/v10_phone_public_textimageview_pdf_selector" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_font_panel_imageitem_style" />
+    </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+    <cn.wps.moffice.common.beans.CheckMarkView android:layout_gravity="center" android:id="@id/pdf_edit_text_float_font_color" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:diameter="20.0dip" app:mainColor="@color/black" />
+</LinearLayout>

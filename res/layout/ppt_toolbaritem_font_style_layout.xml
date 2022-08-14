@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/ppt_edittoolbar_fontNameBtn" android:layout_width="wrap_content" android:layout_height="@dimen/pad_second_toolbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.fontname.FontTitleView android:id="@id/ppt_edittoolbar_fontName_img" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/pad_second_toolbar_height" android:minWidth="116.0dip" />
+</LinearLayout>

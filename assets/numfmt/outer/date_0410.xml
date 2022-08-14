@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 意大利语（意大利） -->
+<resource>
+    <inner type="string-array" size="">
+		<item>dd/mm/yyyy</item>
+		<item>[$-F800]dddd\,\ mmmm\ dd\,\ yyyy</item>
+		<item>d/m;@</item>
+		<item>d/m/yy;@</item>
+		<item>dd/mm/yy;@</item>
+		<item>[$-410]d\-mmm;@</item>
+		<item>[$-410]d\-mmm\-yy;@</item>
+		<item>[$-410]dd\-mmm\-yy;@</item>
+		<item>[$-410]mmm\-yy;@</item>
+		<item>[$-410]mmmm\-yy;@</item>
+		<item>[$-410]d\ mmmm\ yyyy;@</item>
+		<item>[$-409]d/m/yy\ h\.mm\ AM/PM;@</item>
+		<item>d/m/yy\ h\.mm;@</item>
+		<item>[$-410]mmmmm;@</item>
+		<item>[$-410]mmmmm\-yy;@</item>
+		<item>d/m/yyyy;@</item>
+		<item>[$-410]d\-mmm\-yyyy;@</item>    
+	</inner>
+</resource>

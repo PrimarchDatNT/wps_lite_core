@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/descriptionColor" android:gravity="center_vertical" android:id="@id/slim_result_count_tv" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="18.0dip" android:text="@string/public_file_size_result_title" android:layout_marginStart="18.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/slim_result_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

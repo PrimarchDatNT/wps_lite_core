@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/home_user_layout" android:tag="layout/home_user_fragment_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.CircleImageView android:id="@id/user_avatar" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="18.0dip" android:scaleType="centerCrop" android:layout_marginStart="16.0dip" app:border_color="@color/buttonCommonWhiteVipColor" app:border_width="1.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="14.0dip">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0dip" android:id="@id/user_name" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_vip_svip_48px" android:layout_marginStart="2.0dip" />
+                <ImageView android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_vip_wps_member_48px" android:layout_marginStart="2.0dip" />
+                <ImageView android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
+                <ImageView android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="12.0dip" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+        </LinearLayout>
+        <Button android:textSize="13.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/user_upgrade" android:tag="binding_7" android:layout_width="79.0dip" android:layout_height="31.0dip" android:layout_marginEnd="16.0dip" />
+        <ImageView android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:layout_marginEnd="8.0dip" />
+    </LinearLayout>
+    <GridView android:id="@id/user_property" android:tag="binding_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+    <View android:tag="binding_10" android:background="#15000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/user_bottom" android:tag="binding_11" android:layout_width="fill_parent" android:layout_height="37.0dip">
+        <TextView android:textStyle="bold" android:tag="binding_12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" />
+        <TextView android:textSize="13.0dip" android:tag="binding_13" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="6.0dip" android:layout_marginEnd="8.0dip" />
+        <cn.wps.moffice.main.user.card.recommend.RecommendTextSwitcher android:id="@id/textSwitcher" android:tag="binding_14" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="6.0dip" android:layout_marginEnd="8.0dip" />
+        <Button android:textSize="12.0dip" android:textStyle="bold" android:id="@id/user_detail" android:tag="binding_15" android:layout_width="wrap_content" android:layout_height="23.0dip" android:minWidth="66.0dip" android:singleLine="true" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

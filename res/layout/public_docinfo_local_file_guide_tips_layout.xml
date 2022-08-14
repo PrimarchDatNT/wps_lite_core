@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="148.0dip" android:layout_height="122.0dip" style="@style/public_docinfo_local_file_popupwindow_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/public_document_wait_sync" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="17.0dip" android:layout_marginTop="10.0dip">
+        <cn.wpsx.support.ui.KCircleImageView style="@style/public_docinfo_popupwindow_tip_style" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/home_wpsdrive_guide_tips_first_point" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="17.0dip" android:layout_marginTop="5.0dip">
+        <cn.wpsx.support.ui.KCircleImageView style="@style/public_docinfo_popupwindow_tip_style" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/home_wpsdrive_guide_tips_second_point" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="17.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="16.0dip">
+        <cn.wpsx.support.ui.KCircleImageView style="@style/public_docinfo_popupwindow_tip_style" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/home_wpsdrive_guide_tips_third_point" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</LinearLayout>

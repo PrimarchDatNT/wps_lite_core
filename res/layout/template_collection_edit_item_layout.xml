@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/edit_item_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.foreigntemplate.newfile.fragment.view.WhRationLineLayout android:id="@id/top_area" android:layout_width="fill_parent" android:layout_height="fill_parent" app:wh_ration="16:9">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+                <cn.wps.moffice.common.beans.ForeignRoundRectImageView android:id="@id/item_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:id="@id/check_iv" android:visibility="visible" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:src="@drawable/template_edit_checked" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="6.0dip" android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </cn.wps.moffice.foreigntemplate.newfile.fragment.view.WhRationLineLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="34.0dip" android:layout_below="@id/top_area">
+        <ImageView android:id="@id/item_type_icon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:scaleType="fitCenter" />
+        <TextView android:textSize="12.0dip" android:textColor="#ff999999" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:singleLine="true" />
+    </LinearLayout>
+    <View android:id="@id/shadw_view" android:background="#7fcccccc" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

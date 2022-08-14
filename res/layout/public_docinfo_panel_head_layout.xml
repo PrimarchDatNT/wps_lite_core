@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/public_doinfo_logo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/public_docinfo_panel_logo" />
+    <View android:id="@id/public_doinfo_logo_separator" android:background="@color/secondBoldLineColor" android:visibility="gone" android:layout_width="1.0px" android:layout_height="36.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:alpha="0.0" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/mainTextColor" android:id="@id/public_docinfo_doc_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="0.0dip" style="@style/phone_public_font_l_black.noScale" />
+        <TextView android:textColor="@color/descriptionColor" android:id="@id/public_docinfo_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginEnd="@dimen/phone_public_dialog_docinfo_padding_left" style="@style/phone_public_font_s_gray.noScale" />
+    </LinearLayout>
+</LinearLayout>

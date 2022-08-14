@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.pathgallery.PathGallery android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/path_gallery" android:background="@color/secondBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/home_open_path_gallery_height" Type="6"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.pathgallery.BouncyHorizontalScrollView android:gravity="start" android:id="@id/path_scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_keyboard_mouse_no_background_style">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </cn.wps.moffice.common.beans.phone.pathgallery.BouncyHorizontalScrollView>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/first_path" android:paddingLeft="@dimen/home_open_path_gallery_padding_left" android:paddingRight="0.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/home_open_path_gallery_padding_left" android:paddingEnd="0.0dip" style="@style/public_image_bg_style_focusable">
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/first_path_image" android:visibility="visible" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="@dimen/home_open_path_gallery_item_padding" android:src="@drawable/wps_drive_root_path" android:layout_marginEnd="@dimen/home_open_path_gallery_item_padding" />
+            <TextView android:ellipsize="middle" android:id="@id/first_path_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/home_open_path_gallery_item_padding" android:maxWidth="70.0dip" android:singleLine="true" android:layout_marginEnd="@dimen/home_open_path_gallery_item_padding" style="@style/home_open_path_gallery_txt_style" />
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/path_image" style="@style/home_open_path_gallery_arrow_style" />
+        </LinearLayout>
+    </FrameLayout>
+    <View android:layout_gravity="bottom" android:id="@id/wps_drive_path_gallary_div_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginRight="0.0dip" android:layout_marginEnd="0.0dip" />
+</cn.wps.moffice.common.beans.phone.pathgallery.PathGallery>

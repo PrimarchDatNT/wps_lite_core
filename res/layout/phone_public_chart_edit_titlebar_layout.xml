@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/v10_phone_public_titlebar_height">
+        <cn.wps.moffice.common.beans.phone.AlphaButton android:textColor="@color/mainTextColor" android:layout_gravity="bottom" android:id="@id/public_chart_edit_titlebar_cancel" android:background="@null" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="0.0dip" android:minHeight="0.0dip" android:text="@string/public_cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_alignParentStart="true" style="@style/v10_phone_public_titlebar_cancel" />
+        <cn.wps.moffice.common.beans.phone.AlphaButton android:textColor="@color/mainTextColor" android:layout_gravity="bottom" android:id="@id/public_chart_edit_titlebar_ok" android:background="@null" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="0.0dip" android:minHeight="0.0dip" android:text="@string/public_ok" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_alignParentEnd="true" style="@style/v10_phone_public_titlebar_ok" />
+        <View android:id="@id/title_bar_edge_view" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

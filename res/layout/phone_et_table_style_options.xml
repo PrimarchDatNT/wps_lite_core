@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/et_table_fill_first_row" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/et_table_fill_first_row_checkbox" android:layout_width="26.0dip" android:layout_height="26.0dip" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="0.0dip" android:text="@string/public_table_fill_first_row" android:layout_marginStart="2.0dip" android:layout_marginEnd="0.0dip" MaxLine="1" style="@style/phone_public_font_m_black" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/et_table_fill_last_row" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/et_table_fill_last_row_checkbox" android:layout_width="26.0dip" android:layout_height="26.0dip" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="0.0dip" android:text="@string/public_table_fill_last_row" android:layout_marginStart="2.0dip" android:layout_marginEnd="0.0dip" MaxLine="1" style="@style/phone_public_font_m_black" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/et_table_fill_inter_row" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/et_table_fill_inter_row_checkbox" android:layout_width="26.0dip" android:layout_height="26.0dip" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="0.0dip" android:text="@string/public_table_fill_inter_row" android:layout_marginStart="2.0dip" android:layout_marginEnd="0.0dip" MaxLine="1" style="@style/phone_public_font_m_black" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/et_table_fill_first_column" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/et_table_fill_first_column_checkbox" android:layout_width="26.0dip" android:layout_height="26.0dip" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="0.0dip" android:text="@string/public_table_fill_first_column" android:layout_marginStart="2.0dip" android:layout_marginEnd="0.0dip" MaxLine="1" style="@style/phone_public_font_m_black" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/et_table_fill_last_column" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/et_table_fill_last_column_checkbox" android:layout_width="26.0dip" android:layout_height="26.0dip" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="0.0dip" android:text="@string/public_table_fill_last_column" android:layout_marginStart="2.0dip" android:layout_marginEnd="0.0dip" MaxLine="1" style="@style/phone_public_font_m_black" />
+    </LinearLayout>
+    <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/et_table_fill_inter_column" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:id="@id/et_table_fill_inter_column_checkbox" android:layout_width="26.0dip" android:layout_height="26.0dip" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="0.0dip" android:text="@string/public_table_fill_inter_column" android:layout_marginStart="2.0dip" android:layout_marginEnd="0.0dip" MaxLine="1" style="@style/phone_public_font_m_black" />
+    </LinearLayout>
+</TableRow>

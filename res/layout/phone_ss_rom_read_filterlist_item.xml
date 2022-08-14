@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/mi_filter_item_text_size" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/filter_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="16.669983dip" android:layout_marginBottom="16.0dip" android:maxLines="2" android:layout_toLeftOf="@id/filter_check_state" android:layout_marginStart="30.0dip" android:layout_marginEnd="16.669983dip" android:layout_toStartOf="@id/filter_check_state" />
+    <ImageView android:id="@id/filter_check_state" android:layout_width="26.329987dip" android:layout_height="26.329987dip" android:layout_marginRight="33.329987dip" android:src="@drawable/romread_checkbox_off" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="33.329987dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

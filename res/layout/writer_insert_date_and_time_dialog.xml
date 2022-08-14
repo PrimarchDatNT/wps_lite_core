@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/writer_insert_date_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/public_keyboard_mouse_no_background_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow>
+                <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/writer_domain_language_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/phone_public_item_height_small" android:text="@string/writer_domain_datetime_lanuage" style="@style/phone_public_font_m_black" />
+                <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <cn.wps.moffice.common.beans.NewSpinner android:textSize="16.0dip" android:id="@id/writer_domain_language_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+            </TableRow>
+            <TableRow android:layout_marginTop="18.0dip">
+                <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/writer_domain_format_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/phone_public_item_height_small" android:text="@string/writer_domain_datetime_format" style="@style/phone_public_font_m_black" />
+                <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <cn.wps.moffice.common.beans.NewSpinner android:textSize="16.0dip" android:id="@id/writer_domain_format_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+        <cn.wps.moffice.common.beans.CustomCheckBox android:id="@id/writer_domain_auto_update" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" app:text="@string/writer_domain_datetime_auto_upgate" />
+    </LinearLayout>
+</ScrollView>

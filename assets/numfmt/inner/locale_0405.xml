@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 捷克语 -->
+<resouce>
+<thous-separator type="string"> </thous-separator>
+<decimal-point type="string">,</decimal-point>
+<general type="string">Vęeobecný</general>
+<color-name type="string-array" size="9">
+<item>Černá</item>
+<item>Modrá</item>
+<item>Azurová</item>
+<item>Zelená</item>
+<item>Purpurová</item>
+<item>Červená</item>
+<item>Bílá</item>
+<item>Žlutá</item>
+<item>Barva</item>
+</color-name>
+<long-week type="string-array" size="7">
+<item>neděle</item>
+<item>pondělí</item>
+<item>úterý</item>
+<item>středa</item>
+<item>čtvrtek</item>
+<item>pátek</item>
+<item>sobota</item>
+</long-week>
+<short-week type="string-array" size="7">
+<item>ne</item>
+<item>po</item>
+<item>út</item>
+<item>st</item>
+<item>čt</item>
+<item>pá</item>
+<item>so</item>
+</short-week>
+<long-month type="string-array" size="12">
+<item>leden</item>
+<item>únor</item>
+<item>březen</item>
+<item>duben</item>
+<item>květen</item>
+<item>červen</item>
+<item>červenec</item>
+<item>srpen</item>
+<item>září</item>
+<item>říjen</item>
+<item>listopad</item>
+<item>prosinec</item>
+</long-month>
+<short-month type="string-array" size="12">
+<item>1</item>
+<item>2</item>
+<item>3</item>
+<item>4</item>
+<item>5</item>
+<item>6</item>
+<item>7</item>
+<item>8</item>
+<item>9</item>
+<item>10</item>
+<item>11</item>
+<item>12</item>
+</short-month>
+<shortest-month type="string-array" size="12">
+<item>l</item>
+<item>ú</item>
+<item>b</item>
+<item>d</item>
+<item>k</item>
+<item>č</item>
+<item>č</item>
+<item>s</item>
+<item>z</item>
+<item>ř</item>
+<item>l</item>
+<item>p</item>
+</shortest-month>
+<am-pm type="string-array" size="2">
+<item>dop.</item>
+<item>odp.</item>
+</am-pm>
+<year type="string">r</year>
+<month type="string">m</month>
+<day type="string">d</day>
+<hour type="string">h</hour>
+<minute type="string">m</minute>
+<second type="string">s</second>
+<escape type="string">\</escape>
+<f400-f800 type="string-array" size="2">
+<item>h:mm:ss</item>
+<item>[$-405]d\. mmmm yyyy</item>
+</f400-f800>
+</resouce>

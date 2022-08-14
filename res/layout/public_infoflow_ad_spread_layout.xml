@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="end|center|top" android:id="@id/public_ads_premium_content" android:layout_width="wrap_content" android:layout_height="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/spread_view_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="10.0dip" android:textColor="#ff757575" android:layout_gravity="center_vertical" android:id="@id/public_ads_premium_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/infoflow_spread" android:singleLine="true" android:layout_weight="1.0" />
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_gravity="center_vertical" android:id="@id/native_ad_privacy_information_icon_image" android:paddingLeft="5.0dip" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="16.0dip" android:paddingStart="5.0dip" />
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:id="@id/native_ad_choice_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/public_ads_premium_arrow_image" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/public_ad_close_native" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/public_panel_item_third_bg_selector" android:layout_width="fill_parent" android:layout_height="64.0dip" android:paddingStart="@dimen/phone_public_dialog_docinfo_padding_left" android:paddingEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="66.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/public_operation_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <ImageView android:id="@id/public_operation_item_title_vip_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_vip_wps_member_48px" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:id="@id/public_operation_item_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    </LinearLayout>
+    <View android:id="@id/public_operation_item_divide" android:background="@color/divideLineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

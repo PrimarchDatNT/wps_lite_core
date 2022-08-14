@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/subSecondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:layout_gravity="bottom" style="@style/phone_home_top_shadow" />
+    </FrameLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/preview_img" android:layout_width="@dimen/pdf_page_resize_width" android:layout_height="@dimen/pdf_page_resize_height" android:scaleType="fitXY" />
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/size_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center" android:id="@id/select_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" />
+    <FrameLayout android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="260.0dip" android:paddingStart="16.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/pdf_page_size" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/size_option_layout" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="32.0dip">
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/premiumSubBlackTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/keep_text" android:layout_width="48.0dip" android:layout_height="48.0dip" android:text="@string/pdf_page_adjust_keep_size" android:maxLines="2" android:singleLine="false" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" app:autoSizeMaxTextSize="13.0sp" app:autoSizeMinTextSize="8.0sp" app:autoSizeTextType="uniform" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/premiumSubBlackTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/a3_text" android:layout_width="48.0dip" android:layout_height="48.0dip" android:text="@string/pdf_new_note_page_size_a3" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/premiumSubBlackTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/a4_text" android:layout_width="48.0dip" android:layout_height="48.0dip" android:text="@string/pdf_new_note_page_size_a4" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/premiumSubBlackTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/a5_text" android:layout_width="48.0dip" android:layout_height="48.0dip" android:text="@string/pdf_new_note_page_size_a5" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/premiumSubBlackTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/b4_text" android:layout_width="48.0dip" android:layout_height="48.0dip" android:text="@string/pdf_new_note_page_size_b4" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/premiumSubBlackTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/b5_text" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginRight="16.0dip" android:text="@string/pdf_new_note_page_size_b5" android:layout_marginEnd="16.0dip" />
+        </LinearLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="98.0dip" android:layout_marginTop="96.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/public_ink_color" />
+            <cn.wps.moffice.common.v10_colorpicker.SpectrumPalette android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/sp_resize_page_bg_color" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginTop="32.0dip" android:paddingStart="17.0dip" android:paddingEnd="17.0dip" android:layout_marginEnd="16.0dip" app:spectrum_colorItemDimension="20.0dip" app:spectrum_columnCount="6" />
+        </FrameLayout>
+        <LinearLayout android:enabled="false" android:gravity="center" android:orientation="horizontal" android:id="@id/page_resize_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="206.0dip" android:layout_marginEnd="16.0dip">
+            <ImageView android:id="@id/vip_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/pub_vipbutton_vip_54px" android:layout_marginEnd="6.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/whiteMainTextColor" android:ellipsize="middle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_save" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

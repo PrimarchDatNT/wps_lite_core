@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/share_cover_entrance_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/secondBoldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="34.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_file_share_cover" />
+        <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <cn.wpsx.support.ui.KTextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:id="@id/share_cover_entrance_more" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_more" android:layout_marginStart="10.0dip" app:kmui_pressAlphaEnabled="true" />
+    </LinearLayout>
+    <cn.wps.moffice.common.linkShare.linkmodify.view.ShareCoverListView android:id="@id/share_cover_entrance_list_view" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip" />
+</LinearLayout>

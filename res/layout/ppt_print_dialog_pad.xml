@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.presentation.control.common.PptTitleBar android:id="@id/ppt_print_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <cn.wps.moffice.presentation.control.common.LeftRightSpaceView android:id="@id/ppt_print_content_lr_spaceview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <include layout="@layout/ppt_progressbar_layout" />
+</FrameLayout>

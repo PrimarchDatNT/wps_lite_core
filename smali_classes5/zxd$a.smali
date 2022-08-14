@@ -1,0 +1,177 @@
+.class public Lzxd$a;
+.super Lule;
+.source "Insert3DObject.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lzxd;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic i0:Lzxd;
+
+
+# direct methods
+.method public constructor <init>(Lzxd;II)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lzxd$a;->i0:Lzxd;
+
+    invoke-direct {p0, p2, p3}, Lule;-><init>(II)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public E0()Lsle$b;
+    .locals 1
+
+    .line 1
+    sget-boolean v0, Lskd;->a:Z
+
+    xor-int/lit8 v0, v0, 0x1
+
+    invoke-virtual {p0, v0}, Lule;->O0(Z)V
+
+    .line 2
+    invoke-super {p0}, Lule;->E0()Lsle$b;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public onClick(Landroid/view/View;)V
+    .locals 4
+
+    .line 1
+    invoke-static {}, Lzxd;->a()J
+
+    move-result-wide v0
+
+    .line 2
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v2
+
+    invoke-static {v2, v3}, Lzxd;->b(J)J
+
+    .line 3
+    invoke-static {}, Lzxd;->a()J
+
+    move-result-wide v2
+
+    sub-long/2addr v2, v0
+
+    const-wide/16 v0, 0x3e8
+
+    cmp-long p1, v2, v0
+
+    if-gez p1, :cond_0
+
+    return-void
+
+    .line 4
+    :cond_0
+    invoke-static {}, Lcn/wps/moffice/common/statistics/KStatEvent;->c()Lcn/wps/moffice/common/statistics/KStatEvent$b;
+
+    move-result-object p1
+
+    const-string v0, "insert_object"
+
+    .line 5
+    invoke-virtual {p1, v0}, Lcn/wps/moffice/common/statistics/KStatEvent$b;->d(Ljava/lang/String;)Lcn/wps/moffice/common/statistics/KStatEvent$b;
+
+    const-string v0, "ppt"
+
+    .line 6
+    invoke-virtual {p1, v0}, Lcn/wps/moffice/common/statistics/KStatEvent$b;->f(Ljava/lang/String;)Lcn/wps/moffice/common/statistics/KStatEvent$b;
+
+    const-string v0, "3d_model"
+
+    .line 7
+    invoke-virtual {p1, v0}, Lcn/wps/moffice/common/statistics/KStatEvent$b;->l(Ljava/lang/String;)Lcn/wps/moffice/common/statistics/KStatEvent$b;
+
+    const-string v0, "ppt/insert"
+
+    .line 8
+    invoke-virtual {p1, v0}, Lcn/wps/moffice/common/statistics/KStatEvent$b;->v(Ljava/lang/String;)Lcn/wps/moffice/common/statistics/KStatEvent$b;
+
+    .line 9
+    invoke-virtual {p1}, Lcn/wps/moffice/common/statistics/KStatEvent$b;->a()Lcn/wps/moffice/common/statistics/KStatEvent;
+
+    move-result-object p1
+
+    .line 10
+    invoke-static {p1}, Ly45;->g(Lcn/wps/moffice/common/statistics/KStatEvent;)V
+
+    .line 11
+    sget-boolean p1, Lskd;->a:Z
+
+    if-eqz p1, :cond_1
+
+    .line 12
+    invoke-static {}, Ll3e;->Y()Ll3e;
+
+    move-result-object p1
+
+    new-instance v0, Lzxd$a$a;
+
+    invoke-direct {v0, p0}, Lzxd$a$a;-><init>(Lzxd$a;)V
+
+    invoke-virtual {p1, v0}, Ll3e;->T(Ljava/lang/Runnable;)V
+
+    goto :goto_0
+
+    .line 13
+    :cond_1
+    iget-object p1, p0, Lzxd$a;->i0:Lzxd;
+
+    invoke-virtual {p1}, Lzxd;->h()V
+
+    :goto_0
+    return-void
+.end method
+
+.method public update(I)V
+    .locals 0
+
+    .line 1
+    iget-object p1, p0, Lzxd$a;->i0:Lzxd;
+
+    invoke-static {p1}, Lzxd;->c(Lzxd;)Z
+
+    move-result p1
+
+    invoke-virtual {p0, p1}, Lule;->W0(Z)V
+
+    .line 2
+    sget-boolean p1, Lskd;->l:Z
+
+    if-nez p1, :cond_0
+
+    sget-boolean p1, Lskd;->b:Z
+
+    if-nez p1, :cond_0
+
+    const/4 p1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p1, 0x0
+
+    :goto_0
+    invoke-virtual {p0, p1}, Lule;->J0(Z)V
+
+    return-void
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.kspaybase.common.ThemeTitleLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/phone_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <cn.wps.kspaybase.common.AbsTitleBar android:id="@id/abs_title_bar" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+    </cn.wps.kspaybase.common.ThemeTitleLinearLayout>
+</merge>

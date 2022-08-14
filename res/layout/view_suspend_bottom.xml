@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="78.0dip" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="78.0dip" android:layout_height="78.0dip" android:layout_marginTop="15.0dip">
+            <ImageView android:id="@id/giftImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/suspend_button_bg" />
+            <TextView android:textSize="10.0dip" android:textStyle="bold|italic" android:textColor="@color/suspend_text_color" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/suspend_gift_title" android:lines="2" android:rotation="-4.0" />
+        </RelativeLayout>
+        <ImageView android:id="@id/closeImage" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/suspend_button_close" android:scaleType="center" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

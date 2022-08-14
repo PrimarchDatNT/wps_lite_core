@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.main.push.banner.internal.BannerSmallView android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="start" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/popularize_icon" android:background="#ffe9e9e9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/public_infoflow_placeholder" android:scaleType="centerInside" />
+                <cn.wps.moffice.main.push.banner.internal.BannerAutoAdjustTextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/whiteMainTextColor" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/popularize_title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="300.0dip" MaxLine="2" />
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="end" android:id="@id/turn_to_activity_bg" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="8.0">
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/subTextColor" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/turn_to_activity" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" MaxLine="2" />
+        </LinearLayout>
+    </LinearLayout>
+    <cn.wpsx.support.ui.KFrameLayout android:layout_gravity="end|bottom|center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:kmui_bottomRightRadius="4.0dip" app:kmui_topLeftRadius="8.0dip">
+        <TextView android:textSize="8.0dip" android:textColor="@color/whiteMainTextColor" android:ellipsize="end" android:id="@id/popularize_spread_text" android:background="@drawable/phone_public_rectangle_black_30_shape" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="70.0dip" android:text="AD" android:maxLines="1" android:includeFontPadding="false" />
+    </cn.wpsx.support.ui.KFrameLayout>
+</cn.wps.moffice.main.push.banner.internal.BannerSmallView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 巴西葡语 -->
+<resource>
+    <inner type="string-array" size="">
+		<item>00000</item>
+		<item>00000\-000</item>
+		<item>[&lt;=9999999]###\-####;\(###\)\ ###\-####</item>
+		<item>000000000\-00</item> 
+	</inner>
+	<outer type="string-array" size="">
+	    <item>CEP</item>
+		<item>CEP + 3</item>
+		<item>Telefone</item>
+		<item>CIC</item>
+	</outer>
+</resource>
+
+
+

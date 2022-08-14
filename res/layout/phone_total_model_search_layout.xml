@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_search_view" android:background="@color/secondBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/loading_cicle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_404_page_loading" android:scaleType="fitCenter" />
+            <TextView android:textSize="14.0dip" android:textColor="#ffbbc3d6" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/documentmanager_file_loading" />
+        </LinearLayout>
+        <cn.wps.moffice.docer.search.correct.SearchThinkView android:id="@id/total_search_think" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.wps.moffice.docer.search.correct.SearchWebView android:id="@id/total_search_web" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.wps.moffice.docer.search.correct.SearchPanelView android:id="@id/total_panel_view" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</merge>

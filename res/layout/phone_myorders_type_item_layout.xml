@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+        <ImageView android:id="@id/earn_item_icon" android:layout_width="40.0dip" android:layout_height="44.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_marginLeft="16.0dip">
+            <TextView android:ellipsize="end" android:id="@id/earn_item_title_txt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginRight="16.0dip" android:maxLines="1" android:layout_marginEnd="16.0dip" style="@style/phone_public_font_m_black.noScale" />
+            <TextView android:textSize="10.0dip" android:ellipsize="end" android:layout_gravity="bottom" android:id="@id/earn_item_content_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:maxWidth="170.0dip" android:maxLines="1" style="@style/phone_public_font_xs_gray2" />
+            <LinearLayout android:gravity="center" android:layout_gravity="bottom|center|right" android:id="@id/earn_item_value_contianer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="8.0dip">
+                <ImageView android:id="@id/earn_item_value_icon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/icon_gold_light" />
+                <TextView android:textSize="14.0dip" android:textColor="#ffec4a51" android:id="@id/earn_item_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="1250" />
+            </LinearLayout>
+            <TextView android:textSize="14.0dip" android:layout_gravity="bottom|center|right" android:id="@id/earn_item_value_exchange" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip" android:text="@string/redeem_result_exchange_txt" android:layout_marginEnd="16.0dip" style="@style/phone_public_font_xs_gray2" />
+            <View android:layout_gravity="bottom" android:id="@id/earn_item_line_bottom" android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

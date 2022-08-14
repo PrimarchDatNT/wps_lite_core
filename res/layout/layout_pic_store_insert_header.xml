@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/mainTextColor" android:gravity="center_vertical" android:id="@id/mVPicStoreInsertMyPicText" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginLeft="16.0dip" android:text="我的图片" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mVPicStoreInsertItems" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/mVPicStoreInsertPicDivider" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/mVPicStoreInsertRec" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/docer_recommend_title_layout" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" layout="@layout/pic_store_home_header" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:background="@drawable/pdf_bottom_sheet_radius_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_horizontal" android:id="@id/pdf_bottom_sheet_handle" android:background="@drawable/pdf_bottom_sheet_drag_handle_bg" android:layout_width="30.0dip" android:layout_height="4.0dip" android:layout_marginBottom="5.0dip" />
+    <cn.wps.moffice.common.beans.MyScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <FrameLayout android:id="@id/pdf_bottom_sheet_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </cn.wps.moffice.common.beans.MyScrollView>
+</LinearLayout>

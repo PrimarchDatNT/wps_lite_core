@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.EditScrollView android:id="@id/base_buttonbar_scrollView" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="4.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/base_buttonbar_layout" android:layout_width="wrap_content" android:layout_height="45.0dip" />
+    </cn.wps.moffice.common.beans.EditScrollView>
+</LinearLayout>

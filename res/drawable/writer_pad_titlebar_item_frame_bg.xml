@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/public_pad_titlebar_item_frame_background" />
+    <item>
+        <selector>
+            <item android:drawable="@drawable/public_pad_second_toolbar_hover_bg_3dp" android:state_hovered="true" />
+            <item android:state_focused="true" android:drawable="@drawable/public_pad_second_toolbar_bg_3dp" />
+            <item android:state_selected="true" android:drawable="@drawable/public_pad_second_toolbar_bg_3dp" />
+        </selector>
+    </item>
+</layer-list>

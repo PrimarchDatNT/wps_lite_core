@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_reading_time" android:orderInCategory="100" android:title="@string/reader_add_to_library" app:actionLayout="@layout/reading_time_layout" app:showAsAction="always" />
+    <item android:icon="@drawable/wps_reader_menu_book_collected_heart" android:id="@id/menu_add_library_status" android:orderInCategory="100" android:title="@string/reader_add_to_library" app:showAsAction="always" />
+</menu>

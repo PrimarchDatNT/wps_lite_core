@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/phone_public_large_text_size_sp" android:textColor="@color/descriptionColor" android:id="@id/input_author_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_modify_username_tip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.RecordEditText android:id="@id/ss_note_username_edittext" android:layout_width="0.0dip" android:singleLine="true" android:maxLength="51" android:layout_weight="1.0" style="@style/editText" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

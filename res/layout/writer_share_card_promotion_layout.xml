@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/color_white" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/wps_icon" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/pub_logo_background" android:layout_alignParentTop="true" />
+    <TextView android:textSize="12.0dip" android:textColor="#b2000000" android:id="@id/promotion_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:text="@string/share_card_promotion_text" android:layout_toRightOf="@id/wps_icon" android:layout_alignParentTop="true" android:layout_marginStart="13.0dip" android:layout_toEndOf="@id/wps_icon" />
+</RelativeLayout>

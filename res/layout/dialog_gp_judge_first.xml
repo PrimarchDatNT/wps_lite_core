@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KColorfulImageView android:layout_width="210.0dip" android:layout_height="110.0dip" android:src="@drawable/gp_judge" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:id="@id/tv_like" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/public_you_love" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/public_you_special" />
+</LinearLayout>

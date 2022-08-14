@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@null" android:paddingLeft="16.0dip" android:focusable="true" android:paddingStart="16.0dip" style="@style/public_scan_print_list_dialog_item_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/public_item_image" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" />
+    <TextView android:textColor="@color/subTextColor" android:id="@id/public_item_text" android:paddingLeft="0.0dip" android:paddingStart="0.0dip" style="@style/public_scan_print_list_dialog_item_text" />
+    <ImageView android:layout_gravity="top" android:id="@id/public_item_red" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/public_share_recommend_shape" android:layout_marginStart="2.0dip" />
+</LinearLayout>

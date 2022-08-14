@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mVPicStoreDownloadLoadingView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.scrollbar.KScrollBar android:gravity="center_vertical" android:id="@id/kscrollbar" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/shadow_view" android:layout_alignBottom="@id/kscrollbar" style="@style/phone_home_top_shadow" />
+    <include android:id="@id/mDownloadRenewDocerVipLayout" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip" layout="@layout/internal_template_mine_renew_docer_vip_banner" />
+    <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/category_viewpager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" android:layout_weight="1.0" android:layout_below="@id/shadow_view" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.presentation.control.common.PptTitleBar android:id="@id/phone_layout_change_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
+        <ScrollView android:scrollbarThumbVertical="@color/progressTrackColor" android:id="@id/phone_ppt_slideLayouts_scroll" android:background="@color/backgroundColor" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/phone_layout_change_titlebar">
+            <cn.wps.moffice.presentation.control.layout.MasterListView android:orientation="vertical" android:id="@id/phone_ppt_slideLayouts_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </RelativeLayout>
+    <include layout="@layout/ppt_progressbar_layout" />
+</FrameLayout>

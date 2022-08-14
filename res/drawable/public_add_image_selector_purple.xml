@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/rippleColor"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:drawable="@drawable/documents_icon_new_purple" />
+        </selector>
+    </item>
+</ripple>

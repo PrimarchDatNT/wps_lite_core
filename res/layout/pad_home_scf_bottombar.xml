@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/scf_bottom_bar_delete_mode_layout" android:background="@color/pad_home_fb_titlebar_delete_mode_backgroud_color" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/pad_split_line" />
+    <cn.wps.moffice.common.beans.phone.SelectorAlphaViewGroup android:gravity="center" android:layout_gravity="center" android:id="@id/scf_delete_several" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/pad_home_topbar_height">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/img_delete" android:background="@android:color/transparent" android:src="@drawable/phone_documents_filebrowser_delete" style="@style/phone_public_bottom_item" />
+            <TextView android:id="@id/scf_delete_text" style="@style/pad_home_delete_docs_bottom_bar_style" />
+        </LinearLayout>
+    </cn.wps.moffice.common.beans.phone.SelectorAlphaViewGroup>
+</LinearLayout>

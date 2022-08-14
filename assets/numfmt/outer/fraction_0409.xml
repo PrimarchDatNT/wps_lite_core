@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <outer type="string-array" size="">
+		<item>Up to one digit</item>
+		<item>Up to two digits</item>
+		<item>Up to three digits</item>
+		<item>As halves</item>
+		<item>As quarters</item>
+		<item>As eighths</item>
+		<item>As sixteenths</item>
+		<item>As tenths</item>
+		<item>As hundredths</item>
+	</outer>
+</resource>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/outline_item" android:background="@drawable/public_outline_item_bg" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/pdf_outline_first_level_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/pdf_outline_description_text_size" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/outline_content" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" />
+    <cn.wps.moffice.common.beans.phone.SelectorAlphaViewGroup android:id="@id/outline_expanded_group" android:layout_width="@dimen/pdf_outline_first_level_item_height" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/outline_expanded" android:layout_width="@dimen/pdf_outline_expand_status_img_size" android:layout_height="@dimen/pdf_outline_expand_status_img_size" android:src="@drawable/public_outline_shring_status" style="@style/public_image_bg_style" />
+    </cn.wps.moffice.common.beans.phone.SelectorAlphaViewGroup>
+</LinearLayout>

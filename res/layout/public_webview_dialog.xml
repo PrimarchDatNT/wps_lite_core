@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.common.superwebview.PtrSuperWebView android:id="@id/ptr_super_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/titlebar" />
+    <View android:id="@id/titlebar_shadow" android:visibility="gone" android:layout_below="@id/titlebar" style="@style/phone_home_top_shadow" />
+</RelativeLayout>

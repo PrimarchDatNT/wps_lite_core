@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/premium_privileges_new" android:layout_width="27.0dip" android:layout_height="12.0dip" android:layout_marginTop="9.0dip" android:src="@drawable/public_quick_pay_privileges_new_icon" android:layout_toRightOf="@id/premium_privileges_icon" android:layout_toEndOf="@id/premium_privileges_icon" />
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/premium_privileges_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="18.0dip" android:src="@drawable/public_premium_quick_pay_20g_cloud_disk" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/buttonMainColor" android:id="@id/premium_privileges_icon_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="20G" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="12.0sp" android:textColor="@color/subTextColor" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/premium_privileges_title" android:clickable="false" android:layout_width="wrap_content" android:layout_height="36.0dip" android:text="@string/premium_no_ads_info" Maxline="2" />
+    </LinearLayout>
+</FrameLayout>

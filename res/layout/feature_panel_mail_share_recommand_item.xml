@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/v10_phone_public_panel_list_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="40.0dip" android:layout_height="40.0dip">
+        <ImageView android:id="@id/documents_filebrowser_launcher_image" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/phone_public_dialog_list_item_image" />
+        <ImageView android:layout_width="18.0dip" android:layout_height="12.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/phone_home_share_launcher_recommend_icon" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textColor="@color/phone_public_dialog_black_text_color" android:id="@id/documents_filebrowser_launcher_text" android:layout_marginLeft="0.0dip" android:layout_marginStart="0.0dip" style="@style/v10_phone_public_panel_list_item_text_style" />
+        <TextView android:textSize="11.0sp" android:textColor="#ff9b9b9b" android:id="@id/documents_filebrowser_launcher_text_introduce" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

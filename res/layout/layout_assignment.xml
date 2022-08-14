@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wpsx.support.ui.KColorfulRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/contentContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-6.0dip" android:layout_below="@id/layout_home_work_tips" />
+    <FrameLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textColor="@color/whiteColor" android:gravity="center" android:id="@id/tv_export" android:background="@drawable/background_class_room_export_button" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="@dimen/dimen_16dp" android:layout_marginTop="@dimen/dimen_12dp" android:layout_marginRight="@dimen/dimen_16dp" android:layout_marginBottom="@dimen/dimen_12dp" android:text="@string/class_export_grades" android:layout_marginStart="@dimen/dimen_16dp" android:layout_marginEnd="@dimen/dimen_16dp" />
+    </FrameLayout>
+    <cn.wps.moffice.main.classroom.HomeworkTipView android:id="@id/layout_home_work_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</cn.wpsx.support.ui.KColorfulRelativeLayout>

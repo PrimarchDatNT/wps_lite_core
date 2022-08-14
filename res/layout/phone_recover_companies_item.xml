@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/phone_public_list_white_selector" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/iv_file_icon" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" style="@style/public_document_item_image_style" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/tv_company_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:layout_toRightOf="@id/iv_file_icon" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/iv_file_icon" />
+    <View android:id="@id/divider_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/home_common_file_divide_margin_start" android:layout_marginEnd="0.0dip" />
+</RelativeLayout>

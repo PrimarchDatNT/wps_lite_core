@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/mine_error_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsImgId="@drawable/phone_home_no_star_record_icon" app:tipsText="@string/documentmanager_pad_no_star_record"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

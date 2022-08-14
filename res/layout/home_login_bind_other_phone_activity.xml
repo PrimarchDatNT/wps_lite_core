@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/main_layout" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0dip" android:textColor="@color/descriptionColor" android:id="@id/subtitle_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="42.0dip" android:text="@string/home_login_input_need_bind_phone_number" />
+                <cn.wps.moffice.common.beans.phone.CornerRectLinerLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="248.0dip" android:layout_height="45.0dip" android:layout_marginTop="27.0dip" android:paddingStart="13.0dip" android:paddingEnd="13.0dip" custom:backgroundColor="@color/backgroundColor" custom:corner="5.0dip" custom:strokeColor="@color/subLineColor" custom:strokeWidth="1.0px">
+                    <EditText android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:textColorHint="@color/disableColor" android:id="@id/etPhoneNumber" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/home_login_phone_number" android:inputType="number" />
+                </cn.wps.moffice.common.beans.phone.CornerRectLinerLayout>
+                <cn.wps.moffice.common.beans.phone.CornerRectLinerLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:layout_width="248.0dip" android:layout_height="45.0dip" android:layout_marginTop="11.0dip" android:paddingStart="13.0dip" android:paddingEnd="13.0dip" custom:backgroundColor="@color/backgroundColor" custom:corner="5.0dip" custom:strokeColor="@color/subLineColor" custom:strokeWidth="1.0px">
+                    <EditText android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:textColorHint="@color/disableColor" android:id="@id/etSmsCode" android:background="@null" android:layout_width="130.0dip" android:layout_height="wrap_content" android:hint="@string/home_login_bind_sms_auth_code" android:inputType="number" />
+                    <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/secondaryColor" android:id="@id/tvSendCode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_login_send_verify_code" />
+                </cn.wps.moffice.common.beans.phone.CornerRectLinerLayout>
+                <TextView android:textSize="12.0dip" android:textColor="@color/mainColor" android:id="@id/tvInputCorrectCode" android:visibility="invisible" android:layout_width="248.0dip" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/home_login_input_correct_auth_code" />
+                <Button android:enabled="false" android:textSize="14.0dip" android:gravity="center" android:id="@id/btnBind" android:layout_width="248.0dip" android:layout_height="45.0dip" android:layout_marginTop="16.699982dip" android:text="@string/home_login_bind_immediately" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+            </LinearLayout>
+        </ScrollView>
+        <View android:id="@id/id_phone_home_top_shadow" android:layout_below="@id/normal_mode_title" style="@style/phone_home_top_shadow" />
+    </RelativeLayout>
+    <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

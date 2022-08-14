@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/home_enterprise_activate_prompt" />
+    <cn.wps.moffice.common.beans.RecordEditText android:gravity="start|center|top" android:id="@id/enterprise_activate_code_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:singleLine="true" android:layout_below="@id/description" style="@style/editText" />
+</RelativeLayout>

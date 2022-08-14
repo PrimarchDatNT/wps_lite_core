@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/rom_read_titlebar" android:background="@color/ETMainColor" android:visibility="gone" layout="@layout/phone_public_rom_read_titlebar" />
+    <FrameLayout android:id="@id/et_main_top" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/ss_main_toolbar" android:visibility="gone" layout="@layout/ss_toolbar" />
+</LinearLayout>

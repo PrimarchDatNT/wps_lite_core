@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="16.0dip" android:textColor="#ff0ea7fa" android:gravity="center_vertical" android:id="@id/premium_restore_has_wps" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/public_login_wps_to_restore" android:drawableLeft="@drawable/public_pay_restore_choose_icon" android:drawablePadding="2.0dip" android:drawableStart="@drawable/public_pay_restore_choose_icon" MaxLine="1" />
+    <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="16.0dip" android:textColor="#ff0ea7fa" android:gravity="center_vertical" android:id="@id/premium_restore_no_wps" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/public_no_wps_account" android:drawableLeft="@drawable/public_pay_restore_choose_icon" android:drawablePadding="2.0dip" android:drawableStart="@drawable/public_pay_restore_choose_icon" MaxLine="1" />
+</LinearLayout>

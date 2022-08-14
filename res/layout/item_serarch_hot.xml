@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="18.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/deleteTag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wps_search_delete" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <ImageView android:id="@id/hot_tag_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:src="@drawable/tag_hot" android:layout_centerVertical="true" android:layout_marginEnd="2.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/titleTag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wps_home_search_hot_tip" android:layout_toRightOf="@id/hot_tag_icon" android:layout_centerVertical="true" android:layout_toEndOf="@id/hot_tag_icon" />
+    </RelativeLayout>
+    <cn.wps.moffice.home.novel.NovelFlowLayout android:id="@id/flowLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" />
+</LinearLayout>

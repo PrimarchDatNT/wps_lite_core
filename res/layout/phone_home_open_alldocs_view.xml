@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/home_open_alldocs_row_layout">
+        <LinearLayout android:id="@id/home_open_doc" style="@style/home_open_alldocs_item_layout">
+            <ImageView android:src="@drawable/pub_list_file_word" style="@style/home_open_alldocs_type_icon" />
+            <TextView android:text="@string/documentmanager_phone_home_page_open_doc" style="@style/home_open_alldocs_type_txt" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/home_open_ppt" style="@style/home_open_alldocs_item_layout">
+            <ImageView android:src="@drawable/pub_list_file_ppt" style="@style/home_open_alldocs_type_icon" />
+            <TextView android:text="@string/documentmanager_phone_home_page_open_ppt" style="@style/home_open_alldocs_type_txt" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/home_open_xls" style="@style/home_open_alldocs_item_layout">
+            <ImageView android:src="@drawable/pub_list_file_xls" style="@style/home_open_alldocs_type_icon" />
+            <TextView android:text="@string/documentmanager_phone_home_page_open_xls" style="@style/home_open_alldocs_type_txt" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/home_open_alldocs_row_layout">
+        <LinearLayout android:id="@id/home_open_pdf" style="@style/home_open_alldocs_item_layout">
+            <ImageView android:src="@drawable/pub_list_file_pdf" style="@style/home_open_alldocs_type_icon" />
+            <TextView android:text="@string/documentmanager_phone_home_page_open_pdf" style="@style/home_open_alldocs_type_txt" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/home_open_txt" style="@style/home_open_alldocs_item_layout">
+            <ImageView android:src="@drawable/pub_list_file_txt" style="@style/home_open_alldocs_type_icon" />
+            <TextView android:text="@string/documentmanager_phone_home_page_open_txt" style="@style/home_open_alldocs_type_txt" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/home_open_other" style="@style/home_open_alldocs_item_layout">
+            <ImageView android:src="@drawable/pub_list_file_other" style="@style/home_open_alldocs_type_icon" />
+            <TextView android:text="@string/public_other" style="@style/home_open_alldocs_type_txt" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="clip_horizontal" android:id="@id/home_open_radar" android:visibility="gone" style="@style/home_open_alldocs_item_layout">
+            <LinearLayout android:id="@id/home_open_radar_layout" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/home_open_alldocs_item_layout">
+                <cn.wps.moffice.common.beans.RedDotAlphaImageView android:id="@id/home_open_radar_icon" android:src="@drawable/pub_list_file_fileradar" app:dot_bg_color="@color/secondBackgroundColor" app:dot_bg_size="8.0dip" app:dot_color="@color/mainColor" app:dot_margin_left="34.0dip" app:dot_margin_top="4.0dip" app:dot_size="6.0dip" style="@style/home_open_alldocs_type_icon" />
+                <TextView android:id="@id/home_open_radar_text" android:text="@string/home_open_radar_recent" style="@style/home_open_alldocs_type_txt" />
+            </LinearLayout>
+            <TextView android:textSize="10.0dip" android:textColor="@color/descriptionColor" android:ellipsize="end" android:id="@id/home_open_radar_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_open_radar_qqwechat" android:maxLines="1" android:layout_below="@id/home_open_radar_layout" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:id="@id/home_open_radar_oversea" android:visibility="gone" style="@style/home_open_alldocs_item_layout">
+            <ImageView android:src="@drawable/pub_list_file_fileradar" style="@style/home_open_alldocs_type_icon" />
+            <TextView android:text="@string/public_received" style="@style/home_open_alldocs_type_txt" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

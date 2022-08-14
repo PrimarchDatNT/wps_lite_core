@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/card_list_root" android:background="@drawable/card_mode_card_bg_light" android:paddingLeft="10.0dip" android:paddingTop="9.299988dip" android:paddingRight="10.0dip" android:layout_width="332.0dip" android:layout_height="fill_parent" android:layout_marginLeft="6.6999817dip" android:layout_marginRight="6.6999817dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.699982sp" android:textColor="@color/blackColor" android:ellipsize="end" android:id="@id/col_index_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="19.299988dip" android:layout_marginTop="23.299988dip" android:layout_marginRight="19.299988dip" android:layout_marginBottom="21.699982dip" android:lines="1" />
+    <cn.wps.moffice.spreadsheet.control.screenadapter.cardmode.ItemRecyclerView android:id="@id/recyclerview_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/col_index_tv" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip">
+        <Button android:textColor="@color/descriptionColor" android:ellipsize="end" android:gravity="start|center" android:id="@id/et_search_resultgroup_sheetname" android:background="@null" android:paddingLeft="0.0dip" android:paddingTop="5.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:maxWidth="200.0dip" android:text="sheetnamee" android:singleLine="true" android:paddingStart="0.0dip" android:paddingEnd="30.0dip" style="@style/phone_public_buttonStyle_gray_4dp_corner_dark_compat" />
+        <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="end|center" android:id="@id/et_search_resultgroup_sheetname_img" android:layout_width="10.0dip" android:layout_height="3.5dip" android:layout_marginTop="5.0dip" android:src="@drawable/et_search_resultgroup_item_showbg" android:scaleType="fitXY" />
+    </FrameLayout>
+    <View android:id="@id/et_search_resultgroup_sheetname_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/et_search_resultgroup_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

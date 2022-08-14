@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.infoflow.SpreadView android:layout_gravity="center|left" android:id="@id/banner_spread" android:layout_width="wrap_content" android:layout_height="14.0dip" app:onlyBannerPopWindow="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="start|center" android:layout_gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="start|center" android:layout_width="8.0dip" android:layout_height="8.0dip" android:src="@drawable/native_home_banner_close_logo" android:scaleType="fitStart" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffb0b0b0" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="5.0dip" android:maxWidth="30.0dip" android:text="@string/infoflow_spread" android:maxLines="1" />
+        <View android:layout_gravity="center_vertical" android:background="@drawable/public_native_home_ad_dot" android:layout_width="2.0dip" android:layout_height="2.0dip" android:layout_marginRight="5.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="#ffb0b0b0" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="250.0dip" android:text="@string/infoflow_media_third" />
+    </LinearLayout>
+</cn.wps.moffice.common.infoflow.SpreadView>

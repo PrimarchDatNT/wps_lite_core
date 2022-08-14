@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/phone_public_shade_press"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/buttonThirdDisableColor" />
+            <stroke android:width="1.0dip" android:color="@color/buttonSecondaryDisableColor" />
+            <corners android:radius="3.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/buttonThirdDisableColor" />
+            <stroke android:width="1.0dip" android:color="@color/buttonSecondaryPressedColor" />
+            <corners android:radius="3.0dip" />
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape>
+            <solid android:color="@color/backgroundColor" />
+            <stroke android:width="1.0dip" android:color="@color/buttonSecondaryColor" />
+            <corners android:radius="3.0dip" />
+        </shape>
+    </item>
+</ripple>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/public_keyboard_mouse_no_background_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="vertical" android:id="@id/countword_result_part" android:paddingBottom="@dimen/phone_writer_panel_file_info_margin" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_count_words_selection" style="@style/phone_public_font_m_black" />
+            <TextView android:id="@id/writer_words_part" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_words" style="@style/phone_public_font_s_gray" />
+            <TextView android:id="@id/writer_characters_with_spaces_part" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_characters_with_spaces" style="@style/phone_public_font_s_gray" />
+            <TextView android:id="@id/writer_characters_part" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_characters" style="@style/phone_public_font_s_gray" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/countword_result_all" android:paddingBottom="@dimen/phone_public_dialog_content_view_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_count_words_all" style="@style/phone_public_font_m_black" />
+            <TextView android:id="@id/writer_words" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_words" style="@style/phone_public_font_s_gray" />
+            <TextView android:id="@id/writer_characters_with_spaces" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_characters_with_spaces" style="@style/phone_public_font_s_gray" />
+            <TextView android:id="@id/writer_characters" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_characters" style="@style/phone_public_font_s_gray" />
+            <cn.wps.moffice.common.beans.CustomCheckBox android:id="@id/writer_count_include_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_public_dialog_content_view_padding_bottom" app:text="@string/writer_count_include_textboxes_footnotes_endnotes" />
+            <cn.wps.moffice.common.beans.CustomCheckBox android:id="@id/wordcounts_showwordnumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" app:text="@string/writer_wordcounts_showwordnumber" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

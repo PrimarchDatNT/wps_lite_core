@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/pad_anim_item_selector_roundrect" android:layout_width="fill_parent" android:layout_height="38.0dip" pressAlphaEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/ppt_anim_text_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="12.0dip" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="center_vertical" android:id="@id/ppt_anim_text_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginEnd="12.0dip" />
+</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

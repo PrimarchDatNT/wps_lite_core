@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <inner type="string-array" size="">
+		<item>yyyy"年"m"月"d"日";@</item>
+		<item>yyyy"年"m"月";@</item>
+		<item>m"月"d"日";@</item>
+		<item>yyyy/m/d;@</item>
+		<item>[$-409]yyyy/m/d\ h:mm\ AM/PM;@</item>
+		<item>yyyy/m/d\ h:mm;@</item>
+		<item>m/d;@</item>
+		<item>m/d/yy;@</item>
+		<item>mm/dd/yy;@</item>
+		<item>[$-409]d\-mmm;@</item>
+		<item>[$-409]d\-mmm\-yy;@</item>
+		<item>[$-409]dd\-mmm\-yy;@</item>
+		<item>[$-409]mmm\-yy;@</item>
+		<item>[$-409]mmmm\-yy;@</item>
+		<item>[$-409]mmmmm;@</item>
+		<item>[$-409]mmmmm\-yy;@</item>
+	</inner>
+</resource>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/app_widget_logo_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:padding="9.0dip" android:layout_width="@dimen/phone_widget_logo_size" android:layout_height="@dimen/phone_widget_logo_size" android:src="@drawable/phone_documents_about_appicon" android:scaleType="fitXY" android:paddingStart="9.0dip" android:paddingEnd="9.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/descriptionColor" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="@string/public_app_name" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageView android:background="@color/lineColor" android:layout_width="@dimen/phone_widget_divide_line_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/phone_widget_short_divide_line_padding_tb" android:layout_marginBottom="@dimen/phone_widget_short_divide_line_padding_tb" />
+            <Button android:id="@id/app_widget_prev_btn" android:background="@drawable/widget_prev_phone_4x2" android:layout_width="45.0dip" android:layout_height="wrap_content" />
+            <ImageView android:background="@color/lineColor" android:layout_width="@dimen/phone_widget_divide_line_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/phone_widget_short_divide_line_padding_tb" android:layout_marginBottom="@dimen/phone_widget_short_divide_line_padding_tb" />
+            <Button android:id="@id/app_widget_open_btn" android:background="@drawable/widget_open_phone_4x2" android:layout_width="45.0dip" android:layout_height="wrap_content" />
+            <ImageView android:background="@color/lineColor" android:layout_width="@dimen/phone_widget_divide_line_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/phone_widget_short_divide_line_padding_tb" android:layout_marginBottom="@dimen/phone_widget_short_divide_line_padding_tb" />
+            <Button android:id="@id/app_widget_next_btn" android:background="@drawable/widget_nextbtn_phone_4x2" android:layout_width="45.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="3.0dip">
+        <ImageView android:id="@id/widget_leftLine" android:background="@color/secondaryColor" android:layout_width="0.0dip" android:layout_height="3.0dip" android:scaleType="fitXY" android:layout_weight="1.0" />
+        <ImageView android:id="@id/widget_middleLine" android:background="@color/ETMainColor" android:layout_width="0.0dip" android:layout_height="3.0dip" android:scaleType="fitXY" android:layout_weight="1.0" />
+        <ImageView android:id="@id/widget_rightLine" android:background="@color/WPPMainColor" android:layout_width="0.0dip" android:layout_height="3.0dip" android:scaleType="fitXY" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/widget_leftContent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@color/mainTextColor" android:ellipsize="middle" android:gravity="center" android:id="@id/widget_leftName" android:layout_width="fill_parent" android:layout_height="30.0dip" android:singleLine="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/widget_leftLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/widget_leftContentImg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+                    <TextView android:textColor="@color/mainTextColor" android:gravity="start|center|top" android:id="@id/widget_leftContentTxt" android:paddingLeft="0.0dip" android:paddingRight="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" android:paddingStart="0.0dip" android:paddingEnd="2.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:background="@color/lineColor" android:layout_width="@dimen/phone_widget_divide_line_width" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/widget_middleContent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@color/mainTextColor" android:ellipsize="middle" android:gravity="center" android:id="@id/widget_middleName" android:layout_width="fill_parent" android:layout_height="30.0dip" android:singleLine="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/widget_middleLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/widget_middleContentImg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+                    <TextView android:textColor="@color/mainTextColor" android:gravity="start|center|top" android:id="@id/widget_middleContentTxt" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" android:paddingStart="2.0dip" android:paddingEnd="2.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:background="@color/lineColor" android:layout_width="@dimen/phone_widget_divide_line_width" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/widget_rightContent" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@color/mainTextColor" android:ellipsize="middle" android:gravity="center" android:id="@id/widget_rightName" android:layout_width="fill_parent" android:layout_height="30.0dip" android:singleLine="true" />
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/widget_rightLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:id="@id/widget_rightContentImg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+                    <TextView android:textColor="@color/mainTextColor" android:gravity="start|center|top" android:id="@id/widget_rightContentTxt" android:paddingLeft="2.0dip" android:paddingRight="0.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="" android:paddingStart="2.0dip" android:paddingEnd="0.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

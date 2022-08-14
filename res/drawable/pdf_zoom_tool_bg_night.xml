@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="40.0dip" android:width="116.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/pdf_pad_zoom_tool_bg_night" />
+            <corners android:radius="20.0dip" />
+        </shape>
+    </item>
+</selector>

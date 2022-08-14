@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/navBackgroundColor" android:layout_width="242.0dip" android:layout_height="wrap_content" android:divider="@color/lineColor" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/engine_type_handwriting" android:tag="1102" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/handwriting_icon" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ocr_engine_dialog_handwriting" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/handwriting_icon">
+            <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ocr_ai_engine_hand_writing" />
+            <TextView android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/ocr_ai_engine_hand_writing_tips" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/engine_type_print" android:tag="1101" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/print_icon" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ocr_engine_dialog_print" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/print_icon">
+            <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ocr_ai_engine_print" />
+            <TextView android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/ocr_ai_engine_print_tips" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/engine_type_mix" android:tag="auto" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <ImageView android:id="@id/mix_icon" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ocr_engine_dialog_mix" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/mix_icon">
+            <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ocr_ai_engine_mix" />
+            <TextView android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/ocr_ai_engine_mix_tips" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

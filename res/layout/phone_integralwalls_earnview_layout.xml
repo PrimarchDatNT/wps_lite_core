@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/phone_public_panel_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/loading_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="158.0dip">
+        <ImageView android:id="@id/earn_cicle" android:layout_width="126.0dip" android:layout_height="126.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="#ffbbc3d6" android:ellipsize="end" android:id="@id/loading_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxWidth="140.0dip" android:text="@string/infoflow_loading" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/earn_view_credits_contain" android:background="#ffededed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <TextView android:textSize="13.0dip" android:textColor="#ff535252" android:ellipsize="end" android:layout_gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/earn_rewards_activity_tips" android:maxLines="1" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center|left" android:orientation="horizontal" android:id="@id/earn_view_credits_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="16.0dip" />
+    </LinearLayout>
+    <ListView android:id="@id/earn_recyclerview" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

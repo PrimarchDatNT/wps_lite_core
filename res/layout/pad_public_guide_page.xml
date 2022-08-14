@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/guide_content" android:background="@color/public_insert_pic_albums_selected" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/public_image_guide_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/page_circle_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="103.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/login_guide_btn" android:gravity="center" android:id="@id/login_button" android:background="@drawable/login_guide_page_btn" android:layout_width="309.0dip" android:layout_height="43.0dip" android:layout_marginTop="21.0dip" android:layout_marginBottom="39.0dip" android:text="@string/new_features_login_now" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

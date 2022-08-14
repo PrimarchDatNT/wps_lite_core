@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="68.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/pad_home_drive_special_file_item" />
+    <View android:id="@id/large_divider" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

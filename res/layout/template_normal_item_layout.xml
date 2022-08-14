@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/item_content_layout" android:paddingLeft="16.0dip" android:paddingTop="17.0dip" android:paddingRight="16.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <cn.wps.moffice.presentation.control.layout.PictureView android:id="@id/picture" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="100.0dip" android:scaleType="fitXY" />
+        <FrameLayout android:id="@id/fl_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wps.moffice.docer.store.common.view.DocerSuperscriptView android:id="@id/ppt_template_docer_superscript" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <cn.wps.moffice.docer.picstore.V10RoundRectImageView android:id="@id/item_icon" android:layout_width="200.0dip" android:layout_height="100.0dip" android:scaleType="fitXY" />
+            </cn.wps.moffice.docer.store.common.view.DocerSuperscriptView>
+            <ImageView android:layout_gravity="bottom|center|right" android:id="@id/can_download" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/home_internal_template_download_btn" android:scaleType="fitXY" />
+        </FrameLayout>
+    </FrameLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/icon_layout" android:layout_alignLeft="@id/icon_layout" android:layout_alignRight="@id/icon_layout">
+        <ImageView android:id="@id/iv_free_icon" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="1.0dip" android:src="@drawable/phone_ppt_single_docer_vip" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="top" android:id="@id/item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="2" android:layout_toRightOf="@id/iv_free_icon" />
+    </RelativeLayout>
+</RelativeLayout>

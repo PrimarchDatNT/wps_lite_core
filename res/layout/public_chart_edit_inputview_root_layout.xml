@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="#00000000" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.chart.edit.InputViewLayout android:id="@id/public_chart_edit_input" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.common.chart.edit.ChartEditKeyBoard android:id="@id/public_chart_edit_keyboard" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

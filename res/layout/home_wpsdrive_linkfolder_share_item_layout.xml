@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.NotDispatchTouchAlphaLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="63.669983dip">
+        <Button android:textSize="12.0dip" android:ellipsize="end" android:id="@id/public_wpsdrive_share_btn" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="23.329987dip" android:layout_marginRight="16.0dip" android:text="@string/home_wpsdrive_share" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" style="@style/phone_public_buttonStyle_blue_11dp_corner_dark_compat" />
+        <cn.wps.moffice.main.cloud.drive.view.AutoOffsetViewLayout android:id="@id/folder_member_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_toLeftOf="@id/public_wpsdrive_share_btn" android:layout_marginStart="16.0dip" android:layout_toStartOf="@id/public_wpsdrive_share_btn" />
+    </RelativeLayout>
+</cn.wps.moffice.common.beans.phone.NotDispatchTouchAlphaLinearLayout>

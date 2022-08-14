@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:focusable="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_keyboard_mouse_no_background_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/phone_public_dialog_message_fontsize" android:textColor="@color/descriptionColor" android:id="@id/cannot_share_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_cannot_share_message" />
+    <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="@dimen/phone_public_dialog_message_fontsize" android:textColor="@color/secondaryColor" android:id="@id/public_home_btn_open_backup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_public_dialog_title_margin_buttom" android:text="@string/public_wpsdrive_backup_now" android:layout_below="@id/cannot_share_msg" android:layout_alignLeft="@id/cannot_share_msg" android:layout_alignStart="@id/cannot_share_msg" />
+</RelativeLayout>

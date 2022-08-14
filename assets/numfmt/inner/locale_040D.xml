@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 希伯来语 -->
+<resouce>
+<thous-separator type="string">,</thous-separator>
+<decimal-point type="string">.</decimal-point>
+<general type="string">General</general>
+<color-name type="string-array" size="9">
+<item>שחור</item>
+<item>כחול</item>
+<item>תכלת</item>
+<item>ירוק</item>
+<item>אדום ארגמן</item>
+<item>אדום</item>
+<item>לבן</item>
+<item>צהוב</item>
+<item>צבע</item>
+</color-name>
+<long-week type="string-array" size="7">
+<item>יום ראשון</item>
+<item>יום שני</item>
+<item>יום שלישי</item>
+<item>יום רביעי</item>
+<item>יום חמישי</item>
+<item>יום שישי</item>
+<item>שבת</item>
+</long-week>
+<short-week type="string-array" size="7">
+<item>יום א</item>
+<item>יום ב</item>
+<item>יום ג</item>
+<item>יום ד</item>
+<item>יום ה</item>
+<item>יום ו</item>
+<item>שבת</item>
+</short-week>
+<long-month type="string-array" size="12">
+<item>ינואר</item>
+<item>פברואר</item>
+<item>מרץ</item>
+<item>אפריל</item>
+<item>מאי</item>
+<item>יוני</item>
+<item>יולי</item>
+<item>אוגוסט</item>
+<item>ספטמבר</item>
+<item>אוקטובר</item>
+<item>נובמבר</item>
+<item>דצמבר</item>
+</long-month>
+<short-month type="string-array" size="12">
+<item>ינו</item>
+<item>פבר</item>
+<item>מרץ</item>
+<item>אפר</item>
+<item>מאי</item>
+<item>יונ</item>
+<item>יול</item>
+<item>אוג</item>
+<item>ספט</item>
+<item>אוק</item>
+<item>נוב</item>
+<item>דצמ</item>
+</short-month>
+<shortest-month type="string-array" size="12">
+<item>י</item>
+<item>פ</item>
+<item>מ</item>
+<item>א</item>
+<item>מ</item>
+<item>י</item>
+<item>י</item>
+<item>א</item>
+<item>ס</item>
+<item>א</item>
+<item>נ</item>
+<item>ד</item>
+</shortest-month>
+<am-pm type="string-array" size="2">
+<item>AM</item>
+<item>PM</item>
+</am-pm>
+<year type="string">y</year>
+<month type="string">m</month>
+<day type="string">d</day>
+<hour type="string">h</hour>
+<minute type="string">m</minute>
+<second type="string">s</second>
+<escape type="string">\</escape>
+<f400-f800 type="string-array" size="2">
+<item>hh:mm:ss</item>
+<item>[$-40d]dddd dd mmmm yyyy</item>
+</f400-f800>
+</resouce>

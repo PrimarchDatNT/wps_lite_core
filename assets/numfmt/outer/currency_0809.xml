@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 英语（英国） -->
+<resource>
+    <outer type="string-array" size="">
+        <item>None</item>
+        <item>¥</item>
+        <item>$</item>
+        <item>US$</item>
+        <item>‎$‎ Chinese (Singapore)‎</item>
+        <item>‎$‎ English (U.S.)‎</item>
+        <item>‎$‎ French (Canada)‎</item>
+        <item>‎$‎ Malay (Brunei Darussalam)‎</item>
+        <item>‎$‎ Spanish (Argentina)‎</item>
+        <item>‎$‎ Spanish (Puerto Rico)‎</item>
+        <item>‎$b‎ Spanish (Bolivia)‎</item>
+        <item>‎$U‎ Spanish (Uruguay)‎</item>
+        <item>‎£‎ English (U.K.)‎</item>
+        <item>‎£‎ Scottish Gaelic (United Kingdom)‎</item>
+        <item>‎¥‎ Chinese (PRC)‎</item>
+        <item>‎¥‎ Japanese‎</item>
+        <item>‎¥‎ Mongolian (Traditional Mongolian, PRC)‎</item>
+        <item>‎₭‎ Lao‎</item>
+        <item>‎₩‎ Korean‎</item>
+        <item>‎€‎ French (Belgium)‎</item>
+        <item>‎€‎ German (Austria)‎</item>
+        <item>‎€‎ Irish‎</item>
+        <item>‎€‎ Italian (Italy)‎</item>
+        <item>‎€‎ Portuguese (Portugal)‎</item>
+        <item>‎R$‎ Portuguese (Brazil)‎</item>
+        <item>‎HK$‎ Chinese (Hong Kong S.A.R.)‎</item>
+        <item>‎р.‎ Russian‎</item>
+        <item>‎‎‎€‎ French (France)‎</item>
+        <item>‎‎€‎ German (Germany)‎‎</item>
+        <item>‎$‎ Spanish (Mexico)‎</item>
+        <item>‎€‎ Spanish (International Sort)‎</item>
+        <item>‎€‎ Spanish (Spain-Traditional Sort)‎</item>
+        <item>‎NT$‎ Chinese (Taiwan)‎</item>
+        <item>‎₪‎ Hebrew‎</item>
+        <item>‎ر.س.‏‎ Arabic (Saudi Arabia)‎</item>
+        <item>‎лв.‎ Bulgarian‎</item>
+        <item>‎Kč‎ Czech‎</item>
+        <item>‎kr.‎ Danish‎</item>
+        <item>‎€‎ Greek‎</item>
+        <item>‎€‎ Finnish‎</item>
+        <item>‎Ft‎ Hungarian‎</item>
+        <item>‎€‎ Dutch (Netherlands)‎</item>
+        <item>‎kr‎ Norwegian (Bokmål)‎</item>
+        <item>‎zł‎ Polish‎</item>
+        <item>‎lei‎ Romanian‎</item>
+        <item>‎kn‎ Croatian (Croatia)‎</item>
+        <item>‎€‎ Slovak‎</item>
+        <item>‎฿‎ Thai‎</item>
+        <item>‎₺‎ Turkish‎</item>
+        <item>‎Rp‎ Indonesian‎</item>
+        <item>‎₴‎ Ukrainian‎</item>
+        <item>‎€‎ Slovenian‎</item>
+        <item>‎€‎ Estonian‎</item>
+        <item>‎Ls‎ Latvian‎</item>
+        <item>‎Lt‎ Lithuanian‎</item>
+        <item>‎ريال‎ Persian‎</item>
+        <item>‎₫‎ Vietnamese‎</item>
+        <item>‎ден.‎ Macedonian (FYROM)‎</item>
+        <item>‎₹‎ Hindi‎</item>
+        <item>‎Din.‎ Serbian (Latin, Serbia)‎</item>
+        <item>‎kr‎ Swedish (Sweden)‎</item>
+        <item>‎KM‎ Bosnian (Latin)‎</item>
+        <item>‎RM‎ Malay (Malaysia)‎</item>
+    </outer>
+    <default type="string">12</default>
+</resource>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.pdf.reader.decorators.annotation.PDFCustomArrowPopViewBg android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.EditScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/pdf_popballoon_container" android:background="@color/color_writer_popballoon_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/pdf_popballoon_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </cn.wps.moffice.common.beans.EditScrollView>
+    <FrameLayout android:id="@id/pdf_popballoon_progressbar" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</cn.wps.moffice.pdf.reader.decorators.annotation.PDFCustomArrowPopViewBg>

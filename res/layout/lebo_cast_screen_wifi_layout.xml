@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/lebo_cast_screen_wifi" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/public_castscreen_round_rect_subthirdbackgroundcolor_bg_4dp_shape" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/cast_screen_scan_tips_layout">
+        <RelativeLayout android:id="@id/search_device_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip">
+                <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/device_search_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_found_following_device" />
+                <cn.wps.moffice.common.beans.circleloadingview.CircleLoaderView android:id="@id/search_device_list_loading" android:visibility="invisible" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="5.0dip" android:layout_marginStart="5.0dip" app:circleStrokeWidth="2.0dip" app:loadingcircleRadius="6.5dip" />
+            </LinearLayout>
+            <TextView android:textSize="14.0dip" android:textColor="@color/secondaryColor" android:id="@id/refresh_browse" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/public_refresh" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_browse" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_below="@id/refresh_browse" android:overScrollMode="never" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </RelativeLayout>
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <include layout="@layout/lebo_cast_screen_panel_no_device" />
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cast_screen_scan_tips_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/cast_screen_scan_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

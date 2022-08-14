@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/top_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" />
+    <ListView android:id="@id/appList" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0" />
+    <Button android:textColor="@drawable/phone_public_black_text_color" android:gravity="center" android:layout_gravity="center" android:id="@id/view_all" android:visibility="visible" android:layout_width="fill_parent" android:layout_marginTop="@dimen/phone_public_dialog_bottom_layout_margin_top" android:text="@string/public_more" android:maxLines="2" style="@style/phone_public_nobg_white" />
+</LinearLayout>

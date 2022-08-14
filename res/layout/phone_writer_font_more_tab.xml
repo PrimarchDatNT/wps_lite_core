@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/more_title" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/phone_public_second_panel_titlebar_height">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/phone_back" style="@style/phone_public_second_panel_titlebar_back" />
+        <TextView android:layout_gravity="start|center" android:id="@id/titletext" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="0.0dip" android:text="@string/public_ribbon_font" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip" style="@style/phone_public_font_m_black" />
+        <cn.wps.moffice.common.beans.phone.indicator.UnderlinePageIndicator android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/indicator" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:id="@id/hide_btn" android:layout_width="@dimen/phone_public_paneltab_hidetbn_size" android:layout_height="@dimen/phone_public_paneltab_hidetbn_size" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/phone_public_paneltab_hidetbn_marginright" android:contentDescription="@string/reader_public_hide_panel" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/phone_public_paneltab_hidetbn_marginright">
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/phone_public_paneltab_hidebtn_iconsize" android:layout_height="@dimen/phone_public_paneltab_hidebtn_iconsize" android:src="@drawable/phone_public_hide_keyboard_panel_btn" style="@style/public_image_bg_style" />
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    </LinearLayout>
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/pager" android:background="@color/phone_public_panel_bg_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

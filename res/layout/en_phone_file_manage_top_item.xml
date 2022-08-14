@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/folder_container" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/phone_public_list_transparent_selector" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:id="@id/folder_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginTop="9.0dip" android:layout_marginBottom="5.0dip" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/subTextColor" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/folder_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="29.0dip" android:lines="2" />
+    </LinearLayout>
+</LinearLayout>

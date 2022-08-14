@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/login_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_gravity="center" android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wps_en_docer_login_icon" />
+                <TextView android:textSize="22.0dip" android:textStyle="bold" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/name_templates" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="18.0dip" android:text="@string/public_templates_describe" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="8.0dip" android:text="@string/please_login_to_show_template" />
+                <Button android:gravity="center" android:id="@id/login_wps" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginLeft="40.0dip" android:layout_marginTop="29.0dip" android:layout_marginRight="40.0dip" android:text="@string/documentmanager_loginView_btnLogin" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" style="@style/phone_public_wpsdrive_buttonStyle_blue_3dp_corner" />
+            </LinearLayout>
+        </ScrollView>
+        <View style="@style/phone_home_top_shadow" />
+    </FrameLayout>
+    <cn.wps.moffice.foreigntemplate.widget.DragHeaderLayout android:orientation="vertical" android:id="@id/my_template" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/id_DragHeaderLayoutTopView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <LinearLayout android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wps.moffice.foreigntemplate.widget.PagerIndicatorView android:id="@id/id_DragHeaderLayoutIndicator" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+        </LinearLayout>
+        <View android:background="@drawable/phone_public_top_shadow" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <cn.wps.moffice.foreigntemplate.widget.RollViewPager android:id="@id/id_DragHeaderLayoutViewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </cn.wps.moffice.foreigntemplate.widget.DragHeaderLayout>
+</RelativeLayout>

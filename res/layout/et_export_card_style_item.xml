@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="62.0dip" android:layout_height="62.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="18.0dip" android:layout_marginEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.spreadsheet.control.share.exportpages.SSRoundRectImageView android:id="@id/style_iv" android:layout_width="54.0dip" android:layout_height="54.0dip" android:layout_marginTop="8.0dip" android:src="@drawable/public_share_pic_thumbnails_origin" android:scaleType="fitXY" app:center_img="@drawable/v10_public_color_picker_checked_icon" app:selected_cover_color="@color/normalIconPressedColor" />
+    <ImageView android:layout_gravity="right" android:id="@id/flag_iv" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/pub_vip_wps_member_42" />
+</FrameLayout>

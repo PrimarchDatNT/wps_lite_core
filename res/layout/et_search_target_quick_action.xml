@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/ETMainColor" android:text="@string/et_search_text_value" style="@style/et_condition_format_quick_action_btn" />
+    <TextView android:text="@string/et_formulas_radio" style="@style/et_condition_format_quick_action_btn" />
+    <TextView android:text="@string/public_comment" style="@style/et_condition_format_quick_action_btn" />
+</LinearLayout>

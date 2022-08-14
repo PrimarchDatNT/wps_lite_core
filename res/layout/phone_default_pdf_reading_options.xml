@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/phone_pdf_layout_padding_right_left" android:paddingTop="@dimen/phone_pdf_layout_padding_top_bottom" android:paddingRight="@dimen/phone_pdf_layout_padding_right_left" android:paddingBottom="@dimen/phone_pdf_layout_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/phone_pdf_layout_padding_right_left" android:paddingEnd="@dimen/phone_pdf_layout_padding_right_left"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <TextView android:gravity="start" android:paddingTop="0.0dip" android:paddingBottom="0.0dip" android:layout_width="0.0dip" android:text="@string/phone_public_readprogress" android:layout_weight="1.0" style="@style/phone_pdf_font_panel_text" />
+        <cn.wps.moffice.common.beans.TextImageView android:textSize="@dimen/phone_public_fontsize_sp_s" android:textColor="@color/descriptionColor" android:layout_gravity="center_vertical" android:id="@id/phone_pdf_jump_to" android:background="@drawable/public_toolbar_grid_item_selector" android:paddingLeft="0.0dip" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_go" android:drawableLeft="@drawable/phone_public_jump_to_mini" android:drawablePadding="5.0dip" android:paddingStart="0.0dip" android:paddingEnd="8.0dip" />
+    </LinearLayout>
+    <LinearLayout style="@style/phone_pdf_font_row">
+        <FrameLayout android:id="@id/public_document_progress_host" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingStart="3.0dip" android:paddingEnd="3.0dip">
+            <SeekBar android:layout_gravity="center" android:id="@id/public_document_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="0" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout style="@style/phone_pdf_font_row">
+        <cn.wps.moffice.common.beans.phone.grid.TextImageGrid android:id="@id/phone_pdf_normal_read_options" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/phone_public_bg_gray_box" android:paddingLeft="@dimen/phone_pdf_layout_padding_right_left" android:paddingRight="@dimen/phone_pdf_layout_padding_right_left" android:layout_width="fill_parent" android:layout_height="@dimen/phone_pdf_bottom_panel_normal_item_height" android:paddingStart="@dimen/phone_pdf_layout_padding_right_left" android:paddingEnd="@dimen/phone_pdf_layout_padding_right_left">
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="@dimen/phone_public_fontsize_dp_m" android:textColor="@color/mainTextColor" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/phone_public_voice_key_paging" android:layout_weight="1.0" MaxLines="1" />
+        <include android:id="@id/pdf_change_page_by_volume" layout="@layout/public_switch_layout" />
+    </LinearLayout>
+</LinearLayout>

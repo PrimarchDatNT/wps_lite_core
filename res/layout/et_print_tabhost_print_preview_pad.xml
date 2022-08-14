@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/et_print_preview" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/print_tab_bot_splitter" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    <View android:id="@id/et_page_preview_margin" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_alignParentTop="true" />
+    <LinearLayout android:id="@id/et_preview_btn_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="5.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="5.0dip">
+            <cn.wps.moffice.common.beans.phone.AlphaButton android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:id="@id/et_preview_pre_page_btn" android:layout_width="90.0dip" android:layout_height="42.0dip" android:text="@string/public_preview_pre_page" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="5.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="5.0dip">
+            <cn.wps.moffice.common.beans.phone.AlphaButton android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:id="@id/et_preview_next_page_btn" android:layout_width="90.0dip" android:layout_height="42.0dip" android:text="@string/public_preview_next_page" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.phone.AlphaButton android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:id="@id/et_preview_print_btn" android:layout_width="90.0dip" android:layout_height="42.0dip" android:text="@string/public_print" />
+        </FrameLayout>
+    </LinearLayout>
+    <cn.wps.moffice.spreadsheet.control.print.SinglePagePreview android:id="@id/et_print_single_preview" android:background="@color/boldLineColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/et_preview_btn_group" />
+    <cn.wps.moffice.spreadsheet.control.print.MultiPagePreview android:id="@id/et_print_multi_preview" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/et_preview_btn_group" android:layout_below="@id/et_page_preview_margin" />
+</RelativeLayout>

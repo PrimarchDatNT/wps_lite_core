@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/nickNameEditText" android:layout_width="fill_parent" android:layout_height="fill_parent" android:hint="@string/home_account_pick_nickname_hint" />
+    <TextView android:textColor="@color/premium_red" android:id="@id/tipTextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip" />
+</LinearLayout>

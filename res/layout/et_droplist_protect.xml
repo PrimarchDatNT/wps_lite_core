@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarAlwaysDrawVerticalTrack="true" android:paddingTop="@dimen/public_toolbar_popupwindow_padding_vertical" android:paddingBottom="@dimen/public_toolbar_popupwindow_padding_vertical" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/et_droplist_protect_book" style="@style/public_toolbar_popupwindow_btn_withicon_layout">
+                <LinearLayout android:id="@id/et_protect_bookimage" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/et_insert_list_item_image" android:src="@drawable/pad_comp_table_protect_xls" style="@style/public_toolbar_popupwindow_icon" />
+                </LinearLayout>
+                <TextView android:textSize="13.0dip" android:id="@id/et_insert_list_item_text" android:text="@string/et_prot_book" style="@style/public_toolbar_popupwindow_btn_withicon" />
+            </LinearLayout>
+            <ImageView style="@style/et_toolbar_popupwindow_btn_spliter" />
+            <LinearLayout android:id="@id/et_droplist_protect_sheet" style="@style/public_toolbar_popupwindow_btn_withicon_layout">
+                <LinearLayout android:id="@id/et_protect_sheetimage" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/et_insert_list_item_image" android:src="@drawable/pad_comp_table_protect" style="@style/public_toolbar_popupwindow_icon" />
+                </LinearLayout>
+                <TextView android:textSize="13.0dip" android:id="@id/et_insert_list_item_text" android:text="@string/et_prot_sheet_dialog_title" style="@style/public_toolbar_popupwindow_btn_withicon" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

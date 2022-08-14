@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="center_horizontal" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="24.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_ss_port_sheet_cancel_root" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/et_prot_sheet_no_edit" style="@style/phone_public_font_s_gray" />
+        <cn.wps.moffice.common.beans.SafeRecordEditText android:id="@id/et_prot_sheet_cancel_password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textPassword" style="@style/phone_public_edit_text_with_title" />
+        <TextView android:gravity="start" android:id="@id/input_wrong_text" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_checkPasswdFaild" style="@style/public_custom_dialog_warning_text_style" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip">
+            <cn.wps.moffice.spreadsheet.control.cellsettings.common.CustomCheckBox android:id="@id/et_prot_sheet_cancel_show" android:layout_width="@dimen/phone_public_second_panel_radiobutton_height" android:layout_height="@dimen/phone_public_second_panel_radiobutton_height" />
+            <TextView android:id="@id/et_prot_sheet_cancel_show_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="0.0dip" android:text="@string/public_displayPasswd" android:layout_marginStart="8.0dip" android:layout_marginEnd="0.0dip" style="@style/phone_public_font_m_black" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_storage_permission_grant_msg_detail_title" style="@style/phone_public_dialog_text" />
+    <TextView android:id="@id/txt_regrant_tip_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/public_storage_permission_grant_msg" style="@style/phone_public_dialog_text" />
+    <TextView android:textColor="@color/secondaryColor" android:id="@id/txt_go_for_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/public_storage_permission_go_for_help" style="@style/phone_public_dialog_text" />
+</LinearLayout>

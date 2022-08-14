@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="@dimen/phone_public_dialog_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.cardview.CardView android:background="@drawable/phone_public_pop_track" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="@dimen/phone_public_dialog_shadow_elevation" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="true">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingTop="@dimen/phone_public_dialog_padding_top" android:paddingBottom="@dimen/phone_public_dialog_padding_buttom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/custom_dialog_title" android:paddingLeft="@dimen/phone_public_dialog_padding_left" android:paddingRight="@dimen/phone_public_dialog_padding_right" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/phone_public_dialog_padding_left" android:paddingEnd="@dimen/phone_public_dialog_padding_right">
+                <TextView android:ellipsize="marquee" android:id="@id/progress_message" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/phone_public_font_l_black" />
+            </RelativeLayout>
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/progress_sub_message" android:paddingLeft="@dimen/phone_public_dialog_padding_left" android:paddingRight="@dimen/phone_public_dialog_padding_right" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/phone_public_dialog_padding_left" android:paddingEnd="@dimen/phone_public_dialog_padding_right" MaxLine="1" style="@style/phone_public_font_s_gray" />
+            <FrameLayout android:id="@id/customPanel" android:paddingLeft="@dimen/phone_public_dialog_padding_right" android:paddingRight="@dimen/phone_public_dialog_padding_top" android:paddingBottom="@dimen/phone_public_dialog_content_padding_buttom" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/phone_public_dialog_title_margin_buttom" android:layout_weight="1.0" android:paddingStart="@dimen/phone_public_dialog_padding_right" android:paddingEnd="@dimen/phone_public_dialog_padding_top">
+                <TextView android:layout_gravity="end" android:id="@id/progress_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+                <cn.wps.moffice.common.beans.MaterialProgressBarHorizontal android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </cn.wps.moffice.common.beans.cardview.CardView>
+</LinearLayout>

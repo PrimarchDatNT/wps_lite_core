@@ -1,0 +1,91 @@
+Copyright (c) 2021 Manrope-Schriftart
+
+Diese Schriftsoftware ist unter der SIL Open Font License, Version 1.1, lizenziert.
+Diese Lizenz wird unten kopiert und ist auch mit häufig gestellten Fragen unter https://scripts.sil.org/OFL verfügbar
+
+-----------------------------------------------------------
+SIL OPEN FONT LIZENZ Version 1.1 - 26. Februar 2007
+-----------------------------------------------------------
+
+PRÄAMBEL
+Ziel der Open Font License (OFL) ist es, die weltweite
+Entwicklung kollaborativer Schriftprojekte zu fördern, die
+Bemühungen zur Erstellung von Schriften in akademischen und sprachlichen Gemeinschaften zu unterstützen und einen freien und
+offenen Rahmen bereitzustellen, in dem Schriften gemeinsam genutzt und verbessert werden können
+mit anderen.
+
+Mit OFL können die lizenzierten Schriftarten
+frei verwendet, untersucht, geändert und weitergegeben werden, solange sie nicht selbst verkauft werden. Die
+Schriftarten, einschließlich abgeleiteter Werke, können
+mit jeder Software gebündelt, eingebettet, weitergegeben und / oder verkauft werden, sofern reservierte
+Namen nicht von abgeleiteten Werken verwendet werden. Die Schriftarten und Derivate können
+jedoch nicht unter einer anderen Art von Lizenz veröffentlicht werden. Das
+Erfordernis, dass Schriftarten unter dieser Lizenz verbleiben, gilt nicht für
+Dokumente, die mit den Schriftarten oder ihren Derivaten erstellt wurden.
+
+DEFINITIONEN
+"Schriftsoftware" bezieht sich auf den Satz von Dateien, die von den Copyright-
+Inhabern unter dieser Lizenz veröffentlicht und eindeutig als solche gekennzeichnet wurden. Dies kann
+Quelldateien, Build-Skripte und Dokumentation umfassen.
+
+"Reservierter Schriftname" bezieht sich auf alle Namen, die nach den
+Copyright-Angaben als solche angegeben sind .
+
+"Originalversion" bezieht sich auf die Sammlung von Schriftarten-Softwarekomponenten, wie
+sie von den Copyright-Inhabern vertrieben werden.
+
+"Geänderte Version" bezieht sich auf alle Ableitungen, die durch Hinzufügen, Löschen
+oder Ersetzen von Komponenten der
+Originalversion ganz oder teilweise, durch Ändern von Formaten oder durch Portieren der Schriftsoftware in eine
+neue Umgebung erstellt wurden.
+
+"Autor" bezieht sich auf jeden Designer, Ingenieur, Programmierer, technischen
+Redakteur oder eine andere Person, die zur Schriftsoftware beigetragen hat.
+
+ERLAUBNIS & BEDINGUNGEN
+Hiermit wird die Erlaubnis erteilt, kostenlos, für jede Person zu erhalten
+eine Kopie der Font - Software zu verwenden, zu studieren, kopieren, fusionieren, einbetten, modifizieren,
+neu verteilen und verkaufen modifizierten und unmodifizierten Kopien der Font -
+Software, vorbehaltlich der folgenden Bedingungen:
+
+1) Weder die Schriftsoftware noch eine ihrer einzelnen Komponenten
+in Original- oder modifizierten Versionen dürfen für sich verkauft werden.
+
+2) Original- oder geänderte Versionen der Schriftsoftware können
+mit jeder Software gebündelt, weitergegeben und / oder verkauft werden, sofern jede Kopie
+den oben genannten Copyright-Hinweis und diese Lizenz enthält. Diese können
+entweder als eigenständige Textdateien, für Menschen lesbare Header oder
+in den entsprechenden maschinenlesbaren Metadatenfeldern in Text- oder
+Binärdateien enthalten sein, sofern diese Felder vom Benutzer leicht angezeigt werden können.
+
+3) Keine modifizierte Version der Schriftsoftware darf die reservierten Schriftnamen verwenden, es
+sei denn, der entsprechende
+Urheberrechtsinhaber erteilt eine ausdrückliche schriftliche Genehmigung . Diese Einschränkung gilt nur für den primären Schriftnamen
+, der den Benutzern angezeigt wird.
+
+4) Die Namen der Urheberrechtsinhaber oder der Urheber der Schriftsoftware
+dürfen nicht zur Bewerbung, Unterstützung oder Werbung für
+modifizierte Versionen verwendet werden, es sei denn, sie bestätigen die Beiträge des
+Urheberrechtsinhabers (s) und der / die Autor (en) oder mit deren ausdrücklicher schriftlicher
+Genehmigung.
+
+5) Die teilweise oder
+vollständig modifizierte oder nicht modifizierte Schriftsoftware muss vollständig unter dieser Lizenz und nicht
+unter einer anderen Lizenz vertrieben werden. Die Anforderung, dass Schriftarten
+unter dieser Lizenz verbleiben müssen, gilt nicht für Dokumente, die
+mit der Schriftarten-Software erstellt wurden.
+
+BEENDIGUNG
+Diese Lizenz wird ungültig, wenn eine der oben genannten Bedingungen
+nicht erfüllt ist.
+
+HAFTUNGSAUSSCHLUSS
+DIE FONT Software „wie es ist“ ohne Gewährleistung irgendeiner Art,
+AUSDRÜCKLICH ODER IMPLIZIT, EINSCHLIESSLICH , ABER NICHT BESCHRÄNKT AUF GARANTIEN DER
+EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NONINFRINGEMENT
+Urheber-, Patent-, Marken- oder anderen Recht. IN KEINEM FALL SIND DIE
+COPYRIGHT - INHABER HAFTUNG FÜR ANSPRÜCHE, SCHÄDEN ODER ANDERE HAFTUNG,
+EINSCHLIESSLICH ALLGEMEINE, BESONDERE, INDIREKTE ODER
+FOLGESCHÄDEN, OB IN EINEM DER VERTRAG, SCHULD ODER AUF ANDERE WEISE, DIE SICH
+AUS, AUS DER VERWENDUNG ODER UNMÖGLICHKEIT, DIE FONT-SOFTWARE ODER
+ANDERE HANDELN IN DER FONT-SOFTWARE ZU VERWENDEN.

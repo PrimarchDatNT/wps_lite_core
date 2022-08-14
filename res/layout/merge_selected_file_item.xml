@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingRight="@dimen/phone_home_listview_item_margin_right" android:layout_width="fill_parent" android:layout_height="66.0dip" android:paddingStart="16.0dip" android:paddingEnd="@dimen/phone_home_listview_item_margin_right">
+        <ImageView android:id="@id/merge_file_icon" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/documents_icon_pdf" android:scaleType="fitCenter" android:layout_weight="0.0" android:layout_marginEnd="16.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="#ff535252" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/merge_file_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="24.0dip" android:maxLines="2" android:layout_weight="1.0" android:layout_marginEnd="24.0dip" />
+        <ImageView android:id="@id/merge_file_handle" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/drag_handle" android:scaleType="fitCenter" android:layout_weight="0.0" />
+        <CheckBox android:id="@id/merge_file_check_box" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_weight="0.0" style="@style/phone_public_merge_check_box" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="#ffe3e3e3" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="69.0dip" />
+</FrameLayout>

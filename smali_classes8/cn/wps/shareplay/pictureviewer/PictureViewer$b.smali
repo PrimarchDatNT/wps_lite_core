@@ -1,0 +1,47 @@
+.class public Lcn/wps/shareplay/pictureviewer/PictureViewer$b;
+.super Ljava/lang/Object;
+.source "PictureViewer.java"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcn/wps/shareplay/pictureviewer/PictureViewer;->dismissWithAnimation()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic B:Lcn/wps/shareplay/pictureviewer/PictureViewer;
+
+
+# direct methods
+.method public constructor <init>(Lcn/wps/shareplay/pictureviewer/PictureViewer;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lcn/wps/shareplay/pictureviewer/PictureViewer$b;->B:Lcn/wps/shareplay/pictureviewer/PictureViewer;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lcn/wps/shareplay/pictureviewer/PictureViewer$b;->B:Lcn/wps/shareplay/pictureviewer/PictureViewer;
+
+    invoke-virtual {v0}, Lcn/wps/shareplay/pictureviewer/PictureViewer;->dismiss()V
+
+    return-void
+.end method

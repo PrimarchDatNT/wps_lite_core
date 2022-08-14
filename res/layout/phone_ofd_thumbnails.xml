@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.ofd.shell.common.views.OFDTitleBar android:id="@id/ofd_thumbnails_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/phone_ofd_thumbnails_gridview" />
+        <ImageView android:layout_gravity="top" android:background="@drawable/phone_public_top_shadow" android:layout_width="fill_parent" android:layout_height="3.0dip" />
+    </FrameLayout>
+</LinearLayout>

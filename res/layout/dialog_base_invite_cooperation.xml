@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.common.beans.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/public_home_link_file_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/public_invite_edit_setting_fileinfo_layout" />
+            <View android:id="@id/public_invite_edit_blodline" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            <cn.wps.moffice.cloud.cooperation.view.MultipleCooperationDocView android:id="@id/view_multiple_cooperation_doc" android:paddingTop="17.0dip" android:paddingBottom="17.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+            <View android:id="@id/bold_line_set_as_cooperation_doc" android:background="@color/boldLineColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            <FrameLayout android:id="@id/fl_invite_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </cn.wps.moffice.common.beans.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

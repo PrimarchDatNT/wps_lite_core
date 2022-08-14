@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:layout_gravity="top" android:id="@id/more_search" android:background="@drawable/public_pad_item_gray_focused_selector" android:focusable="true" android:nextFocusDown="@id/text_editor" android:layout_width="140.0dip" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginRight="0.0dip" android:contentDescription="@string/reader_writer_more" android:layoutDirection="ltr" android:layout_marginStart="50.0dip" android:layout_marginEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/more_search_img" android:background="@drawable/writer_search_more" android:layout_width="140.0dip" android:layout_height="25.0dip" android:src="@drawable/public_find_replace_fold_btn" android:scaleType="center" />
+</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

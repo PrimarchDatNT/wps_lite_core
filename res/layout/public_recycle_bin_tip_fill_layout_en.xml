@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_recycle_corner_fill" android:background="@drawable/public_recycle_corners_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/public_recycle_bin_tip_layout_en" />
+    <Space android:layout_width="fill_parent" android:layout_height="12.0dip" />
+</LinearLayout>

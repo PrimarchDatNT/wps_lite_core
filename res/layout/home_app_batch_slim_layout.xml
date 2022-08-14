@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.thin_batch.impl.view.ScanFileSubView android:id="@id/scan_file_sub_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.common.thin_batch.impl.view.CheckFileSubView android:id="@id/check_file_sub_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.common.thin_batch.impl.view.SelectCanSlimFileSubView android:id="@id/select_can_slim_file_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.common.thin_batch.impl.view.SlimFileSubView android:id="@id/slim_file_sub_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard app:horizontalGap="0.0%p" app:keyHeight="20.749998%p" app:keyWidth="25.0%p" app:verticalGap="0.0%p"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Row app:horizontalGap="0.0px" app:keyHeight="16.999996%p" app:keyTextColor="@color/mainTextColor" app:keyTextSize="20.0dip" app:keyWidth="104.99878%p" app:verticalGap="0.0px" />
+    <Row app:keyHeight="1.0px">
+        <Key app:codes="-100" app:horizontalGap="4.999995%p" app:keyDrawable="@color/lineColor" app:keyWidth="90.0%p" />
+    </Row>
+    <Row>
+        <Key app:codes="55" app:horizontalGap="0.0px" app:keyDrawable="@color/keyboardBackgroundColor" app:keyLabel="7" app:keyTextSize="28.0dip" app:keyWidth="25.0%p" />
+        <Key app:codes="56" app:keyDrawable="@color/keyboardBackgroundColor" app:keyLabel="8" app:keyTextSize="28.0dip" app:keyWidth="25.0%p" />
+        <Key app:codes="57" app:keyDrawable="@color/keyboardBackgroundColor" app:keyLabel="9" app:keyTextSize="28.0dip" app:keyWidth="25.0%p" />
+        <Key app:codes="-14" app:isRepeatable="true" app:keyDrawable="@color/keyboardBackgroundColor" app:keyEdgeFlags="right" app:keyIcon="@drawable/phone_ss_keyboard_del" app:keyWeight="1" />
+    </Row>
+    <Row>
+        <Key app:codes="52" app:horizontalGap="0.0px" app:keyLabel="4" app:keyTextSize="28.0dip" app:keyWidth="25.0%p" />
+        <Key app:codes="53" app:keyLabel="5" app:keyTextSize="28.0dip" app:keyWidth="25.0%p" />
+        <Key app:codes="54" app:keyLabel="6" app:keyTextSize="28.0dip" app:keyWidth="25.0%p" />
+        <Key app:codes="-24" app:keyEdgeFlags="right" app:keyLabel="@string/ss_data_validation_keyboard_now" app:keyTextColor="@color/mainTextColor" app:keyTextSize="20.0dip" app:keyWeight="1" app:keyWidth="25.0%p" />
+    </Row>
+    <Row>
+        <Key app:codes="49" app:horizontalGap="0.0px" app:keyLabel="1" app:keyTextSize="28.0dip" app:keyWidth="25.0%p" />
+        <Key app:codes="50" app:keyLabel="2" app:keyTextSize="28.0dip" app:keyWidth="25.0%p" />
+        <Key app:codes="51" app:keyLabel="3" app:keyTextSize="28.0dip" app:keyWidth="25.0%p" />
+        <Key app:codes="10,10" app:keyEdgeFlags="right" app:keyHeight="41.499996%p" app:keyIcon="@drawable/phone_ss_keyboard_enter" app:keyWeight="2" />
+    </Row>
+    <Row>
+        <Key app:codes="58" app:horizontalGap="0.0px" app:keyLabel=":" app:keyTextSize="28.0dip" app:keyWidth="25.0%p" />
+        <Key app:codes="48" app:keyLabel="0" app:keyTextSize="28.0dip" app:keyWidth="50.0%p" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.spreadsheet.phone.sheets.PhoneCompoundSheet android:layout_gravity="bottom" android:id="@id/phone_ss_sheetcompound" android:paddingLeft="@dimen/phone_public_bar_padding_h" android:paddingRight="@dimen/phone_public_bar_padding_h" android:layout_width="@dimen/phone_ss_dash_bar_sheet_width" android:layout_height="fill_parent" android:paddingStart="@dimen/phone_public_bar_padding_h" android:paddingEnd="@dimen/phone_public_bar_padding_h"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

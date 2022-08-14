@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/pdf_btn_zoom_press_bg_night" />
+    <item android:drawable="@drawable/pdf_btn_zoom_hover_bg_night" android:state_hovered="true" />
+    <item android:drawable="@android:color/transparent" />
+</selector>

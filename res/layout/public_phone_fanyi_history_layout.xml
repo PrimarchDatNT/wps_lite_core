@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.main.common.viewcontrols.LoadMoreListView android:id="@id/fanyi_history_list" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:divider="@null" />
+    <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/fanyi_empty_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsBtnText="@string/fanyigo_history_select_file" app:tipsImgId="@drawable/pub_404_no_record" app:tipsText="@string/fanyigo_history_empty_history" />
+    <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/fanyi_network_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsBtnText="@string/ppt_retry" app:tipsImgId="@drawable/pub_404_no_internet" app:tipsText="@string/documentmanager_cloudfile_no_network" />
+</RelativeLayout>

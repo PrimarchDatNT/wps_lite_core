@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottolayout">
+        <ListView android:id="@id/translation_preview_list" android:background="@color/color_alpha_00" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:overScrollMode="never" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/bottolayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/tipsLayout" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="38.0dip">
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentTop="true" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:id="@id/hintPage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/fanyigo_previewtips" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/docerMainColor" android:gravity="center" android:id="@id/payPage" android:paddingLeft="20.0dip" android:paddingRight="16.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/fanyigo_buypage" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="20.0dip" android:paddingEnd="16.0dip" android:layout_alignParentEnd="true" style="@style/public_image_bg_style" />
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="66.0dip" android:layout_below="@id/tipsLayout">
+            <Button android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/download_page_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/fanyigo_previewdownload" android:layout_centerInParent="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

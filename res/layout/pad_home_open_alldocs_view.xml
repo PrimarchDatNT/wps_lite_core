@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@drawable/phone_public_list_white_selector" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/home_open_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/home_open_item_icon" android:contentDescription="@null" style="@style/pad_home_open_item_img_style" />
+    <TextView android:id="@id/home_open_item_title_hint" android:text="@string/documentmanager_open_alldocuments" style="@style/pad_home_open_item_hint_txt_style" />
+    <TextView android:id="@id/home_open_item_title" android:layout_toLeftOf="@id/home_open_item_title_hint" android:layout_toRightOf="@id/home_open_item_icon" android:layout_toStartOf="@id/home_open_item_title_hint" android:layout_toEndOf="@id/home_open_item_icon" style="@style/pad_home_open_item_txt_style" />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template>
+        <name>public_newdocs_document_name</name>
+        <file>word/blank.docx</file>
+        <type>doc</type>
+    </template>
+    <template>
+        <name>public_newdocs_memo_name</name>
+        <file>word/blank.docx</file>
+        <type>memo</type>
+    </template>
+    <template>
+        <name>public_newdocs_presentation_name</name>
+        <file>ppt/blank.pptx</file>
+		<type>ppt</type>
+    </template>
+    <template>
+        <name>public_newdocs_spreadsheet_name</name>
+        <file>xls/blank.xlsx</file>
+		<type>xls</type>
+    </template>
+</templates>

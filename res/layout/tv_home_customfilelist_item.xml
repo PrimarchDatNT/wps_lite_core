@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/fb_listview_item_layout" android:paddingLeft="13.0dip" android:paddingRight="13.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="50.0dip" android:minHeight="50.0dip" android:paddingStart="13.0dip" android:paddingEnd="13.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fb_file_subs_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/fb_file_icon" android:layout_width="25.0dip" android:layout_height="25.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/whiteMainTextColor" android:layout_gravity="center_vertical" android:id="@id/fb_filename_text" android:paddingLeft="20.0dip" android:paddingRight="0.0dip" android:text="name" android:paddingStart="20.0dip" android:paddingEnd="0.0dip" style="@style/pad_home_list_item_content_big_text" />
+        <ImageView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="8.0dip" android:textColor="#ff8b919f" android:layout_gravity="end|center" android:id="@id/fb_file_last_modified_date_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="time" android:singleLine="true" style="@style/pad_home_list_item_content_small_text" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/fb_file_enter_arrow_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tv_home_select_arrow_to_right" />
+    </LinearLayout>
+</RelativeLayout>

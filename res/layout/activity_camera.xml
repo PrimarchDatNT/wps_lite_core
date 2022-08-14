@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/root_view" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rl_camera_bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/doc_scan_camera_bottom_bar_height" android:layout_alignParentBottom="true">
+        <cn.wps.moffice.main.scan.view.ScrollableTabView android:id="@id/stv_tab_pattern" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/stv_tab_pattern">
+            <ImageView android:layout_gravity="center" android:id="@id/btn_take_picture" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_doc_scan_take_picture" android:layout_centerInParent="true" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/btn_take_picture" android:layout_toStartOf="@id/btn_take_picture">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/fl_ac_many_mode" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/kiv_ac_single_many_pic" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/tv_ac_single_many_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/public_scan_many_mode" />
+                </LinearLayout>
+                <cn.wps.moffice.common.beans.AlphaRelativeLayout android:id="@id/al_thumbnail" android:padding="@dimen/doc_scan_album_btn_padding" android:visibility="visible" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+                    <RelativeLayout android:id="@id/rv_preview_container" android:visibility="visible" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_centerInParent="true">
+                        <cn.wps.moffice.main.scan.view.RoundImageView android:id="@id/iv_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:round_image_radius="3.0dip" />
+                        <TextView android:textSize="10.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/tv_thumbnail_num" android:background="@drawable/shape_doc_scan_circle_thumbnail_bg" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginTop="-6.0dip" android:layout_marginRight="-6.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                    </RelativeLayout>
+                </cn.wps.moffice.common.beans.AlphaRelativeLayout>
+            </FrameLayout>
+            <cn.wps.moffice.common.beans.AlphaRelativeLayout android:id="@id/al_album" android:padding="@dimen/doc_scan_album_btn_padding" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/btn_take_picture" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/btn_take_picture" android:layout_alignParentEnd="true">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_img_import" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/kiv_img_import" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/pub_scan_pic" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/tv_img_import" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/public_image_import_txt" />
+                </LinearLayout>
+                <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="16.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/tv_import" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_qing_roamingdoc_import" android:layout_centerInParent="true" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_img_export" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="16.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center_horizontal" android:id="@id/tv_img_export" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/doc_scan_file_export" />
+                    <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_vertical" android:id="@id/kiv_img_export" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="3.0dip" android:src="@drawable/comp_common_right_white" />
+                </LinearLayout>
+                <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="14.0sp" android:textColor="@color/scanConfirmTextColor" android:gravity="center" android:id="@id/tv_confirm" android:background="@drawable/shape_doc_scan_confirm_bg" android:layout_width="wrap_content" android:layout_height="32.0dip" android:minWidth="68.0dip" android:text="@string/public_done" android:layout_centerInParent="true" MaxLine="1" />
+            </cn.wps.moffice.common.beans.AlphaRelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/rl_camera_bottom_bar" layout="@layout/preview_module_frame" />
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/rl_camera_top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.main.scan.view.RotationImageView android:id="@id/iv_photo_preview" android:visibility="visible" android:layout_width="200.0dip" android:layout_height="250.0dip" android:scaleType="fitCenter" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <View android:id="@id/camera_shade" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

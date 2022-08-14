@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.presentation.control.print.PrintNavigationBarPad android:id="@id/ppt_print_left_tabbar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:background="@color/lineColor" android:layout_width="1.0px" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <cn.wps.moffice.presentation.control.print.printsettings.PrintSettingsView android:id="@id/ppt_printsetting_page" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ListView android:id="@id/ppt_printpreview_page" android:background="@color/backgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/phone_public_top_shadow" android:scaleType="fitXY" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="fill_parent" android:layout_height="30.0dip" />
+            <View android:id="@id/check_status_scroll_hide_view" android:layout_width="fill_parent" android:layout_height="30.0dip" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/check_status_image" android:layout_width="90.0dip" android:layout_height="90.0dip" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center_vertical" android:id="@id/check_status_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/checking_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="center_horizontal" android:id="@id/check_status_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/history_footer_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginBottom="24.0dip">
+                <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_paper_composition_history_close_tips" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/secondaryColor" android:id="@id/history_footer_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_paper_composition_history" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_paper_composition_history_close_tips_2" />
+            </LinearLayout>
+            <View android:layout_width="fill_parent" android:layout_height="65.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/restart_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="16.0dip" android:textColor="@color/whiteMainTextColor" android:layout_gravity="center_horizontal" android:id="@id/restart" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/app_paper_composition_restart" style="@style/phone_public_buttonStyle_blue_3dp_corner" />
+        <View android:id="@id/restart_hide_view" android:layout_width="fill_parent" android:layout_height="95.0dip" />
+        <View android:layout_width="fill_parent" android:layout_height="25.0dip" />
+    </LinearLayout>
+    <cn.wps.moffice.docer.widget.DocerCommonErrorPage android:id="@id/network_error_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsBtnText="@string/ppt_retry" app:tipsImgId="@drawable/pub_404_no_internet" app:tipsText="@string/public_scan_network_nouse" />
+</RelativeLayout>

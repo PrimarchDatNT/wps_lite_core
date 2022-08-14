@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:focusable="true" style="@style/public_toolbar_popupwindow_btn_withicon_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/public_item_image" style="@style/public_toolbar_popupwindow_icon" />
+    <TextView android:id="@id/public_item_text" style="@style/public_toolbar_popupwindow_btn_withicon" />
+    <ImageView android:layout_gravity="top" android:id="@id/public_item_red" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/public_share_recommend_shape" android:layout_marginStart="2.0dip" />
+</LinearLayout>

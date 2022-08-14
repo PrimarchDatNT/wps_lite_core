@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.main.local.appsetting.assistant.fileradar.ViewContainer android:id="@id/public_file_radar_pop_view_root" android:paddingBottom="81.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/public_file_radar_pop_view_content_view" android:background="@drawable/public_file_radar_float_tips_bg_case_a" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:paddingStart="11.0dip" android:paddingEnd="11.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/ivIcon" android:layout_width="24.0dip" android:layout_height="24.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/whiteMainTextColor" android:ellipsize="middle" android:id="@id/file_name_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="9.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/open_btn" android:background="@drawable/float_tip_button_bg" android:layout_width="72.0dip" android:layout_height="27.0dip" android:layout_marginLeft="9.0dip" android:text="@string/public_open" android:layout_marginStart="9.0dip" />
+    </LinearLayout>
+</cn.wps.moffice.main.local.appsetting.assistant.fileradar.ViewContainer>

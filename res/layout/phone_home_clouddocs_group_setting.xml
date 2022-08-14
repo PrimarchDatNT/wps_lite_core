@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/group_member_list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/phone_public_list_white_selector" android:cacheColorHint="@android:color/transparent" android:divider="@null" />
+    <include layout="@layout/phone_home_wps_drive_progress_layer" />
+</RelativeLayout>

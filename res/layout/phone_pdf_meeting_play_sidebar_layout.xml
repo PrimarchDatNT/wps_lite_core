@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingTop="25.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="bottom" android:id="@id/phone_play_titlebar_back_cover" android:background="@color/public_shareplay_titbebar_toolbar_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <FrameLayout android:id="@id/phone_public_thumbnail_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.pdf.shell.common.views.gridview.HorizontalGridView android:id="@id/phone_pdf_play_sidebar" android:background="@color/public_shareplay_titbebar_toolbar_bg" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" customgridview_horizontal_spacing="8" customgridview_rownum="1" customgridview_vertical_spacing="8" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/save_tab_layout" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.TitleBar android:id="@id/save_title_head" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_titlebar_height" app:title_bar_level="3" />
+    <LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/save_title_head">
+        <FrameLayout android:id="@id/custom_tabhost_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.CustomTabHost android:id="@id/custom_tabhost" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:layout_gravity="bottom" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </FrameLayout>
+        <include android:id="@id/save_bottombar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/phone_public_saveas_dialog_bottombar" />
+    </LinearLayout>
+</RelativeLayout>

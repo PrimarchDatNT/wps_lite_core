@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:id="@id/et_print_main_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/et_print_dialog_left" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textColor="@color/mainTextColor" android:id="@id/et_print_printsetting_btn" android:text="@string/public_print_setting" style="@style/ss_second_fullscreen_left_btn" />
+                <TextView android:textColor="@color/mainTextColor" android:id="@id/et_print_pagesetting_btn" android:text="@string/public_page_setting" style="@style/ss_second_fullscreen_left_btn" />
+                <TextView android:textColor="@color/mainTextColor" android:id="@id/et_print_printarea_btn" android:text="@string/et_print_area" style="@style/ss_second_fullscreen_left_btn" />
+                <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/et_print_divider_margin" android:layout_marginRight="@dimen/et_print_divider_margin" android:layout_marginStart="@dimen/et_print_divider_margin" android:layout_marginEnd="@dimen/et_print_divider_margin" />
+                <TextView android:textColor="@color/mainTextColor" android:id="@id/et_print_preview_btn" android:text="@string/public_print_preview" style="@style/ss_second_fullscreen_left_btn" />
+                <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/et_print_divider_margin" android:layout_marginRight="@dimen/et_print_divider_margin" android:layout_marginStart="@dimen/et_print_divider_margin" android:layout_marginEnd="@dimen/et_print_divider_margin" />
+            </LinearLayout>
+            <View android:background="@color/lineColor" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <cn.wps.moffice.spreadsheet.control.print.pad.ETPrintTabHostPad android:id="@id/et_print_tab_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</merge>

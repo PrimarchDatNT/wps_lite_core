@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="start" android:orientation="horizontal" android:id="@id/new_search_history_layout" android:background="@drawable/phone_public_list_white_selector" android:paddingRight="0.0dip" android:paddingEnd="0.0dip" style="@style/public_document_item_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/search_history_icon" android:layout_centerVertical="true" style="@style/public_document_item_image_style" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_history_name_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toLeftOf="@id/search_history_delete" android:layout_toRightOf="@id/search_history_icon" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toStartOf="@id/search_history_delete" android:layout_toEndOf="@id/search_history_icon">
+        <TextView android:ellipsize="end" android:id="@id/search_history_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="0.0dip" android:maxLines="2" android:layout_marginEnd="0.0dip" style="@style/public_document_item_title_style" />
+        <TextView android:gravity="center" android:id="@id/limit_free_btn" android:visibility="gone" android:layout_marginLeft="10.0dip" android:layout_marginStart="10.0dip" style="@style/limit_free_btn_style" />
+    </LinearLayout>
+    <ImageView android:id="@id/search_history_delete" android:padding="16.0dip" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/pub_nav_search_history_delete" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    <View android:layout_gravity="bottom" android:id="@id/search_item_divide" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginRight="0.0dip" android:layout_alignLeft="@id/search_history_name_layout" android:layout_alignParentBottom="true" android:layout_marginEnd="0.0dip" />
+</RelativeLayout>

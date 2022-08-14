@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/sortby_time_layout" android:background="@drawable/phone_public_list_selector" style="@style/phone_public_dialog_list_item_layout">
+        <RadioButton android:id="@id/sortby_time_radio" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/phone_public_dialog_content_list_item_margin" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/phone_public_dialog_content_list_item_margin" style="@style/public_radio_button_base" />
+        <TextView android:text="@string/documentmanager_sort_filetime" style="@style/phone_public_dialog_list_item_imagetext" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/sortby_name_layout" android:background="@drawable/phone_public_list_selector" style="@style/phone_public_dialog_list_item_layout">
+        <RadioButton android:id="@id/sortby_name_radio" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/phone_public_dialog_content_list_item_margin" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/phone_public_dialog_content_list_item_margin" style="@style/public_radio_button_base" />
+        <TextView android:text="@string/documentmanager_sort_filename" style="@style/phone_public_dialog_list_item_imagetext" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/sortby_size_layout" android:background="@drawable/phone_public_list_selector" style="@style/phone_public_dialog_list_item_layout">
+        <RadioButton android:id="@id/sortby_size_radio" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/phone_public_dialog_content_list_item_margin" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/phone_public_dialog_content_list_item_margin" style="@style/public_radio_button_base" />
+        <TextView android:text="@string/documentmanager_sort_filesize" style="@style/phone_public_dialog_list_item_imagetext" />
+    </LinearLayout>
+</LinearLayout>

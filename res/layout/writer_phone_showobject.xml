@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/animation_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/animation_alpha" android:background="@color/color_translucent_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/animation_object_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="center" />
+    </FrameLayout>
+    <cn.wps.moffice.common.beans.EditScrollView android:id="@id/writer_object_scrollview" android:background="@color/color_translucent_dialog" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.writer.shape.objectview.ObjectView android:id="@id/writer_object_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </cn.wps.moffice.common.beans.EditScrollView>
+    <View android:id="@id/writer_night_view" android:background="#60000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_gravity="bottom|center" android:id="@id/saveLayout" android:background="@drawable/save_picture_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40.0dip">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/savePic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v10_phone_public_download_white_icon" android:scaleType="fitCenter" android:layout_centerInParent="true" style="@style/public_image_bg_style" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/writer_circle_progress_cycle_layout" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:id="@id/writer_circle_progress_cycle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

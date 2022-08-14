@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/save_bottombar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_save_as" android:background="@drawable/public_save_dialog_layout_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <TextView android:textSize="@dimen/phone_public_fontsize_sp_s" android:textColor="@color/descriptionColor" android:id="@id/saveas_roaming_new_file_text" android:paddingTop="14.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/documentmanage_qing_roamingdoc_save_path" />
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="@dimen/phone_public_fontsize_sp_m" android:textColor="@color/mainTextColor" android:layout_gravity="start|center" android:id="@id/saveas_roaming_new_file_path" android:paddingBottom="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/phone_public_path_gallery_item_bg" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <cn.wps.moffice.common.beans.RecordEditText android:id="@id/save_new_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="214.0dip" android:layout_weight="1.0" android:inputType="textNoSuggestions" android:textDirection="anyRtl" />
+        <cn.wps.moffice.common.beans.NewSpinner android:gravity="bottom" android:id="@id/format_choose_btn" android:layout_width="88.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="0.0dip" android:text=".doc" android:layout_marginStart="5.0dip" android:layout_marginEnd="0.0dip" />
+    </LinearLayout>
+    <ViewStub android:id="@id/save_album_layout" android:layout="@layout/phone_save_dialog_album_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/secondBackgroundColor" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <cn.wps.moffice.common.beans.AutoAdjustButton android:textSize="16.0dip" android:gravity="center" android:id="@id/btn_encrypt" android:layout_width="0.0dip" android:layout_height="42.0dip" android:layout_marginRight="16.0dip" android:text="@string/public_encryptDocument" android:layout_weight="1.0" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" MaxLine="1" style="@style/phone_public_buttonStyle_gray_4dp_corner_dark_compat" />
+        <cn.wps.moffice.common.beans.AutoAdjustButton android:textSize="16.0dip" android:gravity="center" android:id="@id/btn_save" android:layout_width="0.0dip" android:layout_height="42.0dip" android:text="@string/public_save" android:layout_weight="1.0" android:layout_centerVertical="true" MaxLine="1" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+    </LinearLayout>
+</LinearLayout>

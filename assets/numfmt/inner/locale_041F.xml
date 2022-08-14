@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!-- <!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd"> -->
+<resource>
+	<!-- 土耳其语（土耳其） -->
+	<thous-separator type="string">.</thous-separator>
+	<decimal-point type="string">,</decimal-point>
+	<general type="string">Genel</general>
+	<color-name type="string-array" size="">
+		<item>Siyah</item>
+		<item>Mavi</item>
+		<item>Camgöbeği</item>
+		<item>Yeşil</item>
+		<item>Pembe</item>
+		<item>Kırmızı</item>
+		<item>Beyaz</item>
+		<item>Sarı</item>
+		<item>Renk</item>
+	</color-name>
+	<long-week type="string-array" size="7">
+		<item>Pazar</item>
+		<item>Pazartesi</item>
+		<item>Salı</item>
+		<item>Çarşamba</item>
+		<item>Perşembe</item>
+		<item>Cuma</item>
+		<item>Cumartesi</item>
+	</long-week>
+	<short-week type="string-array" size="7">
+		<item>Paz</item>
+		<item>Pzt</item>
+		<item>Sal</item>
+		<item>Çar</item>
+		<item>Per</item>
+		<item>Cum</item>
+		<item>Cmt</item>
+	</short-week>
+	<long-month type="string-array" size="12">
+	<item>Ocak</item>
+	<item>Şubat</item>
+	<item>Mart</item>
+	<item>Nisan</item>
+	<item>Mayıs</item>
+	<item>Haziran</item>
+	<item>Temmuz</item>
+	<item>Ağustos</item>
+	<item>Eylül</item>
+	<item>Ekim</item>
+	<item>Kasım</item>
+	<item>Aralık</item>
+	</long-month>
+	<short-month type="string-array" size="12">
+	<item>Oca</item>
+	<item>Şub</item>
+	<item>Mar</item>
+	<item>Nis</item>
+	<item>May</item>
+	<item>Haz</item>
+	<item>Tem</item>
+	<item>Ağu</item>
+	<item>Eyl</item>
+	<item>Eki</item>
+	<item>Kas</item>
+	<item>Ara</item>
+	</short-month>
+	<shortest-month type="string-array" size="12">
+	<item>O</item>
+	<item>Ş</item>
+	<item>M</item>
+	<item>N</item>
+	<item>M</item>
+	<item>H</item>
+	<item>T</item>
+	<item>A</item>
+	<item>E</item>
+	<item>E</item>
+	<item>K</item>
+	<item>A</item>
+	</shortest-month>
+	<am-pm type="string-array" size="2">
+		<item>AM</item>
+		<item>PM</item>
+	</am-pm>
+	<year type="string">y</year>
+	<month type="string">a</month>
+	<day type="string">g</day>
+	<hour type="string">s</hour>
+	<minute type="string">d</minute>
+	<second type="string">n</second>
+	<escape type="string">\</escape>
+	<f400-f800 type="string-array" size="2">
+	<item>h:mm:ss AM/PM</item>
+	<item>dd.mm.yyyy</item>
+	</f400-f800>
+</resource>

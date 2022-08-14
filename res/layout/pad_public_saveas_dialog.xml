@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/save_tab_layout" android:background="@drawable/dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+    <RelativeLayout android:id="@id/save_tab_title_group" android:background="@color/thirdBackgroundColor" android:focusable="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="50.0dip" style="@style/public_keyboard_mouse_no_background_style">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/title_bar_return" android:focusable="false" android:visibility="gone" android:src="@drawable/pad_pub_nav_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/phone_public_titlebar_return" />
+        <TextView android:textSize="@dimen/pad_public_saveas_dialog_title_text_size" android:id="@id/title_bar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_save" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View style="@style/pad_home_topbar_underline" />
+    <LinearLayout android:orientation="vertical" android:id="@id/save_filelist_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.CustomTabHost android:id="@id/custom_tabhost" android:background="@color/thirdBackgroundColor" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <View style="@style/pad_home_topbar_underline" />
+        <include android:id="@id/save_bottombar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" layout="@layout/pad_public_saveas_dialog_bottombar" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/web_article_publish_wechat" style="@style/public_web_article_share_button_style">
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pub_list_share_wechat" />
+        <TextView android:gravity="center" android:text="@string/public_general_wechat_file" style="@style/public_web_article_share_text_style" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/web_article_publish_qq" style="@style/public_web_article_share_button_style">
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pub_list_share_qq" />
+        <TextView android:gravity="center" android:text="@string/public_general_qq_file" style="@style/public_web_article_share_text_style" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/web_article_publish_copylink" style="@style/public_web_article_share_button_style">
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pub_list_share_copy_link" />
+        <TextView android:gravity="center" android:text="@string/public_share_dropbox_copy_link_lable" style="@style/public_web_article_share_text_style" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/web_article_publish_qrcode" style="@style/public_web_article_share_button_style">
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pub_list_share_qrcode" />
+        <TextView android:gravity="center" android:text="@string/public_share_qrcode" style="@style/public_web_article_share_text_style" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.spreadsheet.control.EtTitleBar android:id="@id/et_chartoptions_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.common.beans.SecondFullScreenLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/et_chartoptions_left" android:background="@color/backgroundColor" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="30.0">
+                <ScrollView android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/mainTextColor" android:id="@id/et_chartoptions_chart_title_btn" android:text="@string/chart_defaultChartTitle_bmw" style="@style/ss_second_fullscreen_left_btn" />
+                            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/et_print_divider_margin" android:layout_marginRight="@dimen/et_print_divider_margin" android:layout_marginStart="@dimen/et_print_divider_margin" android:layout_marginEnd="@dimen/et_print_divider_margin" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/mainTextColor" android:id="@id/et_chartoptions_legend_btn" android:text="@string/et_chartoptions_legend" style="@style/ss_second_fullscreen_left_btn" />
+                            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/et_print_divider_margin" android:layout_marginRight="@dimen/et_print_divider_margin" android:layout_marginStart="@dimen/et_print_divider_margin" android:layout_marginEnd="@dimen/et_print_divider_margin" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/mainTextColor" android:id="@id/et_chartoptions_coordinate_axis_btn" android:text="@string/et_chartoptions_coordinate_axis" style="@style/ss_second_fullscreen_left_btn" />
+                            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/et_print_divider_margin" android:layout_marginRight="@dimen/et_print_divider_margin" android:layout_marginStart="@dimen/et_print_divider_margin" android:layout_marginEnd="@dimen/et_print_divider_margin" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/mainTextColor" android:id="@id/et_chartoptions_data_options_btn" android:text="@string/et_chartoptions_data_options" style="@style/ss_second_fullscreen_left_btn" />
+                            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/et_print_divider_margin" android:layout_marginRight="@dimen/et_print_divider_margin" android:layout_marginStart="@dimen/et_print_divider_margin" android:layout_marginEnd="@dimen/et_print_divider_margin" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/mainTextColor" android:id="@id/et_chartoptions_grid_lines_btn" android:text="@string/et_chartoptions_grid_lines" style="@style/ss_second_fullscreen_left_btn" />
+                            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/et_print_divider_margin" android:layout_marginRight="@dimen/et_print_divider_margin" android:layout_marginStart="@dimen/et_print_divider_margin" android:layout_marginEnd="@dimen/et_print_divider_margin" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/mainTextColor" android:id="@id/et_chartoptions_trend_lines_btn" android:text="@string/et_chartoptions_trend_lines" style="@style/ss_second_fullscreen_left_btn" />
+                            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/et_print_divider_margin" android:layout_marginRight="@dimen/et_print_divider_margin" android:layout_marginStart="@dimen/et_print_divider_margin" android:layout_marginEnd="@dimen/et_print_divider_margin" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/mainTextColor" android:id="@id/et_chartoptions_error_lines_btn" android:text="@string/et_chartoptions_error_lines" style="@style/ss_second_fullscreen_left_btn" />
+                            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/et_print_divider_margin" android:layout_marginRight="@dimen/et_print_divider_margin" android:layout_marginStart="@dimen/et_print_divider_margin" android:layout_marginEnd="@dimen/et_print_divider_margin" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+                <View android:background="@color/lineColor" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <LinearLayout android:id="@id/et_chartoptions_main_content" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="70.0" />
+        </LinearLayout>
+    </cn.wps.moffice.common.beans.SecondFullScreenLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/pdf_pic_preview_mode_shape" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/pdf_mode_layout" android:background="#ffffc861" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="6.0dip">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_gravity="center" android:id="@id/pdf_pic_mode_img" android:layout_width="68.0dip" android:layout_height="88.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/pdf_pic_preview_a4" android:contentDescription="@string/pdf_pic_preview_a4_mode" />
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_gravity="end" android:id="@id/pdf_pic_bg_btn" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/pdf_pic_preview_bg_btn" />
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_gravity="end" android:id="@id/pdf_pic_btn" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/pdf_pic_preview_check_btn" android:layout_marginEnd="3.0dip" />
+    </FrameLayout>
+    <TextView android:textSize="11.0dip" android:textColor="@color/subTextColor" android:gravity="center_horizontal" android:id="@id/pdf_pic_mode_tip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="9.0dip" android:text="@string/pdf_pic_preview_a4_tip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+</LinearLayout>

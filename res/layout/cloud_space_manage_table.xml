@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/table_line_drawable" android:showDividers="beginning|end|middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:background="@color/public_color_gray_1a" android:divider="@drawable/table_line_drawable" android:showDividers="beginning|end|middle">
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:padding="8.0dip" android:text="@string/public_user_level" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:padding="8.0dip" android:text="@string/home_qing_vip_level_name_register" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_qing_vip_level_name_wps" android:drawablePadding="3.0dip" android:drawableStart="@drawable/pub_vip_wps_member_42" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_qing_vip_level_name_superwps" android:drawablePadding="3.0dip" android:drawableStart="@drawable/pub_vip_svip_member_42" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:divider="@drawable/table_line_drawable" android:showDividers="beginning|end|middle">
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:background="@color/subThirdBackgroundColor" android:padding="8.0dip" android:text="@string/public_cloud_space_capacity" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/tv_user_space" android:padding="8.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/tv_wps_space" android:padding="8.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/tv_super_space" android:padding="8.0dip" android:layout_weight="1.0" />
+    </TableRow>
+    <TableRow android:divider="@drawable/table_line_drawable" android:showDividers="beginning|end|middle">
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:background="@color/subThirdBackgroundColor" android:padding="8.0dip" android:text="@string/public_file_limit" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/tv_user_file_limit" android:padding="8.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/tv_wps_file_limit" android:padding="8.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/tv_super_file_limit" android:padding="8.0dip" android:layout_weight="1.0" />
+    </TableRow>
+</TableLayout>

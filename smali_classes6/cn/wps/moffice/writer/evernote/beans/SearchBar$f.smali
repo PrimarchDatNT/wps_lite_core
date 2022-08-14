@@ -1,0 +1,22 @@
+.class public interface abstract Lcn/wps/moffice/writer/evernote/beans/SearchBar$f;
+.super Ljava/lang/Object;
+.source "SearchBar.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcn/wps/moffice/writer/evernote/beans/SearchBar;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "f"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Ljava/lang/String;)V
+.end method
+
+.method public abstract b(Ljava/lang/String;)V
+.end method

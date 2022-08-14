@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <SurfaceView android:layout_gravity="center_horizontal" android:id="@id/surface_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <TextView android:textSize="12.0dip" android:textColor="#fff3e2c0" android:layout_gravity="bottom|center" android:id="@id/theme_get_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="190.0dip" android:text="@string/home_membership_theme_get" />
+        <TextView android:textSize="17.0dip" android:textColor="#fff3e2c0" android:layout_gravity="bottom|center" android:id="@id/theme_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="162.0dip" android:text="@string/home_membership_theme" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="160.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="36.0dip" android:layout_marginRight="36.0dip" android:layout_marginBottom="11.0dip" android:layout_marginStart="36.0dip" android:layout_marginEnd="36.0dip">
+                <TextView android:textSize="14.0dip" android:textColor="#fff3e2c0" android:gravity="center" android:id="@id/cancel_btn" android:layout_width="0.0dip" android:layout_height="42.0dip" android:layout_marginRight="20.0dip" android:text="@string/home_membership_theme_no_need" android:layout_weight="1.0" android:layout_marginEnd="20.0dip" />
+                <TextView android:textSize="14.0dip" android:textColor="#ff1e1d1c" android:gravity="center" android:id="@id/apply_btn" android:layout_width="0.0dip" android:layout_height="42.0dip" android:text="@string/home_membership_theme_use_vip_theme" android:layout_weight="1.0" />
+            </LinearLayout>
+            <TextView android:textSize="12.0dip" android:textColor="#fff3e2c0" android:layout_gravity="center" android:id="@id/theme_find_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_membership_theme_find_tips" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

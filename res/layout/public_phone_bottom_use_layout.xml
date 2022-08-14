@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/internal_templete_docer_vip_introduce_layout" />
+    <cn.wps.moffice.common.beans.phone.RoundRectLinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/use_view" android:background="@color/buttonSecondaryColor" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/internal_template_introduce_bottom_banner_height" app:round_rect_radius="@dimen/home_template_item_round_radius">
+        <TextView android:textSize="@dimen/home_template_banner_text_size" android:textColor="@color/whiteMainTextColor" android:ellipsize="end" android:id="@id/use_desc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/ppt_template_insert_now" android:maxLines="1" android:layout_marginStart="6.0dip" />
+    </cn.wps.moffice.common.beans.phone.RoundRectLinearLayout>
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView android:id="@id/lv_menu" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@drawable/phone_public_dialog_list_selector" android:divider="#ffdcdcdc" android:dividerHeight="1.0px" android:layout_weight="1.0" android:layout_alignParentBottom="true" android:overScrollMode="never"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

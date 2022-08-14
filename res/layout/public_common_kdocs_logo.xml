@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_vertical" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/comp_common_kdocs_logo" android:layout_marginEnd="5.0dip" />
+    <TextView android:textSize="11.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="center_vertical" android:id="@id/operation_item_sublabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_cooperate_multimember_edit_cooperation_label" />
+</LinearLayout>

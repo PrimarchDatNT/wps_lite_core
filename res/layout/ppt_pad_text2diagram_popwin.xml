@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="304.0dip" android:layout_height="300.0dip">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ppt_text2diagram_loading_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" app:barColor1="@color/buttonSecondaryColor" app:barColor2="@color/buttonSecondaryColor" app:barColor3="@color/buttonSecondaryColor" app:barColor4="@color/buttonSecondaryColor" app:barWidth="2.0dip" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@string/home_membership_message_loading" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ppt_text2diagram_match_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="200.0dip" android:layout_height="140.0dip" android:src="@drawable/pub_404_no_image" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ppt_textbox_to_diagram_no_result" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ppt_text2diagram_net_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="200.0dip" android:layout_height="140.0dip" android:src="@drawable/pub_404_no_internet" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:layout_gravity="center" android:id="@id/ppt_pad_text2diagram_reload" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_server_error_tip" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/ppt_text2diagram_list_root" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ppt_textbox_to_diagram_select_diagram" />
+                <TextView android:textSize="9.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/dropdown_imageview_freelimit" android:background="@drawable/pad_ppt_free_limit_bg" android:layout_width="26.0dip" android:layout_height="13.0dip" android:layout_marginLeft="5.0dip" android:text="@string/public_share_long_pic_limit_free" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/ppt_text2diagram_image_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

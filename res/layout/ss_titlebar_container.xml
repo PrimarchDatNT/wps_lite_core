@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/ss_titlebar_container" android:background="@color/ETNavBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/public_pad_titlebar_height_hor"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

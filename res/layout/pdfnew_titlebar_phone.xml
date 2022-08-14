@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/pdf_titlebar_padding_top" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentTop="true" />
+    <FrameLayout android:id="@id/titlebar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pdf_titlebar_padding_top">
+        <include android:id="@id/normal_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/phone_pdf_titlebar_content" />
+        <ViewStub android:id="@id/rom_layout_stub" android:layout="@layout/phone_public_rom_read_titlebar_pdf" android:inflatedId="@id/rom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <View android:id="@id/pdf_titlebar_bottom_line" android:tag="effect_drawwindow_View" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/titlebar_layout" />
+</RelativeLayout>

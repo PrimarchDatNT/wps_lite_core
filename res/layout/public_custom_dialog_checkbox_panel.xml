@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/checkbox_layout" android:layout_width="wrap_content" android:layout_height="@dimen/phone_public_second_panel_padding_big"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.phone.CustomBackgroundCheckbox android:gravity="center" android:id="@id/checkbox_btn" android:paddingRight="0.0dip" android:clickable="true" android:layout_width="@dimen/phone_public_permisson_dialog_checkbox_height" android:layout_height="@dimen/phone_public_permisson_dialog_checkbox_height" android:paddingEnd="0.0dip" custom:drawableOff="@drawable/public_blue_rect_checkbox_off" custom:drawableOn="@drawable/public_blue_rect_checkbox_on" />
+    <TextView android:textSize="@dimen/phone_public_fontsize_sp_s" android:textColor="@color/descriptionColor" android:layout_gravity="center" android:id="@id/checkbox_text" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="0.0dip" android:text="@string/public_check_not_notify_in_15_days" android:paddingStart="8.0dip" android:layout_marginEnd="0.0dip" />
+</LinearLayout>

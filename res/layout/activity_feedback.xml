@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ll_help" android:layout_width="fill_parent" android:layout_height="66.0dip" style="@style/public_image_bg_null_style_bounded">
+        <cn.wpsx.support.ui.KNormalImageView android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/help_icon" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_help_title" android:maxLines="2" />
+    </LinearLayout>
+    <View android:id="@id/help_view_devide" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_marginLeft="58.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_whtasapp_join_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="66.0dip" style="@style/public_image_bg_null_style_bounded">
+        <cn.wpsx.support.ui.KNormalImageView android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/help_icon_whatsapp" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/join_whatsapp" android:maxLines="2" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/descriptionColor" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/help_us_improve" android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/view_devide" android:background="@color/lineColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.30000007dip" android:layout_marginLeft="58.0dip" />
+</LinearLayout>

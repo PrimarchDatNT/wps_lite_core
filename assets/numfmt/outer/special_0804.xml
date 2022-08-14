@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <inner type="string-array" size="">
+		<item>000000</item>
+		<item>[DBNum1][$-804]General</item>
+		<item>[DBNum2][$-804]General</item>
+		<item>[DBNum2][$RMB]General;[Red][DBNum2][$RMB]General</item>
+	</inner>
+	<outer type="string-array" size="">
+	    <item>邮政编码</item>
+	    <item>中文小写数字</item>
+	    <item>中文大写数字</item>
+	    <item>人民币大写</item>
+	</outer>
+</resource>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.spreadsheet.control.common.CustomScrollView android:id="@id/et_complex_format_align_scrollview" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/ss_cellsetting_content_divider_margin" android:paddingRight="@dimen/ss_cellsetting_content_divider_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ss_cellsetting_content_divider_margin" android:paddingEnd="@dimen/ss_cellsetting_content_divider_margin">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ss_cellsetting_content_title_margin_left" android:layout_marginTop="@dimen/ss_cellsetting_content_title_margin_top" android:layout_marginRight="0.0dip" android:layout_marginBottom="6.0dip" android:text="@string/public_shape_line" android:layout_marginStart="@dimen/ss_cellsetting_content_title_margin_left" android:layout_marginEnd="0.0dip" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ss_cellsetting_content_margin_left" android:layout_marginRight="@dimen/ss_cellsetting_content_title_margin_left" android:layout_marginStart="@dimen/ss_cellsetting_content_margin_left" android:layout_marginEnd="@dimen/ss_cellsetting_content_title_margin_left">
+                    <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/mainTextColor" android:gravity="end|bottom|center" android:layout_gravity="center_vertical" android:id="@id/et_complex_format__frame_style_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/et_numberpicker_text_margin_h" android:text="@string/public_style" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/et_numberpicker_text_margin_h" />
+                    <cn.wps.moffice.spreadsheet.control.cellsettings.common.CustomDropDownBtn android:id="@id/et_complex_format__frame_style_customdropdownbtn" android:layout_width="@dimen/public_color_grid_width_h" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/ss_cellsetting_content_title_margin_left" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/ss_cellsetting_content_title_margin_left" />
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ss_cellsetting_content_margin_left" android:layout_marginRight="@dimen/ss_cellsetting_content_title_margin_left" android:layout_marginStart="@dimen/ss_cellsetting_content_margin_left" android:layout_marginEnd="@dimen/ss_cellsetting_content_title_margin_left">
+                    <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/mainTextColor" android:gravity="end|bottom|center" android:layout_gravity="center_vertical" android:id="@id/et_complex_format__frame_color_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/et_numberpicker_text_margin_h" android:text="@string/public_ink_color" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/et_numberpicker_text_margin_h" />
+                    <cn.wps.moffice.spreadsheet.control.cellsettings.common.CustomDropDownBtn android:id="@id/et_complex_format__frame_color_customdropdownbtn" android:layout_width="@dimen/public_color_grid_width_h" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/ss_cellsetting_content_title_margin_left" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/ss_cellsetting_content_title_margin_left" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/ss_cellsetting_content_title_margin_top" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ss_cellsetting_content_title_margin_left" android:layout_marginTop="@dimen/ss_cellsetting_content_title_margin_top" android:layout_marginRight="0.0dip" android:layout_marginStart="@dimen/ss_cellsetting_content_title_margin_left" android:layout_marginEnd="0.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:text="@string/et_complex_format_frame_preset" />
+                <LinearLayout android:orientation="vertical" android:background="@drawable/phone_ss_grey_round_rect" android:paddingLeft="30.0dip" android:paddingTop="@dimen/ss_cellsetting_frame_item_gap" android:paddingRight="30.0dip" android:paddingBottom="@dimen/ss_cellsetting_frame_item_gap" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ss_cellsetting_content_margin_left" android:layout_marginRight="0.0dip" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" android:layout_marginStart="@dimen/ss_cellsetting_content_margin_left" android:layout_marginEnd="0.0dip">
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:id="@id/et_complex_format_frame_quickstyle_none_btn" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/ss_cellsetting_frame_item_gap" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/ss_cellsetting_frame_item_gap" style="@style/et_complex_format_frame_btn">
+                            <cn.wps.moffice.common.beans.phone.AlphaImageView android:src="@drawable/comp_table_frame1" android:scaleType="fitXY" style="@style/et_complex_format_frame_item" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/et_complex_format_frame_quickstyle_outside_btn" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/ss_cellsetting_frame_item_gap" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/ss_cellsetting_frame_item_gap" style="@style/et_complex_format_frame_btn">
+                            <cn.wps.moffice.common.beans.phone.AlphaImageView android:src="@drawable/comp_table_frame2" android:scaleType="fitXY" style="@style/et_complex_format_frame_item" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/et_complex_format_frame_quickstyle_inside_btn" style="@style/et_complex_format_frame_btn">
+                            <cn.wps.moffice.common.beans.phone.AlphaImageView android:src="@drawable/comp_table_frame" android:scaleType="fitXY" style="@style/et_complex_format_frame_item" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ss_cellsetting_frame_item_gap">
+                        <LinearLayout android:id="@id/et_complex_format_frame_top" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/ss_cellsetting_frame_item_gap" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/ss_cellsetting_frame_item_gap" style="@style/et_complex_format_frame_btn">
+                            <cn.wps.moffice.common.beans.phone.AlphaImageView android:src="@drawable/comp_table_frame5" android:scaleType="fitXY" style="@style/et_complex_format_frame_item" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/et_complex_format_frame_inside_horizontal" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/ss_cellsetting_frame_item_gap" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/ss_cellsetting_frame_item_gap" style="@style/et_complex_format_frame_btn">
+                            <cn.wps.moffice.common.beans.phone.AlphaImageView android:src="@drawable/comp_table_cell_border_frame_9" android:scaleType="fitXY" style="@style/et_complex_format_frame_item" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/et_complex_format_frame_bottom" style="@style/et_complex_format_frame_btn">
+                            <cn.wps.moffice.common.beans.phone.AlphaImageView android:src="@drawable/comp_table_frame4" android:scaleType="fitXY" style="@style/et_complex_format_frame_item" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ss_cellsetting_frame_item_gap">
+                        <LinearLayout android:id="@id/et_complex_format_frame_left" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/ss_cellsetting_frame_item_gap" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/ss_cellsetting_frame_item_gap" style="@style/et_complex_format_frame_btn">
+                            <cn.wps.moffice.common.beans.phone.AlphaImageView android:src="@drawable/comp_table_frame6" android:scaleType="fitXY" style="@style/et_complex_format_frame_item" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/et_complex_format_frame_inside_vertical" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/ss_cellsetting_frame_item_gap" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/ss_cellsetting_frame_item_gap" style="@style/et_complex_format_frame_btn">
+                            <cn.wps.moffice.common.beans.phone.AlphaImageView android:src="@drawable/comp_table_cell_border_frame_10" android:scaleType="fitXY" style="@style/et_complex_format_frame_item" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/et_complex_format_frame_right" style="@style/et_complex_format_frame_btn">
+                            <cn.wps.moffice.common.beans.phone.AlphaImageView android:src="@drawable/comp_table_frame7" android:scaleType="fitXY" style="@style/et_complex_format_frame_item" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ss_cellsetting_frame_item_gap">
+                        <LinearLayout android:id="@id/et_complex_format_frame_diagdown" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/ss_cellsetting_frame_item_gap" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/ss_cellsetting_frame_item_gap" style="@style/et_complex_format_frame_btn">
+                            <cn.wps.moffice.common.beans.phone.AlphaImageView android:src="@drawable/comp_table_frame8" android:scaleType="fitXY" style="@style/et_complex_format_frame_item" />
+                        </LinearLayout>
+                        <LinearLayout android:id="@id/et_complex_format_frame_diagup" android:layout_marginLeft="0.0dip" android:layout_marginRight="@dimen/ss_cellsetting_frame_item_gap" android:layout_marginStart="0.0dip" android:layout_marginEnd="@dimen/ss_cellsetting_frame_item_gap" style="@style/et_complex_format_frame_btn">
+                            <cn.wps.moffice.common.beans.phone.AlphaImageView android:src="@drawable/comp_table_frame9" android:scaleType="fitXY" style="@style/et_complex_format_frame_item" />
+                        </LinearLayout>
+                        <LinearLayout style="@style/et_complex_format_frame_btn" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/ss_cellsetting_content_title_margin_top" />
+            <TextView android:textAppearance="@style/blackTextFont16sp" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ss_cellsetting_content_title_margin_top" android:layout_marginBottom="6.0dip" android:text="@string/public_color_preview_colon" />
+            <cn.wps.moffice.spreadsheet.control.cellsettings.preview.FramePreview android:id="@id/et_complex_format_frame_preview" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/et_complex_format_preview_height" android:layout_marginLeft="@dimen/ss_cellsetting_content_margin_left" android:layout_marginRight="@dimen/ss_cellsetting_content_title_margin_left" android:layout_marginBottom="@dimen/ss_cellsetting_content_title_margin_top" android:layout_marginStart="@dimen/ss_cellsetting_content_margin_left" android:layout_marginEnd="@dimen/ss_cellsetting_content_title_margin_left" />
+        </LinearLayout>
+    </LinearLayout>
+</cn.wps.moffice.spreadsheet.control.common.CustomScrollView>

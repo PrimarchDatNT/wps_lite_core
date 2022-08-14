@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:id="@id/import_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="0.0dip" android:text="@string/documentmanager_qing_roamingdoc_importing" android:layout_marginStart="10.0dip" android:layout_marginEnd="0.0dip" style="@style/phone_public_font_s_gray" />
+    </LinearLayout>
+</LinearLayout>

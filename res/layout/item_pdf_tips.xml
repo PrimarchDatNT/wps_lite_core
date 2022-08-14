@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:background="@drawable/blue_dot_pdf_tips" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" />
+    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="13.0sp" android:textColor="#c7000000" android:gravity="center" android:id="@id/tv_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="16.0dip" android:text="@string/pdf_promote_free_download_describe" android:layout_marginStart="5.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

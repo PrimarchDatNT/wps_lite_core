@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.AlphaRelativeLayout android:id="@id/rl_content_view" android:layout_width="156.0dip" android:layout_height="88.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.docer.picstore.V10RoundRectImageView android:id="@id/iv_all_img" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/iv_link_icon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginRight="3.0dip" android:layout_marginBottom="3.0dip" android:src="@drawable/public_new_docer_create_link" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip">
+            <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_content_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:maxEms="4" />
+            <TextView android:textSize="9.0dip" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_sub_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\ 23213123123123" android:maxLines="1" android:maxEms="4" />
+        </LinearLayout>
+    </RelativeLayout>
+</cn.wps.moffice.common.beans.AlphaRelativeLayout>

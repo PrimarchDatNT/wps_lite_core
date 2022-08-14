@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="98.0dip" style="@style/home_mypursing_gridview_item_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/img" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" style="@style/home_mypursing_gridview_image" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/mainTextColor" android:ellipsize="middle" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="5.0dip" android:singleLine="true" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" style="@style/home_open_item_txt_style" />
+    </LinearLayout>
+    <TextView android:textSize="8.0dip" android:textColor="@color/subTextColor" android:ellipsize="middle" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_marginBottom="9.0dip" android:singleLine="true" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" style="@style/home_open_item_txt_style" />
+</FrameLayout>

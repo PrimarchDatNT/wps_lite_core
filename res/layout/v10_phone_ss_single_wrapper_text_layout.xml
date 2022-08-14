@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.fontname.FontTitleView android:id="@id/start_font_setting_font_style" android:layout_width="fill_parent" android:layout_height="@dimen/phone_public_font_title_item_height" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/err_page" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="108.0dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/load_err_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_history_version_net_error_title" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/load_err_extra_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/home_history_version_net_error_content" android:layout_below="@id/load_err_tips" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <cn.wps.moffice.common.AdapterLinearLayout android:id="@id/content_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.common.beans.circleloadingview.CircleLoaderView android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="108.0dip" style="?android:progressBarStyleLargeInverse" />
+</FrameLayout>

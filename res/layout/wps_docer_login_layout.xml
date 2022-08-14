@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/wps_docer_login_layout_root" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_gravity="center" android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/wps_docer_login_layout_content" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/wps_docer_login_layout_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wps_docer_login_icon" />
+            <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/wps_docer_login_title" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wps_docer_login_content" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/please_login_to_show_template" />
+            <Button android:gravity="center" android:id="@id/wps_docer_login_btn" android:layout_width="276.0dip" android:layout_height="42.0dip" android:layout_marginLeft="42.0dip" android:layout_marginTop="56.0dip" android:layout_marginRight="42.0dip" android:text="@string/wps_docer_login_button_text" android:layout_marginStart="42.0dip" android:layout_marginEnd="42.0dip" style="@style/phone_public_buttonStyle_blue_4dp_corner" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/wps_docer_login_layout_top_shadow" android:visibility="gone" style="@style/phone_home_top_shadow" />
+</FrameLayout>

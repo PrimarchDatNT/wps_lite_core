@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:drawable="@android:color/transparent" android:insetRight="@dimen/phone_phone_dropdown_btn_text_right_padding" android:insetTop="@dimen/phone_phone_dropdown_btn_text_top_padding" android:insetBottom="@dimen/phone_phone_dropdown_btn_text_bottom_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

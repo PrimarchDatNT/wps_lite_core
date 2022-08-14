@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.TouchEventInterceptFrameLayout android:id="@id/ppt_3d_object_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:background="@color/whiteColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ppt_3d_object_action" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+            <include android:id="@id/preview_3d_object_auto_rotate_btn" android:layout_width="98.0dip" android:layout_height="30.0dip" android:layout_marginStart="9.0dip" layout="@layout/ppt_pad_3d_object_auto_rotation_drop_down_btn" />
+        </LinearLayout>
+        <com.huawei.hwrsdzrender.view.RsdzRenderView android:id="@id/ppt_3d_object_sv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ppt_3d_object_action" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:id="@id/progress_container" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:id="@id/circle_progresssbar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</cn.wps.moffice.common.TouchEventInterceptFrameLayout>

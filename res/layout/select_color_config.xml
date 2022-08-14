@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/widget_background" />
+    <RadioGroup android:orientation="vertical" android:id="@id/color_select_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wpsx.support.ui.KRadioButton android:id="@id/widget_fellow_system" android:checked="true" android:text="@string/widget_color_type_text_fellow_sys" app:kmui_textPadding="0.0dip" style="@style/widget_config_select_style" />
+        <cn.wpsx.support.ui.KRadioButton android:id="@id/widget_light_color" android:text="@string/widget_color_type_text_light" app:kmui_textPadding="0.0dip" style="@style/widget_config_select_style" />
+        <cn.wpsx.support.ui.KRadioButton android:id="@id/widget_dark_color" android:text="@string/widget_color_type_text_dark" app:kmui_textPadding="0.0dip" style="@style/widget_config_select_style" />
+    </RadioGroup>
+</LinearLayout>

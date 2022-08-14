@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.0sp" android:textColor="@color/descriptionColor" android:id="@id/range_contain_rule_title" android:paddingTop="12.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/et_condition_range_contains_rule" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/add_rule" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:id="@id/add_rule_img" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/comp_table_conditional_formatting_new" android:contentDescription="@null" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff417ff9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/et_condition_add_rule" android:paddingStart="12.0dip" android:paddingEnd="0.0dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/manage_range_rule_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="16.0dip" />
+</LinearLayout>

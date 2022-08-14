@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="340.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/et_prot_sheet_no_edit" />
+    <cn.wps.moffice.common.beans.SafeRecordEditText android:id="@id/et_prot_sheet_cancel_password" android:layout_width="fill_parent" android:inputType="textPassword" style="@style/editText" />
+    <TextView android:textSize="12.0sp" android:textColor="@drawable/color_red" android:gravity="end" android:id="@id/input_wrong_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_checkPasswdFaild" />
+    <cn.wps.moffice.common.CustomCheckButton android:textSize="12.0sp" android:textColor="@drawable/public_text_color_selector" android:id="@id/et_prot_sheet_cancel_show" android:paddingLeft="30.0dip" android:paddingRight="0.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/public_displayPasswd" android:paddingStart="30.0dip" android:paddingEnd="0.0dip" />
+</LinearLayout>

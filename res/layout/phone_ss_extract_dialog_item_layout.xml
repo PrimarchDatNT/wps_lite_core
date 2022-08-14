@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/extract_file_handle" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.merge.ui.mergesheet.SheetThumbnailItem android:id="@id/sheet_extract_sheet_thumb_layout" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_image_bg_style_bounded">
+        <ImageView android:id="@id/extract_sheet_thumb_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/word_extract_default_loading_img" android:scaleType="fitStart" />
+        <CheckBox android:layout_gravity="end" android:id="@id/sheet_extract_thumb_check_box" android:background="@drawable/extract_pages_checkbox_selector" android:focusable="false" android:clickable="false" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:button="@null" android:layout_marginStart="0.0dip" android:layout_marginEnd="8.0dip" />
+    </cn.wps.moffice.common.merge.ui.mergesheet.SheetThumbnailItem>
+</LinearLayout>

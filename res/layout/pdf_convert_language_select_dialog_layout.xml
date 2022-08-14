@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/pdf_converter_source_language" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/pdf_language_dialog_content_rv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="@color/WPSMainColor" android:gravity="center_horizontal" android:id="@id/pdf_language_dialog_confirm_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/pdf_convert_pdf_not_recommend_ok" />
+    </LinearLayout>
+</ScrollView>

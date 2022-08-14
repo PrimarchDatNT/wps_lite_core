@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/writer_pad_popup_menu_item_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.writer.shell.common.ToggleButton android:id="@id/linespacing_toggle" android:layout_width="fill_parent" android:layout_height="@dimen/writer_pad_popup_menu_item_height" />
+    <cn.wps.moffice.common.beans.CustomTabHost android:id="@id/tab_linespacing_tabhost" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

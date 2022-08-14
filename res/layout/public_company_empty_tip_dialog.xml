@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KColorfulImageView android:layout_width="fill_parent" android:layout_height="154.0dip" android:src="@drawable/pub_guide_company_files" />
+    <TextView android:textSize="18.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/public_company_special_dialog_tips1" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/public_company_special_dialog_tips2" />
+    <cn.wpsx.support.ui.KButton android:id="@id/btn_iknow" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="18.0dip" android:text="@string/public_common_i_know" style="@style/KButtonStyle.Primary" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+.class public Lcn/wps/moffice/main/scan/bean/KAIOcrResultBean$DataBean;
+.super Ljava/lang/Object;
+.source "KAIOcrResultBean.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcn/wps/moffice/main/scan/bean/KAIOcrResultBean;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "DataBean"
+.end annotation
+
+
+# instance fields
+.field public paths:[Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "paths"
+    .end annotation
+.end field
+
+.field public texts:[Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "texts"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="author_pc_login_content_m_top">268.0dip</dimen>
+    <dimen name="author_pc_login_pic_m_top">158.0dip</dimen>
+    <dimen name="doc_scan_pager_image_width">295.0dip</dimen>
+    <dimen name="pic_to_ppt_thumb_height">95.0dip</dimen>
+    <dimen name="pic_to_ppt_thumb_width">132.0dip</dimen>
+    <dimen name="update_remind_hor_btn_mar_top">10.0dip</dimen>
+    <dimen name="update_remind_logo_hor_margin_top">6.0dip</dimen>
+    <dimen name="privilege_text_content_limit_size">3.0dip</dimen>
+    <dimen name="privilege_text_content_size">10.0dip</dimen>
+    <dimen name="privilege_text_head_size">20.0dip</dimen>
+    <dimen name="privilege_text_title_size">13.0dip</dimen>
+    <dimen name="share_panel_title_icon_padding">12.0dip</dimen>
+</resources>

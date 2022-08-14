@@ -1,0 +1,1 @@
+<GradFill tooltips="春分渐变色"><a:gradFill flip="none" rotWithShape="1"><a:gsLst><a:gs pos="0"><a:srgbClr val="54E7F9"><a:alpha val="28000"/></a:srgbClr></a:gs><a:gs pos="100000"><a:srgbClr val="DEFAC9"/></a:gs></a:gsLst><a:path path="rect"><a:fillToRect r="100000" b="100000"/></a:path><a:tileRect l="-100000" t="-100000"/></a:gradFill></GradFill>

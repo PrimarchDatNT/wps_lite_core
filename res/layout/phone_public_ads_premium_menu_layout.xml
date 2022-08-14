@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/public_ads_premium_menu_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/join_membership" android:visibility="gone" android:text="@string/premium_no_ads_info" style="@style/phone_public_ads_premium_menu_item" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_not_interested" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="start|center" android:id="@id/no_interested_icon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/public_ad_close_pop_no_interested" android:layout_marginStart="10.0dip" />
+        <TextView android:id="@id/no_interested" android:text="@string/ads_popupmenu_nointerested" style="@style/phone_public_ads_premium_menu_item" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="start|center" android:id="@id/go_to_premium_icon" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/public_ad_close_pop_remove" android:layout_marginStart="10.0dip" />
+        <TextView android:id="@id/go_to_premium" android:visibility="gone" android:text="@string/public_splash_remove_ad" style="@style/phone_public_ads_premium_menu_item" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_complaint" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="start|center" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/public_ad_complaint" android:layout_marginStart="10.0dip" />
+        <TextView android:id="@id/tv_complaint" android:text="@string/ads_popupmenu_complaint" style="@style/phone_public_ads_premium_menu_item" />
+    </LinearLayout>
+</LinearLayout>

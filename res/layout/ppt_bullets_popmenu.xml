@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:descendantFocusability="beforeDescendants" android:layout_width="246.0dip" android:layout_height="wrap_content" style="@style/public_keyboard_mouse_no_background_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.indicator.UnderlinePageIndicator android:gravity="center_vertical" android:id="@id/ppt_bullets_pager_indicator" android:layout_width="246.0dip" android:layout_height="@dimen/pad_second_toolbar_height" android:layoutDirection="ltr" />
+    <View android:background="@color/lineColor" android:layout_width="246.0dip" android:layout_height="1.0px" />
+    <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/ppt_bullets_pager" android:layout_width="246.0dip" android:layout_height="108.0dip" />
+</LinearLayout>

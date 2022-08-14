@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.pdf.shell.common.views.PDFTitleBar android:id="@id/pdf_pageclip_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.pdf.shell.clip.view.ClipCustomScrollerView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.pdf.shell.clip.view.PageClipManagerView android:id="@id/paf_clip_managerview_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:id="@id/pdf_clip_bottom_bar" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+                <cn.wps.moffice.common.beans.CustomCheckBox android:id="@id/pdf_clip_parity_align" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginTop="@dimen/phone_public_dialog_content_view_padding_bottom" android:layout_centerInParent="true" app:text="@string/pdf_clip_parity_alignment" app:text_color="@color/mainTextColor" />
+            </RelativeLayout>
+            <FrameLayout android:id="@id/pdf_pageclip_operationview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/pdf_clip_bottom_bar" />
+        </cn.wps.moffice.pdf.shell.clip.view.PageClipManagerView>
+    </cn.wps.moffice.pdf.shell.clip.view.ClipCustomScrollerView>
+</LinearLayout>

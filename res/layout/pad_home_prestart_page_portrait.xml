@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/start_image_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ptr="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/flash_view_layout" android:background="@drawable/pad_splash_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip">
+            <FrameLayout android:id="@id/mopub_splash_page" android:visibility="gone" android:layout_width="420.0dip" android:layout_height="632.0dip" />
+            <com.mopub.nativeads.view.SplashView android:id="@id/flash_view_content" android:layout_width="420.0dip" android:layout_height="632.0dip" />
+            <com.mopub.nativeads.view.SplahVideoView android:id="@id/videoplayview" android:layout_width="420.0dip" android:layout_height="632.0dip" />
+            <include android:layout_gravity="start|bottom|center" android:id="@id/splsh_ad_spread" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="0.0dip" layout="@layout/public_ad_spread_layout" />
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/home_pad_splash_bottom" android:paddingBottom="100.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/home_pad_splash_logo" android:layout_width="220.0dip" android:layout_height="80.0dip" android:src="@drawable/home_pad_splash_logo_cn" android:scaleType="fitXY" />
+        </FrameLayout>
+        <TextView android:textSize="20.0dip" android:textColor="@color/whiteMainTextColor" android:layout_gravity="end|bottom|center" android:id="@id/splash_jump" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="60.0dip" android:text="@string/public_skip" android:layout_marginStart="0.0dip" android:layout_marginEnd="50.0dip" />
+        <View android:layout_gravity="end|bottom|center" android:id="@id/splash_jump_area" android:layout_width="360.0dip" android:layout_height="180.0dip" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/splsh_ad_join_member_ship" android:background="@drawable/public_ad_spread_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:text="@string/infoflow_no_ads" />
+        <TextView android:layout_gravity="center|right|top" android:id="@id/splash_close_button" android:background="@drawable/splash_ad_close" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="30.0dip" />
+    </FrameLayout>
+</LinearLayout>

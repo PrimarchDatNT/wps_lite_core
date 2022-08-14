@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/v10_phone_public_paneltab_indicator_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/edit_insert_pic_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/edit_insert_icon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/img_insert_icon" android:src="@drawable/comp_multimedia_icon_library" android:layout_centerVertical="true" style="@style/v10_phone_public_panel_list_img" />
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/txt_insert_icon" android:layout_width="wrap_content" android:text="@string/pic_store_insert_icons" android:layout_toRightOf="@id/img_insert_icon" style="@style/v10_phone_public_panel_list_item_text_style" />
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/edit_insert_material" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/img_material" android:src="@drawable/insert_docer_material" android:layout_centerVertical="true" style="@style/v10_phone_public_panel_list_img" />
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/txt_material" android:layout_width="wrap_content" android:text="@string/docer_material_mall" android:layout_weight="1.0" android:layout_toRightOf="@id/img_material" style="@style/v10_phone_public_panel_list_item_text_style" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:id="@id/txt_material_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" />
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    </LinearLayout>
+    <View style="@style/v10_phone_public_panel_divide_view" />
+    <LinearLayout android:orientation="vertical" android:id="@id/id_photo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/id_photo_icon" android:src="@drawable/comp_tool_identification_photo" style="@style/v10_phone_public_panel_list_img" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:ellipsize="end" android:id="@id/id_photo_name" android:layout_width="wrap_content" android:maxWidth="150.0dip" android:text="@string/phone_app_search_id_photo" android:singleLine="true" style="@style/v10_phone_public_panel_list_item_text_style" />
+                <cn.wpsx.support.ui.KColorfulImageView android:id="@id/id_photo_superscript" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="12.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/public_share_recommend_shape" />
+            </LinearLayout>
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    </LinearLayout>
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_textbox" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_multimedia_textbox" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_textBox" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_shape" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_multimedia_shape" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_shape" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/edit_insert_shape_square_img" android:src="@drawable/comp_style_mark_square" style="@style/v10_phone_public_panel_shortcut_img" />
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/edit_insert_shape_arrow_img" android:src="@drawable/comp_style_mark_arrow" style="@style/v10_phone_public_panel_shortcut_img" />
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/edit_insert_shape_circle_img" android:src="@drawable/comp_style_mark_circle" style="@style/v10_phone_public_panel_shortcut_img" />
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/edit_insert_shape_type_more_img" android:src="@drawable/comp_common_more" android:layout_marginStart="0.0dip" android:layout_marginEnd="6.0dip" style="@style/v10_phone_public_panel_shortcut_img" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_writer_sign" android:visibility="gone" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_signature" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/pdf_sign" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View android:id="@id/edit_writer_sign_division" android:visibility="gone" style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_comment" android:layout_width="fill_parent" penSupport="true" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_postil" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_comment" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_divide_view" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_table" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_table_frame" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="wrap_content" android:text="@string/public_table" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/edit_insert_table_red_img" android:src="@drawable/comp_table_xls_red" style="@style/v10_phone_public_panel_shortcut_img" />
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/edit_insert_table_blue_img" android:src="@drawable/comp_table_xls_blue" style="@style/v10_phone_public_panel_shortcut_img" />
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/edit_insert_table_white_img" android:src="@drawable/comp_table_xls_black_and_white" style="@style/v10_phone_public_panel_shortcut_img" />
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/edit_insert_table_type_more_img" android:src="@drawable/comp_common_more" android:layout_marginStart="0.0dip" android:layout_marginEnd="6.0dip" style="@style/v10_phone_public_panel_shortcut_img" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/edit_online_table" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/id_online_table_icon" android:src="@drawable/comp_online_table" style="@style/v10_phone_public_panel_list_img" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:ellipsize="end" android:id="@id/id_online_table_name" android:layout_width="0.0dip" android:maxWidth="150.0dip" android:text="@string/pic_store_table" android:singleLine="true" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pic_store_insert_by_pic" android:layout_marginEnd="16.0dip" />
+            </LinearLayout>
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    </LinearLayout>
+    <View style="@style/v10_phone_public_panel_divide_view" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_blank_page" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_blank" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_blank_page" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_divide_view" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_domain_page" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_pagination" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_domain_page" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_headerfooter" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_header_footer" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_headerfooter" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_footnote" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_footnote" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_foot_note" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_endnote" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_endnote" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_end_note" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_drop_caps" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_drop_caps_item" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_drop_caps" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_divide_view" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_evernote" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_share_evernote" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_evernote" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_domain_datetime" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_common_history" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_domain_datetime" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_hyperlink" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_multimedia_link" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_hyperlink" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_bookmark" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_common_bookmarks" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_bookmark" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_ole" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_annex" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_ole_insert_title" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_divide_view" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_vertical_blank_page" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_lengthways" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_vertical_blank_page" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_horizontal_blank_page" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_crosswise" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_horizontal_blank_page" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_insert_page_break" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_page_break" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_page_break" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/phone_home_scf_topbar" />
+    <FrameLayout android:id="@id/home_scf_browser_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <View style="@style/phone_home_top_shadow" />
+        <cn.wps.moffice.common.beans.KCustomFileListView android:id="@id/scf_filelist" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <include android:visibility="gone" layout="@layout/phone_home_scf_bottombar" />
+</LinearLayout>

@@ -1,0 +1,61 @@
+.class public Lrz9$e;
+.super Ljava/lang/Object;
+.source "HomeTabTitleController.java"
+
+# interfaces
+.implements Ll5d$a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lrz9;->onClick(Landroid/view/View;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Landroid/content/Intent;
+
+.field public final synthetic b:Lrz9;
+
+
+# direct methods
+.method public constructor <init>(Lrz9;Landroid/content/Intent;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lrz9$e;->b:Lrz9;
+
+    iput-object p2, p0, Lrz9$e;->a:Landroid/content/Intent;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onPermission(Z)V
+    .locals 1
+
+    if-eqz p1, :cond_0
+
+    .line 1
+    iget-object p1, p0, Lrz9$e;->b:Lrz9;
+
+    iget-object p1, p1, Lrz9;->B:Landroid/app/Activity;
+
+    iget-object v0, p0, Lrz9$e;->a:Landroid/content/Intent;
+
+    invoke-static {p1, v0}, Lsb5;->e(Landroid/content/Context;Landroid/content/Intent;)V
+
+    .line 2
+    invoke-static {}, Lcn/wps/moffice/main/scan/main/util/ScanUtil;->k()V
+
+    :cond_0
+    return-void
+.end method

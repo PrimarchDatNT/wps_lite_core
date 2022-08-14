@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.RoundRectImageView android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.CircleColorView android:layout_width="@dimen/public_template_thumbnail_more_dot_width" android:layout_height="@dimen/public_template_thumbnail_more_dot_width" android:layout_marginRight="@dimen/public_template_thumbnail_more_dot_margin" app:cc_border_color="#ff9b9b9b" app:cc_color="#ff9b9b9b" />
+        <cn.wps.moffice.common.beans.CircleColorView android:layout_width="@dimen/public_template_thumbnail_more_dot_width" android:layout_height="@dimen/public_template_thumbnail_more_dot_width" android:layout_marginRight="@dimen/public_template_thumbnail_more_dot_margin" app:cc_border_color="#ff9b9b9b" app:cc_color="#ff9b9b9b" />
+        <cn.wps.moffice.common.beans.CircleColorView android:layout_width="@dimen/public_template_thumbnail_more_dot_width" android:layout_height="@dimen/public_template_thumbnail_more_dot_width" app:cc_border_color="#ff9b9b9b" app:cc_color="#ff9b9b9b" />
+    </LinearLayout>
+</FrameLayout>

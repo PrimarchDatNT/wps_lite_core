@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:layout_width="20.0dip" android:layout_height="wrap_content" pressAlphaEnableWhenRipple="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.V10CircleColorView android:layout_gravity="center" android:id="@id/font_color_view" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" custom:inner_width="20.0dip" />
+</cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>

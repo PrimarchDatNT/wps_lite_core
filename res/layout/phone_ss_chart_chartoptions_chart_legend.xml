@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.spreadsheet.control.common.CustomScrollView android:id="@id/et_chartoptions_align_scrollview" android:background="@color/backgroundColor" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/et_chartoptions_context_padding_left" android:paddingTop="@dimen/et_chartoptions_context_padding_top" android:paddingRight="@dimen/et_chartoptions_context_padding_right" android:paddingBottom="@dimen/et_chartoptions_context_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/et_chartoptions_context_padding_left" android:paddingEnd="@dimen/et_chartoptions_context_padding_right">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/et_chartoptions_legend_tip" style="@style/phone_public_font_m_gray" />
+        <cn.wps.moffice.spreadsheet.control.common.CheckedView android:id="@id/et_chartoptions_show_legend" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/et_chartoptions_textalign_margin_left" android:layout_marginTop="@dimen/et_chartoptions_checkedview_margin_top" android:layout_marginRight="0.0dip" android:layout_marginStart="@dimen/et_chartoptions_textalign_margin_left" android:layout_marginEnd="0.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/et_chartoptions_context_padding_top">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/et_chartoptions_textview_tip_maxwidth" android:text="@string/et_chartoptions_legend_pos" style="@style/phone_public_font_m_gray" />
+            <cn.wps.moffice.common.beans.NewSpinner android:gravity="center" android:id="@id/et_chartoptions_legend_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="@dimen/et_chartoptions_edittextdropdown_width" android:minWidth="@dimen/et_chartoptions_edittextdropdown_width" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/et_chartoptions_legendchart_overlap_checkbox_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/et_chartoptions_context_padding_top">
+            <CheckBox android:id="@id/et_chartoptions_legendchart_overlap_checkbox" android:layout_width="@dimen/phone_public_second_panel_radiobutton_height" android:layout_height="@dimen/phone_public_second_panel_radiobutton_height" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            <TextView android:id="@id/et_chartoptions_legendchart_overlap_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/et_chartoptions_textview_tip_maxwidth" android:text="@string/et_chartoptions_legend_chart_overlap" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/phone_public_font_m_black" />
+        </RelativeLayout>
+        <View android:background="@color/lineColor" android:layout_marginTop="@dimen/et_chartoptions_context_padding_top" style="@style/et_common_tab_btn_line1" />
+        <LinearLayout android:orientation="vertical" android:id="@id/et_chart_preview_root" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/et_chartoptions_context_padding_top" android:text="@string/public_color_preview_colon" style="@style/phone_public_font_m_gray" />
+        </LinearLayout>
+    </LinearLayout>
+</cn.wps.moffice.spreadsheet.control.common.CustomScrollView>

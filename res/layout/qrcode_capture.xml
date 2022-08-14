@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:layout_gravity="center" android:id="@id/preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/viewfinder_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/viewfinder_mask" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <cn.wps.moffice.common.beans.AlphaImageButton android:id="@id/viewfinder_back" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/phone_scan_back_white_icon" android:layout_marginEnd="0.0dip" style="@style/KButtonStyle.Transparent.Borderless" />
+        <TextView android:textSize="18.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center_vertical" android:id="@id/viewfinder_title_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/public_qrcode_scan_name" android:layout_toRightOf="@id/viewfinder_back" android:layout_alignTop="@id/viewfinder_back" android:layout_alignBottom="@id/viewfinder_back" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/viewfinder_back" />
+        <cn.wps.moffice.common.beans.AlphaImageButton android:id="@id/viewfinder_select_image" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:src="@drawable/pub_select_qr_image" android:layout_alignBottom="@id/viewfinder_back" android:layout_alignParentEnd="true" style="@style/KButtonStyle.Transparent.Borderless" />
+    </RelativeLayout>
+    <include android:id="@id/layout_recommend_banner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_below="@id/viewfinder_mask" layout="@layout/qr_recommend_banner_layout" />
+    <ImageView android:layout_gravity="center" android:id="@id/blackground_view" android:background="@color/color_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:id="@id/public_qrcode_bottom_bar" android:background="@color/viewfinder_header_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/viewfinder_bottomtitle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/public_qrcode_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/public_qrcode_btn_img" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/public_scanf_qrcode_normal" android:scaleType="fitXY" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/whiteMainTextColor" android:id="@id/public_qrcode_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_tv_meeting_scanf_qrcode" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/public_ocr_btn" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:id="@id/public_ocr_btn_img" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/public_scanf_ocr_normal" android:scaleType="fitXY" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/whiteMainTextColor" android:id="@id/public_ocr_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_qrcode_scan_bottom_bar" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

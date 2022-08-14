@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/dox_fix_preview_item_left" android:layout_width="16.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/doc_fix_pic_preview_bg" android:padding="1.0px" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/doc_fix_preview" android:layout_width="100.0dip" android:layout_height="100.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/doc_fix_other_file_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:id="@id/doc_fix_other_file_img" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginTop="2.0dip" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/doc_fix_other_file_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/dox_fix_preview_item_right" android:layout_width="16.0dip" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="12.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bg_msg_center_tips_ll" android:background="@drawable/phone_msg_center_tips_bg" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/icon_msg_center_tips_iv" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/phone_msg_center_tips_logo" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+            <TextView android:textSize="15.0dip" android:textColor="@color/mainTextColor" android:ellipsize="middle" android:id="@id/title_msg_center_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:ellipsize="middle" android:id="@id/content_msg_center_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/close_msg_center_tips_iv" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_file_status_ad_closed_n" />
+    </LinearLayout>
+</FrameLayout>

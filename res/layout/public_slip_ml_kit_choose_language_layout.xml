@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/writer_rectangle_card_bg" android:paddingLeft="32.0dip" android:paddingTop="15.0dip" android:paddingRight="32.0dip" android:layout_width="fill_parent" android:layout_height="416.0dip" android:paddingStart="32.0dip" android:paddingEnd="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="19.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_translate_select" />
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dip" android:layout_marginBottom="21.0dip" />
+    <ListView android:scrollbarThumbVertical="@drawable/ml_scrollbar_shape_bg" android:id="@id/slip_ml_choose_dlg_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

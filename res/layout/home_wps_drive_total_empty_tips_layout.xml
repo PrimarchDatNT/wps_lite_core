@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/wps_drive_total_empty_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/wps_drive_empty_folder_layout" android:visibility="gone" layout="@layout/home_wps_drive_empty_folder_layout" />
+    <include android:id="@id/wps_drive_group_introduce_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/wps_drive_group_introduce_layout" />
+</LinearLayout>

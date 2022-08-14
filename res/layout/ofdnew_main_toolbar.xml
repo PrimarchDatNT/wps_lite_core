@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/rom_read_titlebar" android:background="@color/OFDNavBackgroundColor" android:visibility="gone" layout="@layout/phone_public_rom_read_titlebar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ofd_maintoolbar" android:background="@color/OFDNavBackgroundColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ViewStub android:id="@id/ofd_edittoolbar_view_stub" android:layout="@layout/ofd_edit_toolbar_pad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ofd_maintoolbar" />
+</RelativeLayout>

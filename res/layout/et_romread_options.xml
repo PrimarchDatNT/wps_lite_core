@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/rom_read_options_root" android:background="@drawable/rom_read_pop_up_window_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/mi_dialog_title_text_size" android:textColor="@color/mainTextColor" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.699982dip" android:layout_marginBottom="16.299988dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/rom_read_options_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <TextView android:textSize="@dimen/mi_dialog_cancel_btn_text_size" android:gravity="center" android:id="@id/cancel" android:background="@drawable/icon_miui_bottom_cancel_btn_light_bg" android:layout_width="fill_parent" android:layout_height="50.899994dip" android:layout_margin="29.099976dip" android:text="@string/public_cancel" />
+</LinearLayout>

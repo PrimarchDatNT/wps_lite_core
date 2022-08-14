@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="bottom|center" android:layout_width="800.0dip" android:layout_height="800.0dip" android:layout_marginBottom="250.0dip" android:src="@drawable/background_th_id_gdpr" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="23.0sp" android:textColor="#ff2e195c" android:layout_gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:text="@string/public_app_name" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="16.0sp" android:textColor="#ff2e195c" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/public_th_id_gdpr_subtitle" android:maxLines="2" app:layout_constraintTop_toBottomOf="@id/title" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/img" android:layout_width="329.0dip" android:layout_height="300.0dip" android:src="@drawable/img_th_id_gdpr" />
+        </FrameLayout>
+        <TextView android:textSize="13.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/tvAgree" android:background="@drawable/login_guide_page_btn_plan_bc" android:layout_width="290.0dip" android:layout_height="40.0dip" android:text="@string/public_collection_agree" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="13.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/tvTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58.0dip" android:layout_marginTop="27.0dip" android:layout_marginRight="58.0dip" android:layout_marginBottom="34.0dip" android:text="@string/public_th_id_gdpr_tip" android:layout_marginStart="58.0dip" android:layout_marginEnd="58.0dip" />
+    </LinearLayout>
+</FrameLayout>

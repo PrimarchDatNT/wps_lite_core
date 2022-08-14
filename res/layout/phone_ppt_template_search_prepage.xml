@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ppt_template_recommend_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="4.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_home_new_search_hotword" android:layout_alignParentLeft="true" />
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/ppt_template_change_hotword" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <TextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_home_new_search_change" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        </RelativeLayout>
+        <cn.wps.moffice.presentation.control.template.search.common.FlowLayout android:orientation="horizontal" android:id="@id/ppt_template_recommend_flowlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:max_lines="2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ppt_template_history_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="4.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tag_search_history" android:layout_alignParentLeft="true" />
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/ppt_template_history_clean" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <TextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_history_record_clear" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        </RelativeLayout>
+        <cn.wps.moffice.presentation.control.template.search.common.FlowLayout android:orientation="horizontal" android:id="@id/ppt_template_history_flowlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" app:max_lines="4" />
+    </LinearLayout>
+</LinearLayout>

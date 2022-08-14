@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="14.0dip" android:textColor="@color/secondaryColor" android:gravity="center_horizontal" android:id="@id/open_docer_vip_btn" android:background="@drawable/internal_template_open_docer_vip_text_bg" android:layout_width="100.0dip" android:layout_height="36.0dip" android:text="@string/public_open_docer_vip" />
+</LinearLayout>

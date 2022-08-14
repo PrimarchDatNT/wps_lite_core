@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/public_file_search_content_top" android:layout_width="56.0dip" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.AlphaFrameLayout android:id="@id/icon_group" android:layout_width="56.0dip" android:layout_height="56.0dip">
+        <ImageView android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/public_file_search_content_top_icon" />
+    </cn.wps.moffice.common.beans.phone.AlphaFrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/number_group" android:layout_width="56.0dip" android:layout_height="46.0dip" android:layout_marginTop="2.0dip" android:layout_marginBottom="8.0dip">
+        <LinearLayout android:layout_width="56.0dip" android:layout_height="23.0dip">
+            <TextView android:textSize="10.0dip" android:textColor="@color/subTextColor" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/number_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:lines="1" />
+        </LinearLayout>
+        <View android:layout_gravity="center_horizontal" android:background="#ff9b9b9b" android:layout_width="25.0dip" android:layout_height="1.0dip" />
+        <LinearLayout android:layout_width="56.0dip" android:layout_height="22.0dip">
+            <TextView android:textSize="10.0dip" android:textColor="@color/subTextColor" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/number_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:lines="1" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

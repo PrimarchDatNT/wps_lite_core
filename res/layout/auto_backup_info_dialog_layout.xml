@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="17.0dip" android:layout_marginRight="17.0dip" android:layout_marginStart="17.0dip" android:layout_marginEnd="17.0dip">
+        <TextView android:textColor="#ff535252" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_cloud_romaing_auto_back_title" android:layout_toLeftOf="@id/close_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+        <ImageView android:id="@id/close_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/home_icon_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:background="#ffd0d0d0" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:gravity="" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="17.0dip" android:layout_marginStart="17.0dip" android:layout_marginEnd="17.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <View android:background="@drawable/phone_public_gray_circle_background" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip" />
+            <TextView android:textSize="13.0dip" android:textColor="#ff666666" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_cloud_romaing_auto_content_tips1" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <View android:background="@drawable/phone_public_gray_circle_background" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip" />
+            <TextView android:textSize="13.0dip" android:textColor="#ff666666" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_cloud_romaing_auto_content_tips2" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <View android:background="@drawable/phone_public_gray_circle_background" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip" />
+            <TextView android:textSize="13.0dip" android:textColor="#ff666666" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_cloud_romaing_auto_content_tips3" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+            <View android:background="@drawable/phone_public_gray_circle_background" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip" />
+            <TextView android:textSize="13.0dip" android:textColor="#ff666666" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="@string/public_cloud_romaing_auto_content_tips4" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/public_gdpr_blue_text_color_selector" android:gravity="center" android:id="@id/start_page_text_content_url" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="37.0dip" android:layout_marginBottom="23.0dip" android:text="@string/premium_policy_private_policy" />
+</LinearLayout>

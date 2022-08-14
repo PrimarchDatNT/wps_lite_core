@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start" android:id="@id/progress_message" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/phone_public_font_l_black" />
+    <TextView android:textSize="@dimen/phone_public_fontsize_dp_s" android:gravity="start" android:id="@id/progress_hint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/phone_public_font_s_gray2" />
+    <TextView android:layout_gravity="end" android:id="@id/progress_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="8.0dip" android:text="0%" style="@style/phone_public_font_s_gray" />
+    <cn.wps.moffice.common.beans.MaterialProgressBarHorizontal android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

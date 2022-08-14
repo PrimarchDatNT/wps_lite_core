@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 俄语 -->
+<resource>
+    <inner type="string-array" size="">
+		<item>000000</item>
+		<item>00000\-0000</item>
+		<item>[&lt;=9999999]###\-####;\(###\)\ ###\-####</item>
+		<item>0000</item> 
+	</inner>
+	<outer type="string-array" size="">
+	    <item>Почтовый индекс</item>
+		<item>Индекс + 4</item>
+		<item>Номер телефона</item>
+		<item>Табельный номер</item>
+	</outer>
+</resource>

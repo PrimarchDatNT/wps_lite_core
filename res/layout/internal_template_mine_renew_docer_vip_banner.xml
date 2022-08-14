@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/bannerBackgroundColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center_vertical" android:id="@id/remind_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/renew_docer_vip" android:layout_centerVertical="true" />
+        <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="12.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/buy_member_text" android:background="@drawable/public_shape_recharge" android:layout_width="64.0dip" android:layout_height="26.0dip" android:layout_marginRight="16.0dip" android:text="@string/home_membership_buy_now_continue" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

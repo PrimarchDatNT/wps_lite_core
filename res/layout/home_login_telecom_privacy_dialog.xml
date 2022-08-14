@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.cardview.CardView android:id="@id/dialog_cardview" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="@dimen/phone_public_dialog_shadow_elevation" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ct_account_dialog_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:layout_marginBottom="33.0dip">
+            <TextView android:textSize="16.0sp" android:textColor="#d9000000" android:id="@id/ct_account_dialog_privacy_dynamic" android:tag="\#FF0090FF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/public_login_telecom_login_agreement_full" />
+        </LinearLayout>
+        <View android:background="#33000000" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <Button android:textSize="16.0sp" android:textColor="#ff0090ff" android:gravity="center" android:id="@id/ct_account_dialog_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/public_back" android:layout_weight="1.0" />
+            <View android:background="#33000000" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ff0090ff" android:gravity="center" android:id="@id/ct_account_dialog_confirm" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/author_pc_login_confim_login" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</cn.wps.moffice.common.beans.cardview.CardView>

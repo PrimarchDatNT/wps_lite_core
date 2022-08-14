@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.spreadsheet.control.backboard.V10BackBoardView android:id="@id/phone_ss_main_titlebar_backboard_view" android:layout_width="fill_parent" android:layout_height="112.0dip" android:layout_alignParentTop="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

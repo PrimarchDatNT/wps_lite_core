@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="phone_public_online_devices_layout">@layout/phone_public_devices_land_layout</item>
+</resources>

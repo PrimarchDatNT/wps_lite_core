@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0dip" android:id="@id/tv_message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/alll_labels_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="15.0dip" android:layout_weight="1.0">
+        <ScrollView android:id="@id/tag_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.tag.LabelsLayout android:id="@id/dialog_all_tags" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginEnd="10.0dip" app:k_label_background="@drawable/tag_label_item_bg" app:k_label_margin="10.0dip" app:k_label_text_color="@drawable/tag_label_item_text_color" app:k_label_text_padding_bottom="4.0dip" app:k_label_text_padding_left="16.0dip" app:k_label_text_padding_right="16.0dip" app:k_label_text_padding_top="4.0dip" app:k_label_text_size="13.0sp" app:k_line_margin="15.0dip" app:k_max_select="5" app:selectType="SINGLE" />
+        </ScrollView>
+        <ImageView android:layout_gravity="bottom" android:id="@id/bottom_tag_overlay" android:background="@drawable/public_addtag_on_exit_bottom_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    </FrameLayout>
+    <cn.wps.moffice.common.beans.CustomCheckBox android:gravity="center_vertical" android:id="@id/check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" app:inner_padding="@dimen/foreign_font_miss_guide_dialog_check_box_inner_padding" app:text="@string/tag_ask_add_dialog_checkbox_hint" app:text_color="@color/descriptionColor" app:text_size="@dimen/foreign_font_miss_guide_dialog_checkbox_text_size" />
+</LinearLayout>

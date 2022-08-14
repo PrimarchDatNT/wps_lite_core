@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:orientation="vertical" android:background="@color/boldLineColor" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.ExpandGridView android:gravity="center" android:id="@id/premium_font_gridview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:verticalSpacing="16.0dip" android:numColumns="1" />
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout android:gravity="center" android:id="@id/bar_block" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

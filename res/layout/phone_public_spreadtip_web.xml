@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_ad_lookup" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <LinearLayout android:gravity="start|center" android:orientation="vertical" android:background="#ffffffff" android:paddingLeft="16.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="68.0dip" android:layout_weight="0.6" android:paddingStart="16.0dip" android:paddingEnd="0.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="#ff535252" android:ellipsize="end" android:id="@id/tip_text_two" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Why aren't you in the sky?" android:singleLine="true" />
+            <RelativeLayout android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <ImageView android:id="@id/ring" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/phone_public_spreadtip_ring" />
+                <TextView android:textSize="12.0dip" android:textColor="#ff9b9b9b" android:ellipsize="end" android:id="@id/tip_text_one" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="0.0dip" android:text="要上天啊" android:singleLine="true" android:layout_toRightOf="@id/ring" android:layout_marginStart="3.0dip" android:layout_marginEnd="0.0dip" android:layout_toEndOf="@id/ring" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ll_im_lookup" android:background="@drawable/phone_public_spreadtip_rect" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <cn.wps.moffice.common.beans.AutoAdjustButton android:textSize="14.0dip" android:textColor="#fff54854" android:gravity="center" android:layout_gravity="center" android:id="@id/web_opration" android:background="@null" android:clickable="false" android:layout_width="73.0dip" android:layout_height="wrap_content" android:text="Browse now" android:maxLines="2" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/bottom_view" android:background="#fff2f2f2" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

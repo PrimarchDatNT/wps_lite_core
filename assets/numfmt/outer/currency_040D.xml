@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 希伯来语 -->
+<resource>
+    <outer type="string-array" size="">
+        <item>ללא</item>
+        <item>¥</item>
+        <item>$</item>
+        <item>US$</item>
+        <item>‎$‎ סינית (סינגפור)‏</item>
+        <item>‎$‎ אנגלית (ארה"ב)‏</item>
+        <item>‎$‎ צרפתית (קנדה)‏</item>
+        <item>‎$‎ מלאית (ברוניי דרוסלאם)‏</item>
+        <item>‎$‎ ספרדית (ארגנטינה)‏</item>
+        <item>‎$‎ ספרדית (פורטו ריקו)‏</item>
+        <item>‎$b‎ ספרדית (בוליביה)‏</item>
+        <item>‎$U‎ ספרדית (אורוגוואי)‏</item>
+        <item>‎£‎ אנגלית (בריטניה)‏</item>
+        <item>‎£‎ גאלית סקוטית (בריטניה)‏</item>
+        <item>‎¥‎ סינית (סין)‏</item>
+        <item>‎¥‎ יפנית‏</item>
+        <item>‎¥‎ מונגולית (מונגולית מסורתית, סין)‏</item>
+        <item>‎₭‎ לאו‏</item>
+        <item>‎₩‎ קוריאנית‏</item>
+        <item>‎€‎ צרפתית (בלגיה)‏</item>
+        <item>‎€‎ גרמנית (אוסטריה)‏</item>
+        <item>‎€‎ אירית‏</item>
+        <item>‎€‎ איטלקית (איטליה)‏</item>
+        <item>‎€‎ פורטוגזית (פורטוגל)‏</item>
+        <item>‎R$‎ פורטוגזית (ברזיל)‏</item>
+        <item>‎HK$‎ סינית (הונג קונג S.A.R.‎)‏</item>
+        <item>‎р.‎ רוסית‏</item>
+        <item>‎€‎ צרפתית (צרפת)‏‎‎‎</item>
+        <item>‎€‎ גרמנית (גרמניה)‏</item>
+        <item>‎$‎ ספרדית (מקסיקו)‏</item>
+        <item>‎€‎ ספרדית (ספרדית בינלאומית)‏</item>
+        <item>‎€‎ ספרדית (ספרד - ספרדית מסורתית)‏</item>
+        <item>‎NT$‎ סינית (טיוואן)‏</item>
+        <item>‎₪‎ עברית‏</item>
+        <item>‎ر.س.‏‎ ערבית (ערב הסעודית)‏</item>
+        <item>‎лв.‎ בולגרית‏</item>
+        <item>‎Kč‎ צ'כית‏</item>
+        <item>‎kr.‎ דנית‏</item>
+        <item>‎€‎ יוונית‏</item>
+        <item>‎€‎ פינית‏</item>
+        <item>‎Ft‎ הונגרית‏</item>
+        <item>‎€‎ הולנדית (הולנד)‏</item>
+        <item>‎kr‎ נורווגית (Bokmal)‏</item>
+        <item>‎zł‎ פולנית‏</item>
+        <item>‎lei‎ רומנית‏</item>
+        <item>‎kn‎ קרואטית (קרואטיה)‏</item>
+        <item>‎€‎ סלובקית‏</item>
+        <item>‎฿‎ תאילנדית‏</item>
+        <item>‎₺‎ טורקית‏</item>
+        <item>‎Rp‎ אינדונזית‏</item>
+        <item>‎₴‎ אוקראינית‏</item>
+        <item>‎€‎ סלובנית‏</item>
+        <item>‎€‎ אסטונית‏</item>
+        <item>‎Ls‎ לטבית‏</item>
+        <item>‎Lt‎ ליטאית‏</item>
+        <item>‎ريال‎ פרסית‏</item>
+        <item>‎₫‎ וייטנאמית‏</item>
+        <item>‎ден.‎ מקדונית (FYROM)‏</item>
+        <item>‎₹‎ הינדי‏</item>
+        <item>‎Din.‎ סרבית (לטינית, סרביה)‏</item>
+        <item>‎kr‎ שוודית (שוודיה)‏</item>
+        <item>‎KM‎ בוסנית (לטינית)‏</item>
+        <item>‎RM‎ מלאית (מלזיה)‏</item>
+    </outer>
+    <default type="string">33</default>
+</resource>

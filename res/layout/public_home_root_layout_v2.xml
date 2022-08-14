@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.SubmersibleCoordinatorLayout android:id="@id/scrollRootLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:collapsingToolbarId="@id/header_collapsingToolbarLayout" app:diveBlockId="@id/header" app:ptrContentViewId="@id/public_phone_ptr_content_view" app:quickAccessRecyclerViewId="@id/recyclerview_phone_quick_access" app:quickAccessViewId="@id/layout_phone_quick_access" app:slideViewId="@id/slideLayout" app:suspendViewId="@id/public_phone_quick_access_suspend_title" app:toolbarId="@id/pin_toolbar">
+        <com.google.android.material.appbar.ExtendAppBarLayout android:id="@id/appBarLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:layout_behavior="com.google.android.material.appbar.FixAppBarLayoutBehavior">
+            <include layout="@layout/public_home_root_layout_v2_header" />
+        </com.google.android.material.appbar.ExtendAppBarLayout>
+        <include layout="@layout/public_home_tab_area" />
+    </cn.wps.moffice.common.beans.SubmersibleCoordinatorLayout>
+</FrameLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.SecondFullScreenLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" app:use_default_color_bg="false">
+        <ScrollView android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/phone_about_software_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:id="@id/wps_logo" android:layout_width="@dimen/phone_about_software_logo_image_width" android:layout_height="@dimen/phone_about_software_logo_image_height" android:src="@drawable/phone_documents_about_appicon" android:scaleType="centerInside" />
+                <ImageView android:id="@id/history_titlebar_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/pub_wpsoffice_font_gray" />
+                <TextView android:textSize="20.0sp" android:textColor="#ff757575" android:id="@id/history_titlebar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" android:text="@string/public_app_name" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/phone_public_small_text_size_sp" android:textColor="@color/descriptionColor" android:id="@id/documents_about_appversion" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_version" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/phone_public_small_text_size_sp" android:textColor="@color/subTextColor" android:id="@id/documents_about_appversion_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/app_version_name" />
+                <LinearLayout android:orientation="vertical" android:id="@id/documents_more_about_items" android:padding="1.0px" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="0.0dip" android:paddingStart="1.0px" android:paddingEnd="1.0px" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" />
+                <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <ImageView android:id="@id/bottomLogoImageView" android:paddingTop="10.0dip" android:paddingBottom="24.669983dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/about_winter_olympics_logo" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+                    <TextView android:textSize="@dimen/phone_public_mid_text_size_sp" android:textColor="#ff7a7a82" android:gravity="center_horizontal" android:id="@id/documents_about_brand" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_about_software_text_margin_top" android:text="@string/public_corporation" />
+                    <LinearLayout android:id="@id/documents_about_software_active_usage_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                        <TextView android:textSize="@dimen/phone_about_software_small_text_size" android:textColor="@color/descriptionColor" android:id="@id/documents_about_legal_provision" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_legal_provision" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </cn.wps.moffice.common.beans.SecondFullScreenLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/phone_public_fontsize_sp_s" android:textColor="@color/subTextColor" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/et_autofilter_toggle_leftTextView" android:paddingLeft="@dimen/et_autofilter_dialog_toggle_text_margin" android:paddingRight="@dimen/et_autofilter_dialog_toggle_text_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="And" android:paddingStart="@dimen/et_autofilter_dialog_toggle_text_margin" android:paddingEnd="@dimen/et_autofilter_dialog_toggle_text_margin" />
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <HorizontalScrollView android:layout_gravity="center" android:id="@id/et_autofilter_toggle_scroll" android:background="@drawable/public_toggle_button_bg" android:padding="0.0dip" android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="50.0dip" android:layout_height="22.0dip" android:paddingStart="0.0dip" android:paddingEnd="0.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <TextView android:textAppearance="@style/whiteTextFont14sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/et_autofilter_toggle_gray_part_left" android:background="@null" android:layout_width="25.0dip" android:layout_height="fill_parent" android:text="" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/et_autofilter_toggle_btn" android:layout_width="25.0dip" android:layout_height="fill_parent" android:src="@drawable/public_toggle_button" android:scaleType="fitXY" />
+                <TextView android:textAppearance="@style/whiteTextFont14sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/et_autofilter_toggle_gray_part_right" android:background="@null" android:layout_width="25.0dip" android:layout_height="fill_parent" android:text="" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/phone_public_fontsize_sp_s" android:textColor="@color/subTextColor" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/et_autofilter_toggle_rightTextView" android:paddingLeft="@dimen/et_autofilter_dialog_toggle_text_margin" android:paddingRight="@dimen/et_autofilter_dialog_toggle_text_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Or" android:paddingStart="@dimen/et_autofilter_dialog_toggle_text_margin" android:paddingEnd="@dimen/et_autofilter_dialog_toggle_text_margin" />
+</LinearLayout>

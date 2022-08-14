@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/pub_file_status_ad_closed_n" android:layout_alignParentRight="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:src="@drawable/pub_upload_finish_notify" android:layout_below="@id/close" android:layout_centerHorizontal="true" />
+        <TextView android:textColor="@color/mainTextColor" android:id="@id/upload_finish_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/public_upload_file_success" android:layout_below="@id/img" android:layout_centerHorizontal="true" />
+        <View android:id="@id/line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="0.33000004dip" android:layout_marginTop="40.0dip" android:layout_below="@id/upload_finish_text" />
+        <RelativeLayout android:id="@id/bottom_content" android:layout_width="fill_parent" android:layout_height="64.32999dip" android:layout_marginTop="10.0dip" android:layout_below="@id/line">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip">
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_list_folder_sharedfolder" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip">
+                    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_upload_file_success_dialog_title" />
+                    <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/public_upload_file_success_dialog_subtitle" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="12.0dip" android:id="@id/ok" android:paddingLeft="12.0dip" android:paddingTop="4.669983dip" android:paddingRight="12.0dip" android:paddingBottom="4.669983dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/public_shareplay_invite" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" style="@style/phone_public_buttonStyle_blue_13dp_corner_dark_compat" />
+        </RelativeLayout>
+        <View android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_below="@id/bottom_content" />
+    </RelativeLayout>
+</ScrollView>

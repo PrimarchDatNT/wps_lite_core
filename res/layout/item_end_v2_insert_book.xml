@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.recommend.RecommendRelativeLayout android:orientation="vertical" android:id="@id/contentLayout" android:background="@color/novel_secondBackgroundColor" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/topImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:src="@drawable/novel_end_continue" />
+        <cn.wps.moffice.reader.view.NovelTypefaceTextView android:textSize="16.0dip" android:textColor="@color/novel_descriptionColor" android:layout_gravity="center_horizontal" android:id="@id/topTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="40.0dip" android:text="@string/reader_end_insert_continue" app:textStyle="bold" />
+        <cn.wps.moffice.reader.view.NovelTypefaceTextView android:textSize="16.0dip" android:textColor="@color/novel_subTextColor" android:id="@id/recommendTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="18.0dip" android:text="@string/reader_end_insert_title" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" app:textStyle="bold" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" />
+            <RelativeLayout android:layout_gravity="bottom|center|right" android:id="@id/flowLayout" android:layout_width="78.0dip" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="78.0dip" android:layout_height="78.0dip" android:layout_marginTop="15.0dip">
+                    <ImageView android:id="@id/giftImage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/novel_end_pop" />
+                    <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="22.0dip" android:layout_marginTop="28.0dip" android:text="@string/wps_home_reader_benefits" android:lines="1" android:rotation="-4.0" android:layout_marginStart="22.0dip" />
+                </RelativeLayout>
+                <ImageView android:id="@id/closeImage" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/suspend_button_close" android:scaleType="center" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </FrameLayout>
+        <cn.wps.moffice.reader.view.NovelTypefaceTextView android:textSize="18.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/bottomBut" android:background="@drawable/shape_insert_book_button_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:text="@string/reader_end_insert_discover" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:textStyle="bold" />
+    </LinearLayout>
+    <cn.wps.moffice.reader.modules.v2.shell.ReaderSlideShadowView android:id="@id/shadow_view" android:layout_width="25.0dip" android:layout_height="fill_parent" android:layout_marginRight="-25.0dip" android:layout_alignParentRight="true" />
+</cn.wps.moffice.recommend.RecommendRelativeLayout>

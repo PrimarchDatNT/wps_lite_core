@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/phone_public_dialog_content_padding_buttom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/documentmanager_file_property_name" style="@style/pdf_doc_info_property_type_text" />
+        <TextView android:id="@id/ofd_document_info_name" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/documentmanager_file_property_location" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_location" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/documentmanager_file_property_size" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_size" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/documentmanager_file_property_type" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_type" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/ofd_document_info_title" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_title" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/ofd_document_info_id" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_id" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/public_author" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_author" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/ofd_document_info_subject" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_subject" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/ofd_document_info_abstract" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_abstract" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/ofd_document_info_keywords" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_keywords" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/ofd_document_info_creatdate" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_creatdate" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/ofd_document_info_moddate" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_moddate" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/ofd_document_info_creator" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_creator" style="@style/pdf_doc_info_property_info_text" />
+        <TextView android:text="@string/ofd_document_info_creatorversion" style="@style/pdf_doc_info_property_type_text_has_margin" />
+        <TextView android:id="@id/ofd_document_info_creatorversion" style="@style/pdf_doc_info_property_info_text" />
+    </LinearLayout>
+</ScrollView>

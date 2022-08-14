@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_white" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/scf_more_menu_text" style="@style/phone_public_popumenu_textlist_item" />
+    <TextView android:id="@id/scf_more_sort_text" android:text="@string/public_sort" style="@style/phone_public_popumenu_textlist_item" />
+    <TextView android:id="@id/scf_more_delete_text" android:text="@string/public_delete" style="@style/phone_public_popumenu_textlist_item" />
+</LinearLayout>

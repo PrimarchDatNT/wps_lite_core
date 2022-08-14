@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/writer_insert_hyperlink_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.writer.beans.DialogTitleBar android:id="@id/writer_insert_hyper_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.common.beans.SecondFullScreenLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/writer_insert_hyperlink_dialog_scrollview" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/writer_insert_hyperlink_dialog_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/writer_full_screen_dialog_hyperlink_margin_first" android:text="@string/public_hyperlink_linkto" />
+                    <cn.wps.moffice.common.beans.NewSpinner android:gravity="center" android:id="@id/hyperlink_address_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/writer_hyperlink_web" android:dropDownVerticalOffset="0.0dip" />
+                    <TextView android:id="@id/hyperlink_address_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/writer_full_screen_dialog_hyperlink_margin_top" android:text="@string/public_hyperlink_address" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/hyperlink_address_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <cn.wps.moffice.common.beans.MyAutoCompleteTextView android:gravity="start" android:id="@id/hyperlink_address" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:contentDescription="@string/reader_writer_hyperlink_address" android:textDirection="ltr" />
+                        <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_gravity="center_vertical" android:id="@id/expand_icon" android:background="@drawable/phone_public_dropdown_arrow_default_selector" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+                    </LinearLayout>
+                    <cn.wps.moffice.common.beans.NewSpinner android:gravity="bottom|center" android:id="@id/document_address_type" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/writer_hyperlink_document_top" />
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/hyperlink_email_subject_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/writer_full_screen_dialog_hyperlink_margin_top">
+                        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/public_hyperlink_email_subject" />
+                        <cn.wps.moffice.common.beans.RecordEditText android:id="@id/hyperlink_email_subject" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                    </LinearLayout>
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/writer_full_screen_dialog_hyperlink_margin_top" android:text="@string/public_hyperlink_diplaytext" />
+                    <cn.wps.moffice.common.beans.RecordEditText android:id="@id/hyperlink_diplay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:ems="10" />
+                    <Button android:layout_gravity="center_horizontal" android:id="@id/hyperlink_delete" android:paddingLeft="40.0dip" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/writer_full_screen_dialog_hyperlink_margin_top" android:text="@string/public_hyperlink_delete" android:paddingStart="40.0dip" android:paddingEnd="40.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </cn.wps.moffice.common.beans.SecondFullScreenLayout>
+</LinearLayout>

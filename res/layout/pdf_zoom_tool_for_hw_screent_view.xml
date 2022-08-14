@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/pdf_zoom_tool_layout" android:background="@drawable/pdf_zoom_tool_bg" android:layout_width="116.0dip" android:layout_height="40.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip">
+        <ImageButton android:id="@id/pdf_reduce" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/pdf_pad_btn_reduce" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/black_color" android:gravity="center" android:id="@id/pdf_zoom_percent_text" android:layout_width="36.0dip" android:layout_height="20.0dip" android:text="100%" />
+        <ImageButton android:id="@id/pdf_plus" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/pdf_pad_btn_plus" />
+    </LinearLayout>
+</FrameLayout>

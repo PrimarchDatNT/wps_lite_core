@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/et_custom_dd_btn" android:background="@drawable/phone_ss_dropdown_btn_default_bg" android:layout_width="fill_parent" android:layout_height="@dimen/et_customdropdown_btn_height" />
+    <Button android:gravity="bottom" android:id="@id/et_custom_dd_imageview" android:paddingLeft="@dimen/et_customdropdown_btn_padding_h" android:paddingTop="@dimen/et_customdropdown_btn_padding_v" android:paddingRight="@dimen/et_customdropdown_btn_padding_h" android:paddingBottom="@dimen/et_customdropdown_btn_padding_v" android:layout_width="fill_parent" android:layout_height="@dimen/et_customdropdown_btn_height" android:layout_marginLeft="0.0dip" android:layout_marginRight="16.0dip" android:selectAllOnFocus="true" android:paddingStart="@dimen/et_customdropdown_btn_padding_h" android:paddingEnd="@dimen/et_customdropdown_btn_padding_h" android:layout_marginStart="0.0dip" android:layout_marginEnd="16.0dip" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_1" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_2" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_3" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_4" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_5" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_6" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_7" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_8" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_9" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_10" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_11" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_12" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_13" />
+    <item android:duration="34" android:drawable="@drawable/public_file_size_reduce_done_14" />
+</animation-list>

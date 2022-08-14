@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="62.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tvPhoneNumber_layout" android:background="@drawable/public_round_rect_white_bg_2dp_1dp" android:layout_width="248.0dip" android:layout_height="44.0dip" android:layout_centerHorizontal="true">
+        <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_login_local_phone_number" android:layout_marginStart="13.0dip" />
+        <View android:background="@color/lineColor" android:layout_width="0.33000004dip" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="6.0dip" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:id="@id/tvPhoneNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/home_login_phone_approve_by_chinamobile" android:layout_below="@id/tvPhoneNumber_layout" android:layout_alignStart="@id/tvPhoneNumber_layout" />
+</RelativeLayout>

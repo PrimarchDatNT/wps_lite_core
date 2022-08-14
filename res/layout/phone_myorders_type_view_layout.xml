@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/phone_public_panel_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffd0d0d0" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <TextView android:textSize="14.0dip" android:textColor="#ff808080" android:gravity="center|left" android:id="@id/order_type_tile" android:layout_width="fill_parent" android:layout_height="39.0dip" android:layout_marginLeft="16.0dip" />
+    <View android:background="#ffd0d0d0" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <cn.wps.moffice.main.integralwalls.commonview.OrderTypeView android:id="@id/order_type_listview" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/order_type_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="84.0dip" layout="@layout/public_infoflow_footer" />
+</LinearLayout>

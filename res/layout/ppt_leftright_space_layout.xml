@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ppt_leftright_space_left_view" android:background="#fff9f9f9" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    <View android:id="@id/ppt_leftright_space_left_line" android:background="@color/lineColor" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_toRightOf="@id/ppt_leftright_space_left_view" android:layout_toEndOf="@id/ppt_leftright_space_left_view" />
+    <View android:id="@id/ppt_leftright_space_right_view" android:background="@color/thirdBackgroundColor" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <View android:id="@id/ppt_leftright_space_right_line" android:background="@color/lineColor" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_toLeftOf="@id/ppt_leftright_space_right_view" android:layout_toStartOf="@id/ppt_leftright_space_right_view" />
+    <FrameLayout android:id="@id/ppt_leftright_space_middle_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/ppt_leftright_space_right_line" android:layout_toRightOf="@id/ppt_leftright_space_left_line" android:layout_toStartOf="@id/ppt_leftright_space_right_line" android:layout_toEndOf="@id/ppt_leftright_space_left_line" />
+</merge>

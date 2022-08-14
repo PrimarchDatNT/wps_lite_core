@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:text="temp" style="@style/phone_ss_filterlist_item_btn"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

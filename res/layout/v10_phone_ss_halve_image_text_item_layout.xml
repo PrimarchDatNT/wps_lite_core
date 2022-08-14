@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/phone_ppt_panel_content_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/phone_public_ss_panel_common_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" style="@style/v10_phone_public_panel_title_text_style" />
+    <cn.wps.moffice.spreadsheet.control.common.HalveLayout android:id="@id/phone_public_ss_panel_common_item_halve_layout" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_paneltab_common_item_height" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.spreadsheet.control.common.PreKeyEditText android:textSize="@dimen/phone_ss_note_size" android:textColor="@color/blackColor" android:gravity="top" android:id="@id/ss_note_edittext" android:background="@drawable/phone_ss_note_edittext_bg" android:focusable="true" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" />
+</RelativeLayout>

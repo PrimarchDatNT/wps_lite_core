@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <outer type="string-array" size="">
+        <item>なし</item>
+        <item>¥</item>
+        <item>$</item>
+        <item>US$</item>
+        <item>$ 中国語(シンガポール)</item>
+        <item>$ 英語(米国)</item>
+        <item>$ フランス語(カナダ)</item>
+        <item>$ マレー語(ブルネイダルサラーム国)</item>
+        <item>$ スペイン語(アルゼンチン)</item>
+        <item>$ スペイン語(プエルトリコ)</item>
+        <item>$b スペイン語(ボリビア)</item>
+        <item>$U スペイン語(ウルグアイ)</item>
+        <item>£ 英語(英国)</item>
+        <item>£ スコットランドゲール語(英国)</item>
+        <item>¥ 中国語(中国)</item>
+        <item>¥ 日本語</item>
+        <item>¥ モンゴル語(伝統的なモンゴル文字,中国)</item>
+        <item>₭ ラオス語 </item>
+        <item>₩ 朝鮮語</item>
+        <item>€ フランス語(ベルギー)</item>
+        <item>€ ドイツ語(オーストリア)</item>
+        <item>€ アイルランド語</item>
+        <item>€ イタリア語(イタリア)</item>
+        <item>€ ポルトガル語(ポルトガル)</item>
+        <item>R$ ポルトガル語(ブラジル)</item>
+        <item>HK$ 中国語(繁体、香港)</item>
+        <item>р. ロシア語（ロシア）</item>
+        <item>‎€‎ フランス語（フランス）‎‎‎</item>
+        <item>‎€‎ ドイツ語 (ドイツ)‎</item>
+        <item>‎$‎ スペイン語 (メキシコ)‎</item>
+        <item>‎€‎ スペイン語 (インターナショナル ソート)‎</item>
+        <item>‎€‎ スペイン語 (スペイン-トラディショナル ソート)‎</item>
+        <item>‎NT$‎ 中国語 (台湾)‎</item>
+        <item>‎₪‎ ヘブライ語‎</item>
+        <item>‎ر.س.‏‎ アラビア語 (サウジアラビア)‎</item>
+        <item>‎лв.‎ ブルガリア語‎</item>
+        <item>‎Kč‎ チェコ語‎</item>
+        <item>‎kr.‎ デンマーク語‎</item>
+        <item>‎€‎ ギリシャ語‎</item>
+        <item>‎€‎ フィンランド語‎</item>
+        <item>‎Ft‎ ハンガリー語‎</item>
+        <item>‎€‎ オランダ語（オランダ）‎</item>
+        <item>‎kr‎ ノルウェー語 (ブークモール)‎</item>
+        <item>‎zł‎ ポーランド語‎</item>
+        <item>‎lei‎ ルーマニア語‎</item>
+        <item>‎kn‎ クロアチア語 (クロアチア)‎</item>
+        <item>‎€‎ スロバキア語‎</item>
+        <item>‎฿‎ タイ語‎</item>
+        <item>‎₺‎ トルコ語‎</item>
+        <item>‎Rp‎ インドネシア語‎</item>
+        <item>‎₴‎ ウクライナ語‎</item>
+        <item>‎€‎ スロベニア語‎</item>
+        <item>‎€‎ エストニア語‎</item>
+        <item>‎Ls‎ ラトビア語‎</item>
+        <item>‎Lt‎ リトアニア語‎</item>
+        <item>‎ريال‎ ペルシャ語‎</item>
+        <item>‎₫‎ ベトナム語‎</item>
+        <item>‎ден.‎ マケドニア語 (FYROM)‎</item>
+        <item>‎₹‎ ヒンディー語‎</item>
+        <item>‎Din.‎ セルビア語 (ラテン、セルビア)‎</item>
+        <item>‎kr‎ スウェーデン語（スウェーデン）</item>
+        <item>‎KM‎ ボスニア語 (ラテン)‎</item>
+        <item>‎RM‎ マレー語 (マレーシア)‎</item>
+    </outer>
+    <default type="string">15</default>
+</resource>

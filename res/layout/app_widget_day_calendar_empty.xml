@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_calendar_app_widget_ll" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/app_widget_calendar_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/header_calendar_app_widget_fl" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip">
+            <TextView android:textSize="15.0sp" android:textColor="@color/mainTextColor" android:layout_gravity="center_vertical" android:id="@id/app_widget_calendar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/app_widget_calendar_title" android:layout_marginStart="16.0dip" />
+            <TextView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/add_calendar_app_widget_iv" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/widget_head_increase" android:layout_marginEnd="4.0dip" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/more_calendar_app_widget_iv" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/widget_head_more" android:layout_marginEnd="10.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/not_login_calendar_app_widget_ll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/click_to_login" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_widget_calendar_prompt_1" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/sync_calendar_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/app_widget_calendar_prompt_2" />
+        </LinearLayout>
+        <ListView android:scrollbarThumbVertical="@drawable/bg_calendar_app_widget_scrollbar" android:id="@id/data_calendar_app_widget_lv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_calendar_app_widget_ll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="15.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/app_widget_calendar_no_task_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_widget_calendar_no_task_1" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/click_to_add_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/app_widget_calendar_no_task_2" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/app_widget_calendar_setting_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_gravity="end" android:layout_width="80.0dip" android:layout_height="72.0dip" android:layout_marginTop="38.0dip" android:layout_marginEnd="10.0dip">
+            <ImageView android:id="@id/app_widget_calendar_pop" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/calender_widget_pop" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="72.0dip">
+                <TextView android:textColor="@color/mainTextColor" android:gravity="center_vertical" android:id="@id/app_widget_calendar_refresh" android:layout_width="60.0dip" android:layout_height="32.0dip" android:text="@string/public_refresh" android:layout_marginStart="15.0dip" />
+                <TextView android:textColor="@color/mainTextColor" android:gravity="center_vertical" android:id="@id/app_widget_calendar_setting" android:layout_width="60.0dip" android:layout_height="32.0dip" android:text="@string/documentmanager_phone_setting" android:layout_marginStart="15.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+</FrameLayout>

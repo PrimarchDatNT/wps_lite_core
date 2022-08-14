@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/secondBackgroundColor" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:paddingStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.HandleClickTextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/share_selector_title" android:clickable="true" android:layout_width="wrap_content" android:layout_height="17.0dip" android:layout_marginTop="14.0dip" />
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/share_selector_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="13.0dip" android:src="@drawable/pub_format_list_select" android:scaleType="centerInside" />
+</LinearLayout>

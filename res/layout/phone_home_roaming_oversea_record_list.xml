@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/no_record_viewstub" android:visibility="gone" android:layout="@layout/phone_home_qing_roaming_no_record_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.main.local.home.phone.homedataprovider.scrolllayout.ScrollManagerExtendRecycleView android:scrollbarStyle="outsideOverlay" android:id="@id/recordRecyclerView" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:id="@id/record_list_import_view_stub" android:visibility="gone" android:layout="@layout/phone_home_qing_roaming_import_view_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/home_roaming_record_list_notify_bar" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/home_page_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="109.0dip" layout="@layout/phone_home_wps_drive_progress_layer" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/public_home_refresh_state" style="@style/phone_home_empty_view_larger_text" />
+    </LinearLayout>
+</FrameLayout>

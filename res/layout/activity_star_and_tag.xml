@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/top_bars" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <cn.wps.moffice.common.beans.phone.scrollbar.KScrollBar android:id="@id/star_tag_kscrollbar" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    </LinearLayout>
+    <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/star_tag_pager" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_bars" />
+    <View android:id="@id/scroll_bar_shadow" android:layout_below="@id/top_bars" style="@style/phone_home_top_shadow" />
+</RelativeLayout>

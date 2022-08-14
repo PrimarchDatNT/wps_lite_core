@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/comp_pdf_quick_tool" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pdf_edit_annotation_panel" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <cn.wps.moffice.pdf.shell.annotation.panels.phone.PDFFillFormPanelItem android:id="@id/write_type" android:layout_width="wrap_content" android:layout_height="wrap_content" app:form_image="@drawable/pdf_edit_form_write_type" app:form_type="typewriter" />
+        <cn.wps.moffice.pdf.shell.annotation.panels.phone.PDFFillFormPanelItem android:id="@id/tick_type" android:layout_width="wrap_content" android:layout_height="wrap_content" app:form_image="@drawable/pdf_edit_form_tick_type" app:form_type="cross" />
+        <cn.wps.moffice.pdf.shell.annotation.panels.phone.PDFFillFormPanelItem android:id="@id/fork_type" android:layout_width="wrap_content" android:layout_height="wrap_content" app:form_image="@drawable/pdf_edit_form_cross_type" app:form_type="fork" />
+        <cn.wps.moffice.pdf.shell.annotation.panels.phone.PDFFillFormPanelItem android:id="@id/dot_type" android:layout_width="wrap_content" android:layout_height="wrap_content" app:form_image="@drawable/pdf_edit_form_circle_type" app:form_type="dot" />
+        <cn.wps.moffice.pdf.shell.annotation.panels.phone.PDFFillFormPanelItem android:id="@id/circle_type" android:layout_width="wrap_content" android:layout_height="wrap_content" app:form_image="@drawable/pdf_edit_form_square_type" app:form_type="rect" />
+        <cn.wps.moffice.pdf.shell.annotation.panels.phone.PDFFillFormPanelItem android:id="@id/line_type" android:layout_width="wrap_content" android:layout_height="wrap_content" app:form_image="@drawable/pdf_edit_form_line_type" app:form_type="line" />
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/sign_type" android:paddingLeft="10.0dip" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pdf_edit_form_sign_type" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/close" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_file_status_ad_closed_n" android:layout_alignParentEnd="true" style="@style/public_image_bg_style" />
+        <ImageView android:id="@id/ok_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@drawable/pub_result_success" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/template_favored" android:layout_below="@id/ok_img" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/sub_title" android:layout_width="258.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/public_collection_view_introduce" android:layout_below="@id/title" android:layout_centerHorizontal="true" />
+        <TextView android:gravity="center" android:id="@id/view_collected" android:layout_width="258.0dip" android:layout_height="42.0dip" android:layout_marginTop="24.0dip" android:text="@string/public_view_collected_content" android:layout_below="@id/sub_title" android:layout_centerHorizontal="true" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+        <View android:layout_width="fill_parent" android:layout_height="24.0dip" android:layout_below="@id/view_collected" />
+    </RelativeLayout>
+</FrameLayout>

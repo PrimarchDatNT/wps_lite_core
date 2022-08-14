@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <cn.wps.kspaybase.common.HeaderAnimView android:id="@id/header_anim_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginBottom="10.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <include android:id="@id/home_header_anim_view" layout="@layout/kspay_phone_public_home_spread_tips_dropview_container" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/header_conatiner_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

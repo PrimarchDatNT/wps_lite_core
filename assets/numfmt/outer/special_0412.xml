@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 朝鲜语（韩国） -->
+<resource>
+    <inner type="string-array" size="">
+		<item>000\-000</item>
+		<item>[&lt;=999999]####\-####;\(0##\)\ ####\-####</item>
+		<item>[&lt;=9999999]###\-####;\(0##\)\ ###\-####</item>
+		<item>000000\-0000000</item>
+		<item>[DBNum1][$-412]General</item>
+		<item>[DBNum2][$-412]General</item>
+		<item>[$-412]General</item>
+	</inner>
+	<outer type="string-array" size="">
+	    <item>우편 번호</item>
+		<item>전화 번호 (국번 4자리)</item>
+		<item>전화 번호 (국번 3자리)</item>
+		<item>주민등록번호</item>
+		<item>숫자(한자)</item>
+		<item>숫자(한자-갖은자)</item>
+		<item>숫자(한글)</item>
+	</outer>
+</resource>

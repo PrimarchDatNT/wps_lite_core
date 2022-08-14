@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 阿拉伯回历 （阿拉伯语显示）-->
+<resource>
+<long-week type="string-array" size="7">
+<item>الأحد</item>
+<item>الإثنين</item>
+<item>الثلاثاء</item>
+<item>الأربعاء</item>
+<item>الخميس</item>
+<item>الجمعة</item>
+<item>السبت</item>
+</long-week>
+<short-week type="string-array" size="7">
+<item>الأحد</item>
+<item>الإثنين</item>
+<item>الثلاثاء</item>
+<item>الأربعاء</item>
+<item>الخميس</item>
+<item>الجمعة</item>
+<item>السبت</item>
+</short-week>
+<long-month type="string-array" size="12">
+<item>المحرّم </item>
+<item>صفر</item>
+<item>ربيع الأوّل</item>
+<item>ربيع الثاني</item>
+<item>جمادى الأولى</item>
+<item>جمادى الثانية</item>
+<item>رجب</item>
+<item>شعبان</item>
+<item>رمضان</item>
+<item>شوّال</item>
+<item>ذو القعدة</item>
+<item>ذو الحجّة</item>
+</long-month>
+<short-month type="string-array" size="12">
+<item>المحرّم </item>
+<item>صفر</item>
+<item>ربيع الأوّل</item>
+<item>ربيع الثاني</item>
+<item>جمادى الأولى</item>
+<item>جمادى الثانية</item>
+<item>رجب</item>
+<item>شعبان</item>
+<item>رمضان</item>
+<item>شوّال</item>
+<item>ذو القعدة</item>
+<item>ذو الحجّة</item>
+</short-month>
+<shortest-month type="string-array" size="12">
+<item>م</item>
+<item>ص</item>
+<item>ر</item>
+<item>ر</item>
+<item>ج</item>
+<item>ج</item>
+<item>ر</item>
+<item>ش</item>
+<item>ر</item>
+<item>ش</item>
+<item>ذ</item>
+<item>ذ</item>
+</shortest-month>
+</resource>

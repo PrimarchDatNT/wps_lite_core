@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 英国英语 -->
+<resource>
+    <inner type="string-array" size="">
+        <item>[$-F400]h:mm:ss\ AM/PM</item>
+		<item>hh:mm:ss;@</item>
+		<item>h:mm:ss;@</item>
+		<item>[$-409]hh:mm:ss\ AM/PM;@</item>
+		<item>[$-409]h:mm:ss\ AM/PM;@</item>
+	</inner>
+</resource>

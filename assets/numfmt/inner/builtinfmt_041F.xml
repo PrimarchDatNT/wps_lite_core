@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+<!-- 土耳其语（土耳其） -->
+<builtin-formats type="string-array" size="59">
+<item index="0">General</item>
+<item index="1">0</item>
+<item index="2">0.00</item>
+<item index="3">#,##0</item>
+<item index="4">#,##0.00</item>
+<item index="5">"¥"#.##0;"¥"-#.##0</item>
+<item index="6">"¥"#.##0;[Kırmızı]"¥"-#.##0</item>
+<item index="7">"¥"#.##0,00;"¥"-#.##0,00</item>
+<item index="8">"¥"#.##0,00;[Kırmızı]"¥"-#.##0,00</item>
+<item index="9">0%</item>
+<item index="10">0.00%</item>
+<item index="11">0.00E+00</item>
+<item index="12">#\ ?/?</item>
+<item index="13">#\ ??/??</item>
+<item index="14">dd\.mm\.yyyy</item>
+<item index="15">dd\.mmm\.yy</item>
+<item index="16">dd\.mmm</item>
+<item index="17">mmm\.yy</item>
+<item index="18">h:mm\ AM/PM</item>
+<item index="19">h:mm:ss\ AM/PM</item>
+<item index="20">hh:mm</item>
+<item index="21">hh:mm:ss</item>
+<item index="22">dd\.mm\.yyyy\ hh:mm</item>
+<item index="23">General</item>
+<item index="24">General</item>
+<item index="25">General</item>
+<item index="26">General</item>
+<item index="27">dd\.mm\.yyyy</item>
+<item index="28">dd\.mm\.yyyy</item>
+<item index="29">dd\.mm\.yyyy</item>
+<item index="30">dd\.mm\.yyyy</item>
+<item index="31">dd\.mm\.yyyy</item>
+<item index="32">hh:mm:ss</item>
+<item index="33">hh:mm:ss</item>
+<item index="34">hh:mm:ss</item>
+<item index="35">hh:mm:ss</item>
+<item index="36">dd\.mm\.yyyy</item>
+<item index="37">#.##0\ _\₺;-#.##0\ _\₺</item>
+<item index="38">#.##0 _₺;[Kırmızı]-#.##0 _₺</item>
+<item index="39">#.##0,00 _₺;-#.##0,00 _₺</item>
+<item index="40">#.##0,00 _₺;[Kırmızı]-#.##0,00 _₺</item>
+<item index="41">_ * #.##0_ ;_ * -#.##0_ ;_ * "-"_ ;_ @_ </item>
+<item index="42">_ "¥"* #.##0_ ;_ "¥"* -#.##0_ ;_ "¥"* "-"_ ;_ @_ </item>
+<item index="43">_ * #.##0,00_ ;_ * -#.##0,00_ ;_ * "-"??_ ;_ @_ </item>
+<item index="44">_ "¥"* #.##0,00_ ;_ "¥"* -#.##0,00_ ;_ "¥"* "-"??_ ;_ @_ </item>
+<item index="45">mm:ss</item>
+<item index="46">[h]:mm:ss</item>
+<item index="47">mm:ss.0</item>
+<item index="48">##0.0E+0</item>
+<item index="49">@</item>
+<item index="50">dd\.mm\.yyyy</item>
+<item index="51">dd\.mm\.yyyy</item>
+<item index="52">dd\.mm\.yyyy</item>
+<item index="53">dd\.mm\.yyyy</item>
+<item index="54">dd\.mm\.yyyy</item>
+<item index="55">dd\.mm\.yyyy</item>
+<item index="56">dd\.mm\.yyyy</item>
+<item index="57">dd\.mm\.yyyy</item>
+<item index="58">dd\.mm\.yyyy</item>
+</builtin-formats>
+</resource>

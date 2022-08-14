@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center_vertical" android:id="@id/phone_ppt_panel_topbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_quick_bar_height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="5.0dip" android:paddingEnd="0.0dip">
+            <cn.wps.moffice.common.beans.RippleAlphaImageView android:id="@id/phone_ppt_panel_topbar_tool_nav" android:padding="11.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/comp_common_tool" android:tint="@color/color_white" android:paddingStart="11.0dip" android:paddingEnd="11.0dip" style="@style/public_image_bg_style" />
+            <cn.wps.moffice.common.beans.RippleAlphaImageView android:id="@id/phone_ppt_panel_topbar_keyboard" android:padding="11.0dip" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/comp_common_keyboard" android:tint="@color/color_white" android:paddingStart="11.0dip" android:paddingEnd="11.0dip" style="@style/public_image_bg_style" />
+            <View android:background="#ff787878" android:layout_width="@dimen/v10_phone_public_base_divider_size" android:layout_height="@dimen/v10_phone_public_base_widget_size" android:layout_marginLeft="11.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="11.0dip" android:layout_marginEnd="0.0dip" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <HorizontalScrollView android:id="@id/phone_ppt_panel_topbar_quick_action" android:scrollbars="none" android:fadingEdgeLength="70.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginRight="7.0dip" android:requiresFadingEdge="horizontal" android:layout_marginStart="7.0dip" android:layout_marginEnd="7.0dip">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/phone_ppt_panel_topbar_item_container" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+                </HorizontalScrollView>
+                <cn.wps.moffice.common.beans.phone.indicator.PanelTabBar android:id="@id/phone_ppt_panel_topbar_indicator" android:fadingEdgeLength="50.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:requiresFadingEdge="horizontal" />
+            </FrameLayout>
+        </LinearLayout>
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="14.0dip" android:textColor="@color/whiteMainTextColor" android:ellipsize="end" android:gravity="center" android:id="@id/phone_ppt_panel_topbar_title_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="100.0dip" android:layout_marginRight="100.0dip" android:layout_marginStart="60.0dip" android:layout_marginEnd="60.0dip" MaxLine="1" />
+    </FrameLayout>
+</merge>

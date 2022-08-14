@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/login_guide_item" android:layout_width="fill_parent" android:layout_height="@dimen/public_document_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/phone_public_list_white_selector" android:descendantFocusability="blocksDescendants" style="@style/public_document_item_style">
+        <RelativeLayout android:layout_width="@dimen/phone_home_listview_item_icon_layout_width" android:layout_height="@dimen/phone_home_listview_item_icon_layout_height">
+            <ImageView android:id="@id/fb_file_icon" android:src="@drawable/public_radar_list_login_guide_icon" android:layout_centerVertical="true" style="@style/phone_home_listview_item_icon" />
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/content_root" android:paddingLeft="16.0dip" android:paddingRight="0.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="16.0dip" android:paddingEnd="0.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.wps.moffice.main.local.home.newui.common.FileItemTextView android:id="@id/title_text" android:paddingLeft="0.0dip" android:paddingRight="16.0dip" android:text="@string/public_cloud_login_guide_radar_title" android:singleLine="false" android:paddingStart="0.0dip" android:paddingEnd="16.0dip" style="@style/public_document_item_title_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/content_details_text" android:paddingLeft="0.0dip" android:paddingTop="@dimen/public_document_item_content_margin_top_length" android:paddingRight="20.0dip" android:text="@string/public_cloud_login_guide_radar_tips" android:paddingStart="0.0dip" android:paddingEnd="20.0dip" style="@style/public_document_item_content_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <cn.wps.moffice.common.beans.menudrawer.AlphaTextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:gravity="center" android:id="@id/right_text" android:background="@drawable/public_document_item_title" android:layout_height="wrap_content" android:text="@string/public_cloud_login_guide_protected_now" android:paddingHorizontal="10.0dip" android:paddingVertical="3.0dip" style="@style/phone_home_listview_item_content_detail" />
+    </LinearLayout>
+    <View android:id="@id/fb_divide_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="64.0dip" android:layout_marginRight="0.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="64.0dip" android:layout_marginEnd="0.0dip" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/documents_legal_item" android:background="@drawable/public_panel_item_third_bg_selector" style="@style/phone_public_dialog_list_item_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/documents_legal_item_text" android:text="@string/documentmanager_legal_provision" style="@style/phone_public_dialog_list_item_puretext" />
+</LinearLayout>

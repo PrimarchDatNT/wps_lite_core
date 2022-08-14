@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>homepage_ad_config</key>
+        <value />
+    </entry>
+    <entry>
+        <key>open_document_way_by_third_app_v2</key>
+        <value />
+    </entry>
+    <entry>
+        <key>home_recent_template_show_config</key>
+        <value />
+    </entry>
+    <entry>
+        <key>oversea_linker_ab_str</key>
+        <value />
+    </entry>
+    <entry>
+        <key>test_pdf_sig</key>
+        <value>off</value>> </entry>
+    <entry>
+        <key>test_add_text</key>
+        <value>off</value>> </entry>
+    <entry>
+        <key>test_pic_share</key>
+        <value>off</value>> </entry>
+    <entry>
+        <key>tip_convert_type</key>
+        <value />
+    </entry>
+    <entry>
+        <key>home_tab_key</key>
+        <value />
+    </entry>
+</defaultsMap>

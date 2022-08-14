@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ppt_hyperlink_root" android:background="@drawable/public_round_rect_gray_bg_4dp_1px_21" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.presentation.control.common.PptTitleBar android:id="@id/ppt_hyperlink_titleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:background="@color/thirdBackgroundColor" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/ppt_hyperlink_content" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_hyperlink_linkto" />
+                <cn.wps.moffice.common.beans.NewSpinner android:gravity="bottom" android:id="@id/ppt_hyperlink_tab_spinner" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="2.0dip" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/et_hyperlink_marginTop_small">
+                <LinearLayout android:orientation="vertical" android:id="@id/ppt_hyperlink_web_page_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_hyperlink_address" />
+                    <cn.wps.moffice.common.beans.EditTextDropDown android:gravity="bottom" android:id="@id/ppt_hyperlink_web_address" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="2.0dip" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ppt_hyperlink_email_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/et_hyperlink_email_address" />
+                    <cn.wps.moffice.common.beans.MyAutoCompleteTextView android:gravity="bottom" android:id="@id/ppt_hyperlink_email_address" android:nextFocusDown="@id/ppt_hyperlink_mail_theme" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="2.0dip" android:singleLine="true" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/et_hyperlink_marginTop_small" android:text="@string/public_hyperlink_email_subject" />
+                    <cn.wps.moffice.common.beans.EditTextCustom android:gravity="bottom" android:id="@id/ppt_hyperlink_mail_theme" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="2.0dip" android:singleLine="true" style="@style/editText" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/ppt_hyperlink_slide_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/writer_hyperlink_position" />
+                    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <cn.wps.moffice.common.beans.EditTextCustom android:gravity="bottom" android:id="@id/ppt_hyperlink_slide_index" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="2.0dip" android:hint="@string/ppt_hyperlink_slide_tips" />
+                        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/public_slide_select_arrow_right" android:layout_centerVertical="true" android:layout_marginEnd="2.0dip" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="start" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/et_hyperlink_marginTop_small" android:text="@string/public_hyperlink_diplaytext" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            <cn.wps.moffice.common.beans.EditTextCustom android:gravity="bottom" android:id="@id/ppt_hyperlink_show_word" android:layout_width="fill_parent" android:layout_height="60.0dip" android:layout_marginTop="2.0dip" android:singleLine="true" style="@style/editText" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/et_hyperlink_marginTop_small" android:layout_marginBottom="@dimen/et_hyperlink_marginTop_small">
+                <Button android:layout_gravity="center" android:id="@id/ppt_hyperlink_delete" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="37.0dip" android:minWidth="180.0dip" android:text="@string/public_hyperlink_delete" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" style="@style/phone_public_buttonStyle_gray_4dp_corner_dark_compat" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

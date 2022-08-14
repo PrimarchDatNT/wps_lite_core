@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 台湾-->
+<resource>
+    <inner type="string-array" size="">
+        <item>000</item>
+		<item>0000000-0</item>
+		<item>[&lt;=9999999]###\-####;\(0#\)\ ###\-####</item>
+		<item>[&lt;=99999999]####\-####;\(0#\)\ ####\-####</item>
+		<item>[&gt;99999999]0000\-000\-000;000\-000\-000</item>
+		<item>[DBNum1][$-404]General</item>
+		<item>[DBNum2][$-404]General</item>    
+	</inner>
+	<outer type="string-array" size="">
+	    <item>郵遞區號</item>
+		<item>郵政劃撥帳號</item>
+ 		<item>一般電話號碼(7位數)</item>
+ 		<item>一般電話號碼(8位數)</item>
+ 		<item>行動電話、呼叫器號碼</item>
+		<item>一萬二千三百四十五</item>
+		<item>壹萬貳仟參佰肆拾伍</item>
+	</outer>
+</resource>

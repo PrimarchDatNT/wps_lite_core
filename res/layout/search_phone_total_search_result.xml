@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/file_search_result_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/tab_bar" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/file_search_content_list_parent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ProgressBar android:id="@id/search_loading_progressbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:indeterminate="true" style="@style/TotalSearchHorizontal" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

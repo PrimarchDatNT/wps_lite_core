@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.CircleImageView android:layout_gravity="bottom|center" android:id="@id/home_roaming_relogin_icon" android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="110.0dip" android:src="@drawable/home_roaming_login_avatar" app:border_color="@color/lineColor" app:border_width="2.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:layout_gravity="center" android:id="@id/home_roaming_relogin_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="15.0dip" android:textColor="#ffa4a4a4" android:gravity="center" android:id="@id/relogin_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/public_login_relogin_tips" MaxLine="1" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/relogin_third_btn_layout" android:layout_width="304.0dip" android:layout_height="48.0dip" android:layout_marginTop="48.0dip" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginStart="2.0dip">
+                <View android:layout_gravity="center" android:id="@id/relogin_third_btn_corner_bg" android:background="@drawable/google_corner_bg" android:layout_width="44.0dip" android:layout_height="44.0dip" />
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/relogin_third_btn_icon" android:layout_width="44.0dip" android:layout_height="44.0dip" android:src="@drawable/en_home_roaming_login_email" android:scaleType="center" />
+            </FrameLayout>
+            <View android:id="@id/divider_line" android:background="@color/secondBackgroundColor" android:visibility="invisible" android:layout_width="0.33000004dip" android:layout_height="34.0dip" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/whiteMainTextColor" android:ellipsize="end" android:gravity="center" android:id="@id/relogin_third_btn_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/public_email_sign_in" android:maxLines="2" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/home_roaming_relogin_more" android:background="@drawable/en_home_login_native_item_bg" android:layout_width="304.0dip" android:layout_height="48.0dip" android:layout_marginTop="14.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="2.0dip" android:layout_marginStart="2.0dip">
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/relogin_person" android:scaleType="center" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <View android:background="@color/buttonSecondaryPressedColor" android:visibility="visible" android:layout_width="0.33000004dip" android:layout_height="34.0dip" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/WPSMainColor" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/public_sign_in_with_other_account" android:maxLines="2" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <View android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <FrameLayout android:layout_gravity="center" android:layout_width="304.0dip" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/home_roaming_relogin_clear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_login_remove_my_login_info" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:text="@string/public_login_relate_exists_account_msg" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="252.0dip" android:layout_height="wrap_content" android:text="@string/public_login_relate_exists_account_desc" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/public_login_relate_exists_account_tip1" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/public_login_relate_exists_account_tip2" />
+    </LinearLayout>
+    <cn.wps.moffice.common.beans.phone.CornerRectButton android:textSize="16.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/relateAccountButton" android:layout_width="248.0dip" android:layout_height="44.0dip" android:layout_marginTop="75.0dip" android:text="@string/public_login_relate_account" app:backgroundColor="@color/secondaryColor" app:corner="4.0dip" />
+    <cn.wps.moffice.common.beans.phone.CornerRectButton android:textSize="14.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/createAccountButton" android:layout_width="248.0dip" android:layout_height="44.0dip" android:layout_marginTop="16.0dip" android:text="@string/public_login_create_new_account" app:backgroundColor="@color/buttonFourthColor" app:corner="4.0dip" app:strokeColor="@color/borderLineColor" app:strokeWidth="1.0px" />
+</LinearLayout>

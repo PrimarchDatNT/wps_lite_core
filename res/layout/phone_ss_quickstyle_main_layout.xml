@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/contener" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="11.0sp" android:id="@id/phone_ss_quickstyle_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/phone_ss_font_modify_panel_padding_w" android:layout_marginTop="1.0dip" android:layout_marginRight="0.0dip" android:text="@string/ppt_quick_style" android:singleLine="true" android:layout_marginStart="@dimen/phone_ss_font_modify_panel_padding_w" android:layout_marginEnd="0.0dip" />
+        <cn.wps.moffice.common.beans.phone.colorselect.ColorDefaultSelectLayout android:id="@id/default_color_layout" android:layout_width="fill_parent" android:layout_height="@dimen/phone_ss_modify_row_height" android:layout_marginLeft="@dimen/phone_ss_font_modify_panel_padding_w" android:layout_marginTop="@dimen/phone_ss_modify_panel_padding_top" android:layout_marginRight="@dimen/phone_ss_font_modify_panel_padding_w" android:layout_marginBottom="@dimen/phone_ss_modify_panel_padding_top" android:layout_marginStart="@dimen/phone_ss_font_modify_panel_padding_w" android:layout_marginEnd="@dimen/phone_ss_font_modify_panel_padding_w" />
+    </LinearLayout>
+</ScrollView>

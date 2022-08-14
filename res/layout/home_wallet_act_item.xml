@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="98.0dip" style="@style/home_mypursing_gridview_item_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_icon_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/img" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" style="@style/home_mypursing_gridview_image" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/mainTextColor" android:ellipsize="middle" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="5.0dip" android:singleLine="true" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" style="@style/home_open_item_txt_style" />
+    </LinearLayout>
+    <View android:id="@id/v_guide_line" android:layout_width="1.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/red_point" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/public_fileradar_redpoint_icon" android:layout_toRightOf="@id/v_guide_line" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/iv_red_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginLeft="6.0dip" android:layout_marginTop="10.0dip" android:scaleType="fitCenter" android:adjustViewBounds="true" android:maxWidth="40.0dip" android:layout_toRightOf="@id/v_guide_line" />
+    <TextView android:textSize="10.0dip" android:textColor="#ffff9f29" android:ellipsize="middle" android:gravity="center" android:id="@id/sub_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/home_open_item_txt_style" />
+</RelativeLayout>

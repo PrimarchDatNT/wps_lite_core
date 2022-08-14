@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/subSecondBackgroundColor" android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:ellipsize="middle" android:layout_gravity="center" android:id="@id/choose_position" android:text="@string/public_save_choose_position" style="@style/pad_public_saveas_topbar_text_style" />
+        <RelativeLayout android:id="@id/path_gallery_container" android:background="@color/secondBackgroundColor" android:paddingLeft="0.0dip" android:paddingRight="26.0dip" android:paddingStart="0.0dip" android:paddingEnd="26.0dip" style="@style/pad_public_saveas_topbar_layout_style">
+            <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/back" android:src="@drawable/pad_home_back" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" style="@style/public_titlebar_return" />
+            <TextView android:id="@id/title" android:layout_marginLeft="15.0dip" android:layout_marginRight="0.0dip" android:layout_toRightOf="@id/back" android:layout_centerVertical="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="0.0dip" android:layout_toEndOf="@id/back" style="@style/pad_public_saveas_topbar_text_style" />
+            <FrameLayout android:id="@id/new_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/new_notebook" android:visibility="gone" android:layout_width="@dimen/phone_public_small_icon_width" android:layout_height="@dimen/phone_public_small_icon_height" android:layout_marginLeft="8.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/public_evernote_new_notebook" android:scaleType="fitXY" android:contentDescription="@string/public_evernote_new_notebook" android:layout_marginStart="8.0dip" android:layout_marginEnd="0.0dip" />
+                <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/new_note" android:visibility="gone" android:layout_width="@dimen/phone_public_small_icon_width" android:layout_height="@dimen/phone_public_small_icon_height" android:layout_marginLeft="8.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/public_evernote_new_note" android:scaleType="fitXY" android:contentDescription="@string/public_evernote_new_note" android:layout_marginStart="8.0dip" android:layout_marginEnd="0.0dip" />
+            </FrameLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="0.0dip" android:layout_toLeftOf="@id/new_layout" android:layout_toRightOf="@id/back" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="0.0dip" android:layout_toStartOf="@id/new_layout" android:layout_toEndOf="@id/back">
+                <include layout="@layout/pad_home_path_gallery_for_saveas" />
+            </LinearLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/switch_login_type_layout" android:visibility="gone" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" style="@style/home_evernote_switchtype_style">
+                <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pad_pub_list_right_screen" android:scaleType="fitCenter" />
+                <TextView android:id="@id/switch_login_type_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="0.0dip" android:text="@string/public_evernote_title" android:layout_marginStart="8.0dip" android:layout_marginEnd="0.0dip" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+    <View style="@style/pad_home_topbar_underline" />
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_public_cloudstorage_body" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/cloudstorage_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+    </LinearLayout>
+</LinearLayout>

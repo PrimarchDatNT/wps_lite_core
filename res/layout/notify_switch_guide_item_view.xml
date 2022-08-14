@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:ellipsize="end" android:id="@id/notify_tips_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+        <Button android:textSize="12.0dip" android:textColor="@color/whiteMainTextColor" android:id="@id/notify_tips_confirm" android:layout_width="48.0dip" android:layout_height="24.0dip" android:layout_marginLeft="4.0dip" android:text="@string/open_push_switch_open" android:layout_marginStart="4.0dip" style="@style/KButtonStyle.Primary" />
+        <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:id="@id/notify_tips_cancel" android:layout_width="36.0dip" android:layout_height="fill_parent" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip">
+            <ImageView android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_marginLeft="14.0dip" android:src="@drawable/phone_home_message_tips_close_small" android:scaleType="fitCenter" android:layout_marginStart="14.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

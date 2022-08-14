@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/background" android:background="@drawable/phone_public_list_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginTop="25.0dip" android:scaleType="centerCrop" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+</LinearLayout>

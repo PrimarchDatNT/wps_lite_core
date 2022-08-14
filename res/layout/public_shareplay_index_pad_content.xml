@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/public_shareplay_index_img" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:paddingTop="25.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ppt_sharedplay_see_together" />
+        <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="20.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center_horizontal" android:id="@id/public_shareplay_content_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ppt_shareplay_cn_supported_version_tip" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/secondaryColor" android:gravity="center_horizontal" android:id="@id/public_shareplay_know_more" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="@string/ppt_shareplay_know_more" android:layout_toRightOf="@id/public_shareplay_content_desc" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip">
+            <Button android:layout_gravity="center_horizontal" android:id="@id/public_shareplay_launch" android:layout_width="400.0dip" android:layout_marginBottom="24.0dip" android:text="@string/public_meeting_start" style="@style/phone_home_cloudstorage_loginview_button_bluebg" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/public_shareplay_join" android:layout_width="400.0dip" android:text="@string/public_meeting_join" style="@style/phone_home_cloudstorage_loginview_button_graybg" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

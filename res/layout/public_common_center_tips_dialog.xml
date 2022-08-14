@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/tips_content" android:paddingStart="14.0dip" android:paddingEnd="14.0dip" style="@style/phone_public_centerBar_layout">
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/title" android:maxLines="1" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" style="@style/phone_public_centerBar_tip" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/buttonSecondaryColor" android:id="@id/button" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:text="@string/public_retrieve" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" android:layout_marginStart="14.0dip" style="@style/phone_public_bottombar_tipbtn" />
+    </LinearLayout>
+</FrameLayout>

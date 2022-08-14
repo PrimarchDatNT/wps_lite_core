@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="10.0dip" android:layout_marginStart="13.0dip">
+        <cn.wps.moffice.common.beans.CircleImageView android:id="@id/author_icon" android:layout_width="75.0dip" android:layout_height="75.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="26.0dip" android:layout_weight="1.0" android:layout_marginStart="26.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:layout_gravity="center_vertical" android:background="@color/mainTextColor" android:layout_width="2.0dip" android:layout_height="15.0dip" />
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/author_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" MaxLine="1" />
+            </LinearLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="11.0dip">
+                <View android:layout_gravity="center_vertical" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </FrameLayout>
+            <TextView android:textSize="10.0dip" android:textColor="@color/descriptionColor" android:ellipsize="end" android:id="@id/author_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

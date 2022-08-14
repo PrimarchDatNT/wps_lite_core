@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/phone_public_ripple_shade_white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/item_icon" android:layout_width="fill_parent" android:layout_height="113.0dip" android:scaleType="fitXY" />
+        <ImageView android:id="@id/my_download_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_foreign_template_download" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="0.0dip">
+        <ImageView android:id="@id/item_type_icon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="5.0dip" android:scaleType="fitCenter" android:layout_marginStart="0.0dip" android:layout_marginEnd="5.0dip" />
+        <TextView android:textSize="14.0sp" android:textColor="#ff535252" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+    <TextView android:textSize="9.0sp" android:id="@id/item_template_expiretime" android:layout_width="wrap_content" android:layout_height="12.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="8.0dip" android:text="@string/public_fontname_monotype_purchase_cycle" android:layout_marginStart="8.0dip" android:layout_marginEnd="0.0dip" style="@style/phone_public_font_xs_gray" />
+</LinearLayout>

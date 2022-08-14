@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/phone_public_list_white_selector" android:layout_width="fill_parent" android:layout_height="@dimen/phone_home_clouddocs_setting_item_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" style="@style/phone_home_clouddocs_setting_item_layout">
+        <cn.wps.moffice.common.beans.CircleImageView android:layout_gravity="center_vertical" android:id="@id/group_member_icon" style="@style/phone_wpsdrive_member_item_icon" />
+        <TextView android:textColor="@color/mainTextColor" android:id="@id/group_member_name" android:layout_width="0.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/phone_home_listview_item_content_title" />
+        <TextView android:textColor="@color/descriptionColor" android:gravity="end" android:id="@id/group_member_role" android:maxLines="1" style="@style/phone_home_listview_item_content_detail" />
+        <ImageView android:id="@id/iv_right_arrow" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_list_screening_right_arrow" android:scaleType="centerInside" />
+    </LinearLayout>
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="72.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="72.0dip" />
+</RelativeLayout>

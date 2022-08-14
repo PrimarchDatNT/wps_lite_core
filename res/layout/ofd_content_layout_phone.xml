@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.ofd.common.OFDFrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.ofd.ofdview.OFDViewWrapper android:id="@id/ofdView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/ofd_shell_framework_phone" />
+</cn.wps.moffice.ofd.common.OFDFrameLayout>

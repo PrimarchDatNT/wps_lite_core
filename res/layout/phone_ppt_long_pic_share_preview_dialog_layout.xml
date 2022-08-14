@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.presentation.control.common.PptTitleBar android:id="@id/long_pic_share_preview_ppt_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="48.0dip" android:layout_below="@id/long_pic_share_preview_ppt_titlebar">
+        <ListView android:id="@id/long_pic_share_preview_list" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    </FrameLayout>
+    <cn.wps.moffice.common.beans.phone.bottomup.BottomUpPopTaber android:id="@id/bottom_tab_ctrl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/long_pic_share_preview_ppt_titlebar" />
+    <cn.wps.moffice.common.TouchEventInterceptFrameLayout android:id="@id/long_pic_share_progress" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </cn.wps.moffice.common.TouchEventInterceptFrameLayout>
+</RelativeLayout>

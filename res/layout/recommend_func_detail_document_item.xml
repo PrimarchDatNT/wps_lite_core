@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/frame_main" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler" android:paddingTop="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/tv_loading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="350.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/view_cover" android:background="@drawable/translucent_cover_bg" android:layout_width="fill_parent" android:layout_height="121.0dip" />
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/comp_common_tool" android:left="@dimen/ss_phone_edit_layout_btn_padding_h_small" android:top="@dimen/ss_phone_edit_layout_btn_padding_v_small" android:right="@dimen/ss_phone_edit_layout_btn_padding_h_small" android:bottom="@dimen/ss_phone_edit_layout_btn_padding_v_small" />
+</layer-list>

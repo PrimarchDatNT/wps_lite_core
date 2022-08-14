@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/public_insert_pic_preview_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/public_insert_pic_preview_titlebar" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/v10_public_titlebar_height">
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/v10_public_titlebar_height">
+            <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/public_insert_pic_back" android:layout_marginLeft="@dimen/v10_phone_public_titlebar_icon_margin_edge" android:src="@drawable/phone_public_back_white_icon" android:tint="@color/normalIconColor" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/reader_public_back" android:layout_marginStart="@dimen/v10_phone_public_titlebar_icon_margin_edge" android:layout_alignParentStart="true" style="@style/v10_phone_public_titlebar_icon" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/public_insert_pic_preview_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/public_insert_pic_preview_bottom_bar" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="54.0dip">
+        <Button android:textSize="16.0dip" android:textColor="@color/public_insert_pic_ok_btn_selector" android:layout_gravity="end|center" android:id="@id/public_insert_pic_ok" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:text="@string/public_ok" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/phone_public_insert_pic_bottombar_ok" />
+        <View android:layout_gravity="top" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/phone_title_view_root" android:background="@color/color_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/view_title_lay" android:layout_width="fill_parent" android:layout_height="@dimen/phone_documents_maintoolbar_height" android:layout_alignParentTop="true">
+        <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/content_native_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/view_title_lay" />
+    <View android:id="@id/view_shadow" android:visibility="gone" android:layout_below="@id/view_title_lay" style="@style/phone_home_top_shadow" />
+</RelativeLayout>

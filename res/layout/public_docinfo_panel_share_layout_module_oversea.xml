@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:layout_gravity="start" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ll_share_title1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="77.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:layout_gravity="start" android:id="@id/share_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="4.0dip" android:text="@string/home_share_panel_share_as" />
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="start" android:id="@id/ll_container" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ll_link_1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="17.0dip" android:layout_marginEnd="17.0dip">
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/iv_link_a" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/public_share_choose" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/home_share_panel_share_link" android:singleLine="true" android:layout_marginStart="4.0dip" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/ll_file_1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/ll_link_1" android:layout_toEndOf="@id/ll_link_1">
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/iv_file_a" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/public_share_no_choose" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/home_share_panel_share_file" android:singleLine="true" android:layout_marginStart="4.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:id="@id/ll_authority_1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                <TextView android:textSize="11.0sp" android:textColor="@color/descriptionColor" android:id="@id/text_authority_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="5.0dip" android:src="@drawable/public_list_screening_right_arrow" android:layout_marginStart="5.0dip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

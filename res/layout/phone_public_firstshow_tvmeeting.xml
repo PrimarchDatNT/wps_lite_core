@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_keyboard_mouse_no_background_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="22.0sp" android:textColor="@color/subTextColor" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_shareplay_firstshow_tips1" android:singleLine="true" />
+        <TextView android:textColor="@color/subTextColor" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/public_shareplay_firstshow_tips2" android:singleLine="true" />
+        <TextView android:textColor="@color/subTextColor" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/public_shareplay_firstshow_tips3" android:lineSpacingExtra="8.0dip" />
+        <TextView android:textColor="@color/descriptionColor" android:ellipsize="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/public_shareplay_firstshow_tips4" android:lineSpacingExtra="8.0dip" />
+        <cn.wps.moffice.common.beans.phone.AlphaButton android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/closeDialog" android:background="@drawable/public_tvmeeting_dialog_button" android:layout_width="200.0dip" android:layout_height="30.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/public_shareplay_firstshow_close" />
+    </LinearLayout>
+</ScrollView>

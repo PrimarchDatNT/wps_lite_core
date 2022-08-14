@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/loading_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="7.0">
+            <cn.wps.moffice.common.beans.CircleProgressBarV2 android:id="@id/progress_bar" android:layout_width="100.0dip" android:layout_height="100.0dip" app:percentSymColor="@color/secondaryColor" app:percentSymSize="20.0dip" app:progress="0" app:progressBarColor="@color/secondaryColor" app:progressBgColor="#333692f5" app:progressTextColor="@color/secondaryColor" app:progressTextEnable="true" app:progressTextSize="32.0dip" app:stroke="2.0dip" />
+            <TextView android:textSize="16.0dip" android:textColor="#ff535252" android:gravity="center_horizontal" android:id="@id/processing_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/data_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/pic_grid_view" android:paddingTop="24.0dip" android:paddingBottom="24.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Button android:textSize="16.0dip" android:textColor="@color/whiteMainTextColor" android:ellipsize="middle" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/convert_2_ppt_btn" android:background="@drawable/cyan_blue_btn_selector" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/public_ok" android:layout_weight="0.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

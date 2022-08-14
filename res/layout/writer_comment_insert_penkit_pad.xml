@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_insert_penkit_pad" android:background="@drawable/writer_insert_comment_dialog_bg" android:layout_width="wrap_content" android:layout_height="500.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="7.0dip" android:paddingTop="6.0dip" android:paddingRight="7.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wpsx.support.ui.KImageView android:id="@id/iv_back" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comp_common_back" android:tint="@color/normalIconColor" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:gravity="start" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/writer_comment_add_ink" android:layout_weight="1.0" />
+        <cn.wpsx.support.ui.KImageView android:id="@id/iv_input" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comp_common_keyboard" android:tint="@color/normalIconColor" />
+        <cn.wpsx.support.ui.KImageView android:id="@id/iv_audio" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comp_multimedia_mic" android:tint="@color/normalIconColor" />
+        <cn.wpsx.support.ui.KImageView android:id="@id/iv_settings" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comp_common_setting" android:tint="@color/normalIconColor" />
+        <View android:id="@id/view_divider" android:background="@color/lineColor" android:layout_width="1.0dip" android:layout_height="16.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+        <cn.wpsx.support.ui.KImageView android:id="@id/iv_commit" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pad_comp_commit_blue" />
+    </LinearLayout>
+    <View style="@style/div_line" />
+    <cn.wps.moffice.common.beans.MaxWidthFrameLayout android:id="@id/comment_content_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="482.0dip">
+        <TextView android:textSize="11.0sp" android:textColor="@color/disableColor" android:gravity="center" android:id="@id/penkit_tips" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/writer_comment_penkit_tips" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wpsx.support.ui.KImageView android:id="@id/iv_undo" android:background="@drawable/comp_common_circular_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:src="@drawable/pad_comp_doc_penkit_undo" android:tint="@color/normalIconColor" />
+            <cn.wpsx.support.ui.KImageView android:id="@id/iv_redo" android:background="@drawable/comp_common_circular_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/pad_comp_doc_penkit_redo" android:tint="@color/normalIconColor" />
+        </LinearLayout>
+    </cn.wps.moffice.common.beans.MaxWidthFrameLayout>
+    <ViewStub android:id="@id/comment_first_layout" android:layout="@layout/writer_comment_insert_penkit_first_pad" android:layout_width="482.0dip" android:layout_height="wrap_content" />
+</LinearLayout>

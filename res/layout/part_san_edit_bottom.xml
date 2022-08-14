@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/scanNavBackgroundColor" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/iv_cancel" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/iv_bottom_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/doc_scan_bottom_back" android:scaleType="centerInside" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/text_optimization_cancel" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textColor="@android:color/white" android:id="@id/tv_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:text="@string/doc_scan_distinguish_retake" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/iv_retake" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textColor="@android:color/white" android:id="@id/retake_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:text="@string/doc_scan_retake" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/iv_delete" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/doc_scan_delete" android:scaleType="centerInside" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/iv_rotate" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/doc_scan_rotate" android:scaleType="centerInside" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/iv_detection" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/public_scan_edit_detection_selector" android:scaleType="centerInside" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="end" android:id="@id/iv_sign" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comp_doc_signature" android:scaleType="centerInside" android:tint="@color/white" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="end|center" android:id="@id/iv_complete" android:focusable="true" android:clickable="true" android:layout_width="56.0dip" android:layout_height="32.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/doc_scan_ok" android:scaleType="centerInside" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="end" android:id="@id/iv_ok" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:text="@string/public_ok" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="end" android:id="@id/text_optimization_distinguish" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textColor="@android:color/white" android:id="@id/tv_distingush" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:text="@string/doc_scan_distinguish_edit_click" />
+    </RelativeLayout>
+</LinearLayout>

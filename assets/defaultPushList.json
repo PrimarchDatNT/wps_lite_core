@@ -1,0 +1,31 @@
+{
+  "code": 0,
+  "msg": "ok",
+  "next_req": 1800,
+  "data": [{
+    "channel_id": "important_noti",
+    "channel_name": "重要通知",
+    "children": [{
+      "category_id": "new_file",
+      "category_name": "接收到新文件"
+    }, {
+      "category_id": "file_not_saved",
+      "category_name": "文件未保存"
+    }, {
+      "category_id": "cloud_file",
+      "category_name": "文件成功上传至云存储"
+    }]
+  }, {
+    "channel_id": "activity_noti",
+    "channel_name": "活动通知",
+    "children": []
+  }, {
+    "channel_id": "vip_noti",
+    "channel_name": "增值服务",
+    "children": []
+  }, {
+    "channel_id": "community_noti",
+    "channel_name": "社群服务",
+    "children": []
+  }]
+}

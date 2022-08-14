@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/et_pivot_table_clear" android:background="@drawable/phone_public_list_selector" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include layout="@layout/phone_et_pivottable_field_name_item" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <ListView android:id="@id/et_pivot_table_viewpart" android:layout_width="@dimen/et_pivot_table_field_item_width" android:layout_height="wrap_content" android:listSelector="@drawable/public_list_selector_bg_special" android:divider="@null" />
+</LinearLayout>

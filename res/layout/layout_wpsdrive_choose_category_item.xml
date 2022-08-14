@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/phone_public_list_selector" android:paddingLeft="16.0dip" android:paddingRight="@dimen/home_item_padding_right" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="@dimen/home_item_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/share_folder_icon_type" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <FrameLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/share_folder_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_share_folder" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:id="@id/share_folder_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/public_share_folder_description_v1" />
+        </LinearLayout>
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center|right" android:id="@id/folder_select_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_comp_radio_ios_checked" />
+        <View android:layout_gravity="bottom" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.spreadsheet.control.EtTitleBar android:id="@id/et_protsheet_titleBar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.common.beans.SecondFullScreenLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/et_prot_tab_group" android:background="@color/backgroundColor" android:layout_width="300.0dip" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <Button android:textSize="16.0sp" android:textColor="@color/subTextColor" android:id="@id/et_prot_tips_btn" android:background="@drawable/public_list_selector_bg" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/phone_public_options" />
+                    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/et_print_divider_margin" android:layout_marginRight="@dimen/et_print_divider_margin" android:layout_marginStart="@dimen/et_print_divider_margin" android:layout_marginEnd="@dimen/et_print_divider_margin" />
+                    <Button android:textSize="16.0sp" android:textColor="@color/subTextColor" android:id="@id/et_prot_pw_btn" android:background="@drawable/public_list_selector_bg" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/et_prot_sheet_pw_show" />
+                    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/et_print_divider_margin" android:layout_marginRight="@dimen/et_print_divider_margin" android:layout_marginStart="@dimen/et_print_divider_margin" android:layout_marginEnd="@dimen/et_print_divider_margin" />
+                </LinearLayout>
+                <View android:background="@color/lineColor" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/et_prot_sheet_mid_layout" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <cn.wps.moffice.spreadsheet.control.common.CustomScrollView android:id="@id/et_prot_sheet_scrollview" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <LinearLayout android:orientation="vertical" android:id="@id/et_prot_tips" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <cn.wps.moffice.spreadsheet.control.protect.CheckedView android:id="@id/et_sheet_prot" style="@style/et_prot_sheet_opt_headline" />
+                            <View style="@style/et_prot_sheet_sep_line" />
+                            <LinearLayout android:orientation="vertical" android:id="@id/items" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                                <CheckedTextView android:id="@id/et_prot_sheet_sel_lock_cell" android:text="@string/et_prot_sheet_sel_lock_cell" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_sel_unlock_cell" android:text="@string/et_prot_sheet_sel_unlock_cell" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_set_cell" android:text="@string/et_prot_sheet_set_cell" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_set_col" android:text="@string/et_prot_sheet_set_col" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_set_row" android:text="@string/et_prot_sheet_set_row" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_insert_col" android:text="@string/public_table_insert_column" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_insert_row" android:text="@string/public_table_insert_row" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_insert_link" android:text="@string/et_prot_sheet_insert_link" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_del_col" android:text="@string/public_table_delete_column" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_del_row" android:text="@string/public_table_delete_row" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_sort" android:text="@string/public_sort" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_filter" android:text="@string/et_prot_sheet_filter" style="@style/et_prot_sheet_opt" />
+                                <View style="@style/et_prot_sheet_sep_line" />
+                                <CheckedTextView android:id="@id/et_prot_sheet_edit_obj" android:text="@string/et_prot_sheet_edit_obj" style="@style/et_prot_sheet_opt" />
+                                <View android:layout_marginBottom="50.0dip" style="@style/et_prot_sheet_sep_line" />
+                            </LinearLayout>
+                        </LinearLayout>
+                        <cn.wps.moffice.common.beans.CustomTabHost android:layout_gravity="center" android:id="@id/et_protsheet_tabhost" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    </LinearLayout>
+                </cn.wps.moffice.spreadsheet.control.common.CustomScrollView>
+                <RelativeLayout android:id="@id/et_prot_sheet_pw_diag_layout" android:background="@color/backgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <cn.wps.moffice.spreadsheet.control.common.PasswordInputView android:id="@id/et_prot_sheet_pw_diag" android:paddingTop="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:layout_centerHorizontal="true" android:layout_marginStart="55.0dip" android:layout_marginEnd="55.0dip" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/et_prot_sheet_pw_diag_disable" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="71.0dip">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/descriptionColor" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/et_prot_sheet_pw_input_tips" />
+                        <Button android:textSize="16.0dip" android:layout_gravity="center_horizontal" android:id="@id/et_prot_sheet_pw_diag_enable_btn" android:layout_width="115.0dip" android:layout_height="37.0dip" android:layout_marginTop="30.0dip" android:text="@string/et_prot_sheet_pw_input_enable" style="@style/phone_public_buttonStyle_gray_4dp_corner_dark_compat" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </cn.wps.moffice.common.beans.SecondFullScreenLayout>
+</LinearLayout>

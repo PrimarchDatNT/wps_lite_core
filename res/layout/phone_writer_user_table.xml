@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/user_table_no" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_404_no_catalog" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_user_table_none" />
+    </LinearLayout>
+    <ListView android:id="@id/user_tables" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@null" android:dividerHeight="0.0dip" android:layout_weight="1.0" />
+    <Button android:textSize="16.0dip" android:layout_gravity="bottom" android:id="@id/table_create" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/writer_user_table_add" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+</LinearLayout>

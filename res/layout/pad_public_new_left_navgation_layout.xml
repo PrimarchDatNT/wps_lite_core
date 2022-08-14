@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/left_nav_top_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/home_my_roaming_userinfo_pic_layout" android:layout_width="48.0dip" android:layout_height="42.0dip" android:layout_marginTop="21.0dip">
+            <cn.wps.moffice.common.beans.CircleImageView android:layout_gravity="center|top" android:id="@id/home_my_roaming_userinfo_pic" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pub_mine_login_pic" android:scaleType="centerCrop" app:border_color="#ffffffff" />
+            <ImageView android:layout_gravity="end|bottom|center" android:id="@id/home_my_roaming_userinfo_name_icon" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:scaleType="fitXY" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/image_pad_home_5g_show" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:src="@drawable/pad_pub_btmbar_5gsignal" />
+    </LinearLayout>
+    <ScrollView android:id="@id/left_nav_scroll_list_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <cn.wps.moffice.common.MarginTopLimitFrameLayout android:id="@id/navigation_container_limit_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/navigation_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </cn.wps.moffice.common.MarginTopLimitFrameLayout>
+    </ScrollView>
+</LinearLayout>

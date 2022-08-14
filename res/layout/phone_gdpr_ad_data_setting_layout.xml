@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fragment_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="26.0dip" android:layout_marginRight="28.0dip" android:text="@string/public_gdpr_data_collection_ad_tips_content" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="28.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0" android:layout_marginStart="28.0dip" android:layout_marginEnd="4.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+                <TextView android:textColor="@color/public_gdpr_blue_text_color_selector" android:id="@id/gdpr_ad_data_setting_mopub" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="mopub" android:layout_weight="1.0" />
+                <include android:id="@id/mopub_upgrade_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28.0dip" android:layout_marginEnd="28.0dip" layout="@layout/public_switch_layout" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip">
+                <TextView android:textColor="@color/public_gdpr_blue_text_color_selector" android:id="@id/gdpr_ad_data_setting_facebook" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Facebook" android:layout_weight="1.0" />
+                <include android:id="@id/facebook_upgrade_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28.0dip" android:layout_marginEnd="28.0dip" layout="@layout/public_switch_layout" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip">
+                <TextView android:textColor="@color/public_gdpr_blue_text_color_selector" android:id="@id/gdpr_ad_data_setting_google" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Google" android:layout_weight="1.0" />
+                <include android:id="@id/google_upgrade_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28.0dip" android:layout_marginEnd="28.0dip" layout="@layout/public_switch_layout" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+                <TextView android:enabled="false" android:textColor="@color/public_gdpr_blue_text_color_selector" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Vungle" android:layout_weight="1.0" />
+                <include android:id="@id/vungle_gdpr_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28.0dip" android:layout_marginEnd="28.0dip" layout="@layout/public_switch_layout" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+                <TextView android:enabled="false" android:textColor="@color/public_gdpr_blue_text_color_selector" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Unity" android:layout_weight="1.0" />
+                <include android:id="@id/unity_gdpr_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28.0dip" android:layout_marginEnd="28.0dip" layout="@layout/public_switch_layout" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip">
+                <TextView android:enabled="false" android:textColor="@color/public_gdpr_blue_text_color_selector" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="HuaWei" android:layout_weight="1.0" />
+                <include android:id="@id/huawei_gdpr_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28.0dip" android:layout_marginEnd="28.0dip" layout="@layout/public_switch_layout" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip">
+                <TextView android:enabled="false" android:textColor="@color/public_gdpr_blue_text_color_selector" android:id="@id/gdpr_ad_data_setting_s2s" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Other parters(Smaato and its parters/Pubnative/SoloMath...)" android:layout_weight="1.0" />
+                <include android:id="@id/s2s_gdpr_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28.0dip" android:layout_marginEnd="28.0dip" layout="@layout/public_switch_layout" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip">
+                <TextView android:enabled="false" android:textColor="@color/public_gdpr_blue_text_color_selector" android:id="@id/gdpr_ad_data_setting_direct" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="WPS Direct-Sold Ads" android:layout_weight="1.0" />
+                <include android:id="@id/direct_gdpr_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28.0dip" android:layout_marginEnd="28.0dip" layout="@layout/public_switch_layout" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textColor="@color/public_gdpr_blue_text_color_selector" android:gravity="center" android:layout_gravity="center" android:id="@id/use_in_privacy_policy" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="56.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="56.0dip" android:layout_marginBottom="66.0dip" android:text="@string/public_gdpr_data_collection_ad_policy_tips" android:layout_marginStart="56.0dip" android:layout_marginEnd="56.0dip" />
+</LinearLayout>

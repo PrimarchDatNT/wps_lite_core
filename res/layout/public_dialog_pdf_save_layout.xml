@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/phone_public_dialog_message_fontsize" android:textColor="@color/descriptionColor" android:id="@id/dialog_open_cad_msg_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_cad_convert_msg" />
+    <cn.wpsx.support.ui.KCheckBox android:textSize="@dimen/phone_public_dialog_message_fontsize" android:textColor="@color/subTextColor" android:id="@id/dialog_open_cad_content_remember" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/public_cad_convert_tip" />
+</LinearLayout>

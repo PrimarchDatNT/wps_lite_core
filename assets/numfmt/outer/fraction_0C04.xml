@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 香港 -->
+<resource>
+    <outer type="string-array" size="">
+		<item>分母最多一位 (1/4)</item>
+		<item>分母最多二位 (21/25)</item>
+		<item>分母最多三位 (312/943)</item>
+		<item>以 2 為分母 (1/2)</item>
+		<item>以 4 為分母 (2/4)</item>
+		<item>以 8 為分母 (4/8)</item>
+		<item>以 16 為分母 (8/16)</item>
+		<item>以 10 為分母 (3/10)</item>
+		<item>以 100 為分母 (30/100)</item>	    
+	</outer>
+</resource>

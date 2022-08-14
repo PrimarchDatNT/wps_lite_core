@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="48.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_selected_stable" android:background="@color/thirdBackgroundColor" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_selected_change" android:paddingLeft="16.0dip" android:paddingTop="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_filter_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.AutoAdjustButton android:textSize="18.0sp" android:textColor="@color/mainTextColor" android:id="@id/btn_clear_filter" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ppt_timer_reset" android:layout_weight="1.0" MaxLine="1" style="@style/phone_public_buttonStyle_white_noradius" />
+            <View android:background="@color/keyboardButtonSelectedColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </FrameLayout>
+        <cn.wps.moffice.common.beans.AutoAdjustButton android:textSize="18.0sp" android:id="@id/btn_confirm_filter" android:layout_width="0.0dip" android:layout_height="48.0dip" android:text="@string/public_confirm" android:layout_weight="1.0" MaxLine="1" style="@style/phone_public_buttonStyle_blue_noradius" />
+    </LinearLayout>
+</RelativeLayout>

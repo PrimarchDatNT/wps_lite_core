@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/pdf_edit_anno_pen_pager" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View style="@style/div_line" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <FrameLayout android:id="@id/pdf_edit_anno_pen_ink_container" android:layout_marginLeft="40.0dip" android:layout_marginStart="40.0dip" style="@style/pdf_phone_bottom_bar_image_text_container">
+            <cn.wps.moffice.common.beans.TextImageView android:textColor="@drawable/pdf_maincolor_subtext_color_selector" android:id="@id/pdf_edit_anno_pen_ink" android:text="@string/pdf_pen_pencil" android:maxLines="1" android:drawableLeft="@drawable/comp_pdf_mark_pencil_group" app:colorfilter_type="color" app:drawable_height="24.0dip" app:drawable_width="24.0dip" style="@style/pdf_phone_bottom_bar_landscape_image_text" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/pdf_edit_anno_pen_hight_container" style="@style/pdf_phone_bottom_bar_image_text_container">
+            <cn.wps.moffice.common.beans.TextImageView android:textColor="@drawable/pdf_maincolor_subtext_color_selector" android:id="@id/pdf_edit_anno_pen_hight" android:text="@string/pdf_pen_highlight" android:maxLines="1" android:drawableLeft="@drawable/comp_pdf_mark_highlighters_group" app:colorfilter_type="color" app:drawable_height="24.0dip" app:drawable_width="24.0dip" style="@style/pdf_phone_bottom_bar_landscape_image_text" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/pdf_edit_anno_pen_cover_container" android:layout_marginRight="40.0dip" android:layout_marginEnd="40.0dip" style="@style/pdf_phone_bottom_bar_image_text_container">
+            <cn.wps.moffice.common.beans.TextImageView android:textColor="@drawable/pdf_maincolor_subtext_color_selector" android:id="@id/pdf_edit_anno_pen_cover" android:text="@string/pdf_pen_cover" android:maxLines="1" android:drawableLeft="@drawable/comp_pdf_mark_alter_group" app:colorfilter_type="color" app:drawable_height="24.0dip" app:drawable_width="24.0dip" style="@style/pdf_phone_bottom_bar_landscape_image_text" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

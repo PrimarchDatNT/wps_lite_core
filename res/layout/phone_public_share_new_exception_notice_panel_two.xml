@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.RippleAlphaImageView android:id="@id/image_share_new_exception_notice_panel_two" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pub_nav_help" style="@style/public_image_bg_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

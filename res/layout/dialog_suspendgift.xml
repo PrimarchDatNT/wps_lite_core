@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/new_user_popup_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/closeImage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/suspend_dialog_close" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="33.599976dip" android:layout_marginTop="242.0dip" android:layout_marginRight="33.599976dip" android:layout_marginStart="33.599976dip" android:layout_marginEnd="33.599976dip">
+        <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="#b3000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/suspend_gift_title" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="33.0dip" android:textStyle="bold" android:textColor="#b3000000" android:id="@id/goldText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="14.0dip" android:textColor="#66000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:text="@string/wps_novel_user_bonus" android:layout_marginStart="4.0dip" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="#66000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/suspend_gift_dialog_content" />
+        <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/gotText" android:background="@drawable/shape_suspend_button_bg" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="21.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="#66000000" android:gravity="center" android:id="@id/expireText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="26.0dip" />
+    </LinearLayout>
+</RelativeLayout>

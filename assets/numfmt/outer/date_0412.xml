@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 朝鲜语（韩国） -->
+<resource>
+    <inner type="string-array" size="">
+		<item>yyyy\-mm\-dd</item>
+		<item>[$-F800]dddd\,\ mmmm\ dd\,\ yyyy</item>
+		<item>yyyy"년"\ m"월"\ d"일";@</item>
+		<item>yy"年"\ m"月"\ d"日";@</item>
+		<item>yyyy"년"\ m"월";@</item>
+		<item>m"월"\ d"일";@</item>
+		<item>yy"-"m"-"d;@</item>
+		<item>yy"-"m"-"d\ h:mm;@</item>
+		<item>[$-412]yy"-"m"-"d\ AM/PM\ h:mm;@</item>
+		<item>[$-409]yy"-"m"-"d\ h:mm\ AM/PM;@</item>
+		<item>yy"/"m"/"d;@</item>
+		<item>yyyy"-"m"-"d;@</item>
+		<item>yyyy"/"m"/"d;@</item>
+		<item>m"/"d;@</item>
+		<item>m"/"d"/"yy;@</item>
+		<item>mm"/"dd"/"yy;@</item>
+		<item>[$-409]d"-"mmm;@</item>
+		<item>[$-409]d"-"mmm"-"yy;@</item>
+		<item>[$-409]mmm"-"yy;@</item>
+		<item>[$-409]mmmm"-"yy;@</item>
+		<item>[$-409]mmmmm;@</item>
+		<item>[$-409]mmmmm\-yy;@</item>    
+	</inner>
+</resource>

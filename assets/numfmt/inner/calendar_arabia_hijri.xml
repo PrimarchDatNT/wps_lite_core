@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 阿拉伯回历 -->
+<resource>
+<long-week type="string-array" size="7">
+<item>Al-Ahad</item>
+<item>Al-Ithnayn</item>
+<item>At-Thulaathaa'</item>
+<item>Al-Arbi'aa'</item>
+<item>Al-Khamiis</item>
+<item>Al-Jumu'ah</item>
+<item>As-Sabt</item>
+</long-week>
+<short-week type="string-array" size="7">
+<item>Al-Ahad</item>
+<item>Al-Ithnayn</item>
+<item>At-Thulaathaa'</item>
+<item>Al-Arbi'aa'</item>
+<item>Al-Khamiis</item>
+<item>Al-Jumu'ah</item>
+<item>As-Sabt</item>
+</short-week>
+<long-month type="string-array" size="12">
+<item>Muharram</item>
+<item>Safar</item>
+<item>Rabi' al-awwal</item>
+<item>Rabi' al-thani</item>
+<item>Jumada al-awwal</item>
+<item>Jumada al-Thani</item>
+<item>Rajab</item>
+<item>Sha'aban</item>
+<item>Ramadan</item>
+<item>Shawwal</item>
+<item>Dhu al-Qi'dah</item>
+<item>Dhu al-Hijjah</item>
+</long-month>
+<short-month type="string-array" size="12">
+<item>Muharram</item>
+<item>Safar</item>
+<item>Rabi' al-awwal</item>
+<item>Rabi' al-thani</item>
+<item>Jumada al-awwal</item>
+<item>Jumada al-Thani</item>
+<item>Rajab</item>
+<item>Sha'aban</item>
+<item>Ramadan</item>
+<item>Shawwal</item>
+<item>Dhu al-Qi'dah</item>
+<item>Dhu al-Hijjah</item>
+</short-month>
+<shortest-month type="string-array" size="12">
+<item>M</item>
+<item>S</item>
+<item>R</item>
+<item>R</item>
+<item>J</item>
+<item>J</item>
+<item>R</item>
+<item>S</item>
+<item>R</item>
+<item>S</item>
+<item>D</item>
+<item>D</item>
+</shortest-month>
+</resource>

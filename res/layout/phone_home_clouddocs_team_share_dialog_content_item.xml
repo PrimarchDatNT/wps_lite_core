@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/phone_public_dialog_list_item_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/phone_home_clouddocs_team_share_dialog_item_image" style="@style/phone_public_dialog_list_item_image" />
+    <TextView android:id="@id/phone_home_clouddocs_team_share_dialog_item_text" style="@style/phone_public_dialog_list_item_imagetext" />
+</LinearLayout>

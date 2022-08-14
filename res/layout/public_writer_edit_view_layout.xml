@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/v10_phone_public_paneltab_indicator_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/view_tools_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="68.0dip">
+        <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/textimageview_search" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+            <cn.wps.moffice.common.beans.TextImageView android:text="@string/public_search_and_replace" android:drawableTop="@drawable/comp_common_search" pressAlphaEnableWhenRipple="false" style="@style/phone_public_toolbar_icon_text_image" />
+        </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+        <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/textimageview_countwords" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+            <cn.wps.moffice.common.beans.TextImageView android:text="@string/writer_count_words" android:drawableTop="@drawable/comp_doc_count" pressAlphaEnableWhenRipple="false" style="@style/phone_public_toolbar_icon_text_image" />
+        </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+        <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/textimageview_nightmode" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+            <cn.wps.moffice.common.beans.TextImageView android:textColor="@drawable/writer_text_color_selector" android:text="@string/phone_public_night_mode" android:drawableTop="@drawable/comp_hardware_nightmode" app:drawableColor="@drawable/writer_icon_color_selector" pressAlphaEnableWhenRipple="false" style="@style/phone_public_toolbar_icon_text_image" />
+        </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+        <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/textimageview_eye_protection_mode" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+            <cn.wps.moffice.common.beans.TextImageView android:textColor="@drawable/writer_text_color_selector" android:text="@string/public_eye_protection_mode" android:drawableTop="@drawable/comp_hardware_careeyemode" app:drawableColor="@drawable/writer_icon_color_selector" pressAlphaEnableWhenRipple="false" style="@style/phone_public_toolbar_icon_text_image" />
+        </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/readmode_view_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/v10_phone_public_panel_divide_view" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="16.0dip" android:text="@string/writer_readset_title" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/v10_phone_public_panel_title_text_style" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/brightness_adjustment_layout" android:background="@drawable/public_read_mode_seekbar_background" android:layout_width="fill_parent" android:layout_height="37.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="15.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_dark" android:layout_marginStart="23.0dip" style="@style/v10_phone_public_panel_list_img" />
+            <SeekBar android:layout_gravity="center" android:id="@id/brightness_seekbar" android:layout_width="0.0dip" android:layout_height="fill_parent" android:max="256" android:progress="128" android:layout_weight="1.0" android:paddingStart="18.0dip" android:paddingEnd="18.0dip" android:progressTint="@color/WPSMainColor" android:thumbTint="@color/WPSMainColor" />
+            <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_bright" android:layout_marginEnd="23.0dip" style="@style/v10_phone_public_panel_list_img" />
+        </LinearLayout>
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:paddingEnd="16.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+            <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_hardware_keep_light" style="@style/v10_phone_public_panel_list_img" />
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/phone_writer_screen_always_on" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+            <include android:id="@id/check_keep_screen_on" layout="@layout/public_switch_layout" />
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:paddingEnd="16.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+            <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_hardware_nightmode" style="@style/v10_phone_public_panel_list_img" />
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/phone_public_night_mode" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+            <include android:id="@id/night_mode_switch" layout="@layout/public_switch_layout" />
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:paddingEnd="16.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+            <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_eye_protection" style="@style/v10_phone_public_panel_list_img" />
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_eye_protection_mode" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+            <include android:id="@id/eye_protection_switch" layout="@layout/public_switch_layout" />
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    </LinearLayout>
+    <View android:id="@id/background_divider" style="@style/v10_phone_public_panel_divide_view" />
+    <LinearLayout android:orientation="vertical" android:id="@id/background_layout" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="104.32999dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_page_background" style="@style/v10_phone_public_panel_title_text_style" />
+        <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" android:layout_weight="1.0">
+                    <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/background_type_none_imageview" android:focusable="true" android:clickable="true" android:layout_width="@dimen/v10_phone_public_roundrect_img_size" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" android:src="@drawable/v10_phone_public_bg_with_margin" android:scaleType="fitCenter" app:tick_color="@color/phone_public_default_icon_color" />
+                </LinearLayout>
+                <LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@id/background_mine_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" android:layout_weight="1.0">
+                    <cn.wps.moffice.writer.beans.PreviewImageView android:id="@id/background_mine_imageview" android:focusable="true" android:clickable="true" android:layout_width="@dimen/v10_phone_public_roundrect_img_size" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" android:src="@drawable/v10_phone_public_bg_with_margin" android:scaleType="fitXY" />
+                </LinearLayout>
+                <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" android:layout_weight="1.0">
+                    <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/background_type_80_gray_imageview" android:focusable="true" android:clickable="true" android:layout_width="@dimen/v10_phone_public_roundrect_img_size" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" android:src="@color/v10_public_edit_background_80_gray" android:scaleType="fitCenter" app:selected_cover_color="@color/maskBackgroundColor" />
+                </LinearLayout>
+                <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" android:layout_weight="1.0">
+                    <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/background_type_light_blue_imageview" android:focusable="true" android:clickable="true" android:layout_width="@dimen/v10_phone_public_roundrect_img_size" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" android:src="@color/v10_public_edit_background_light_blue" android:scaleType="fitCenter" app:selected_cover_color="@color/maskBackgroundColor" />
+                </LinearLayout>
+                <LinearLayout android:gravity="start" android:orientation="horizontal" android:id="@id/background_type_light_orange_layout" android:layout_width="0.0dip" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" android:layout_weight="1.0">
+                    <cn.wps.moffice.common.beans.V10RoundRectImageView android:id="@id/background_type_light_orange_imageview" android:focusable="true" android:clickable="true" android:layout_width="@dimen/v10_phone_public_roundrect_img_size" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" android:src="@color/v10_public_edit_background_light_orange" android:scaleType="fitCenter" app:selected_cover_color="@color/maskBackgroundColor" />
+                </LinearLayout>
+                <cn.wps.moffice.common.beans.phone.AlphaFrameLayout android:gravity="center" android:layout_gravity="right" android:id="@id/background_type_more" android:background="@drawable/v10_phone_public_rounded_rectangle_10_shape" android:layout_width="36.0dip" android:layout_height="@dimen/v10_phone_public_roundrect_img_size" pressAlphaEnableWhenRipple="false">
+                    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:clickable="false" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/comp_common_more" android:scaleType="center" />
+                </cn.wps.moffice.common.beans.phone.AlphaFrameLayout>
+            </LinearLayout>
+            <View android:layout_gravity="end|center|top" android:id="@id/red_dot_view" android:background="@drawable/new_feature_red_dot" android:visibility="gone" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_marginTop="2.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <View android:id="@id/background_divide_view" style="@style/v10_phone_public_panel_divide_view" />
+    <LinearLayout android:id="@id/view_simple_opt_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/textimageview_copy" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+            <cn.wps.moffice.common.beans.TextImageView android:text="@string/public_copy" android:drawableTop="@drawable/comp_common_copy" pressAlphaEnableWhenRipple="false" style="@style/phone_public_toolbar_icon_text_image" />
+        </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+        <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/textimageview_paste" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+            <cn.wps.moffice.common.beans.TextImageView android:text="@string/public_paste" android:drawableTop="@drawable/comp_common_paste" pressAlphaEnableWhenRipple="false" style="@style/phone_public_toolbar_icon_text_image" />
+        </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+        <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/textimageview_cut" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+            <cn.wps.moffice.common.beans.TextImageView android:text="@string/public_cut" android:drawableTop="@drawable/comp_common_shear" pressAlphaEnableWhenRipple="false" style="@style/phone_public_toolbar_icon_text_image" />
+        </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+    </LinearLayout>
+    <View style="@style/v10_phone_public_panel_divide_view" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/view_simple_normal_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/textimageview_insertbookmark" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+            <cn.wps.moffice.common.beans.TextImageView android:text="@string/public_add_bookmark" android:drawableTop="@drawable/comp_common_insert_bookmarks" pressAlphaEnableWhenRipple="false" style="@style/phone_public_toolbar_icon_text_image" />
+        </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+        <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/textimageview_bookmark" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+            <cn.wps.moffice.common.beans.TextImageView android:text="@string/phone_public_all_bookmark" android:drawableTop="@drawable/comp_common_bookmarks" pressAlphaEnableWhenRipple="false" style="@style/phone_public_toolbar_icon_text_image" />
+        </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+        <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/textimageview_thumbnail" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+            <cn.wps.moffice.common.beans.TextImageView android:text="@string/public_thumbnail" android:drawableTop="@drawable/comp_common_thumbnail" pressAlphaEnableWhenRipple="false" style="@style/phone_public_toolbar_icon_text_image" />
+        </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+        <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:orientation="vertical" android:id="@id/textimageview_outline" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" pressAlphaEnableWhenRipple="false">
+            <cn.wps.moffice.common.beans.TextImageView android:text="@string/public_outline" android:drawableTop="@drawable/comp_doc_contents" pressAlphaEnableWhenRipple="false" style="@style/phone_public_toolbar_icon_text_image" />
+        </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+    </LinearLayout>
+    <View style="@style/v10_phone_public_panel_divide_view" />
+    <LinearLayout android:orientation="vertical" android:id="@id/check_translate" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/check_translate_icon" android:src="@drawable/comp_tool_translate" style="@style/v10_phone_public_panel_list_img" />
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/check_translate_text" android:layout_width="wrap_content" android:text="@string/fanyigo_title" android:layout_alignParentStart="true" style="@style/v10_phone_public_panel_list_item_text_style" />
+                <TextView android:id="@id/check_translate_recommend" android:visibility="gone" android:layout_marginTop="10.0dip" android:layout_marginStart="2.0dip" android:layout_marginEnd="0.0dip" android:layout_toEndOf="@id/check_translate_text" style="@style/public_function_item_cornerlable_style" />
+            </RelativeLayout>
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        <View style="@style/v10_phone_public_panel_divide_view" />
+    </LinearLayout>
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/check_lock_screen" android:layout_width="fill_parent" android:paddingEnd="16.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_hardware_screen_lock" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/phone_public_lock_screen" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+        <include android:id="@id/check_lock_screen_checkbox" layout="@layout/public_switch_layout" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/check_rotate_screen" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_hardware_rotating_screen" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/phone_public_rotate_screen" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_divide_view" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="5.0dip" android:text="@string/public_view_option" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/v10_phone_public_panel_title_text_style" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/check_pagesetting" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_setting" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_page_setting" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View android:id="@id/pagesetting_divide_view" style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/autowrap_open_layout" android:layout_width="fill_parent" android:paddingEnd="16.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_hardware_adapter_screen" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/phone_public_open_arrange_default" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+        <include android:id="@id/autowrap_open_checkbox" layout="@layout/public_switch_layout" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+</LinearLayout>

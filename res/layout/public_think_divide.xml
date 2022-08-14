@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/wps_drive_title_shadow" style="@style/phone_home_top_shadow"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

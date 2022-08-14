@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.local.home.recentpage.v1.TopOpenView android:id="@id/top_open_v1_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/gradient_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.main.local.home.phone.header.entop.gongge.GongGeView android:id="@id/ll_home_top_sceond" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

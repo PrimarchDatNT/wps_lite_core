@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cloud_usage_root_view" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dip">
+        <LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_cloud_space" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:id="@id/space_usage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="12.0dip" android:textColor="@color/mainColor" android:layout_gravity="end|bottom|center" android:id="@id/space_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" />
+    </FrameLayout>
+    <ProgressBar android:id="@id/public_roaming_space_usage_progress" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_marginTop="8.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/new_space_usage_member_progress_selector" style="?android:progressBarStyleHorizontal" />
+</LinearLayout>

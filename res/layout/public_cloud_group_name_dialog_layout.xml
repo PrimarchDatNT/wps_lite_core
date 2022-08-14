@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/et_input_group_name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/public_edittext_errorable_style" />
+    <TextView android:textSize="12.0dip" android:textColor="#ffe64340" android:id="@id/tv_group_name_invalid_hint" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

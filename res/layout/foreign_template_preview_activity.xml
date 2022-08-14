@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff2f2f2" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <ViewStub android:id="@id/stub_send_email_layout" android:layout="@layout/public_template_send_email_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/bottom_line" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_layout">
+                <View android:background="#ffd0d0d0" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+                <View android:background="#ff37c87f" android:layout_width="0.0dip" android:layout_height="1.0px" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/bottom_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="17.0sp" android:textColor="#ffff7f16" android:gravity="center" android:id="@id/preview_buy" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="17.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/preview_get_free" android:background="#ff37c87f" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/public_get_it_free" android:layout_weight="1.0" />
+                <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="17.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/preview_use" android:background="#ff37c87f" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <ListView android:id="@id/preview_refresh_list_view" android:background="@color/color_white" android:paddingBottom="14.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:dividerHeight="0.0dip" android:layout_above="@id/bottom_bar" android:overScrollMode="never" />
+    </RelativeLayout>
+    <cn.wps.moffice.main.cloud.drive.view.TouchInterceptLinearLayout android:gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLargeInverse" />
+    </cn.wps.moffice.main.cloud.drive.view.TouchInterceptLinearLayout>
+</RelativeLayout>

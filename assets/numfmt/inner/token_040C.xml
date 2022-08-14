@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 法语 -->
+<resouce>
+<token-general type="string-array" size="3">
+<item>s</item>
+<item>Standard</item>
+<item>true</item>
+</token-general>
+<token-bracket type="string-array" size="8">
+<item>[</item>
+<item name="ncl"/>
+<item name="color">Noir|Bleu|Cyan|Vert|Magenta|Rouge|Blanc|Jaune|Couleur\s*(\d{1,2})</item>
+<item name="dbnum"/>
+<item name="condition"/>
+<item name="helapsed">(?i)h+</item>
+<item name="melapsed">(?i)m+</item>
+<item name="selapsed">(?i)s+</item>
+</token-bracket>
+<token-thous type="string"> </token-thous>
+<token-decimal type="string">,</token-decimal>
+<token-escape-ex type="string">\</token-escape-ex>
+<token-year type="string">a</token-year>
+<token-month type="string">m</token-month>
+<token-day type="string">j</token-day>
+<token-hour type="string">h</token-hour>
+<token-min type="string">m</token-min>
+<token-sec type="string">s</token-sec>
+</resouce>

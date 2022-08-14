@@ -1,0 +1,43 @@
+[
+	{
+		"name": "允许WPS Office访问存储权限",
+		"description": "用于打开、编辑和存储设备中的文档",
+		"permissions": [
+			"android.permission.READ_EXTERNAL_STORAGE",
+			"android.permission.WRITE_EXTERNAL_STORAGE"
+		],
+		"rule": "and"
+	},
+	{
+		"name": "允许WPS Office访问设备信息权限",
+		"description": "用于设备验证，保障帐号安全",
+		"permissions": [
+			"android.permission.READ_PHONE_STATE"
+		],
+		"rule": "and"
+	},
+	{
+		"name": "允许WPS Office访问相机权限",
+		"description": "用于扫描二维码、拍照扫描等功能",
+		"permissions": [
+			"android.permission.CAMERA"
+		],
+		"rule": "and"
+	},
+	{
+		"name": "允许WPS Office访问麦克风权限",
+		"description": "用于语音输入、会议等功能",
+		"permissions": [
+			"android.permission.RECORD_AUDIO"
+		],
+		"rule": "and"
+	},
+	{
+		"name": "允许WPS Office访问地理位置权限",
+		"description": "用于天气服务、信息推送等功能",
+		"permissions": [
+			"android.permission.ACCESS_FINE_LOCATION"
+		],
+		"rule": "and"
+	}
+]

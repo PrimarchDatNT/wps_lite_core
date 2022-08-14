@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.KCustomFileListView android:id="@id/filelist_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progress_phone" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.circleloadingview.CircleLoaderView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/evernote_progressing_tips" android:visibility="gone" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/home_cloudstorage_evernote_arrange_progressing" style="@style/phone_home_empty_view_larger_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/evernote_no_notes" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:layout_width="208.0dip" android:layout_height="wrap_content" android:text="@string/home_cloudstorage_evernote_no_notes" style="@style/phone_home_empty_view_larger_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/evernote_no_note_resources" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:layout_width="208.0dip" android:layout_height="wrap_content" android:text="@string/home_cloudstorage_evernote_empty_note_resources" style="@style/phone_home_empty_view_larger_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/evernote_no_resources" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:layout_width="208.0dip" android:layout_height="wrap_content" android:text="@string/home_cloudstorage_evernote_empty_resources" style="@style/phone_home_empty_view_larger_text" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/evernote_not_support_notebook" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:layout_width="208.0dip" android:layout_height="wrap_content" android:text="@string/home_cloudstorage_evernote_not_support_notebook" style="@style/phone_home_empty_view_larger_text" />
+    </LinearLayout>
+</FrameLayout>

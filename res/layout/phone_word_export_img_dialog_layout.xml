@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.writer.beans.DialogTitleBar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_titlebar_height" app:title_bar_level="3" />
+        <FrameLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ScrollView android:id="@id/exportpreview_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+                <FrameLayout android:paddingTop="22.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <cn.wps.moffice.writer.shell.exportimg.ExportPreview android:layout_gravity="center" android:id="@id/exportpreview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+                </FrameLayout>
+            </ScrollView>
+            <cn.wps.moffice.writer.shell.phone.edittoolbar.modify.file.extract_merge.extract.view.AutoRotateScreenGridView android:id="@id/thumb_grid_view" android:paddingLeft="8.0dip" android:paddingTop="16.0dip" android:paddingRight="8.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:verticalSpacing="16.0dip" android:numColumns="2" android:splitMotionEvents="false" />
+            <ScrollView android:id="@id/preview_layout" android:background="@color/thumbBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <cn.wps.moffice.common.beans.phone.tab.CustomViewPager android:id="@id/preview_view_pager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:id="@id/indicator_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="20.0dip" />
+                </LinearLayout>
+            </ScrollView>
+        </FrameLayout>
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="vertical" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/water_mark_ll" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="4.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip" android:layout_marginEnd="4.0dip">
+                    <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="12.0dip" android:textColor="@drawable/public_exportpdf_style_item_color_selector" android:gravity="center" android:id="@id/pv_item" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="6.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="0.0dip" android:text="@string/pdf_export_pages_watermark_tips" android:layout_marginStart="6.0dip" android:layout_marginEnd="0.0dip" pressAlphaEnableWhenRipple="false" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="0.0dip" android:layout_weight="1.0" android:layout_marginStart="4.0dip" android:layout_marginEnd="0.0dip">
+                    <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="12.0dip" android:textColor="@drawable/public_exportpdf_style_item_color_selector" android:gravity="center" android:id="@id/hd_item" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:text="@string/pdf_export_pages_hd_tips" android:layout_marginStart="0.0dip" android:layout_marginEnd="6.0dip" pressAlphaEnableWhenRipple="false" />
+                    <ImageView android:layout_gravity="end|center|top" android:id="@id/hd_item_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_vip_wps_member_42" />
+                </FrameLayout>
+            </LinearLayout>
+            <Button android:enabled="false" android:textSize="16.0dip" android:ellipsize="middle" android:gravity="center" android:id="@id/export_share_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:text="@string/public_confirm_export" android:layout_weight="0.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/material_progress_bar_cycle" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

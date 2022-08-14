@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_action_bar_content_inset_material">24.0dip</dimen>
+    <dimen name="abc_action_bar_content_inset_with_nav">80.0dip</dimen>
+    <dimen name="abc_action_bar_default_height_material">64.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8.0dip</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8.0dip</dimen>
+    <dimen name="abc_config_prefDialogWidth">580.0dip</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16.0dip</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20.0dip</dimen>
+    <dimen name="design_navigation_max_width">320.0dip</dimen>
+    <dimen name="design_snackbar_action_inline_max_width">0.0dip</dimen>
+    <dimen name="design_snackbar_background_corner_radius">2.0dip</dimen>
+    <dimen name="design_snackbar_extra_spacing_horizontal">24.0dip</dimen>
+    <dimen name="design_snackbar_max_width">576.0dip</dimen>
+    <dimen name="design_snackbar_min_width">320.0dip</dimen>
+    <item type="dimen" name="design_snackbar_padding_vertical_2lines">@dimen/design_snackbar_padding_vertical</item>
+    <dimen name="design_tab_scrollable_min_width">160.0dip</dimen>
+    <item type="dimen" name="dialogWidthPct">0.75</item>
+    <dimen name="mtrl_bottomappbar_height">64.0dip</dimen>
+    <dimen name="mtrl_toolbar_default_height">64.0dip</dimen>
+    <dimen name="pad_home_roaming_dialog_width">550.0dip</dimen>
+    <dimen name="ppt_quickstyle_frame_framestyle_item_spacing_horizonl">30.0dip</dimen>
+    <dimen name="ppt_quickstyle_frame_framestyle_item_width">100.0dip</dimen>
+    <dimen name="ppt_quickstyle_frame_framestyle_margin_left">50.0dip</dimen>
+    <dimen name="ppt_quickstyle_frame_size_width">60.0dip</dimen>
+    <dimen name="ppt_quickstyle_pre_fill_gridview_spacing_horizonl">28.0dip</dimen>
+    <dimen name="ppt_quickstyle_pre_fill_gridview_spacing_horizonl_portrait">28.0dip</dimen>
+    <dimen name="ppt_quickstyle_pre_fill_gridview_width">312.0dip</dimen>
+    <dimen name="ppt_quickstyle_pre_fill_gridview_width_portrait">312.0dip</dimen>
+    <dimen name="ppt_quickstyle_pre_fill_two_gridview_distance">50.0dip</dimen>
+    <dimen name="premium_pager_desc_text_size">12.0dip</dimen>
+    <dimen name="premium_pager_desc_text_top">10.0dip</dimen>
+    <dimen name="premium_pager_margin_top">16.0dip</dimen>
+    <dimen name="premium_pager_title_text_size">16.0dip</dimen>
+    <dimen name="premium_pager_title_top">16.0dip</dimen>
+    <dimen name="premium_privileges_item_padding">12.0dip</dimen>
+    <dimen name="public_chart_edit_keyboard_btn_width">135.0dip</dimen>
+    <dimen name="public_chart_edit_keyboard_btn_zero_width">278.0dip</dimen>
+    <dimen name="public_chart_edit_titlebar_btn_okcancel_width">100.0dip</dimen>
+    <dimen name="public_chart_edit_titlebar_btn_switchrowcol_maxwidth">190.0dip</dimen>
+    <dimen name="public_chart_edit_titlebar_btn_switchrowcol_width">170.0dip</dimen>
+    <dimen name="ss_quickstyle_frame_framestyle_item_spacing_horizonl">30.0dip</dimen>
+    <dimen name="ss_quickstyle_frame_framestyle_item_width">100.0dip</dimen>
+    <dimen name="ss_quickstyle_frame_framestyle_margin_left">50.0dip</dimen>
+    <dimen name="ss_quickstyle_frame_size_width">60.0dip</dimen>
+    <dimen name="ss_quickstyle_pre_fill_gridview_spacing_horizonl">28.0dip</dimen>
+    <dimen name="ss_quickstyle_pre_fill_gridview_spacing_horizonl_portrait">28.0dip</dimen>
+    <dimen name="ss_quickstyle_pre_fill_gridview_width">312.0dip</dimen>
+    <dimen name="ss_quickstyle_pre_fill_gridview_width_portrait">312.0dip</dimen>
+    <dimen name="ss_quickstyle_pre_fill_two_gridview_distance">50.0dip</dimen>
+</resources>

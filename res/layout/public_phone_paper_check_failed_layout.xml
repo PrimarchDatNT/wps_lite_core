@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/img_check_fail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="160.0dip" android:src="@drawable/paper_check_failed" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="20.0dip" android:textColor="@color/subTextColor" android:id="@id/text_checking" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/paper_check_failed" android:layout_below="@id/img_check_fail" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:id="@id/down_once_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/paper_down_repetition_once_more" android:layout_below="@id/text_checking" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:id="@id/checking_history_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="订单问题，请" android:layout_toRightOf="@id/checking_history" android:layout_alignTop="@id/checking_history" android:layout_toStartOf="@id/checking_history" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:gravity="center" android:id="@id/contact_custom_service" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="联系客服" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </LinearLayout>
+</RelativeLayout>

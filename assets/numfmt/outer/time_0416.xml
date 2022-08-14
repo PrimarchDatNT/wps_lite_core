@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 巴西葡语 -->
+<resource>
+    <inner type="string-array" size="">
+        <item>[$-F400]h:mm:ss\ AM/PM</item>
+		<item>h:mm;@</item>
+		<item>[$-409]h:mm\ AM/PM;@</item>
+		<item>h:mm:ss;@</item>
+		<item>[$-409]h:mm:ss\ AM/PM;@</item>
+		<item>mm:ss.0;@</item>
+		<item>[h]:mm:ss;@</item>
+		<item>[$-409]d/m/yy\ h:mm\ AM/PM;@</item>
+		<item>d/m/yy\ h:mm;@</item>
+	</inner>
+</resource>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 香港 -->
+<resource>
+    <inner type="string-array" size="">
+		<item>[$-F400]h:mm:ss\ AM/PM</item>
+		<item>h:mm:ss;@</item>
+		<item>hh:mm:ss;@</item>
+	</inner>
+</resource>

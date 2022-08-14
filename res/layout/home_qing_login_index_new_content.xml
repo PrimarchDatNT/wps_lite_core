@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/subTextColor" android:layout_gravity="end" android:id="@id/later" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/public_later" android:paddingStart="4.0dip" android:paddingEnd="4.0dip" android:layout_marginEnd="12.0dip" />
+    <ViewFlipper android:id="@id/logo_des_vf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inAnimation="@anim/phone_public_switch_view_right_in" android:outAnimation="@anim/phone_public_switch_view_left_out" android:flipInterval="3000" android:autoStart="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/home_roaming_login_wps_logo" android:layout_width="328.0dip" android:layout_height="165.0dip" android:layout_marginTop="42.0dip" android:src="@drawable/login_mutiple_platforms" android:scaleType="center" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/home_login_des_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/punlic_login_sync_doc" android:maxLines="3" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip" app:autoSizeMaxTextSize="14.0sp" app:autoSizeMinTextSize="11.0sp" app:autoSizeTextType="uniform" />
+        </LinearLayout>
+    </ViewFlipper>
+    <FrameLayout android:layout_gravity="center" android:id="@id/home_roaming_login_third_button_Container" android:layout_width="304.0dip" android:layout_height="wrap_content" android:layout_marginTop="58.0dip">
+        <FrameLayout android:layout_gravity="center" android:id="@id/home_roaming_login_with_google_layout" android:background="@drawable/public_round_rect_white_bg_4dp_1px_selector" android:layout_width="304.0dip" android:layout_height="48.0dip">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/en_home_login_native_google_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <cn.wpsx.support.ui.KColorfulImageView android:id="@id/home_roaming_login_with_google_image" android:background="@drawable/google_corner_bg" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="2.0dip" android:src="@drawable/home_roaming_login_google" android:scaleType="center" android:layout_marginStart="2.0dip" />
+                <View android:background="@color/secondaryColor" android:layout_width="0.33000004dip" android:layout_height="34.0dip" android:alpha="0.5" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/whiteMainTextColor" android:ellipsize="end" android:gravity="center" android:id="@id/home_roaming_login_with_google" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/public_google_sign_in" android:maxLines="2" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="center" android:id="@id/home_roaming_login_with_facebook_layout" android:background="@drawable/public_round_rect_white_bg_4dp_1px_selector" android:layout_width="304.0dip" android:layout_height="48.0dip">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/en_home_login_native_google_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <cn.wpsx.support.ui.KColorfulImageView android:id="@id/home_roaming_login_with_facebook_image" android:background="@drawable/google_corner_bg" android:layout_width="44.0dip" android:layout_height="44.0dip" android:layout_marginLeft="2.0dip" android:src="@drawable/pub_login_icon_facebook" android:scaleType="center" android:layout_marginStart="2.0dip" />
+                <View android:background="@color/secondaryColor" android:layout_width="0.33000004dip" android:layout_height="34.0dip" android:alpha="0.5" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/whiteMainTextColor" android:ellipsize="end" android:gravity="center" android:id="@id/home_roaming_login_with_facebook" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:text="@string/public_facebook_sign_in" android:maxLines="2" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bottom_other_login_type_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+            <View android:background="@color/descriptionColor" android:layout_width="4.0dip" android:layout_height="1.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/et_filter_or" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+            <View android:background="@color/descriptionColor" android:layout_width="4.0dip" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/facebook_login_iv" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/pub_login_facebook" android:scaleType="center" />
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/huawei_login_iv" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/pub_login_huawei" android:scaleType="center" />
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/email_login_iv" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/pub_login_email" android:scaleType="center" android:layout_marginStart="38.0dip" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/wps_user_sign_in_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/public_no_account" android:singleLine="true" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/new_login_page_show_text" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" " android:singleLine="true" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/secondaryColor" android:ellipsize="end" android:id="@id/sing_up_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_sign" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center" android:id="@id/tvTip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="58.0dip" android:layout_marginBottom="9.0dip" android:text="@string/public_gdpr_tip_new" android:layout_marginStart="58.0dip" android:layout_marginEnd="58.0dip" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RadioGroup android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/rg_type" android:background="@color/viewfinder_header_mask" android:layout_width="fill_parent" android:layout_height="52.0dip" android:weightSum="2.0" android:checkedButton="@id/ck_pc">
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <RadioButton android:textSize="11.0dip" android:textColor="@color/transfer_file_scan_text" android:gravity="center" android:layout_gravity="center" android:id="@id/ck_pc" android:layout_width="65.0dip" android:layout_height="wrap_content" android:button="@null" android:text="@string/public_transfer_scan_pc" android:drawableTop="@drawable/transfer_file_pc_checkbox" android:drawablePadding="2.0dip" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <RadioButton android:textSize="11.0dip" android:textColor="@color/transfer_file_scan_text" android:gravity="center" android:layout_gravity="center" android:id="@id/ck_web" android:layout_width="65.0dip" android:layout_height="wrap_content" android:button="@null" android:text="@string/public_transfer_scan_web" android:drawableTop="@drawable/transfer_file_web_checkbox" android:drawablePadding="2.0dip" />
+            </FrameLayout>
+        </RadioGroup>
+    </FrameLayout>
+</merge>

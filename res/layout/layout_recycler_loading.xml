@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/loading_view_show" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/listview_loading_view" />
+    <TextView android:textColor="@android:color/darker_gray" android:layout_gravity="center" android:id="@id/loading_view_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="10.0dip" android:text="@string/documentmanager_tips_network_error" />
+    <TextView android:textColor="@android:color/darker_gray" android:layout_gravity="center" android:id="@id/loading_view_end" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

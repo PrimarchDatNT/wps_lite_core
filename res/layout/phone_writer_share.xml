@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/writer_share_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/phone_writer_padding_top" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/titlebar_group" android:background="@color/WPSMainColor" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_title_bar_height">
+        <Button android:id="@id/writer_share_btn_cancel" android:text="@string/public_cancel" style="@style/v10_phone_public_titlebar_cancel" />
+        <TextView android:textSize="@dimen/phone_public_fontsize_sp_m" android:textColor="#7f000000" android:ellipsize="start" android:gravity="center" android:id="@id/writer_share_txt_num" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/documentmanager_send_characters_with_spaces" android:layout_weight="1.0" style="@style/phone_public_title_bar_title" />
+        <Button android:id="@id/writer_share_btn_ok" android:text="@string/documentmanager_send" style="@style/v10_phone_public_titlebar_ok" />
+    </LinearLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/phone_public_top_shadow" android:scaleType="fitXY" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sku_blank_img" android:background="@drawable/wps_home_coin_sku_blank_bg" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/flow_tips" style="@style/phone_public_dialog_text" />
+        <cn.wps.moffice.common.CustomCheckButton android:textSize="@dimen/phone_public_fontsize_sp_m" android:textColor="@color/mainTextColor" android:id="@id/checkBox_flow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:checked="true" android:text="@string/public_no_remind" />
+    </LinearLayout>
+</ScrollView>

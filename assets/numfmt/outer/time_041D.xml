@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 瑞典语 -->
+<resource>
+    <inner type="string-array" size="">
+        <item>[$-F400]h:mm:ss\ AM/PM</item>
+		<item>hh:mm;@</item>
+		<item>hh:mm:ss;@</item>
+		<item>"kl "hh:mm;@</item>
+		<item>"kl "hh:mm:ss;@</item>
+		<item>[$-409]yyyy\-mm\-dd\ h:mm AM/PM;@</item>
+		<item>[h]:mm:ss;@</item>
+		<item>yyyy\-mm\-dd\ hh:mm;@</item>
+		<item>[$-409]yyyy\-mm\-dd\ h:mm AM/PM;@</item>              
+	</inner>
+</resource>

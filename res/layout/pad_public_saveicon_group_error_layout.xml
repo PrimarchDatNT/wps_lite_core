@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/image_save_error_progress" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pad_comp_titlebar_save_error" android:layout_centerInParent="true" />
+</merge>

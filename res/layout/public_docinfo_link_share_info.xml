@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <View android:id="@id/top_divide_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/title_bar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/link_share_info_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_divide_line">
+        <FrameLayout android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/link_share_creator_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/link_share_info_expired_time_tips" android:layout_marginStart="16.0dip" />
+            <View android:layout_gravity="bottom" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </FrameLayout>
+        <FrameLayout android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="64.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/link_share_permission_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="bottom" android:id="@id/link_share_permission_extra_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <View android:layout_gravity="bottom" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+    <cn.wps.moffice.common.TouchEventInterceptFrameLayout android:id="@id/loading_progress_view" android:background="@color/backgroundColor" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_divide_line">
+        <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </cn.wps.moffice.common.TouchEventInterceptFrameLayout>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingTop="37.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="15.0dip" android:paddingEnd="15.0dip">
+            <TextView android:gravity="center" android:id="@id/hobbies_txt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/home_user_account_choose_hobbies" style="@style/public_home_userinfo_title_text_style" />
+            <TextView android:textSize="12.0dip" android:gravity="center" android:id="@id/hobbies_tips_txt" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/home_user_account_choose_min_limit" style="@style/home_membership_m_money_txt_style" />
+            <LinearLayout android:orientation="vertical" android:id="@id/hobbies_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_travel" android:tag="@string/home_user_account_hobbies_travel" android:background="#ffffb975" android:text="@string/home_user_account_hobbies_travel" custom:selectedBgColor="#ffb08051" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_fashion" android:tag="@string/home_user_account_hobbies_fashion" android:background="#ffffb975" android:text="@string/home_user_account_hobbies_fashion" custom:selectedBgColor="#ffb08051" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_sociality" android:tag="@string/home_user_account_hobbies_sociality" android:background="#ffffb975" android:text="@string/home_user_account_hobbies_sociality" custom:selectedBgColor="#ffb08051" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_finance" android:tag="@string/home_user_account_hobbies_finance" android:background="#ffffb975" android:text="@string/home_user_account_hobbies_finance" custom:selectedBgColor="#ffb08051" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_game" android:tag="@string/home_user_account_hobbies_game" android:background="#fffda18f" android:text="@string/home_user_account_hobbies_game" custom:selectedBgColor="#ffc7755c" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_shopping" android:tag="@string/home_user_account_hobbies_shopping" android:background="#fffda18f" android:text="@string/home_user_account_hobbies_shopping" custom:selectedBgColor="#ffc7755c" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_sport" android:tag="@string/home_user_account_hobbies_sport" android:background="#fffda18f" android:text="@string/home_user_account_hobbies_sport" custom:selectedBgColor="#ffc7755c" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_comic" android:tag="@string/home_user_account_hobbies_comic" android:background="#fffda18f" android:text="@string/home_user_account_hobbies_comic" custom:selectedBgColor="#ffc7755c" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_education" android:tag="@string/home_user_account_hobbies_education" android:background="#ff1bcdcb" android:text="@string/home_user_account_hobbies_education" custom:selectedBgColor="#ff17937d" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_photoshop" android:tag="@string/home_user_account_hobbies_photoshop" android:background="#ff1bcdcb" android:text="@string/home_user_account_hobbies_photoshop" custom:selectedBgColor="#ff17937d" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_gym" android:tag="@string/home_user_account_hobbies_gym" android:background="#ff1bcdcb" android:text="@string/home_user_account_hobbies_gym" custom:selectedBgColor="#ff17937d" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_entertainment" android:tag="@string/home_user_account_hobbies_entertainment" android:background="#ff1bcdcb" android:text="@string/home_user_account_hobbies_entertainment" custom:selectedBgColor="#ff17937d" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_efficiency" android:tag="@string/home_user_account_hobbies_efficiency" android:background="#ff5bc1f0" android:text="@string/home_user_account_hobbies_efficiency" custom:selectedBgColor="#ff4694b8" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_tools" android:tag="@string/home_user_account_hobbies_tools" android:background="#ff5bc1f0" android:text="@string/home_user_account_hobbies_tools" custom:selectedBgColor="#ff4694b8" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_car" android:tag="@string/home_user_account_hobbies_car" android:background="#ff5bc1f0" android:text="@string/home_user_account_hobbies_car" custom:selectedBgColor="#ff4694b8" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.ColorfullRecttangleTextView android:id="@id/home_user_account_hobbies_electronics" android:tag="@string/home_user_account_hobbies_electronics" android:background="#ff5bc1f0" android:text="@string/home_user_account_hobbies_electronics" custom:selectedBgColor="#ff4694b8" style="@style/public_home_userinfo_color_textview_style" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="27.0dip" android:paddingTop="42.0dip" android:paddingRight="27.0dip" android:paddingBottom="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="27.0dip" android:paddingEnd="27.0dip">
+                <Button android:enabled="false" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/done_button" android:clickable="false" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/home_user_account_done" style="@style/phone_public_buttonStyle_blue_4dp_corner" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:layout_gravity="center" android:id="@id/home_circle_progressbar_root" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleLargeInverse" />
+    </FrameLayout>
+</FrameLayout>

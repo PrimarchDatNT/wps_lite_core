@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/phone_writer_user_table_item_0" android:background="@color/secondBackgroundColor" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:tag="binding_1" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <ImageButton android:id="@id/table_delete" android:tag="binding_2" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/comp_table_conditional_formatting_delete" android:layout_marginEnd="16.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/table_name" android:tag="binding_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <ImageView android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_list_screening_right_arrow" />
+    </LinearLayout>
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</LinearLayout>

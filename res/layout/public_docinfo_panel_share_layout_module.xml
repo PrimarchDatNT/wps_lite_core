@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/share_layout" android:background="@color/thirdBackgroundColor" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ll_share_title" android:layout_width="fill_parent" android:layout_height="36.0dip" android:paddingEnd="@dimen/phone_public_dialog_docinfo_padding_right">
+        <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:gravity="left" android:id="@id/docinfo_share_friends_tv" android:paddingLeft="@dimen/phone_public_dialog_docinfo_padding_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_common_share_to_friend" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:paddingStart="@dimen/phone_public_dialog_docinfo_padding_left" android:layout_alignParentStart="true" />
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/more_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/phone_public_dialog_docinfo_padding_left" android:layout_alignParentRight="true" android:layout_marginEnd="@dimen/phone_public_dialog_docinfo_padding_left" android:layout_alignParentEnd="true" style="@style/public_image_bg_style">
+            <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_more" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_list_screening_right_arrow" android:scaleType="centerInside" />
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        <include layout="@layout/public_link_share_item_common_permission_security_layout" />
+    </RelativeLayout>
+    <include android:id="@id/layout_module_oversea" layout="@layout/public_docinfo_panel_share_layout_module_oversea" />
+    <cn.wps.moffice.common.beans.phone.grid.FlowScrollView android:id="@id/grid" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/ovs_gray_divide_line" android:background="@color/secondBoldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</LinearLayout>

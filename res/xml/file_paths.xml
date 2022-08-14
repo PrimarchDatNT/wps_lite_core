@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <files-path name="files" />
+    <external-path name="external" />
+    <external-path name="external_storage_root" path="." />
+    <external-path name="external_storage_download" path="Download" />
+    <files-path name="my_images" path="images/" />
+    <external-files-path name="external_files_path" path="Download" />
+    <external-path name="files_root" path="mimoDownload" />
+    <external-path name="external_storage_root" path="." />
+    <files-path name="IFly_AD_Download_Path" path="IFlyAdDownload" />
+    <external-path name="mobad_file_download" path="MobDownload" />
+    <external-files-path name="mobad_internal_file_download" path="MobDownload" />
+    <external-path name="gdt_sdk_download_path" path="GDTDOWNLOAD" />
+    <external-cache-path name="gdt_sdk_download_path1" path="com_qq_e_download" />
+    <cache-path name="gdt_sdk_download_path2" path="com_qq_e_download" />
+</paths>

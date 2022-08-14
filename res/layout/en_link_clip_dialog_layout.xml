@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/en_third_docs_clip_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="133.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/mainTextColor" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/en_third_doc_file_recognition" android:includeFontPadding="false" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/en_third_doc_clipboard_link" android:includeFontPadding="false" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/en_third_docs_link_open" android:background="@drawable/en_third_link_open_btn_bg" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" android:text="@string/en_third_doc_download_open" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

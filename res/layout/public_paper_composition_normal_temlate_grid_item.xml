@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/phone_public_stroke_4radius_white_bg" android:layout_width="140.0dip" android:layout_height="140.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/paper_composition_degree_img" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_marginTop="24.0dip" android:src="@drawable/paper_composition_normal_temlate_college" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/paper_composition_degree_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/app_paper_composition_college_normal_template" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/app_paper_composition_GBT7713_standard" />
+</cn.wps.moffice.common.beans.RippleAlphaLinearLayout>

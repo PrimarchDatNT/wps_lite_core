@@ -1,0 +1,49 @@
+.class public Llyg$e;
+.super Ljava/lang/Object;
+.source "Setup.java"
+
+# interfaces
+.implements Landroid/content/DialogInterface$OnDismissListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Llyg;->t()Z
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Llyg;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onDismiss(Landroid/content/DialogInterface;)V
+    .locals 2
+
+    .line 1
+    invoke-static {}, Liyg;->b()Liyg;
+
+    move-result-object p1
+
+    sget-object v0, Liyg$a;->Y1:Liyg$a;
+
+    const/4 v1, 0x0
+
+    new-array v1, v1, [Ljava/lang/Object;
+
+    invoke-virtual {p1, v0, v1}, Liyg;->a(Liyg$a;[Ljava/lang/Object;)V
+
+    return-void
+.end method

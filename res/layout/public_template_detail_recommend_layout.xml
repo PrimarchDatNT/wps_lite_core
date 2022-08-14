@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/recommend_templates_container" android:background="@color/backgroundColor" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:paddingLeft="17.0dip" android:paddingRight="17.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="18.0dip">
+            <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/docer_recommend_component_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_you_may_like_templates" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <cn.wps.moffice.templatecommon.ext.widget.PageGridView android:scrollbarStyle="outsideOverlay" android:id="@id/templates_grid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:verticalSpacing="14.0dip" android:overScrollMode="never" />
+    </LinearLayout>
+</FrameLayout>

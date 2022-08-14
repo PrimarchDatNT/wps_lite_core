@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 瑞典语 -->
+<resource>
+    <outer type="string-array" size="">
+        <item>Ingen</item>
+        <item>¥</item>
+        <item>$</item>
+        <item>US$</item>
+        <item>‎$‎ Kinesiska (Singapore)‎</item>
+        <item>‎$‎ Engelska (USA)‎</item>
+        <item>‎$‎ Franska (Kanada)‎</item>
+        <item>‎$‎ Malajiska (Brunei Darussalam)‎</item>
+        <item>‎$‎ Spanska (Argentina)‎</item>
+        <item>‎$‎ Spanska (Puerto Rico)‎</item>
+        <item>‎$b‎ Spanska (Bolivia)‎</item>
+        <item>‎$U‎ Spanska (Uruguay)‎</item>
+        <item>‎£‎ Engelska (Storbritannien)‎</item>
+        <item>‎£‎ Höglandsskotska (Storbritannien)‎</item>
+        <item>‎¥‎ Kinesiska (Folkrepubliken Kina)‎</item>
+        <item>‎¥‎ Japanska‎</item>
+        <item>‎¥‎ Mongoliska (traditionell, Folkrepubliken Kina)‎</item>
+        <item>‎₭‎ Lao‎</item>
+        <item>‎₩‎ Koreanska‎</item>
+        <item>‎€‎ Franska (Belgien)‎</item>
+        <item>‎€‎ Tyska (Österrike)‎</item>
+        <item>‎€‎ Irländska‎</item>
+        <item>‎€‎ Italienska (Italien)‎</item>
+        <item>‎€‎ Portugisiska (Portugal)‎</item>
+        <item>‎R$‎ Portugisiska (Brasilien)‎</item>
+        <item>‎HK$‎ Kinesiska (Hongkong SAR)‎</item>
+        <item>‎р.‎ Ryska‎</item>
+        <item>‎€‎ Franska (Frankrike)‎</item>
+        <item>‎€‎ Tyska (Tyskland)‎</item>
+        <item>‎$‎ Spanska (Mexico)‎</item>
+        <item>‎€‎ Spanska (internationell sortering)‎</item>
+        <item>‎€‎ Spanska (traditionell sortering)‎</item>
+        <item>‎NT$‎ Kinesiska (Taiwan)‎</item>
+        <item>‎₪‎ Hebreiska‎</item>
+        <item>‎ريال‎ Persiska‎</item>
+        <item>‎лв.‎ Bulgariska‎</item>
+        <item>‎Kč‎ Tjeckiska‎</item>
+        <item>‎kr.‎ Danska‎</item>
+        <item>‎€‎ Grekiska‎</item>
+        <item>‎€‎ Finska‎</item>
+        <item>‎Ft‎ Ungerska‎</item>
+        <item>‎€‎ Nederländska (Nederländerna)‎</item>
+        <item>‎kr‎ Norska (Bokmål)‎</item>
+        <item>‎zł‎ Polska‎</item>
+        <item>‎lei‎ Rumänska‎</item>
+        <item>‎kn‎ Kroatiska (Kroatien)‎</item>
+        <item>‎€‎ Slovakiska‎</item>
+        <item>‎฿‎ Thailändska‎</item>
+        <item>‎₺‎ Turkiska‎</item>
+        <item>‎Rp‎ Indonesiska‎</item>
+        <item>‎₴‎ Ukrainska‎</item>
+        <item>‎€‎ Slovenska‎</item>
+        <item>‎€‎ Estniska‎</item>
+        <item>‎Ls‎ Lettiska‎</item>
+        <item>‎Lt‎ Litauiska‎</item>
+        <item>‎ريال‎ Persiska‎</item>
+        <item>‎₫‎ Vietnamesiska‎</item>
+        <item>‎ден.‎ Makedoniska (f.d. jug. rep. Mak.)‎</item>
+        <item>‎₹‎ Hindi‎</item>
+        <item>‎Din.‎ Serbiska (latinsk, Serbien)‎</item>
+        <item>‎kr‎ Svenska (Sverige)‎</item>
+        <item>‎KM‎ Bosniska (latinsk)‎</item>
+        <item>‎RM‎ Malaysiska (Malaysia)‎</item>
+    </outer>
+    <default type="string">60</default>
+</resource>

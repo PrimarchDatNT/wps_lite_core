@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ppt_shareplay_entering_shareplay" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/public_shareplay_custom_progressbar_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+    <cn.wps.moffice.common.beans.MaterialProgressBarHorizontal android:id="@id/public_shareplay_custom_progressbar_materialBar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/public_shareplay_custom_progressbar_percent" />
+</RelativeLayout>

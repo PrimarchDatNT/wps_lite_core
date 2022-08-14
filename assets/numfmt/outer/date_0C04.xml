@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 香港-->
+<resource>
+    <inner type="string-array" size="">
+		<item>d/m/yyyy</item>
+		<item>[$-F800]dddd\,\ mmmm\ dd\,\ yyyy</item>
+		<item>d/m/yyyy;@</item>
+		<item>d/m/yy;@</item>
+		<item>dd/mm/yy;@</item>
+		<item>yy/m/d;@</item>
+		<item>yy/mm/dd;@</item>
+		<item>yyyy/m/d;@</item>
+		<item>yyyy/mm/dd;@</item>
+		<item>yyyy\-mm\-dd;@</item>
+		<item>[$-C04]dddd\,\ d\ mmmm\,\ yyyy;@</item>
+		<item>[$-C04]d\ mmmm\,\ yyyy;@</item>
+		<item>[$-C04]dddd\ yyyy\ mm\ dd;@</item>
+		<item>yyyy\ mm\ dd;@</item>
+	</inner>
+</resource>

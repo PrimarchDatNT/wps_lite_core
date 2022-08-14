@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.main.cloud.drive.company.AutoAdjustChildLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/public_home_company_guide_item" android:layout_height="104.0dip" app:childInnerMargin="12.0dip" style="@style/public_document_item_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/public_company_invite_colleague" android:layout_marginRight="12.0dip" android:text="@string/public_company_invite_colleague" android:drawableTop="@drawable/pub_list_cloud_add" android:layout_marginEnd="12.0dip" style="@style/public_wpsdrive_company_item_button" />
+    <TextView android:id="@id/public_company_member_approve" android:layout_marginRight="12.0dip" android:text="@string/public_company_member_approve" android:drawableTop="@drawable/pub_list_cloud_member_approval" android:layout_marginEnd="12.0dip" style="@style/public_wpsdrive_company_item_button" />
+    <TextView android:id="@id/public_company_member" android:layout_marginRight="12.0dip" android:text="@string/public_company_member" android:drawableTop="@drawable/pub_list_cloud_company_member" android:layout_marginEnd="12.0dip" style="@style/public_wpsdrive_company_item_button" />
+    <TextView android:id="@id/public_company_more" android:text="@string/public_more" android:drawableTop="@drawable/pub_list_cloud_more" style="@style/public_wpsdrive_company_item_button" />
+</cn.wps.moffice.main.cloud.drive.company.AutoAdjustChildLayout>

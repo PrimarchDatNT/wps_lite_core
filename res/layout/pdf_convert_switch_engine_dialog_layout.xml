@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="end" android:id="@id/close" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/phone_home_pay_title_close" style="@style/public_image_bg_style" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialog_background" android:paddingLeft="16.0dip" android:paddingTop="38.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0dip" android:textColor="@color/mainTextColor" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pdf_convert_switch_engine_title" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:id="@id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/pdf_convert_switch_engine_tips" />
+        <ScrollView android:paddingTop="25.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/switch_arrow" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/comp_pdf_to_word_swich" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/switch_left" android:background="@drawable/pdf_switch_engine_frame" android:paddingTop="16.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.3" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_toStartOf="@id/switch_arrow">
+                    <ImageView android:id="@id/image_mode_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:id="@id/tv_mode_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/descriptionColor" android:id="@id/tv_desc_mode_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:letterSpacing="0.0" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/switch_right" android:background="@drawable/pdf_switch_engine_frame" android:paddingTop="16.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" android:layout_toEndOf="@id/switch_arrow">
+                    <ImageView android:id="@id/image_mode_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:id="@id/tv_mode_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip" />
+                    <TextView android:textSize="11.0sp" android:textColor="@color/descriptionColor" android:id="@id/tv_desc_mode_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:letterSpacing="0.0" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textSize="16.0dip" android:textColor="@color/whiteMainTextColor" android:id="@id/switch_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:text="@string/pdf_convert_switch_now" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" style="@style/KButtonStyle.Primary.Large" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/feedback_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/pdf_convert_feedback_now" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

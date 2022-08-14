@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListView android:id="@id/scene_lv" android:paddingBottom="16.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:dividerHeight="0.0dip" android:overScrollMode="never" />
+    <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/main_error_default" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsBtnText="@string/ppt_retry" app:tipsImgId="@drawable/phone_public_no_network_icon" app:tipsText="@string/documentmanager_cloudfile_no_network" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/open_camera" android:background="@drawable/history_preview_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/pic_store_camera" />
+    <View style="@style/public_separator_line" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/select_pic" android:background="@drawable/history_preview_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/public_open_platform_select_pic" />
+    <View style="@style/public_separator_line" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/cancel" android:background="@drawable/history_preview_bg" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/public_cancel" />
+</cn.wps.moffice.common.beans.RippleAlphaLinearLayout>

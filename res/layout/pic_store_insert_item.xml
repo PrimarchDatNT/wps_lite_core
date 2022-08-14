@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/mIvPicStoreInsertItem" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="16.0dip" android:scaleType="centerInside" android:layout_centerVertical="true" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/mTvPicStoreInsertItem" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_toRightOf="@id/mIvPicStoreInsertItem" android:layout_centerVertical="true" />
+        <View android:id="@id/mVPicStoreInsertDivider" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="60.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</cn.wps.moffice.common.beans.RippleAlphaLinearLayout>

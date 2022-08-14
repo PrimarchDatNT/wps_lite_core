@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/secondBackgroundColor" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="start" android:id="@id/text_phone_doc_empty_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:text="@string/home_wpsdrive_docs" android:layout_marginStart="16.0dip" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:src="@drawable/public_tips_file_not_found_icon" android:scaleType="centerInside" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/text_empty_tips_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/search_result_tip" />
+    <View android:id="@id/bottom_divider_line" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="53.0dip" />
+</LinearLayout>

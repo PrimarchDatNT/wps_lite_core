@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/subThirdBackgroundColor" android:paddingLeft="13.0dip" android:paddingRight="18.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="112.0dip" android:layout_marginLeft="18.0dip" android:layout_marginTop="19.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="23.0dip" android:paddingStart="13.0dip" android:paddingEnd="18.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.home.common.widget.AspectCoverView android:id="@id/cardView" android:layout_width="82.0dip" android:layout_height="wrap_content" android:layout_marginTop="-19.0dip" app:aspect_cover_ratio_dependency="width" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginStart="14.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/bookTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:includeFontPadding="false" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:ellipsize="end" android:id="@id/bookDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:lines="3" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" />
+    </LinearLayout>
+</LinearLayout>

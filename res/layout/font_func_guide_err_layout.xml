@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/font_err_img_refresh" android:visibility="visible" android:layout_width="350.0dip" android:layout_height="220.0dip" android:src="@drawable/pub_404_refresh" android:scaleType="fitCenter" android:contentDescription="@null" />
+            <ImageView android:id="@id/font_err_img_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="55.0dip" android:src="@drawable/font_preview_default" android:scaleType="fitCenter" android:minWidth="350.0dip" android:minHeight="350.0dip" android:contentDescription="@null" />
+            <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:id="@id/loading_view" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="17.0dip" app:barColor1="@color/phone_wps_blue" app:barColor2="@color/phone_wps_blue" app:barColor3="@color/phone_wps_blue" app:barColor4="@color/phone_wps_blue" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/font_err_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cloud_font_pre_applying" />
+        </LinearLayout>
+    </ScrollView>
+</merge>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/subLineColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.spreadsheet.control.EtTitleBar android:id="@id/sharepreview_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <cn.wps.moffice.spreadsheet.control.share.view.PreviewLinearLayout android:id="@id/preview_bg_color" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <cn.wps.moffice.spreadsheet.control.share.view.KPreviewView android:id="@id/sharepreview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </cn.wps.moffice.spreadsheet.control.share.view.PreviewLinearLayout>
+        </FrameLayout>
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <cn.wps.moffice.common.beans.phone.bottomup.BottomUpPopTaber android:id="@id/bottom_tab_ctrl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="48.0dip" />
+    <View android:id="@id/cover_view" android:background="@color/maskBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.spreadsheet.control.share.view.ScaleImageView android:id="@id/scale_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/progressbar" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

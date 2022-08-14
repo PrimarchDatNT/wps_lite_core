@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/checkjob_dialog_bg" android:layout_width="279.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="279.0dip" android:layout_height="wrap_content">
+        <cn.wpsx.support.ui.alpha.KAlphaRelativeLayout android:layout_gravity="right" android:id="@id/checkjob_close_layout" android:layout_width="44.0dip" android:layout_height="44.0dip" style="@style/public_image_bg_style">
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/checkjob_close_img" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="10.0dip" android:src="@drawable/checkjob_dialog_close" android:layout_centerVertical="true" />
+        </cn.wpsx.support.ui.alpha.KAlphaRelativeLayout>
+        <TextView android:textSize="15.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apps_resume_deliver_checkjob_content" android:lineSpacingMultiplier="1.2" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip">
+            <cn.wpsx.support.ui.alpha.KAlphaRelativeLayout android:id="@id/checkjob_beike_layout" android:visibility="gone" android:layout_width="77.0dip" android:layout_height="wrap_content" android:layout_marginRight="16.0dip">
+                <ImageView android:id="@id/checkjob_beike_img" android:layout_width="53.0dip" android:layout_height="53.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/checkjob_web_beike_bg" />
+                <CheckBox android:id="@id/checkjob_beike_checkbox" android:background="@drawable/checkjob_select_web" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="34.0dip" android:button="@null" android:layout_alignParentRight="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="62.0dip" android:text="@string/apps_resume_deliver_checkjob_beike" android:layout_centerHorizontal="true" />
+            </cn.wpsx.support.ui.alpha.KAlphaRelativeLayout>
+            <cn.wpsx.support.ui.alpha.KAlphaRelativeLayout android:id="@id/checkjob_zhilian_layout" android:visibility="gone" android:layout_width="77.0dip" android:layout_height="78.0dip">
+                <ImageView android:id="@id/checkjob_zhilian_img" android:layout_width="53.0dip" android:layout_height="53.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/checkjob_web_zhilian_bg" />
+                <CheckBox android:id="@id/checkjob_zhilian_checkbox" android:background="@drawable/checkjob_select_web" android:focusable="false" android:clickable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="20.0dip" android:button="@null" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/apps_resume_deliver_checkjob_zhilian" android:layout_alignParentBottom="true" />
+            </cn.wpsx.support.ui.alpha.KAlphaRelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="18.0dip">
+            <RelativeLayout android:id="@id/accept_secret_checkbox_layout" android:layout_width="30.0dip" android:layout_height="30.0dip">
+                <CheckBox android:id="@id/accept_secret_checkbox" android:background="@drawable/resume_deliver_accept_bg" android:focusable="false" android:clickable="false" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="2.0dip" android:button="@null" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/accept_secret_text" android:layout_width="wrap_content" android:layout_height="21.0dip" android:layout_marginLeft="2.0dip" android:text="@string/apps_resume_preview_lp_dialog_proto1" android:layout_marginStart="2.0dip" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/buttonSecondaryColor" android:gravity="center" android:id="@id/accept_secret_beike" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="21.0dip" android:text="@string/apps_resume_deliver_checkjob_secret_proto_beike" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/accept_secret_and" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="21.0dip" android:text="@string/apps_resume_deliver_checkjob_secret_proto_and" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/buttonSecondaryColor" android:gravity="center" android:id="@id/accept_secret_zhilian" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="21.0dip" android:text="@string/apps_resume_deliver_checkjob_secret_proto_zhilian" />
+        </LinearLayout>
+        <Button android:enabled="false" android:textSize="16.0dip" android:textColor="@color/whiteMainTextDisabledColor" android:ellipsize="middle" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/check_job_btn" android:background="@drawable/cyan_blue_btn_selector" android:layout_width="231.0dip" android:layout_height="42.0dip" android:layout_marginBottom="24.0dip" android:text="@string/apps_resume_deliver_checkjob" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DeskShortcutHandlerTheme" parent="@style/Transluent">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="HomeTheme.NewGuideSelectTransparent" parent="@style/HomeTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <style name="HomeTheme.TransparentCompt" parent="@style/HomeTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="OfficeAppTheme.NoNavigationBar" parent="@style/OfficeAppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/et_phone_back_board_bg" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/padding_status_bar_top_wrapper" android:paddingTop="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.spreadsheet.control.backboard.OverseaBackBoardContentView android:id="@id/ss_backboard_sum_group" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+        <TextView android:layout_gravity="bottom" android:id="@id/ss_backboard_text_text_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="24.0dip" style="@style/etPhoneBackboardTextView" />
+    </FrameLayout>
+    <cn.wps.moffice.common.beans.phone.AlphaImageView android:layout_gravity="center" android:id="@id/ss_backboard_close" android:background="?android:selectableItemBackground" android:paddingLeft="5.0dip" android:paddingTop="2.0dip" android:paddingRight="5.0dip" android:paddingBottom="2.0dip" android:layout_width="30.0dip" android:layout_height="24.0dip" android:src="@drawable/comp_table_pack_up" android:scaleType="fitCenter" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+</LinearLayout>

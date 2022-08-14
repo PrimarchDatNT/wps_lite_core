@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/tips_content" android:layout_height="wrap_content" style="@style/phone_public_bottombar_layout">
+        <cn.wps.moffice.common.beans.menudrawer.AlphaTextView android:textColor="#ffee416e" android:id="@id/tips_renewal_time" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:text="@string/documentmanager_tips_link_delay_time" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:gravity="center_vertical" android:id="@id/link_time_tips" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:maxLines="2" android:layout_toLeftOf="@id/tips_renewal_time" android:paddingEnd="15.0dip" style="@style/phone_public_bottombar_tip" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.writer.shell.comments.AudioCommentEditDialogTitleBar android:id="@id/page_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/text_edit_page_bar" android:background="@color/WPSMainColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_titlebar_height">
+        <cn.wps.moffice.common.beans.phone.AlphaButton android:id="@id/text_edit_save" android:layout_marginTop="2.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="false" android:layout_alignParentEnd="true" style="@style/v10_phone_public_titlebar_ok" />
+        <cn.wps.moffice.common.beans.phone.AlphaButton android:id="@id/text_edit_cancle" android:layout_marginTop="2.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="false" android:layout_alignParentStart="true" style="@style/v10_phone_public_titlebar_cancel" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <EditText android:scrollbarStyle="outsideOverlay" android:gravity="top" android:id="@id/text_edit_content" android:background="@null" android:paddingLeft="16.0dip" android:paddingTop="15.0dip" android:paddingRight="16.0dip" android:scrollbars="vertical" android:fadingEdge="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="10" android:singleLine="false" android:capitalize="sentences" android:layout_alignParentTop="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/phone_public_font_m_black" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/phone_public_top_shadow" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</LinearLayout>

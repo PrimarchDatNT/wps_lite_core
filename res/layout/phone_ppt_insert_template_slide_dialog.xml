@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.presentation.control.common.PptTitleBar android:id="@id/phone_ppt_dialog_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <cn.wps.moffice.common.beans.GridViewWithHeaderAndFooter android:scrollbarStyle="outsideOverlay" android:id="@id/ppt_template_header_footer_gridview" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:verticalSpacing="16.0dip" android:numColumns="2" android:layout_below="@id/phone_ppt_dialog_titlebar" />
+    <ScrollView android:id="@id/phone_ppt_slideLayouts_scroll" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/phone_ppt_dialog_titlebar">
+        <LinearLayout android:orientation="vertical" android:id="@id/container_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wps.moffice.presentation.control.layout.summary.view.InsertSummaryView android:id="@id/insert_summary_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <cn.wps.moffice.presentation.control.layout.MasterListView android:orientation="vertical" android:id="@id/phone_ppt_slideLayouts_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:id="@id/top_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/phone_public_top_shadow" android:scaleType="fitXY" android:layout_below="@id/phone_ppt_dialog_titlebar" />
+    <include layout="@layout/ppt_progressbar_layout" />
+    <cn.wps.moffice.presentation.control.template.BottomTipsView android:id="@id/ppt_bottom_tips_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

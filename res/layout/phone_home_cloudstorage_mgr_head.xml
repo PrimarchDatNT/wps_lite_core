@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.main.local.home.newui.theme.title.ThemeTitleLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/phone_public_cloudstorage_head" android:layout_width="fill_parent" android:layout_height="@dimen/phone_documents_maintoolbar_height" style="@style/phone_public_titlebar_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/manage_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="0.0dip" android:minWidth="@dimen/phone_public_default_button_width" android:text="@string/public_done" android:layout_marginStart="12.0dip" android:layout_marginEnd="0.0dip" style="@style/phone_public_buttonStyle_white" />
+    <cn.wps.moffice.common.beans.phone.AlphaImageView android:gravity="center_vertical" android:id="@id/back" android:src="@drawable/phone_public_back_white_icon" style="@style/phone_public_titlebar_return" />
+    <TextView android:id="@id/title_text" android:text="@string/documentmanager_open_storage" style="@style/phone_documents_toolbar_title" />
+    <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <cn.wps.moffice.common.multi.droplist.MultiButtonForHome android:gravity="center_vertical" android:id="@id/multidocument" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/phone_public_titlebar_return" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/phone_documents_maintoolbar_height" android:layout_height="@dimen/phone_documents_maintoolbar_height">
+        <ImageView android:id="@id/event_icon" android:src="@drawable/phone_home_clouddocs_tab_event_normal" style="@style/phone_public_title_bar_icon" />
+        <ImageView android:id="@id/red_point" android:visibility="invisible" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginLeft="0.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/phone_public_bottom_toolbar_tips_redhot" android:scaleType="fitXY" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="12.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/more" style="@style/phone_public_title_bar_more_icon" />
+    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/search" android:visibility="gone" style="@style/phone_public_title_bar_search_icon" />
+</cn.wps.moffice.main.local.home.newui.theme.title.ThemeTitleLinearLayout>

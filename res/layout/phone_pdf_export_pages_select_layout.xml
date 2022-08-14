@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.pdf.shell.common.views.PDFTitleBar android:id="@id/select_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
+        <ScrollView android:id="@id/exportpreview_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+            <FrameLayout android:paddingTop="22.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <cn.wps.moffice.pdf.shell.exportpages.ExportPreview android:layout_gravity="center" android:id="@id/exportpreview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" />
+            </FrameLayout>
+        </ScrollView>
+        <cn.wps.moffice.pdf.shell.common.views.gridview.VerticalGridView android:id="@id/select_grid" android:background="@color/backgroundColor" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="20.0dip" android:paddingEnd="20.0dip" customgridview_columnnum="1" customgridview_horizontal_spacing="18" customgridview_vertical_spacing="18" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/public_pdf_exportpages_bottom_layout" />
+        </FrameLayout>
+    </LinearLayout>
+    <cn.wps.moffice.common.TouchEventInterceptFrameLayout android:id="@id/progress" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </cn.wps.moffice.common.TouchEventInterceptFrameLayout>
+</FrameLayout>

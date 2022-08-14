@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.AlphaRelativeLayout android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/public_document_item_height_v2"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/home_drive_special_item_content" />
+</cn.wps.moffice.common.beans.AlphaRelativeLayout>

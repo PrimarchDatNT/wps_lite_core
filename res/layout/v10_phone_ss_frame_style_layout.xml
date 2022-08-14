@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/phone_ss_frame_real_line" android:paddingTop="14.669983dip" android:paddingBottom="14.669983dip" android:layout_width="wrap_content" android:layout_height="54.0dip" style="@style/public_image_bg_style">
+        <cn.wps.moffice.spreadsheet.control.common.SSUnderLineDrawable android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/comp_style_line_style_1" android:scaleType="centerInside" underline_index="0" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/phone_ss_frame_dashed_line" android:paddingTop="14.669983dip" android:paddingBottom="14.669983dip" android:layout_width="wrap_content" android:layout_height="54.0dip" style="@style/public_image_bg_style">
+        <cn.wps.moffice.spreadsheet.control.common.SSUnderLineDrawable android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/comp_style_line_style_4" android:scaleType="centerInside" underline_index="1" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/phone_ss_frame_dot_line" android:paddingTop="14.669983dip" android:paddingBottom="14.669983dip" android:layout_width="wrap_content" android:layout_height="54.0dip" style="@style/public_image_bg_style">
+        <cn.wps.moffice.spreadsheet.control.common.SSUnderLineDrawable android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/comp_style_line_style_2" android:scaleType="centerInside" underline_index="2" />
+    </FrameLayout>
+</LinearLayout>

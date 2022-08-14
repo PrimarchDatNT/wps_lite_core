@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_export_pdf_item_bottom_en" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="wrap_content" android:layout_height="4.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_export_pdf_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Space android:layout_width="16.0dip" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="10.0sp" android:textColor="@drawable/public_exportpdf_style_item_color_selector" android:gravity="center" android:id="@id/tv_export_pdf_remove_wps_logo" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:paddingLeft="3.0dip" android:paddingTop="10.0dip" android:paddingRight="3.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:text="@string/export_to_pdf_remove_wps_logo" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="6.0dip" MaxLine="1" pressAlphaEnableWhenRipple="false" />
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="end|center|top" android:id="@id/iv_export_pdf_remove_wps_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_qing_vip_premium" />
+            </FrameLayout>
+            <Space android:layout_width="16.0dip" android:layout_height="wrap_content" />
+            <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="10.0sp" android:textColor="@drawable/public_exportpdf_style_item_color_selector" android:gravity="center" android:id="@id/tv_export_pdf_basic" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:paddingLeft="3.0dip" android:paddingTop="10.0dip" android:paddingRight="3.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginTop="6.0dip" android:layout_marginRight="6.0dip" android:text="@string/export_to_pdf_basic" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="6.0dip" MaxLine="1" pressAlphaEnableWhenRipple="false" />
+            </FrameLayout>
+            <Space android:layout_width="16.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Space android:layout_width="wrap_content" android:layout_height="6.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/export_pic_switch" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Space android:layout_width="wrap_content" android:layout_height="10.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Space android:layout_width="16.0dip" android:layout_height="wrap_content" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_export_pdf_image_only_vip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/home_qing_vip_premium" />
+                <Space android:layout_width="7.0dip" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="10.0sp" android:textColor="@color/subTextColor" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_export_pic_version" MaxLine="1" pressAlphaEnableWhenRipple="false" />
+            <Space android:layout_width="6.0dip" android:layout_height="wrap_content" />
+            <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="8.0sp" android:textColor="@drawable/public_exportpdf_style_tinny_item_color_selector" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_export_pic_file_right_tips" MaxLine="1" pressAlphaEnableWhenRipple="false" />
+            <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <cn.wps.moffice.common.CommonSwitch android:id="@id/public_togglebutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:thumb="@drawable/phone_public_switch_thumb_small_selector" android:track="@drawable/phone_public_switch_track_small_selector" />
+            <Space android:layout_width="16.0dip" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Space android:layout_width="wrap_content" android:layout_height="6.0dip" />
+    </LinearLayout>
+</LinearLayout>

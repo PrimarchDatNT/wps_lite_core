@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>皮肤商城</title>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index,follow">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=0,minimal-ui">
+    <link rel="stylesheet" href="../css/main.css">
+    <style>
+		html{background: #000;}
+	</style>
+</head>
+
+<body ms-controller="PreviewCtrl">
+    <!-- 预览 开始 -->
+	<div class="swipe" id="slider"><!-- viewsscroll -->
+		<div class="swipe-wrap"><!-- viewimglist -->
+			<!-- viewimglist的 li宽，viewbg_wps宽都等于屏幕宽  -->
+			<div ms-repeat-el="skinsPreview" ms-click="hidePreview(false)">
+				<img alt="" ms-click="hidePreview(false)" style="opacity: 0;">
+				<div class="preview_loading" ms-visible="!el.isLoaded">
+					<div class="loading"></div>
+				</div>
+			</div>
+		</div>
+		<div class="viewinfo">
+			<div class="pagination">
+				<span class="pag_dotted" ms-repeat-el="skinsPreview" ms-class="pag_dotted_active: $index === previewIndex"></span>
+			</div>
+			<a href="javascript:void(0)" class="btn_used" ms-click="hidePreview(true)"><span>立即使用</span></a>
+		</div>
+		<div class="maskbg" ms-click="hidePreview(false)"></div>
+	</div>
+	<!-- 预览 结束 -->
+</body>
+
+<script type="text/javascript" src="../js/publish/avalon.js"></script>
+<script type="text/javascript" src="../js/publish/load.js"></script>
+<script type="text/javascript">
+	//页面控制台输出
+	window.pr = function(msg) {
+	    $('#debug').append('<br/>' + JSON.stringify(msg));
+	};
+
+	load('preview');
+</script>
+
+</html>

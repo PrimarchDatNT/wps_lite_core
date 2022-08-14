@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/paper_check_result_bottom_container">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:background="@color/secondaryColor" android:layout_width="fill_parent" android:layout_height="163.0dip" android:layout_marginTop="-14.0dip">
+                    <cn.wpsx.support.ui.CircleProgressBarV3 android:id="@id/paper_check_result_progress_bar" android:layout_width="148.0dip" android:layout_height="148.0dip" android:layout_centerInParent="true" app:kmui_fix_arc_height="middle" app:kmui_progress="50" app:kmui_progressBarColor="@color/white" app:kmui_progressBgColor="@color/color_alpha_40_white" app:kmui_start_angle="138" app:kmui_stroke="4.0dip" />
+                    <LinearLayout android:orientation="horizontal" android:id="@id/paper_check_repeat_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                        <TextView android:textSize="32.0dip" android:textStyle="bold" android:textColor="@color/whiteMainTextColor" android:id="@id/paper_check_repeat_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="16.0dip" android:textColor="@color/whiteMainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="%" />
+                    </LinearLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@color/whiteMainTextColor" android:id="@id/paper_check_repeat_rate_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paper_check_result_repeat_title" android:layout_alignBottom="@id/paper_check_result_progress_bar" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paper_check_paper_name" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="end" android:id="@id/title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:lines="1" android:singleLine="true" android:layout_weight="1.0" />
+                </LinearLayout>
+                <View android:layout_marginLeft="18.0dip" android:layout_marginStart="18.0dip" style="@style/div_line" />
+                <RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paper_check_paper_author" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/author_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <View android:layout_marginLeft="18.0dip" android:layout_marginStart="18.0dip" style="@style/div_line" />
+                <RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="14.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paper_check_result_total_count" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/char_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <View android:layout_marginLeft="18.0dip" android:layout_marginStart="18.0dip" style="@style/div_line" />
+                <RelativeLayout android:id="@id/paper_advice_container" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="13.0dip">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:id="@id/paper_advice_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paper_check_result_advice" />
+                    <FrameLayout android:id="@id/paper_advice_btn_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="-6.0dip" android:layout_below="@id/paper_advice_title" android:layout_alignTop="@id/paper_advice" android:layout_alignParentRight="true" android:layout_alignParentEnd="true">
+                        <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:gravity="center" android:id="@id/check_again" android:background="@drawable/public_round_rect_blue_bg_3dp_1px" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/paper_check_check_again" />
+                        <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:gravity="center" android:id="@id/paper_down" android:background="@drawable/public_round_rect_blue_bg_3dp_1px" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="@string/paper_down_repetition_auto" />
+                    </FrameLayout>
+                    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center_vertical" android:id="@id/paper_advice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/paper_check_result_advice_repeat_height" android:layout_toLeftOf="@id/paper_advice_btn_container" android:layout_below="@id/paper_advice_title" android:layout_alignParentLeft="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/banner_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+                <cn.wpsx.support.ui.KColorfulImageView android:id="@id/paper_check_banner" android:layout_width="fill_parent" android:layout_height="56.0dip" android:scaleType="centerInside" />
+                <View android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/paper_check_result_bottom_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ViewStub android:id="@id/paper_check_result_bottom_help" android:layout="@layout/public_phone_paper_check_history_footer_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/paper_check_liner" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="16.0dip" android:gravity="center" android:id="@id/output_detail_report" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/paper_check_paper_full_report" android:layout_weight="1.0" style="@style/phone_public_buttonStyle_gray_4dp_corner_dark_compat" />
+            <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="16.0dip" android:gravity="center" android:id="@id/check_simple_report" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="42.0dip" android:layout_marginRight="16.0dip" android:text="@string/paper_check_paper_simple_report" android:layout_weight="1.0" android:layout_marginEnd="16.0dip" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

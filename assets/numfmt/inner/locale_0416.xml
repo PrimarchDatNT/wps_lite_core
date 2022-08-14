@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 巴西葡语 -->
+<resouce>
+<thous-separator type="string">.</thous-separator>
+<decimal-point type="string">,</decimal-point>
+<general type="string">Geral</general>
+<color-name type="string-array" size="9">
+<item>Preto</item>
+<item>Azul</item>
+<item>Ciano</item>
+<item>Verde</item>
+<item>Magenta</item>
+<item>Vermelho</item>
+<item>Branco</item>
+<item>Amarelo</item>
+<item>Cor</item>
+</color-name>
+<long-week type="string-array" size="7">
+<item>domingo</item>
+<item>segunda-feira</item>
+<item>terça-feira</item>
+<item>quarta-feira</item>
+<item>quinta-feira</item>
+<item>sexta-feira</item>
+<item>sábado</item>
+</long-week>
+<short-week type="string-array" size="7">
+<item>dom</item>
+<item>seg</item>
+<item>ter</item>
+<item>qua</item>
+<item>qui</item>
+<item>sex</item>
+<item>sáb</item>
+</short-week>
+<long-month type="string-array" size="12">
+<item>janeiro</item>
+<item>fevereiro</item>
+<item>março</item>
+<item>abril</item>
+<item>maio</item>
+<item>junho</item>
+<item>julho</item>
+<item>agosto</item>
+<item>setembro</item>
+<item>outubro</item>
+<item>novembro</item>
+<item>dezembro</item>
+</long-month>
+<short-month type="string-array" size="12">
+<item>jan</item>
+<item>fev</item>
+<item>mar</item>
+<item>abr</item>
+<item>mai</item>
+<item>jun</item>
+<item>jul</item>
+<item>ago</item>
+<item>set</item>
+<item>out</item>
+<item>nov</item>
+<item>dez</item>
+</short-month>
+<shortest-month type="string-array" size="12">
+<item>j</item>
+<item>f</item>
+<item>m</item>
+<item>a</item>
+<item>m</item>
+<item>j</item>
+<item>j</item>
+<item>a</item>
+<item>s</item>
+<item>o</item>
+<item>n</item>
+<item>d</item>
+</shortest-month>
+<am-pm type="string-array" size="2">
+<item>AM</item>
+<item>PM</item>
+</am-pm>
+<year type="string">a</year>
+<month type="string">m</month>
+<day type="string">d</day>
+<hour type="string">h</hour>
+<minute type="string">m</minute>
+<second type="string">s</second>
+<escape type="string">\</escape>
+<f400-f800 type="string-array" size="2">
+<item>hh:mm:ss</item>
+<item>[$-416]dddd\, d \d\e mmmm \d\e yyyy</item>
+</f400-f800>
+</resouce>

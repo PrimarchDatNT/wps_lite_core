@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wpsx.support.ui.KCheckBox android:id="@id/check_box" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="0.0dip" style="@style/KCheckBoxCircleStyle" />
+    <cn.wpsx.support.ui.KTextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:lines="1" android:layout_marginStart="6.0dip" app:kmui_autoSizeEnabled="true" />
+</LinearLayout>

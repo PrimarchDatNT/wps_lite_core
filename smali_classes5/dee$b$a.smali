@@ -1,0 +1,141 @@
+.class public Ldee$b$a;
+.super Ljava/lang/Object;
+.source "TableOperator.java"
+
+# interfaces
+.implements Lh65;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Ldee$b;->c()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Ldee$b;
+
+
+# direct methods
+.method public constructor <init>(Ldee$b;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Ldee$b$a;->a:Ldee$b;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Ljava/lang/String;)Z
+    .locals 3
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Ldee$b$a;->a:Ldee$b;
+
+    iget-object v0, v0, Ldee$b;->c:Ldee;
+
+    invoke-static {v0}, Ldee;->c(Ldee;)Lcee;
+
+    move-result-object v0
+
+    iget-object v1, p0, Ldee$b$a;->a:Ldee$b;
+
+    iget-object v1, v1, Ldee$b;->c:Ldee;
+
+    invoke-static {v1}, Ldee;->d(Ldee;)Lcn/wps/moffice/presentation/Presentation;
+
+    move-result-object v1
+
+    iget-object v2, p0, Ldee$b$a;->a:Ldee$b;
+
+    iget-object v2, v2, Ldee$b;->a:Lx3o;
+
+    invoke-virtual {v0, v1, v2, p1}, Lcee;->f(Landroid/content/Context;Lx3o;Ljava/lang/String;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public b(Ljava/lang/String;Ljava/lang/Exception;)V
+    .locals 1
+
+    .line 1
+    invoke-static {}, Ldh6;->b()Ldh6;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Ldh6;->getContext()Landroid/content/Context;
+
+    move-result-object p1
+
+    const p2, 0x7f1217ef
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, p2, v0}, Lbih;->n(Landroid/content/Context;II)V
+
+    return-void
+.end method
+
+.method public onSaveSuccess(Ljava/lang/String;)V
+    .locals 3
+
+    .line 1
+    new-instance v0, Landroid/os/Bundle;
+
+    invoke-direct {v0}, Landroid/os/Bundle;-><init>()V
+
+    const-string v1, "export_file_path"
+
+    .line 2
+    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 3
+    iget-object p1, p0, Ldee$b$a;->a:Ldee$b;
+
+    iget-object p1, p1, Ldee$b;->b:Ljava/lang/String;
+
+    const-string v1, "export_position"
+
+    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string p1, "export_comp"
+
+    const-string v1, "ppt"
+
+    .line 4
+    invoke-virtual {v0, p1, v1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 5
+    sget-object p1, Li65;->a:Ljava/lang/String;
+
+    const-string v1, "export_func_name"
+
+    invoke-virtual {v0, v1, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
+
+    .line 6
+    invoke-static {}, Lnoe;->A()Lnoe;
+
+    move-result-object p1
+
+    const-wide/16 v1, 0x2
+
+    invoke-virtual {p1, v1, v2, v0}, Ld95;->a(JLandroid/os/Bundle;)V
+
+    return-void
+.end method

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/phone_writer_panel_padding_s" android:stretchColumns="*">
+        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/speaker_normal_femal" style="@style/phone_writer_tts_speakerchoose">
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:text="@string/public_text_to_speech_speaker_nomal_femal" style="@style/phone_writer_tts_speakerchoose_text" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/speaker_normal_male" style="@style/phone_writer_tts_speakerchoose">
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:text="@string/public_text_to_speech_speaker_nomal_male" style="@style/phone_writer_tts_speakerchoose_text" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/speaker_spec_male" style="@style/phone_writer_tts_speakerchoose">
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:text="@string/public_text_to_speech_speaker_nomal_sepc_male" style="@style/phone_writer_tts_speakerchoose_text" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/speaker_emotion_male" style="@style/phone_writer_tts_speakerchoose">
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:text="@string/public_text_to_speech_speaker_nomal_emotion_male" style="@style/phone_writer_tts_speakerchoose_text" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/speaker_emotion_child" style="@style/phone_writer_tts_speakerchoose">
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:text="@string/public_text_to_speech_speaker_nomal_emotion_child" style="@style/phone_writer_tts_speakerchoose_text" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

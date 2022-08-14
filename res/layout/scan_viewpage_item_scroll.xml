@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/screen_ll" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.cardview.CardView android:id="@id/dialog_cardview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardCornerRadius="0.0dip" app:cardElevation="2.0dip" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="true">
+        <LinearLayout android:orientation="vertical" android:background="@color/secondBackgroundColor" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:overScrollMode="never">
+                <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:id="@id/tv_ll" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:id="@id/tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:lineSpacingExtra="2.0dip" />
+                </LinearLayout>
+            </ScrollView>
+            <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/page_num" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="30.0dip" />
+        </LinearLayout>
+    </cn.wps.moffice.common.beans.cardview.CardView>
+</LinearLayout>

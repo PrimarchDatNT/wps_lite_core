@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.CircleImageView android:layout_gravity="bottom|center" android:id="@id/home_roaming_relogin_icon" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="59.0dip" android:src="@drawable/home_roaming_login_avatar" app:border_color="@color/white" app:border_width="2.0dip" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center" android:id="@id/home_roaming_relogin_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/relogin_tips" android:visibility="gone" android:layout_width="248.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/public_login_relogin_tips" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/relogin_third_btn_layout" android:layout_width="248.0dip" android:layout_height="44.0dip" android:layout_marginTop="64.0dip">
+        <FrameLayout android:id="@id/login_third_btn_icon_bg" android:layout_width="28.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/relogin_third_btn_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+        </FrameLayout>
+        <TextView android:textSize="14.0dip" android:textColor="@color/whiteMainTextColor" android:layout_gravity="center_vertical" android:id="@id/relogin_third_btn_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/home_roaming_relogin_more" android:background="@drawable/login_round_rect_white_bg_4dp_1px" android:layout_width="248.0dip" android:layout_height="45.0dip" android:layout_marginTop="16.0dip">
+        <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_login_other_account" />
+    </FrameLayout>
+    <include layout="@layout/home_login_agreement_check" />
+    <View android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/offlineStatementLayout" android:paddingLeft="18.0dip" android:paddingRight="18.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_copyright_bullet" android:lineSpacingMultiplier="1.2" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_offline_statement_tip_1" android:lineSpacingMultiplier="1.2" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/login_copyright_bullet" android:lineSpacingMultiplier="1.2" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_offline_statement_tip_2" android:lineSpacingMultiplier="1.2" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:layout_width="248.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/home_roaming_relogin_clear" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/public_login_remove_my_login_info" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

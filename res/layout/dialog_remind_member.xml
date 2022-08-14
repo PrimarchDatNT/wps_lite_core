@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/phone_public_stroke_4radius_white_bg" android:paddingTop="23.0dip" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:id="@id/remind_member_dialog_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:scaleType="centerCrop" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/mainTextColor" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/remind_member_dialog_tip_title" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" />
+            <TextView android:textSize="18.0dip" android:textColor="@color/mainTextColor" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/remind_member_dialog_tip_des" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" />
+            <Button android:textSize="16.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/remind_member_dialog_pay_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="34.0dip" android:layout_marginRight="24.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/remind_member_dialog_close" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/pub_popup_btn_close" />
+</LinearLayout>

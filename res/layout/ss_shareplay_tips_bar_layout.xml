@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/ss_shareplay_tips_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/phone_public_bottombar_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="82.0dip" android:layout_marginRight="82.0dip" android:layout_marginBottom="@dimen/ppt_play_share_margin_bottom">
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_gravity="center_vertical" android:id="@id/ss_shareplay_tips_bar_tips" android:paddingTop="13.0dip" android:paddingBottom="13.0dip" MaxLine="2" style="@style/phone_public_bottombar_tip" />
+        <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="14.0dip" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/share_play_tip_bar_change_web_shareplay" android:visibility="gone" android:text="@string/ppt_shareplay_switch_web_shareplay" style="@style/public_shareplay_incompitible_tips_style" />
+        <cn.wps.moffice.common.beans.phone.RippleAlphaAutoText android:textSize="14.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/share_play_tip_bar_incompatible_no_show" android:paddingLeft="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/ppt_shareplay_incompatible_no_show" />
+        <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textColor="@color/secondaryColor" android:id="@id/ss_shareplay_tips_bar_close_btn" android:text="@string/public_close" style="@style/phone_public_bottombar_tipbtn" />
+    </LinearLayout>
+</LinearLayout>

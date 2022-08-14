@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_title_bar_contains" android:layout_width="fill_parent" android:layout_height="@dimen/new_phone_documents_maintoolbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/home_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_public_top_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/phone_public_top_shadow" android:scaleType="fitXY" />
+    </LinearLayout>
+</FrameLayout>

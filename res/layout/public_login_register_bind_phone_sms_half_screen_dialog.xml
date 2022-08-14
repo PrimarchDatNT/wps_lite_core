@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/sv_phone_sms_container" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/bind_phone_half_screen_dlg_bg" android:layout_width="fill_parent" android:layout_height="418.0dip" android:layout_marginBottom="13.0dip">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/public_login_register_bind_phone_common" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="24.0dip">
+                <ViewStub android:id="@id/part1Layout" android:layout="@layout/public_login_simple_sms_body" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/part2Layout" android:layout="@layout/public_login_verify_sms_body" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

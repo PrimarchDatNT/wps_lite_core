@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/item_content" android:background="@color/secondBackgroundColor" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_icon" android:layout_width="@dimen/public_document_item_image_size" android:layout_height="@dimen/public_document_item_image_size" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" android:layout_marginStart="16.0dip">
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/fb_file_icon" android:layout_centerVertical="true" style="@style/public_document_item_image_style" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/public_document_item_title_size" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/fb_filename_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="8.0dip" android:maxLines="2" android:layout_toLeftOf="@id/tv_remove" android:layout_toRightOf="@id/rl_icon" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:layout_marginEnd="8.0dip" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/tv_remove" android:layout_width="63.0dip" android:layout_height="fill_parent" android:text="@string/compressed_batch_share_remove" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

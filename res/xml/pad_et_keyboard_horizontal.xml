@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard app:horizontalGap="0.5800009%p" app:keyHeight="22.609997%p" app:keyWidth="8.510006%p" app:verticalGap="1.789999%p"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Row app:horizontalGap="0.0px" app:keyHeight="0.0dip" app:keyWidth="16.700005%p" />
+    <Row>
+        <Key app:codes="61" app:horizontalGap="11.549997%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="=" app:keyTextSize="23.0sp" app:keyWidth="17.6%p" />
+        <Key app:codes="-100" app:horizontalGap="0.0dip" app:keyHeight="0.0dip" app:keyTextSize="23.0sp" app:keyWidth="0.0dip" app:verticalGap="0.0dip" />
+        <Key app:codes="-10" app:horizontalGap="1.5599966%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="f(x)" app:keyTextSize="23.0sp" app:keyWidth="17.6%p" />
+        <Key app:codes="-100" app:horizontalGap="0.0dip" app:keyHeight="0.0dip" app:keyTextSize="23.0sp" app:keyWidth="0.0dip" app:verticalGap="0.0dip" />
+        <Key app:codes="43" app:horizontalGap="1.5599966%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="+" app:keyTextSize="23.0sp" />
+        <Key app:codes="55" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="7" app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="56" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="8" app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="57" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="9" app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="-14" app:iconPreview="@drawable/public_keyboard_del" app:isRepeatable="true" app:keyDrawable="@drawable/et_edit_key_selector" app:keyEdgeFlags="right" app:keyIcon="@drawable/public_keyboard_del" />
+    </Row>
+    <Row>
+        <Key app:codes="33" app:horizontalGap="11.549997%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="!" app:keyTextSize="23.0sp" />
+        <Key app:codes="38" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="&amp;" app:keyTextSize="23.0sp" />
+        <Key app:codes="40" app:horizontalGap="1.5599966%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="(" app:keyTextSize="23.0sp" />
+        <Key app:codes="41" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel=")" app:keyTextSize="23.0sp" />
+        <Key app:codes="45" app:horizontalGap="1.5599966%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="-" app:keyTextSize="23.0sp" />
+        <Key app:codes="52" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="4" app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="53" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="5" app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="54" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="6" app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="10" app:iconPreview="@drawable/public_keyboard_enter" app:keyDrawable="@drawable/et_edit_key_selector" app:keyHeight="47.010006%p" app:keyIcon="@drawable/public_keyboard_enter" />
+    </Row>
+    <Row>
+        <Key app:codes="60" app:horizontalGap="11.549997%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="&lt;" app:keyTextSize="23.0sp" />
+        <Key app:codes="62" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel=">" app:keyTextSize="23.0sp" />
+        <Key app:codes="94" app:horizontalGap="1.5599966%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="^" app:keyTextSize="23.0sp" />
+        <Key app:codes="37" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="%" app:keyTextSize="23.0sp" />
+        <Key app:codes="42" app:horizontalGap="1.5599966%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="*" app:keyTextSize="23.0sp" />
+        <Key app:codes="49" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="1" app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="50" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="2" app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="51" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="3" app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="-100" app:horizontalGap="0.0dip" app:keyHeight="0.0dip" app:verticalGap="0.0dip" />
+    </Row>
+    <Row>
+        <Key app:codes="-17" app:horizontalGap="11.549997%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="≤" app:keyTextSize="23.0sp" />
+        <Key app:codes="-16" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="≥" app:keyTextSize="23.0sp" />
+        <Key app:codes="39" app:horizontalGap="1.5599966%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="'" app:keyTextSize="23.0sp" />
+        <Key app:codes="58" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel=":" app:keyTextSize="23.0sp" />
+        <Key app:codes="47" app:horizontalGap="1.5599966%p" app:keyDrawable="@drawable/et_edit_key_selector" app:keyLabel="/" app:keyTextSize="23.0sp" />
+        <Key app:codes="44" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="," app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="48" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="0" app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="46" app:keyDrawable="@drawable/ss_quote_keyboard_normal" app:keyLabel="." app:keyTextSize="23.0sp" app:keyWidth="9.759998%p" />
+        <Key app:codes="-18" app:iconPreview="@drawable/pad_ss_keyboard_hide_btn" app:keyDrawable="@drawable/et_edit_key_selector" app:keyIcon="@drawable/pad_ss_keyboard_hide_btn" />
+    </Row>
+</Keyboard>

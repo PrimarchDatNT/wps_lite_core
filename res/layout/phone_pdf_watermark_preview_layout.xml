@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.pdf.shell.common.views.PDFTitleBar android:id="@id/watermark_preview_title" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title_bar_level="3" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/watermark_preview_title">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/watermark_preview_list" android:background="@color/backgroundColor" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@android:color/transparent" android:layout_weight="1.0" android:overScrollMode="never" />
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/watermark_bottom_layout" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="52.0dip">
+                <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/watermark_delete_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+                    <cn.wpsx.support.ui.KNormalImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/comp_pdf_toolkit_delete_watermark" />
+                    <TextView android:textSize="11.0dip" android:textColor="@color/subTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/pdf_watermark_delete" />
+                </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+                <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/watermark_add_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/public_image_bg_style">
+                    <cn.wpsx.support.ui.KNormalImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/comp_pdf_toolkit_watermark" />
+                    <TextView android:textSize="11.0dip" android:textColor="@color/subTextColor" android:id="@id/watermark_add_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/pdf_watermark_insert" />
+                </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@id/watermark_bottom_panel_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <cn.wps.moffice.common.TouchEventInterceptFrameLayout android:id="@id/watermark_preview_progress" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </cn.wps.moffice.common.TouchEventInterceptFrameLayout>
+</RelativeLayout>

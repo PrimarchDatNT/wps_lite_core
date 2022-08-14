@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_layout" android:background="@drawable/phone_public_sub_second_background_8_dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.NotDispatchTouchAlphaFrameLayout android:id="@id/link_modify_choose_setting_btn_view" android:layout_width="fill_parent" android:layout_height="45.0dip">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip">
+                <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center_vertical" android:id="@id/public_link_share_extra_period_textview" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/public_link_modify_setting_btn_content" android:layout_weight="1.0" />
+                <ImageView android:id="@id/public_link_share_extra_period_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_list_screening_right_arrow" />
+            </LinearLayout>
+            <View android:layout_gravity="bottom" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:layout_marginStart="9.0dip" android:layout_marginEnd="9.0dip" />
+        </cn.wps.moffice.common.beans.NotDispatchTouchAlphaFrameLayout>
+        <cn.wps.moffice.common.beans.phone.grid.TextImageGrid android:id="@id/link_modify_choose_send_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/link_modify_choose_send_single_style_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0dip" android:textColor="@color/mainTextColor" android:id="@id/link_modify_choose_send_single_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+            <TextView android:textSize="16.0dip" android:gravity="center" android:id="@id/link_modify_choose_send_single_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="26.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

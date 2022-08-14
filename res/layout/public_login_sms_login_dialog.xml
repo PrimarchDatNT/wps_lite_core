@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/contentLayout" android:background="@drawable/bind_phone_half_screen_dlg_bg" android:layout_width="fill_parent" android:layout_height="383.0dip" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/public_login_sms_login_title" />
+        <ScrollView android:id="@id/scrollParent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/public_login_sms_login_common_body" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip">
+                    <ViewStub android:id="@id/simpleSmsStub" android:layout="@layout/public_login_simple_sms_body" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <ViewStub android:id="@id/captchaSmsStub" android:layout="@layout/public_login_captcha_sms_body" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <ViewStub android:id="@id/verifySmsStub" android:layout="@layout/public_login_verify_sms_body" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

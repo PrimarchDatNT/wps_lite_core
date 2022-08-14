@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.spreadsheet.control.composeedit.FocusNotifyLinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/whiteMainTextColor" android:ellipsize="middle" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/et_edit_ref_prefix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxWidth="@dimen/et_edit_ref_sheetname_maxwidth" android:singleLine="true" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/et_edit_picker_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <cn.wps.moffice.spreadsheet.control.composeedit.MyNumberPicker android:id="@id/et_edit_ref1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="10.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="10.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/et_print_page_range_sep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" />
+        <cn.wps.moffice.spreadsheet.control.composeedit.MyNumberPicker android:id="@id/et_edit_ref2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="0.0dip" />
+    </LinearLayout>
+</cn.wps.moffice.spreadsheet.control.composeedit.FocusNotifyLinearLayout>

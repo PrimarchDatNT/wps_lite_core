@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/lebo_cast_screen_other_net" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/go_wifi_settings" android:layout_width="fill_parent" android:layout_height="69.0dip" android:layout_marginStart="16.0dip">
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/go_wifi_settings_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/comp_tool_document_projection" />
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="vertical" android:id="@id/go_wifi_settings_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/go_wifi_settings_icon">
+                <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_wireless_projection" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_need_same_wifi_dialog" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+            <TextView android:textColor="@color/secondaryColor" android:id="@id/wifi_setting_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_wps_setting_button" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+            <View android:layout_alignParentBottom="true" android:layout_marginStart="36.0dip" style="@style/div_line" />
+        </RelativeLayout>
+        <cn.wps.moffice.common.beans.NotDispatchTouchAlphaRelativeLayout android:orientation="vertical" android:id="@id/scan_code_cast_screen" android:layout_width="fill_parent" android:layout_height="69.0dip" android:layout_marginStart="16.0dip">
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/scan_code_cast_screen_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/comp_play_projection_scan" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/scan_code_cast_screen_icon">
+                <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_tv_screen_scan" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_scan_code_to_cast_screen" />
+            </LinearLayout>
+            <View android:layout_alignParentBottom="true" android:layout_marginStart="36.0dip" style="@style/div_line" />
+        </cn.wps.moffice.common.beans.NotDispatchTouchAlphaRelativeLayout>
+        <cn.wps.moffice.common.beans.NotDispatchTouchAlphaRelativeLayout android:orientation="vertical" android:id="@id/system_cast_screen" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="69.0dip" android:layout_marginStart="16.0dip">
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/system_cast_screen_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="16.0dip" android:src="@drawable/comp_hardware_projection" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toEndOf="@id/system_cast_screen_icon">
+                <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_system_screen" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_system_screen_des" />
+            </LinearLayout>
+        </cn.wps.moffice.common.beans.NotDispatchTouchAlphaRelativeLayout>
+        <View android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    </LinearLayout>
+</ScrollView>

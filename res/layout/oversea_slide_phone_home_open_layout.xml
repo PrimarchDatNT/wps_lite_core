@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.local.home.phone.homedataprovider.scrolllayout.ScrollManagerLayout android:id="@id/scrollManager" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.NotDispatchTouchAlphaFrameLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/phone_home_open_alldocs_view" />
+                <View android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+            </LinearLayout>
+        </cn.wps.moffice.common.beans.NotDispatchTouchAlphaFrameLayout>
+        <cn.wps.moffice.main.local.home.phone.homedataprovider.scrolllayout.ScrollManagerViewPager android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <cn.wps.moffice.common.beans.NotDispatchTouchDispatchEnableFrameLayout android:id="@id/pinned_head" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </cn.wps.moffice.main.local.home.phone.homedataprovider.scrolllayout.ScrollManagerLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

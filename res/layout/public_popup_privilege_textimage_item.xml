@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@android:color/transparent" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.TextImageView android:id="@id/function_icon" android:paddingTop="11.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/phone_public_toolbar_icon_text_image" />
+        <TextView android:layout_gravity="center_horizontal" android:id="@id/corner_text" android:layout_marginLeft="40.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="40.0dip" style="@style/public_function_item_cornerlable_style" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/vip_icon" android:background="@drawable/wps_premium_google_buy2" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="24.0dip" />
+        <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/limit_free_btn" android:visibility="gone" android:layout_marginTop="0.5dip" android:layout_marginStart="13.0dip" style="@style/limit_free_btn_style" />
+    </FrameLayout>
+    <Space android:id="@id/space_center" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/thirdBackgroundColor" android:gravity="center" android:id="@id/tv_inapp" android:background="@drawable/public_component_inapp_dot" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:maxLines="1" android:includeFontPadding="false" android:layout_alignLeft="@id/space_center" android:layout_marginStart="12.0dip" android:layout_alignStart="@id/space_center" />
+</RelativeLayout>

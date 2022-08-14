@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/law_permission_confirm_content" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.startpage.animstart.BouncingBallAnimView android:layout_gravity="center" android:id="@id/bouncing_ball_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/law_all_control" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <View android:id="@id/div_law_permission_padding" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.9">
+            <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <FrameLayout android:gravity="left" android:orientation="vertical" android:clipChildren="false" android:layout_width="286.0dip" android:layout_height="wrap_content">
+                <cn.wps.moffice.main.startpage.animstart.AnimLinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/permission_guide_area" android:visibility="gone" android:layout_width="286.0dip" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/guide_permission_title" />
+                    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/mainTextColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/permission_storage_title" />
+                    <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/permission_storage_desc" />
+                    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/mainTextColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/permission_device_title" />
+                    <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/permission_device_desc" />
+                </cn.wps.moffice.main.startpage.animstart.AnimLinearLayout>
+                <cn.wps.moffice.main.startpage.animstart.AnimLinearLayout android:gravity="left" android:orientation="vertical" android:id="@id/law_info_area" android:layout_width="286.0dip" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/law_title" />
+                    <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:id="@id/law_info_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/law_content" android:lineSpacingExtra="3.899994dip" />
+                </cn.wps.moffice.main.startpage.animstart.AnimLinearLayout>
+            </FrameLayout>
+            <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.8" />
+            <FrameLayout android:gravity="center_horizontal" android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.wps.moffice.main.startpage.animstart.AnimLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/permission_button_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:textSize="16.0dip" android:id="@id/permission_guide_confirm_btn" android:layout_width="286.0dip" android:layout_height="42.0dip" android:text="@string/public_common_i_know" style="@style/KButtonStyle.Primary.Large" />
+                    <View android:gravity="center" android:id="@id/permission_guide_cancel_btn" android:layout_width="0.0dip" android:layout_height="33.0dip" android:layout_marginTop="8.0dip" />
+                </cn.wps.moffice.main.startpage.animstart.AnimLinearLayout>
+                <cn.wps.moffice.main.startpage.animstart.AnimLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/law_button_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <Button android:textSize="16.0dip" android:id="@id/law_confirm_btn" android:layout_width="286.0dip" android:layout_height="42.0dip" android:text="@string/law_confirm" style="@style/KButtonStyle.Primary.Large" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:id="@id/law_cancel_btn" android:layout_width="101.0dip" android:layout_height="33.0dip" android:layout_marginTop="8.0dip" android:text="@string/law_cancel" />
+                </cn.wps.moffice.main.startpage.animstart.AnimLinearLayout>
+            </FrameLayout>
+            <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.57" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center|top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.223" />
+        <cn.wps.moffice.main.startpage.animstart.LogoAnimView android:id="@id/logo_anim_img" android:layout_width="65.0dip" android:layout_height="65.0dip" android:scaleType="fitCenter" />
+        <cn.wps.moffice.main.startpage.animstart.AppNameAnimImageView android:id="@id/logo_wps_img" android:layout_width="111.0dip" android:layout_height="18.0dip" android:layout_marginTop="19.0dip" android:src="@drawable/pub_wpsoffice_font_gray" android:scaleType="fitCenter" />
+        <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

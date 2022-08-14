@@ -1,0 +1,22 @@
+.class public final Ltk1;
+.super Ljava/lang/RuntimeException;
+.source "FormulaParseException.java"
+
+
+# static fields
+.field private static final serialVersionUID:J = 0x1L
+
+
+# instance fields
+.field public B:I
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method

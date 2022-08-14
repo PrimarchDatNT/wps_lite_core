@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 俄语 -->
+<resource>
+<thous-separator type="string"> </thous-separator>
+<decimal-point type="string">,</decimal-point>
+<general type="string">Основной</general>
+<color-name type="string-array" size="9">
+<item>Черный</item>
+<item>Синий</item>
+<item>Голубой</item>
+<item>Зеленый</item>
+<item>Фиолетовый</item>
+<item>Красный</item>
+<item>Белый</item>
+<item>Желтый</item>
+<item>Цвет</item>
+</color-name>
+<long-week type="string-array" size="7">
+<item>воскресенье</item>
+<item>понедельник</item>
+<item>вторник</item>
+<item>среда</item>
+<item>четверг</item>
+<item>пятница</item>
+<item>суббота</item>
+</long-week>
+<short-week type="string-array" size="7">
+<item>Вс</item>
+<item>Пн</item>
+<item>Вт</item>
+<item>Ср</item>
+<item>Чт</item>
+<item>Пт</item>
+<item>Сб</item>
+</short-week>
+<long-month type="string-array" size="12">
+<item>Январь</item>
+<item>Февраль</item>
+<item>Март</item>
+<item>Апрель</item>
+<item>Май</item>
+<item>Июнь</item>
+<item>Июль</item>
+<item>Август</item>
+<item>Сентябрь</item>
+<item>Октябрь</item>
+<item>Ноябрь</item>
+<item>Декабрь</item>
+</long-month>
+<short-month type="string-array" size="12">
+<item>янв</item>
+<item>фев</item>
+<item>мар</item>
+<item>апр</item>
+<item>май</item>
+<item>июн</item>
+<item>июл</item>
+<item>авг</item>
+<item>сен</item>
+<item>окт</item>
+<item>ноя</item>
+<item>дек</item>
+</short-month>
+<shortest-month type="string-array" size="12">
+<item>Я</item>
+<item>Ф</item>
+<item>М</item>
+<item>А</item>
+<item>М</item>
+<item>И</item>
+<item>И</item>
+<item>А</item>
+<item>С</item>
+<item>О</item>
+<item>Н</item>
+<item>Д</item>
+</shortest-month>
+<am-pm type="string-array" size="2">
+<item>AM</item>
+<item>PM</item>
+</am-pm>
+<year type="string">г</year>
+<month type="string">м</month>
+<day type="string">д</day>
+<hour type="string">ч</hour>
+<minute type="string">м</minute>
+<second type="string">с</second>
+<escape type="string">\</escape>
+<date-slash type="string">.</date-slash>
+<f400-f800 type="string-array" size="2">
+<item>h:mm:ss</item>
+<item>[$-FC19]d mmmm yyyy \г\.</item>
+</f400-f800>
+</resource>

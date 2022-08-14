@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_pdf_pic_preview_mode_panel" android:tag="effect_drawwindow_View" android:background="@color/navBackgroundColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/pdf_pic_preview_mode_padding_top" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pdf_pic_preview_mode_panel" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_titlebar_height">
+            <cn.wps.moffice.common.beans.phone.AlphaImageView android:gravity="center" android:id="@id/pdf_pic_mode_back" android:layout_width="18.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:src="@drawable/phone_public_back_icon" android:tint="@color/v10_phone_public_titlebar_text_color" android:contentDescription="@string/reader_public_back" android:layout_marginStart="16.0dip" style="@style/public_image_bg_style" />
+            <TextView android:textSize="@dimen/v10_phone_public_titlebar_title_text_size" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/pdf_pic_mode" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="26.0dip" android:text="@string/pdf_pic_preview_page_mode" android:layout_marginStart="26.0dip" />
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/pdf_list_mode_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

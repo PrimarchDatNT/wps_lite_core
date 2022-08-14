@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/gray_divide_line" android:background="@color/secondBoldLineColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <RelativeLayout android:paddingLeft="@dimen/phone_public_dialog_docinfo_padding_left" android:paddingRight="@dimen/phone_public_dialog_docinfo_padding_left" android:layout_width="fill_parent" android:layout_height="56.0dip" android:paddingStart="@dimen/phone_public_dialog_docinfo_padding_left" android:paddingEnd="@dimen/phone_public_dialog_docinfo_padding_left">
+        <ImageView android:id="@id/operation_item_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="16.0dip" android:scaleType="centerInside" android:layout_centerVertical="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="16.0dip" />
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/label_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/operation_item_icon" android:layout_centerVertical="true" android:layout_toEndOf="@id/operation_item_icon">
+            <TextView android:textSize="15.0dip" android:textColor="@color/mainTextColor" android:id="@id/operation_item_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            <include layout="@layout/public_home_docinfo_operation_hot_tag_layout" />
+            <TextView android:textSize="11.0dip" android:textColor="@color/descriptionColor" android:id="@id/operation_item_readlater" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@id/operation_item_label" />
+        </RelativeLayout>
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/operation_item_subicon" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/operation_item_sublabel" android:layout_centerVertical="true" android:layout_marginEnd="5.0dip" android:layout_toStartOf="@id/operation_item_sublabel" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:id="@id/operation_item_sublabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/operation_item_arrow" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_list_screening_right_arrow" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:id="@id/gray_divide_bottom_line" android:background="@color/lineColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="54.0dip" android:layout_marginStart="54.0dip" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/et_function_select_hinttext_font_size" android:textColor="@android:color/white" android:gravity="center" android:id="@id/et_function_hinttext" android:background="#ff747474" android:layout_width="@dimen/et_function_select_hinttext_size" android:layout_height="@dimen/et_function_select_hinttext_size" android:layout_centerInParent="true" />
+</RelativeLayout>

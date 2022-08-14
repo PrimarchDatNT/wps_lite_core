@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_tip_root" android:background="@drawable/pub_background_white_radius" android:paddingLeft="14.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginBottom="8.0dip" android:paddingStart="14.0dip" android:paddingEnd="12.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/iv_title_icon" android:background="@drawable/pub_shared_folder_announcement" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginLeft="3.0dip" android:layout_marginStart="3.0dip" />
+        <TextView android:textSize="13.0dip" android:textColor="@color/mainTextColor" android:ellipsize="marquee" android:gravity="center" android:id="@id/tv_title_content" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:singleLine="true" android:layout_weight="1.0" android:marqueeRepeatLimit="marquee_forever" android:layout_marginStart="8.0dip" />
+        <LinearLayout android:id="@id/ll_suffix_root" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="0.0">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_title_suffix_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

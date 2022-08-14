@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:layout_width="fill_parent" style="@style/home_open_alldocs_item_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/file_selector_grid_item_iv" style="@style/home_open_alldocs_type_icon" />
+    <TextView android:id="@id/file_selector_grid_item_tv" style="@style/home_open_alldocs_type_txt" />
+</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

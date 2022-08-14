@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/public_link_share_progress_bar_bg" android:layout_width="150.0dip" android:layout_height="120.0dip">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycleGray android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/whiteMainTextColor" android:ellipsize="end" android:id="@id/tvText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:text="@string/public_share_link_creating" android:maxLines="1" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.docer.widget.LoadingView android:id="@id/loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.scrollbar.KScrollBar android:gravity="center_vertical" android:id="@id/pager_indicator" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/shadow_view" android:layout_alignBottom="@id/pager_indicator" style="@style/phone_home_top_shadow" />
+    <cn.wps.moffice.common.beans.phone.tab.ViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/shadow_view" />
+</cn.wps.moffice.docer.widget.LoadingView>

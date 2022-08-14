@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 朝鲜语(韩国) -->
+<resouce>
+<builtin-formats type="string-array" size="59">
+<item index="0">General</item>
+<item index="1">0</item>
+<item index="2">0.00</item>
+<item index="3">#,##0</item>
+<item index="4">#,##0.00</item>
+<item index="5">"₩"#,##0;\-"₩"#,##0</item>
+<item index="6">"₩"#,##0;[Red]\-"₩"#,##0</item>
+<item index="7">"₩"#,##0.00;\-"₩"#,##0.00</item>
+<item index="8">"₩"#,##0.00;[Red]\-"₩"#,##0.00</item>
+<item index="9">0%</item>
+<item index="10">0.00%</item>
+<item index="11">0.00E+00</item>
+<item index="12">#\ ?/?</item>
+<item index="13">#\ ??/??</item>
+<item index="14">yyyy\-mm\-dd</item>
+<item index="15">dd\-mmm\-yy</item>
+<item index="16">dd\-mmm</item>
+<item index="17">mmm\-yy</item>
+<item index="18">h:mm\ AM/PM</item>
+<item index="19">h:mm:ss\ AM/PM</item>
+<item index="20">h:mm</item>
+<item index="21">h:mm:ss</item>
+<item index="22">yyyy\-mm\-dd\ h:mm</item>
+<item index="23">\$#,##0_);\(\$#,##0\)</item>
+<item index="24">\$#,##0_);[Red]\(\$#,##0\)</item>
+<item index="25">\$#,##0.00_);\(\$#,##0.00\)</item>
+<item index="26">\$#,##0.00_);[Red]\(\$#,##0.00\)</item>
+<item index="27">yyyy"年"\ mm"月"\ dd"日"</item>
+<item index="28">mm\-dd</item>
+<item index="29">mm\-dd</item>
+<item index="30">mm\-dd\-yy</item>
+<item index="31">yyyy"년"\ mm"월"\ dd"일"</item>
+<item index="32">h"시"\ mm"분"</item>
+<item index="33">h"시"\ mm"분"\ ss"초"</item>
+<item index="34">yyyy/mm/dd</item>
+<item index="35">yyyy\-mm\-dd</item>
+<item index="36">yyyy"年"\ mm"月"\ dd"日"</item>
+<item index="37">#,##0;\-#,##0</item>
+<item index="38">#,##0;[Red]\-#,##0</item>
+<item index="39">#,##0.00;\-#,##0.00</item>
+<item index="40">#,##0.00;[Red]\-#,##0.00</item>
+<item index="41">_-* #,##0_-;\-* #,##0_-;_-* "-"_-;_-@_-</item>
+<item index="42">_-"₩"* #,##0_-;\-"₩"* #,##0_-;_-"₩"* "-"_-;_-@_-</item>
+<item index="43">_-* #,##0.00_-;\-* #,##0.00_-;_-* "-"??_-;_-@_-</item>
+<item index="44">_-"₩"* #,##0.00_-;\-"₩"* #,##0.00_-;_-"₩"* "-"??_-;_-@_-</item>
+<item index="45">mm:ss</item>
+<item index="46">[h]:mm:ss</item>
+<item index="47">mm:ss.0</item>
+<item index="48">##0.0E+0</item>
+<item index="49">@</item>
+<item index="50">yyyy"年"\ mm"月"\ dd"日"</item>
+<item index="51">mm\-dd</item>
+<item index="52">yyyy/mm/dd</item>
+<item index="53">yyyy\-mm\-dd</item>
+<item index="54">mm\-dd</item>
+<item index="55">yyyy/mm/dd</item>
+<item index="56">yyyy\-mm\-dd</item>
+<item index="57">yyyy"年"\ mm"月"\ dd"日"</item>
+<item index="58">mm\-dd</item>
+</builtin-formats>
+</resouce>

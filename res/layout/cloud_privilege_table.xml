@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/privilege_table_line_drawable" android:showDividers="beginning|end|middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:background="@color/public_color_gray_1a" android:weightSum="4.0" android:divider="@drawable/privilege_table_line_drawable" android:showDividers="beginning|end|middle">
+        <TextView android:textSize="9.0dip" android:textColor="@color/privilege_detail_content" android:gravity="center" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_height="fill_parent" android:text="@string/cloud_page_privilege" android:layout_weight="1.0" />
+        <TextView android:textSize="9.0dip" android:textColor="@color/privilege_detail_content" android:gravity="center" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_height="fill_parent" android:text="@string/home_qing_vip_level_name_register" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="9.0dip" android:textColor="@color/privilege_detail_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_qing_vip_level_name_wps" android:drawablePadding="3.0dip" android:drawableStart="@drawable/home_qing_vip_level_silver" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textSize="9.0dip" android:textColor="@color/home_pay_member_yellow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_qing_vip_level_name_superwps" android:drawablePadding="3.0dip" android:drawableStart="@drawable/home_qing_vip_level_platinum" />
+        </LinearLayout>
+    </TableRow>
+    <TableRow android:weightSum="4.0" android:divider="@drawable/privilege_table_line_drawable" android:showDividers="beginning|end|middle">
+        <TextView android:textSize="9.0dip" android:textColor="@color/privilege_detail_content" android:gravity="center" android:id="@id/tv_row_one" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="9.0dip" android:textColor="@color/privilege_detail_wps" android:gravity="center" android:id="@id/tv_row_two" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="9.0dip" android:textColor="@color/privilege_detail_wps" android:gravity="center" android:id="@id/tv_row_three" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="9.0dip" android:textColor="@color/home_pay_member_yellow" android:gravity="center" android:id="@id/tv_row_four" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </TableRow>
+    <TableRow android:id="@id/tr_second_row" android:visibility="gone" android:weightSum="4.0" android:divider="@drawable/privilege_table_line_drawable" android:showDividers="beginning|end|middle">
+        <TextView android:textSize="9.0dip" android:textColor="@color/privilege_detail_content" android:gravity="center" android:id="@id/tr_second_row_one" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="9.0dip" android:textColor="@color/privilege_detail_wps" android:gravity="center" android:id="@id/tr_second_row_two" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="9.0dip" android:textColor="@color/privilege_detail_wps" android:gravity="center" android:id="@id/tr_second_row_three" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <TextView android:textSize="9.0dip" android:textColor="@color/home_pay_member_yellow" android:gravity="center" android:id="@id/tr_second_row_four" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </TableRow>
+</TableLayout>

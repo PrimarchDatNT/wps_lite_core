@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/public_keyboard_mouse_no_background_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_writer_file_property_content" android:paddingBottom="@dimen/phone_public_dialog_content_view_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/writer_file_propert_dialog_file_name_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_file_property_name" style="@style/phone_public_font_m_black" />
+            <TextView android:id="@id/writer_file_propert_dialog_file_name_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+            <TextView android:id="@id/writer_file_propert_dialog_file_size_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_file_property_size" style="@style/phone_public_font_m_black" />
+            <TextView android:id="@id/writer_file_propert_dialog_file_size_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+            <TextView android:id="@id/writer_file_propert_dialog_file_type_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_file_property_type" style="@style/phone_public_font_m_black" />
+            <TextView android:id="@id/writer_file_propert_dialog_file_type_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+            <TextView android:id="@id/writer_file_propert_dialog_file_location_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_file_property_location" style="@style/phone_public_font_m_black" />
+            <TextView android:id="@id/writer_file_propert_dialog_file_location_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+            <TextView android:id="@id/writer_file_propert_dialog_file_modify_date_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_lastmodified" style="@style/phone_public_font_m_black" />
+            <TextView android:id="@id/writer_file_propert_dialog_file_modify_date_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/phone_writer_file_property_more_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+                <TextView android:id="@id/writer_file_propert_dialog_file_create_date_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_file_property_createDate" style="@style/phone_public_font_m_black" />
+                <TextView android:id="@id/writer_file_propert_dialog_file_create_date_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+                <TextView android:id="@id/writer_file_propert_dialog_file_title_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_addstorage_servicename" style="@style/phone_public_font_m_black" />
+                <TextView android:id="@id/writer_file_propert_dialog_file_title_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+                <TextView android:id="@id/writer_file_propert_dialog_file_subject_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_file_property_subject" style="@style/phone_public_font_m_black" />
+                <TextView android:id="@id/writer_file_propert_dialog_file_subject_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+                <TextView android:id="@id/writer_file_propert_dialog_file_author_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_file_property_author" style="@style/phone_public_font_m_black" />
+                <TextView android:id="@id/writer_file_propert_dialog_file_author_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+                <TextView android:id="@id/writer_file_propert_dialog_file_manager_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_file_property_manager" style="@style/phone_public_font_m_black" />
+                <TextView android:id="@id/writer_file_propert_dialog_file_manager_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+                <TextView android:id="@id/writer_file_propert_dialog_file_company_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_file_property_company" style="@style/phone_public_font_m_black" />
+                <TextView android:id="@id/writer_file_propert_dialog_file_company_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+                <TextView android:id="@id/writer_file_propert_dialog_file_category_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_file_property_category" style="@style/phone_public_font_m_black" />
+                <TextView android:id="@id/writer_file_propert_dialog_file_category_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_writer_panel_file_info_margin">
+                <TextView android:id="@id/writer_file_propert_dialog_file_key_words_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_file_property_keyWords" style="@style/phone_public_font_m_black" />
+                <TextView android:id="@id/writer_file_propert_dialog_file_key_words_content" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_s_gray" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

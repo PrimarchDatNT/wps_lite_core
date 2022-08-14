@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:myattrs="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/native_ad_backgroud" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.common.beans.cardview.CardView android:id="@id/native_ad" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.3299866dip" android:layout_marginTop="4.0dip" android:layout_marginRight="5.3299866dip" android:layout_marginBottom="4.0dip" myattrs:cardBackgroundColor="@color/thirdBackgroundColor" myattrs:cardCornerRadius="4.0dip" myattrs:cardElevation="10.0dip">
+        <FrameLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="60.0dip">
+            <cn.wps.moffice.common.beans.RoundCornerImageView android:layout_gravity="start|center" android:id="@id/native_ad_icon_image" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginLeft="21.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/public_infoflow_placeholder" android:scaleType="centerCrop" android:layout_marginStart="21.0dip" android:layout_marginEnd="16.0dip" myattrs:cornerradius="6.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="60.0dip">
+                <TextView android:textSize="@dimen/phone_public_fontsize_dp_m" android:textColor="@color/mainTextColor" android:ellipsize="end" android:id="@id/native_ad_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="73.0dip" android:layout_marginRight="25.0dip" android:lines="1" android:layout_marginStart="73.0dip" android:layout_marginEnd="25.0dip" />
+                <TextView android:textSize="@dimen/phone_public_fontsize_dp_xs" android:textColor="@color/descriptionColor" android:ellipsize="end" android:id="@id/native_ad_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="73.0dip" android:layout_marginRight="25.0dip" android:maxLines="1" android:layout_marginStart="73.0dip" android:layout_marginEnd="25.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </cn.wps.moffice.common.beans.cardview.CardView>
+</FrameLayout>

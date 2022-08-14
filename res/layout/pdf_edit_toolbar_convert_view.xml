@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.FillViewLinearLayout android:background="@color/componentToolbarBackgroundColor" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.RightTextImageView android:id="@id/pdf_main_topbar_edit_pdf2doc" android:visibility="gone" android:text="@string/pdf_convert_pdf_to_doc" android:drawableLeft="@drawable/pad_comp_pdf_toolkit_pdftoword" style="@style/pdf_toolbar_icon_edit_text_image" />
+            <TextView android:gravity="center" android:id="@id/pdf2doc_limit_free_btn" android:visibility="gone" android:layout_marginStart="-4.0dip" android:layout_marginEnd="10.0dip" style="@style/limit_free_btn_style" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.RightTextImageView android:id="@id/pdf_main_topbar_edit_pdf2ppt" android:visibility="gone" android:text="@string/pdf_convert_pdf_to_ppt" android:drawableLeft="@drawable/pad_comp_pdf_toolkit_pdftoppt" style="@style/pdf_toolbar_icon_edit_text_image" />
+            <TextView android:gravity="center" android:id="@id/pdf2ppt_limit_free_btn" android:visibility="gone" android:layout_marginStart="-4.0dip" android:layout_marginEnd="10.0dip" style="@style/limit_free_btn_style" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.RightTextImageView android:id="@id/pdf_main_topbar_edit_pdf2xls" android:visibility="gone" android:text="@string/pdf_convert_pdf_to_xls" android:drawableLeft="@drawable/pad_comp_pdf_toolkit_pdftoet" style="@style/pdf_toolbar_icon_edit_text_image" />
+            <TextView android:gravity="center" android:id="@id/pdf2xls_limit_free_btn" android:visibility="gone" android:layout_marginStart="-4.0dip" android:layout_marginEnd="10.0dip" style="@style/limit_free_btn_style" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.RightTextImageView android:id="@id/export_pic_pdf_item" android:visibility="gone" android:text="@string/public_export_pic_pdf" android:drawableLeft="@drawable/pad_comp_toolkit_pic_pdf" style="@style/pdf_toolbar_icon_edit_text_image" />
+            <TextView android:gravity="center" android:id="@id/export_pic_limit_free_btn" android:visibility="gone" android:layout_marginStart="-4.0dip" android:layout_marginEnd="10.0dip" style="@style/limit_free_btn_style" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.RightTextImageView android:id="@id/long_pic_item" android:visibility="gone" android:text="@string/public_vipshare_longpic_share" android:drawableLeft="@drawable/pad_comp_tool_long_pic" style="@style/pdf_toolbar_icon_edit_text_image" />
+            <TextView android:gravity="center" android:id="@id/long_pic_limit_free_btn" android:visibility="gone" android:layout_marginStart="-4.0dip" android:layout_marginEnd="10.0dip" style="@style/limit_free_btn_style" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.RightTextImageView android:id="@id/pdf2pics_item" android:visibility="gone" android:text="@string/pdf_export_pages_title" android:drawableLeft="@drawable/pad_comp_multimedia_output_pic_pdf" style="@style/pdf_toolbar_icon_edit_text_image" />
+            <TextView android:gravity="center" android:id="@id/pdf2pics_limit_free_btn" android:visibility="gone" android:layout_marginStart="-4.0dip" android:layout_marginEnd="10.0dip" style="@style/limit_free_btn_style" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wps.moffice.common.beans.RightTextImageView android:id="@id/pic2pdfs_item" android:visibility="gone" android:text="@string/doc_scan_pic_2_pdf" android:drawableLeft="@drawable/pad_comp_tool_pic_pdf" style="@style/pdf_toolbar_icon_edit_text_image" />
+            <TextView android:gravity="center" android:id="@id/pic2pdfs_limit_free_btn" android:visibility="gone" android:layout_marginStart="-4.0dip" android:layout_marginEnd="10.0dip" style="@style/limit_free_btn_style" />
+        </LinearLayout>
+    </LinearLayout>
+</cn.wps.moffice.common.beans.FillViewLinearLayout>

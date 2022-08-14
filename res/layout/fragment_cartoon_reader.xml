@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.cartoon.view.CartoonRecyclerView android:id="@id/cartoon_reader_rcv_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <cn.wps.moffice.cartoon.view.AutoPlayControlView android:id="@id/auto_play_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <cn.wps.moffice.cartoon.view.ErrorRetryView android:id="@id/view_retry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/suspendLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="98.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="10.0dip" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/maskBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center_horizontal" android:id="@id/btn_close" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/pub_popup_btn_close" />
+    </LinearLayout>
+</FrameLayout>

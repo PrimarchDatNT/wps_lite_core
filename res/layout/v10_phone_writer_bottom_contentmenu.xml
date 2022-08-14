@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/phone_writer_bottom_contentmenu" android:background="@color/navBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/phone_writer_bottom_contentmenu_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/public_image_bg_style">
+        <cn.wps.moffice.common.beans.TextImageView android:id="@id/writer_bottom_contentmenu_show" android:layout_width="wrap_content" android:layout_height="@dimen/v10_phone_public_bottombar_item_height" android:text="@string/public_content_menu_show" android:drawableLeft="@drawable/comp_doc_contents" app:drawableColor="@drawable/writer_icon_color_selector" pressAlphaEnableWhenRipple="false" style="@style/public_toolbar_icon_contentnav_text_image" />
+    </LinearLayout>
+</LinearLayout>

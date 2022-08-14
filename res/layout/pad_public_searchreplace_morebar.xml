@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.SelectorAlphaViewGroup android:layout_gravity="end|center|top" android:layout_width="25.0dip" android:layout_height="140.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_width="fill_parent" android:layout_height="25.0dip" android:src="@drawable/pad_public_find_replace_more_bg_top" android:scaleType="fitXY" android:tint="@color/navBackgroundColor" />
+        <FrameLayout android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:id="@id/more_search_img" android:layout_width="11.0dip" android:layout_height="11.0dip" android:src="@drawable/pad_public_find_replace_pull_btn" android:scaleType="fitXY" />
+        </FrameLayout>
+        <ImageView android:layout_width="fill_parent" android:layout_height="25.0dip" android:src="@drawable/pad_public_find_replace_more_bg_bottom" android:scaleType="fitXY" android:tint="@color/navBackgroundColor" />
+    </LinearLayout>
+</cn.wps.moffice.common.beans.phone.SelectorAlphaViewGroup>

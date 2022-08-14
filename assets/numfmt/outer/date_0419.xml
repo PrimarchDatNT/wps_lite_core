@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 俄语 -->
+<resource>
+    <inner type="string-array" size="">
+		<item>dd\.mm\.yyyy</item>
+		<item>[$-F800]dddd\,\ mmmm\ dd\,\ yyyy</item>
+		<item>d\.m;@</item>
+		<item>d\.m\.yy;@</item>
+		<item>dd\.mm\.yy;@</item>
+		<item>[$-419]d\ mmm;@</item>
+		<item>[$-419]d\ mmm\ yy;@</item>
+		<item>[$-419]dd\ mmm\ yy;@</item>
+		<item>[$-F419]yyyy\,\ mmmm;@</item>
+		<item>[$-419]mmmm\ yyyy;@</item>
+		<item>[$-FC19]dd\ mmmm\ yyyy\ \г\.;@</item>
+		<item>[$-409]dd\.mm\.yy\ h:mm\ AM/PM;@</item>
+		<item>dd\.mm\.yy\ h:mm;@</item>
+		<item>[$-419]mmmm;@</item>
+		<item>[$-FC19]yyyy\,\ dd\ mmmm;@</item>
+		<item>d\.m\.yyyy;@</item>
+		<item>[$-419]d\-mmm\-yyyy;@</item>	    	    
+	</inner>
+</resource>

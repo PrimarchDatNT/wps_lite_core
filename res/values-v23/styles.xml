@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="Base.TextAppearance.AppCompat.Widget.Button.Inverse" parent="@android:style/TextAppearance.Material.Widget.Button.Inverse" />
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="Base.Widget.AppCompat.Button.Colored" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
+    </style>
+    <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="Dialog_Fullscreen_StatusBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="OfdTheme" parent="@style/OfficeAppTheme">
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:checkboxStyle">@style/ofd_checkBox_style</item>
+        <item name="android:progressBarStyle">@style/ofd_circlProgressBar_medium_style</item>
+        <item name="android:seekBarStyle">@style/ofd_seekbar_style</item>
+        <item name="android:radioButtonStyle">@style/ofd_radioButton_style</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:progressBarStyleLargeInverse">@style/ofd_circlProgressBar_large_style</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorPrimary">@color/phone_docinfos_title_ofd</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="activity_theme_Style">@style/ofd_theme_style</item>
+    </style>
+    <style name="PdfTheme" parent="@style/OfficeAppTheme">
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:checkboxStyle">@style/pdf_checkBox_style</item>
+        <item name="android:progressBarStyle">@style/pdf_circlProgressBar_medium_style</item>
+        <item name="android:seekBarStyle">@style/pdf_seekbar_style</item>
+        <item name="android:radioButtonStyle">@style/pdf_radioButton_style</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:progressBarStyleLargeInverse">@style/pdf_circlProgressBar_large_style</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorPrimary">@color/phone_docinfos_title_pdf</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="activity_theme_Style">@style/pdf_theme_style</item>
+    </style>
+    <style name="PptTheme" parent="@style/OfficeAppTheme">
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:checkboxStyle">@style/PptPhoneCheckBox</item>
+        <item name="android:editTextStyle">@style/PptPhoneEdittext</item>
+        <item name="android:progressBarStyleHorizontal">@style/PptPhoneProgressBar.Horizontal</item>
+        <item name="android:seekBarStyle">@style/PptPhoneSeekbarStyle</item>
+        <item name="android:radioButtonStyle">@style/PptPhoneRadioButton</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:progressBarStyleLargeInverse">@style/PptPhoneCirclProgressBarLarge</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorPrimary">@color/phone_lolipop_title_ppt</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="activity_theme_Style">@style/PptPhoneThemeStyle</item>
+        <item name="activity_theme_color">@color/WPPMainColor</item>
+        <item name="my_autoCompleteTextViewStyle">@style/Pptphone_autocomplete</item>
+    </style>
+    <style name="SpreadsheetTheme" parent="@style/OfficeAppTheme">
+        <item name="android:windowBackground">@color/backgroundColor</item>
+        <item name="android:checkboxStyle">@style/SSPhoneCheckBox</item>
+        <item name="android:editTextStyle">@style/SSPhoneEdittext</item>
+        <item name="android:progressBarStyleHorizontal">@style/phone_ss_ProgressBar.Horizontal</item>
+        <item name="android:seekBarStyle">@style/phone_ss_seekbar_style</item>
+        <item name="android:radioButtonStyle">@style/SSPhoneRadioButton</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:progressBarStyleLargeInverse">@style/phone_ss_progressbar</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorPrimary">@color/phone_docinfos_title_et</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="activity_theme_Style">@style/phone_ss_theme_style</item>
+        <item name="activity_theme_color">@color/ETMainColor</item>
+        <item name="my_autoCompleteTextViewStyle">@style/ssphone_autocomplete</item>
+    </style>
+    <style name="ThemeBase" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/public_scrollbar_horizontal</item>
+        <item name="android:scrollbarThumbVertical">@drawable/public_scrollbar_vertical</item>
+        <item name="android:autoCompleteTextViewStyle">@style/autoCompleteTextView</item>
+        <item name="android:checkboxStyle">@style/CheckBox</item>
+        <item name="android:editTextStyle">@style/editText</item>
+        <item name="android:listViewStyle">@style/listview_style</item>
+        <item name="android:progressBarStyle">@style/CirclProgressBarMedium</item>
+        <item name="android:radioButtonStyle">@style/RadioButton</item>
+        <item name="android:textSize">@dimen/public_text_size</item>
+        <item name="android:textColor">@color/descriptionColor</item>
+        <item name="android:progressBarStyleLargeInverse">@style/CirclProgressBarLarge</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:colorControlHighlight">@color/rippleColor</item>
+        <item name="android:colorPrimary">@color/phone_home_pink_bg_color</item>
+        <item name="android:colorPrimaryDark">@android:color/holo_red_dark</item>
+        <item name="android:windowEnterTransition">@android:transition/explode</item>
+        <item name="android:windowExitTransition">@android:transition/explode</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">@bool/windowDrawsSystemBarBackgrounds</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="MaterialProgressBarCycle">@style/material_progressbar_cycle</item>
+        <item name="MaterialProgressBarHorizontal">@style/material_progressbar_horizontal</item>
+        <item name="kmui_checkBoxStyle">@style/KCheckBoxStyle</item>
+        <item name="kmui_editTextStyle">@style/KEditTextStyle</item>
+        <item name="kmui_radioButtonStyle">@style/KRadioButtonStyle</item>
+        <item name="my_autoCompleteTextViewStyle">@style/MyAutoCompleteTextView</item>
+    </style>
+    <style name="Transluent" parent="@android:style/Theme.Material.NoActionBar.TranslucentDecor">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ContextMenu" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ContextMenu">
+        <item name="android:popupBackground">?popupMenuBackground</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ListPopupWindow" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow">
+        <item name="android:popupBackground">?popupMenuBackground</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="WriterTheme" parent="@style/OfficeAppTheme">
+        <item name="android:checkboxStyle">@style/writer_CheckBox</item>
+        <item name="android:progressBarStyle">@style/writer_circlProgressBar_medium</item>
+        <item name="android:progressBarStyleHorizontal">@style/writer_ProgressBar.Horizontal</item>
+        <item name="android:seekBarStyle">@style/phone_writer_seekbar_style</item>
+        <item name="android:radioButtonStyle">@style/writer_RadioButton</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:progressBarStyleLargeInverse">@style/writer_circlProgressBar_large</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorPrimary">@color/secondaryColor</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="activity_theme_Style">@style/writer_theme_style</item>
+        <item name="activity_theme_color">@color/WPSMainColor</item>
+    </style>
+    <style name="noAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="PureTransluent" parent="@android:style/Theme.Material.NoActionBar.TranslucentDecor">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="PureTransluent.NotNavgationbar" parent="@style/PureTransluent">
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <style name="PureTransluent.NotNavgationbar.NoAnim" parent="@style/PureTransluent.NotNavgationbar">
+        <item name="android:windowAnimationStyle">@style/noAnimation</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

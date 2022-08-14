@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="66.0dip" android:layout_marginTop="115.0dip" android:layout_marginRight="66.0dip" android:src="@drawable/print_wait_for_connect" />
+    <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="40.0dip" android:layout_marginRight="24.0dip" android:text="@string/public_print_wait_connect" style="@style/Common.TextAppearance.Content.SubTitle" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@android:color/transparent" android:focusableInTouchMode="true" android:layout_width="1.0px" android:layout_height="1.0px" />
+    <cn.wps.moffice.main.local.home.newui.theme.title.ThemeTitleRelativeLayout android:id="@id/phone_docs_upload_titlebar" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/phone_documents_maintoolbar_height">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/title_bar_close" android:src="@drawable/phone_public_close" style="@style/phone_public_title_bar_icon" />
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="@dimen/v10_phone_public_titlebar_title_text_size" android:textColor="@color/subTextColor" android:ellipsize="none" android:gravity="center_vertical" android:id="@id/title_bar_title" android:paddingLeft="60.0dip" android:paddingRight="48.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_upload_wps_drive" android:layout_centerVertical="true" android:paddingStart="60.0dip" android:paddingEnd="48.0dip" MaxLine="1" style="@style/phone_public_title_bar_title" />
+            <cn.wpsx.support.ui.KNormalImageView android:gravity="center_vertical" android:id="@id/add_folder" android:paddingLeft="10.0dip" android:paddingTop="14.0dip" android:paddingRight="18.0dip" android:paddingBottom="14.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/public_icon_cloud_move_new_folder" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:paddingStart="10.0dip" android:paddingEnd="18.0dip" android:layout_alignParentEnd="true" style="@style/phone_public_title_bar_icon" />
+            <cn.wps.moffice.common.beans.phone.AlphaAutoText android:layout_gravity="center_vertical" android:id="@id/titlebar_second_text" android:focusable="true" android:visibility="gone" android:layout_marginLeft="4.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="4.0dip" android:layout_alignParentEnd="true" app:myAutoSizePresetSizes="@array/title_bar_medium_text_sizes" MaxLine="1" style="@style/new_phone_documents_toolbar_text" />
+        </RelativeLayout>
+    </cn.wps.moffice.main.local.home.newui.theme.title.ThemeTitleRelativeLayout>
+    <FrameLayout android:id="@id/drive_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_bar" android:layout_below="@id/phone_docs_upload_titlebar" />
+    <FrameLayout android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/bottom_bar" />
+    <cn.wps.moffice.main.cloud.drive.view.TouchInterceptLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLargeInverse" />
+    </cn.wps.moffice.main.cloud.drive.view.TouchInterceptLinearLayout>
+</RelativeLayout>

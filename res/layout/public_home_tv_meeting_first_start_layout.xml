@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fl_splash_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/start_page_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/public_home_tv_metting_start_page_logo" android:scaleType="fitXY" />
+            <TextView android:textSize="30.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/start_page_logo_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/tv_app_name" />
+        </LinearLayout>
+        <TextView android:textSize="17.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="bottom|center" android:id="@id/start_page_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="22.0dip" android:text="WWW.WPS.CN" />
+    </FrameLayout>
+    <include android:id="@id/law_info_area_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/tv_meeting_law_info" />
+    <include android:id="@id/public_first_start_webview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/public_first_start_webview" />
+</FrameLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/v10_phone_public_paneltab_indicator_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.ExpandGridView android:gravity="center" android:id="@id/full_translation_entry" android:layout_width="fill_parent" android:layout_height="68.0dip" android:listSelector="@android:color/transparent" android:verticalSpacing="10.0dip" android:stretchMode="columnWidth" android:columnWidth="72.0dip" android:numColumns="3" />
+    <View android:id="@id/translation_devide_view" style="@style/v10_phone_public_panel_divide_view" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/peruse_panel_enter_audiocomment_layout" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_multimedia_mic" style="@style/v10_phone_public_panel_list_img" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/peruse_panel_enter_audiocomment_text" android:layout_width="wrap_content" android:text="@string/public_iat_audiocomment_enter" android:layout_alignParentStart="true" style="@style/v10_phone_public_panel_list_item_text_style" />
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="top" android:id="@id/peruse_panel_enter_audiocomment_recommend" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/public_share_recommend_shape" android:layout_marginStart="2.0dip" android:layout_toEndOf="@id/peruse_panel_enter_audiocomment_text" />
+        </RelativeLayout>
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/peruse_panel_show_audiocomment_layout" android:visibility="gone" android:layout_width="fill_parent" android:paddingEnd="16.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_multimedia_voice_postil" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_iat_audiocomment_show" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+        <include android:id="@id/show_audiocomment_switch" layout="@layout/public_switch_layout" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View android:id="@id/peruse_panel_show_audiocomment_layout_divide_line" style="@style/v10_phone_public_panel_divide_view" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_peruse_panel_show_comment" android:layout_width="fill_parent" android:paddingEnd="16.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_postil" style="@style/v10_phone_public_panel_list_img" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/show_comment_textview" android:layout_width="wrap_content" android:text="@string/public_comment_show_comment" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/v10_phone_public_panel_list_item_text_style" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="0.0dip" android:layout_alignParentEnd="true">
+                <include android:id="@id/show_comment_switch" layout="@layout/public_switch_layout" />
+            </FrameLayout>
+        </RelativeLayout>
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <LinearLayout android:orientation="vertical" android:id="@id/edit_peruse_panel_show_revise_root_view" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_peruse_panel_show_revise" android:layout_width="fill_parent" android:paddingEnd="16.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+            <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/v10_phone_public_revision_show" style="@style/v10_phone_public_panel_list_img" />
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_show_revise" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+            <include android:id="@id/show_revise_switch" layout="@layout/public_switch_layout" />
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    </LinearLayout>
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_peruse_panel_show_revision_layout" android:layout_width="fill_parent" android:layout_marginLeft="35.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="35.0dip" android:layout_marginEnd="0.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <ImageView android:src="@drawable/v10_phone_public_revision_layout_show_revision" style="@style/v10_phone_public_panel_list_img" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/edit_peruse_panel_show_revision_title" android:layout_width="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/writer_revision_show_revision" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/v10_phone_public_panel_list_item_text_style" />
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:gravity="center|right" android:id="@id/edit_peruse_panel_show_revision_detail" android:layout_width="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/writer_revision_in_right_bollom_panel" android:layout_toLeftOf="@id/edit_peruse_panel_show_revision_right_arrow" android:layout_toRightOf="@id/edit_peruse_panel_show_revision_title" style="@style/v10_phone_public_panel_list_item_text_style_1" />
+            <ImageView android:id="@id/edit_peruse_panel_show_revision_right_arrow" android:layout_width="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/v10_phone_public_revision_layout_choose_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/v10_phone_public_panel_list_img" />
+        </RelativeLayout>
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View android:id="@id/edit_peruse_panel_show_revise_divide_line" style="@style/v10_phone_public_panel_bottom_divideline_margin_84" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_peruse_panel_revision_state_layout" android:layout_width="fill_parent" android:layout_marginLeft="35.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="35.0dip" android:layout_marginEnd="0.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <ImageView android:src="@drawable/v10_phone_public_revision_layou_revision_state" style="@style/v10_phone_public_panel_list_img" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/edit_peruse_panel_revision_state_title" android:layout_width="wrap_content" android:layout_marginRight="20.0dip" android:text="@string/writer_revision_revision_state" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/v10_phone_public_panel_list_item_text_style" />
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:gravity="center|right" android:id="@id/edit_peruse_panel_revision_state_detail" android:layout_width="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/writer_show_revision_final_state" android:layout_toLeftOf="@id/edit_peruse_panel_revision_state_right_arrow" android:layout_toRightOf="@id/edit_peruse_panel_revision_state_title" style="@style/v10_phone_public_panel_list_item_text_style_1" />
+            <ImageView android:id="@id/edit_peruse_panel_revision_state_right_arrow" android:layout_width="wrap_content" android:layout_marginRight="16.0dip" android:src="@drawable/v10_phone_public_revision_layout_choose_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/v10_phone_public_panel_list_img" />
+        </RelativeLayout>
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View android:id="@id/edit_peruse_panel_revise_state_divide_line" style="@style/v10_phone_public_panel_bottom_divideline_margin_84" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_peruse_panel_accept_all_revision_layout" android:layout_width="fill_parent" android:layout_marginStart="35.0dip" android:layout_marginEnd="0.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_common_accept_revision" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_revision_accept_all_revision" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View android:id="@id/edit_peruse_panel_accept_all_revision_divide_line" style="@style/v10_phone_public_panel_bottom_divideline_margin_84" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_peruse_panel_deny_all_revision_layout" android:layout_width="fill_parent" android:layout_marginStart="35.0dip" android:layout_marginEnd="0.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_common_revision_reject" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_revision_deny_all_revision" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View android:id="@id/edit_peruse_panel_deny_all_revision_divide_line" style="@style/v10_phone_public_panel_bottom_divideline_margin_84" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_peruse_panel_enter_comment_revise" android:layout_width="fill_parent" android:paddingEnd="16.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_enter_revise" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/enter_comment_revise_textview" android:layout_width="0.0dip" android:text="@string/writer_comment_enter_revise_mode" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+        <include android:id="@id/enter_comment_revise_switch" layout="@layout/public_switch_layout" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_peruse_panel_modify_username_layout" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_changing_username" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_modify_username" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_divide_view" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_peruse_panel_spellcheck_layout" android:layout_width="fill_parent" android:paddingEnd="16.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wps.moffice.common.beans.ColorFilterImageButton android:background="@null" android:clickable="false" android:src="@drawable/comp_doc_spell" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_spell_check" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+        <include android:id="@id/edit_peruse_panel_spellcheck_switch" layout="@layout/public_switch_layout" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_peruse_panel_spellcheck_restart" android:layout_width="fill_parent" android:layout_marginStart="35.0dip" android:layout_marginEnd="0.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/comp_doc_recheck" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/writer_spell_check_recheck" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View android:id="@id/edit_peruse_panel_spellcheck_restart_divide_line" style="@style/v10_phone_public_panel_bottom_divideline_margin_84" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/edit_peruse_panel_file_final_layout" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/public_file_final_icon" style="@style/v10_phone_public_panel_list_img" />
+        <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:layout_width="0.0dip" android:text="@string/public_file_final" android:layout_weight="1.0" style="@style/v10_phone_public_panel_list_item_text_style" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+</LinearLayout>

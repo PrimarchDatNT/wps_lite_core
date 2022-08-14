@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="outsideOverlay" android:background="@color/thirdBackgroundColor" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="vertical" android:layout_width="@dimen/public_fontsize_dropdown_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ppt_autoplay_switch_time_list" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/pdf_autoplay_switch_time_3s" android:text="3s" style="@style/pdf_autoplay_set_interval_item_style" />
+        <View android:background="@color/lineColor" android:layout_width="@dimen/public_list_text_item_width" android:layout_height="1.0px" />
+        <TextView android:id="@id/pdf_autoplay_switch_time_5s" android:text="5s" style="@style/pdf_autoplay_set_interval_item_style" />
+        <View android:background="@color/lineColor" android:layout_width="@dimen/public_list_text_item_width" android:layout_height="1.0px" />
+        <TextView android:id="@id/pdf_autoplay_switch_time_10s" android:text="10s" style="@style/pdf_autoplay_set_interval_item_style" />
+        <View android:background="@color/lineColor" android:layout_width="@dimen/public_list_text_item_width" android:layout_height="1.0px" />
+        <TextView android:id="@id/pdf_autoplay_switch_time_15s" android:text="15s" style="@style/pdf_autoplay_set_interval_item_style" />
+        <View android:background="@color/lineColor" android:layout_width="@dimen/public_list_text_item_width" android:layout_height="1.0px" />
+        <TextView android:id="@id/pdf_autoplay_switch_time_20s" android:text="20s" style="@style/pdf_autoplay_set_interval_item_style" />
+    </LinearLayout>
+</ScrollView>

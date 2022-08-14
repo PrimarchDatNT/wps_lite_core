@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/mainTextColor" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="16.0dip" android:text="@string/public_home_create_scene" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/ll_search_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true">
+        <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:id="@id/tv_strenth_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_action_search" />
+        <ImageView android:paddingTop="2.0dip" android:paddingBottom="2.0dip" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/phone_public_find_forward" android:tint="@color/normalIconColor" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.spreadsheet.control.EtTitleBar android:id="@id/ss_quickstyle_titlebar" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ss_quickstyle_layout" android:layout_width="fill_parent" android:layout_height="@dimen/ss_quickstyle_layout_height">
+        <cn.wps.moffice.spreadsheet.control.shapestyle.QuickStyleNavigation android:id="@id/ss_quickstyle_navigation" android:clickable="true" android:layout_width="150.0dip" android:layout_height="fill_parent" />
+        <View android:background="@color/lineColor" android:layout_width="1.0px" android:layout_height="fill_parent" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewFlipper android:id="@id/ss_quickstyle_flipper_pad" android:persistentDrawingCache="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inAnimation="@anim/push_left_in" android:outAnimation="@anim/push_left_out" android:flipInterval="1000">
+                <ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/ss_quickstyle_presetting_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+                    <HorizontalScrollView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+                        <cn.wps.moffice.spreadsheet.control.shapestyle.QuickStylePreSet android:gravity="center" android:id="@id/ss_quickstyle_presetting" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </HorizontalScrollView>
+                </ScrollView>
+                <ScrollView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/ss_quickstyle_fill_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+                    <HorizontalScrollView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+                        <LinearLayout android:gravity="center" android:paddingLeft="@dimen/ss_quickstyle_frame_padding_leftright" android:paddingRight="@dimen/ss_quickstyle_frame_padding_leftright" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/ss_quickstyle_frame_padding_leftright" android:paddingEnd="@dimen/ss_quickstyle_frame_padding_leftright">
+                            <cn.wps.moffice.spreadsheet.control.shapestyle.QuickStyleFill android:gravity="center" android:id="@id/ss_quickstyle_fill" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </ScrollView>
+                <ScrollView android:id="@id/ss_quickstyle_frame_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <HorizontalScrollView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+                        <cn.wps.moffice.spreadsheet.control.shapestyle.QuickStyleFrame android:id="@id/ss_quickstyle_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    </HorizontalScrollView>
+                </ScrollView>
+            </ViewFlipper>
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

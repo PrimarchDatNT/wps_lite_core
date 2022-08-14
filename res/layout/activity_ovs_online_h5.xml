@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.docer.view.OvsWebView android:id="@id/web_ovs" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/web_custom_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/pb_ovs" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_centerInParent="true" style="@style/MyProgressBar" />
+</RelativeLayout>

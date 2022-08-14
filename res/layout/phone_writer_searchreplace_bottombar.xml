@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:background="@drawable/phone_public_search_guide_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/writer_searchreplace_bottombar_margin">
+        <FrameLayout android:id="@id/searchbackward" android:background="@drawable/phone_public_pop_whitebar_item_selector" android:layout_width="84.0dip" android:layout_height="@dimen/writer_searchreplace_bottombar_height">
+            <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/comp_common_back" android:contentDescription="@string/reader_public_find_previous" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/searchbtn_read" android:background="@drawable/phone_public_pop_whitebar_item_selector" android:layout_width="84.0dip" android:layout_height="@dimen/writer_searchreplace_bottombar_height">
+            <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/v10_phone_public_titlebar_search" android:contentDescription="@string/reader_public_find_reenter_content" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/searchforward" android:background="@drawable/phone_public_pop_whitebar_item_selector" android:layout_width="84.0dip" android:layout_height="@dimen/writer_searchreplace_bottombar_height">
+            <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/comp_common_back" android:contentDescription="@string/reader_public_find_next" android:rotation="180.0" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

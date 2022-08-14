@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/convert_preview_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/convert_preview_titlebar">
+        <cn.wps.moffice.main.scan.model.cloud.previewdialog.ConvertPreviewView android:id="@id/convert_preview_content" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <View android:id="@id/shadow" style="@style/phone_home_top_shadow" />
+        </cn.wps.moffice.main.scan.model.cloud.previewdialog.ConvertPreviewView>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 阿拉伯 （沙特阿拉伯）-->
+<resource>
+    <inner type="string-array" size="">
+        <item>[$-1000000]00000</item>
+		<item>[$-1000000]00000\-0000</item>
+		<item>[&lt;=9999999][$-1000000]###\-####;[$-1000000]\(###\)\ ###\-####</item>
+		<item>[$-1000000]000\-00\-0000</item>
+		<item>[$-2000000]00000</item>
+		<item>[$-2000000]0000\-00000</item>
+		<item>[&lt;=9999999][$-2000000]###\-####;[$-2000000]\(###\)\ ###\-####</item>
+		<item>[$-2000000]000\-00\-0000</item>       
+	</inner>
+	<outer type="string-array" size="">
+	    <item>Zip Code</item>
+ 		<item>Zip Code + 4</item>
+ 		<item>Phone Number</item>
+ 		<item>Social Security Number</item>
+ 		<item>رﻣﺰ ﺑﺮﯾﺪي</item>
+ 		<item>رﻣﺰ ﺑﺮﯾﺪي + ٤</item>
+ 		<item>رﻗﻢ ھﺎﺗﻒ</item>
+ 		<item>رﻗﻢ اﻟﻀﻤﺎن اﻻﺟﺘﻤﺎﻋﻲ</item>
+	</outer>
+</resource>

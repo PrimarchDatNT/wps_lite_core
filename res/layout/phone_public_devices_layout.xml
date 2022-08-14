@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KNormalImageView android:layout_width="124.0dip" android:layout_height="94.0dip" android:layout_marginTop="@dimen/online_device_top_margin" android:src="@drawable/public_online_device_img" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/online_devices" android:background="@drawable/public_device_online_background" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="298.0dip" android:layout_height="50.0dip" android:layout_marginTop="@dimen/online_device_current_top_margin" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+        <TextView android:textSize="15.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/tv_device_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="16.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_change_device" android:background="@drawable/phone_public_list_selector" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="12.0dip">
+            <TextView android:textSize="10.0dip" android:textColor="@color/docerMainColor" android:gravity="center" android:id="@id/tv_temporary" android:background="@drawable/public_stoke1_radium2_orange_shape" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="@string/online_device_temporary" android:layout_marginStart="8.0dip" />
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/iv_online_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginStart="8.0dip" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:id="@id/tv_online_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginStart="4.0dip" />
+            <cn.wpsx.support.ui.KNormalImageView android:id="@id/iv_expand" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/public_expand_toggle_icon" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/online_device_action_top_margin">
+        <FrameLayout android:id="@id/btn_open_device_files" android:background="@drawable/phone_public_list_selector" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginRight="25.0dip">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:background="@drawable/shape_white_bubble" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/public_online_device_files" android:scaleType="center" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:text="@string/online_device_files" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/btn_send_file" android:background="@drawable/phone_public_list_selector" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="88.0dip" android:layout_height="88.0dip">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:background="@drawable/shape_white_bubble" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/public_online_device_send_file" android:scaleType="center" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center_horizontal" android:id="@id/tv_send_file" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48.0dip" android:text="@string/online_device_send_file" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

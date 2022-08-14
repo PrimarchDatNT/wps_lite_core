@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.AlphaFrameLayout android:gravity="center" android:orientation="vertical" android:background="#fff7f7f7" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="198.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.cloud.drive.view.controler.group.home.web.GroupHeaderWebView android:id="@id/public_wpsdrive_home_group_ptrwebview" android:focusable="true" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:id="@id/webcard_empty_img" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:background="@drawable/icon_wpsdrive_group_card_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</cn.wps.moffice.common.beans.phone.AlphaFrameLayout>

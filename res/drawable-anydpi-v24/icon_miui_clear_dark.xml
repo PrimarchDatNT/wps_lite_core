@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="50.0dip" android:width="50.0dip" android:viewportWidth="50.0" android:viewportHeight="50.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="删除" android:translateX="0.0" android:translateY="0.0">
+        <path android:name="路径" android:fillColor="#ccffffff" android:pathData="M25 50 C38.807 50 50 38.8071 50 25 C50 11.1929 38.807 0 25 0 C11.193 0 0 11.1929 0 25 C0 38.8071 11.193 50 25 50 Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.08" android:fillType="nonZero" />
+        <path android:name="路径" android:fillColor="#ccffffff" android:pathData="M33.286 20.0301 C34.202 19.1148 34.202 17.6308 33.286 16.7156 C32.371 15.8003 30.887 15.8003 29.972 16.7156 L25 21.6875 L20.028 16.7159 C19.113 15.8006 17.629 15.8006 16.714 16.7159 C15.798 17.6312 15.798 19.1152 16.714 20.0305 L21.685 25.002 L16.714 29.9738 C15.798 30.8891 15.798 32.3731 16.714 33.2884 C17.629 34.2037 19.113 34.2037 20.028 33.2884 L25 28.3166 L29.972 33.2887 C30.887 34.204 32.371 34.204 33.287 33.2887 C34.202 32.3734 34.202 30.8894 33.287 29.9742 L28.314 25.002 L33.286 20.0301 Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="0.3" android:fillType="evenOdd" />
+    </group>
+</vector>

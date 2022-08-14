@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_search_history_tip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/tag_search_history" android:layout_centerVertical="true" style="@style/pad_setting_group_title" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/new_search_history_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="@drawable/et_btn_keyboard_key_trans_normal" android:paddingTop="@dimen/et_keyboard_layout_padding_vertical" android:paddingBottom="@dimen/et_keyboard_layout_padding_vertical" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:background="@drawable/ss_quote_symbol_list_view_bg" android:padding="1.0px" android:scrollbars="none" android:fadingEdge="none" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="1.0px" android:paddingEnd="1.0px">
+        <HorizontalScrollView android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/symbol_content" android:background="@color/keyboardButtonNormalColor" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+    </ScrollView>
+</merge>

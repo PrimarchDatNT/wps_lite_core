@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/invite_edit_empty_page" android:background="@color/secondBackgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/swipe_refresh_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/empty_page_image" android:visibility="visible" android:layout_width="200.0dip" android:layout_height="140.0dip" android:src="@drawable/pub_404_no_record" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/empty_page_text" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_web_article_publish_no_record" />
+</LinearLayout>

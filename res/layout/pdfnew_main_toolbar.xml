@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/rom_read_titlebar" android:background="@color/PDFNavBackgroundColor" android:visibility="gone" layout="@layout/phone_public_rom_read_titlebar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/pdf_maintoolbar" android:background="@color/PDFNavBackgroundColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ViewStub android:id="@id/pdf_edittoolbar_view_stub" android:layout="@layout/pdf_edit_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pdf_maintoolbar" />
+</RelativeLayout>

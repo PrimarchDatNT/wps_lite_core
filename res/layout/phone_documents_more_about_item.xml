@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/documents_about_item" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_height="60.0dip" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" style="@style/home_drop_down_dialog_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/documents_about_item_img" android:layout_width="@dimen/phone_office_assistant_item_image_width" android:layout_height="@dimen/phone_office_assistant_item_image_height" android:layout_marginLeft="2.0dip" android:layout_marginRight="0.0dip" android:src="@drawable/phone_public_send_wechat_friend" android:layout_marginStart="2.0dip" android:layout_marginEnd="0.0dip" style="@style/phone_documents_homepage_item_image" />
+    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/documents_about_item_text" android:text="@string/documentmanager_phone_more_item_wechat" MaxLines="2" style="@style/phone_documents_more_view_item_text" />
+</LinearLayout>

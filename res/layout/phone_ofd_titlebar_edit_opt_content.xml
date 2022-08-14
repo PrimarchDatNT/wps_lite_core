@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.MeasureLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/edit_layout" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_titlebar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="@dimen/v10_phone_public_titlebar_title_text_size" android:gravity="center_vertical" android:id="@id/btn_edit" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/v10_phone_public_titlebar_height" android:text="@string/public_edit" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" MaxLine="1" style="@style/public_image_bg_style" />
+    <cn.wps.moffice.common.SaveIconGroup android:id="@id/save_group" android:layout_width="@dimen/v10_phone_public_titlebar_icon_size" android:layout_height="@dimen/v10_phone_public_titlebar_icon_size" PhoneScreen="1" />
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/image_undo" android:src="@drawable/v10_public_titlebar_undo" android:contentDescription="@string/reader_public_undo" style="@style/v10_phone_public_titlebar_icon" />
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/image_redo" android:src="@drawable/v10_public_titlebar_redo" android:contentDescription="@string/reader_public_redo" style="@style/v10_phone_public_titlebar_icon" />
+</cn.wps.moffice.common.beans.phone.MeasureLinearLayout>

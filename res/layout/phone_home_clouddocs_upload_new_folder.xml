@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/phone_docs_upload_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/phone_docs_upload_titlebar" layout="@layout/phone_home_wps_drive_progress_layer" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/wps_drive_path_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/phone_docs_upload_titlebar">
+        <include android:layout_width="wrap_content" android:layout_height="@dimen/home_open_path_gallery_height" layout="@layout/home_wps_drive_trace_tips_layout" />
+        <include android:layout_width="wrap_content" android:layout_height="@dimen/home_open_path_gallery_height" layout="@layout/phone_home_path_gallery_for_component_with_divide_line" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_bar" android:layout_below="@id/wps_drive_path_layout">
+        <RelativeLayout android:id="@id/wps_drive_total_empty_tips" android:background="@color/backgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.wps.moffice.common.beans.CommonErrorPage android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsImgId="@drawable/pub_404_no_record" app:tipsText="@string/documentmanager_nofilesindirectory" />
+        </RelativeLayout>
+        <cn.wps.moffice.common.beans.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <cn.wps.moffice.main.cloud.drive.view.KCloudDocsRecyclerView android:id="@id/file_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_wpsdrive_list_style" />
+        </cn.wps.moffice.common.beans.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <TextView android:textSize="14.0sp" android:textColor="#ffbbc3d6" android:gravity="center" android:layout_gravity="center" android:id="@id/wps_drive_no_document" android:visibility="gone" android:layout_width="260.0dip" android:layout_height="wrap_content" android:text="@string/documentmanager_nofilesindirectory" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bottom_bar" android:background="@color/secondBackgroundColor" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <Button android:textSize="16.0dip" android:layout_gravity="center_vertical" android:id="@id/add_folder" android:layout_width="0.0dip" android:layout_height="42.0dip" android:layout_marginRight="16.0dip" android:text="@string/public_newFolder" android:layout_weight="1.0" android:layout_marginEnd="16.0dip" style="@style/phone_public_buttonStyle_gray_4dp_corner_dark_compat" />
+        <Button android:enabled="false" android:layout_gravity="center_vertical" android:id="@id/to_upload" android:layout_width="0.0dip" android:layout_height="42.0dip" android:text="@string/public_upload" android:layout_weight="1.0" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+    </LinearLayout>
+    <View android:layout_below="@id/phone_docs_upload_titlebar" style="@style/phone_home_top_shadow" />
+    <LinearLayout android:id="@id/login_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/phone_docs_upload_titlebar">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/wps_drive_login_layout" />
+    </LinearLayout>
+    <cn.wps.moffice.main.cloud.drive.view.TouchInterceptLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:id="@id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyleLargeInverse" />
+    </cn.wps.moffice.main.cloud.drive.view.TouchInterceptLinearLayout>
+</RelativeLayout>

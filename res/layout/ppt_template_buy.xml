@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#8f000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="184.0dip" android:layout_alignParentBottom="true">
+        <TextView android:id="@id/ppt_template_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/ppt_template_buy_current_template_tips" android:layout_centerHorizontal="true" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ppt_template_bottom_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <cn.wps.moffice.common.beans.AutoAdjustButton android:textColor="@drawable/phone_public_template_open_docer_text_color" android:id="@id/ppt_template_bottom_left" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0" MaxLine="1" style="@style/phone_public_buttonStyle_white_noradius" />
+            <cn.wps.moffice.common.beans.AutoAdjustButton android:id="@id/ppt_template_bottom_right" android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_weight="1.0" MaxLine="1" style="@style/phone_public_buttonStyle_green_noradius" />
+        </LinearLayout>
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:id="@id/ppt_template_progress" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <View android:id="@id/bottom_layout_divider" android:background="#ffd0d0d0" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_above="@id/ppt_template_bottom_layout" />
+    </RelativeLayout>
+</RelativeLayout>

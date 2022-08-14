@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--瑞典语-->
+<resource>
+    <outer type="string-array" size="">
+		<item>Upp till en siffra (1/4)</item>
+		<item>Upp till två siffror (21/25)</item>
+		<item>Upp till tre siffror (312/943)</item>
+		<item>Som halvor (1/2)</item>
+		<item>Som fjärdedelar (2/4)</item>
+		<item>Som åttondelar (4/8)</item>
+		<item>Som sextondelar (8/16)</item>
+		<item>Som tiondelar (3/10)</item>
+		<item>Som hundradelar (30/100)</item>
+	</outer>
+</resource>

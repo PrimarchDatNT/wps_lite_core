@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/pdf_linear_one" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:gravity="center_vertical" android:id="@id/pdf_privileges_name_tv" android:paddingLeft="16.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLines="2" android:layout_weight="1.0" android:paddingStart="16.0dip" app:autoSizeMaxTextSize="12.0sp" app:autoSizeMinTextSize="10.0sp" app:autoSizeTextType="uniform" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/pdf_privileges_basic_tv" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" app:autoSizeMaxTextSize="12.0sp" app:autoSizeMinTextSize="10.0sp" app:autoSizeTextType="uniform" />
+    <FrameLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/pdf_privileges_premium_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" app:autoSizeMaxTextSize="12.0sp" app:autoSizeMinTextSize="10.0sp" app:autoSizeTextType="uniform" />
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="end|center" android:id="@id/privilege_icon_new_hot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginEnd="12.0dip" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="68.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/delete_rule" android:paddingTop="6.0dip" android:paddingBottom="6.0dip" android:layout_width="26.0dip" android:layout_height="32.0dip" android:src="@drawable/comp_table_conditional_formatting_delete" android:layout_centerVertical="true" android:paddingStart="0.0dip" android:paddingEnd="6.0dip" />
+    <FrameLayout android:id="@id/swap_rule_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerVertical="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_alignParentEnd="true">
+        <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/comp_table_conditional_formatting_menu" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/rule_edit_btn" android:background="@drawable/public_pad_titlebar_item_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/swap_rule_btn" android:layout_toEndOf="@id/delete_rule">
+        <cn.wps.moffice.spreadsheet.control.conditionformat.ConditionStyleBtnTextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/manage_rule_icon_txt" android:layout_width="37.0dip" android:layout_height="37.0dip" android:text="@string/et_condition_style_txt" android:layout_marginStart="6.0dip" android:layout_marginEnd="8.0dip" app:bgSolidColor="#fff8ccce" app:bgStrokeColor="#fff8ccce" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/manage_rule_description" android:paddingTop="14.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/descriptionColor" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/manage_range_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

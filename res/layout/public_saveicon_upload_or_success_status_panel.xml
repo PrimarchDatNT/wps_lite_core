@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/poppanel_top_view" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="54.669983dip">
+        <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/poppanel_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_alignParentStart="true" />
+        <RelativeLayout android:id="@id/force_upload_layout" android:background="@color/backgroundColor" android:layout_width="wrap_content" android:layout_height="54.669983dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+            <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:id="@id/upload_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/public_uploading_useing_mobild_network" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" />
+            <TextView android:textSize="12.0dip" android:id="@id/force_upload_btn" android:paddingLeft="8.0dip" android:paddingTop="4.0dip" android:paddingRight="8.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:text="@string/wpscloud_upload_now" android:layout_toRightOf="@id/upload_desc" android:layout_centerVertical="true" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_marginStart="18.0dip" android:layout_toEndOf="@id/upload_desc" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/poppanel_history_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/div_line" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/poppanel_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="16.0dip" android:text="@string/public_history_version" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <FrameLayout android:id="@id/history_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+        <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="16.0dip" android:textColor="@color/secondaryColor" android:gravity="center" android:layout_gravity="center" android:id="@id/viewall_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="55.329987dip" android:layout_marginTop="16.669983dip" android:text="@string/public_look_all_history_version" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.writer.shell.pad.edittoolbar.ArrowScrollLayout android:id="@id/writer_edittoolbar_papertoolgroup" android:fillViewport="true" style="@style/writer_pad_titlebar_edittoolbar_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.FillViewLinearLayout android:layout_width="wrap_content" android:layout_height="@dimen/writer_pad_popup_menu_list_icon_height" style="@style/writer_pad_titlebar_second_toolbar">
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.IconTextDropdownView android:id="@id/panel_item_paper_check" app:icon_resource="@drawable/pad_comp_tool_plagiarism_checker" app:icon_text="@string/paper_check_title_paper_check" style="@style/writer_toolbar_text_icon_no_drop_view" />
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.IconTextDropdownView android:id="@id/panel_item_paper_down" app:icon_resource="@drawable/pad_comp_tool_thesis_duplicate_reduction" app:icon_text="@string/paper_down_repetition" style="@style/writer_toolbar_text_icon_no_drop_view" />
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.IconTextDropdownView android:id="@id/panel_item_paper_composition" app:icon_resource="@drawable/pad_comp_tool_thesis_formatting" app:icon_text="@string/app_paper_composition_name" style="@style/writer_toolbar_text_icon_no_drop_view" />
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.IconTextDropdownView android:id="@id/panel_item_paper_report" app:icon_resource="@drawable/pad_comp_tool_papers_report" app:icon_text="@string/paper_check_tab_paper_report" style="@style/writer_toolbar_text_icon_no_drop_view" />
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.IconTextDropdownView android:id="@id/panel_item_translate" app:icon_resource="@drawable/pad_comp_tool_translate_writer" app:icon_text="@string/paper_check_tab_translate" style="@style/writer_toolbar_text_icon_no_drop_view" />
+    </cn.wps.moffice.common.beans.FillViewLinearLayout>
+</cn.wps.moffice.writer.shell.pad.edittoolbar.ArrowScrollLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="237.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="right" android:id="@id/arrow_up" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/pub_ads_popup_arrow" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ad_close_popup_window_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.main.local.filebrowser.search.common.FlowLayout android:id="@id/fl_items" android:padding="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" android:layout_marginRight="13.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_complaint" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="投诉广告" android:layout_weight="1.0" />
+            <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_list_screening_right_arrow" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="right" android:id="@id/arrow_down" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/pub_ads_popup_arrow" android:rotation="180.0" />
+</LinearLayout>

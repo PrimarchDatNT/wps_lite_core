@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/public_custom_dialog_content_padding_left" android:paddingTop="@dimen/public_custom_dialog_content_padding_top" android:paddingRight="@dimen/public_custom_dialog_content_padding_right" android:paddingBottom="@dimen/public_custom_dialog_content_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/public_custom_dialog_content_padding_left" android:paddingEnd="@dimen/public_custom_dialog_content_padding_right">
+        <LinearLayout android:orientation="vertical" android:id="@id/open_encrypt" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/public_encrypt_clean_btn_height" android:layout_marginTop="@dimen/public_encrypt_clean_btn_marging_top" android:layout_marginBottom="@dimen/public_encrypt_clean_btn_marging_bottom">
+                <TextView android:gravity="center_vertical" android:layout_gravity="start|center" android:id="@id/input_passwd_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/public_inputOpenPasswd" android:singleLine="true" style="@style/public_custom_dialog_default_text_style" />
+                <Button android:layout_gravity="end|center" android:id="@id/clear_password1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/public_encrypt_clean_btn_height" android:minWidth="@dimen/public_encrypt_clean_btn_width" android:text="@string/documentmanager_clear" style="@style/phone_public_buttonStyle_gray_border_4dp_corner" />
+            </FrameLayout>
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/public_custom_dialog_content_padding_default" android:paddingStart="25.0dip" android:paddingEnd="25.0dip">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:gravity="bottom" android:id="@id/input_openPasswd_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/public_inputPasswdShort" android:singleLine="true" style="@style/public_custom_dialog_default_text_style" />
+                    <cn.wps.moffice.common.beans.SafeRecordEditText android:gravity="start" android:id="@id/passwd_input_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/input_openPasswd_text" android:inputType="textPassword" android:textAlignment="viewStart" style="@style/public_custom_dialog_default_text_style" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/public_encrypt_dialog_warging_group1" android:layout_width="fill_parent" android:layout_height="31.0dip" android:layout_below="@id/passwd_input_edittext">
+                        <TextView android:id="@id/input_limit_text1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/public_custom_dialog_warning_text_style" />
+                        <TextView android:id="@id/input_invalid_openPassText1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_inputPasswdInvalid" style="@style/public_custom_dialog_warning_text_style" />
+                    </LinearLayout>
+                    <TextView android:id="@id/passwd_input_confirm_textview" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/public_confirmPasswdShort" android:singleLine="true" android:layout_below="@id/public_encrypt_dialog_warging_group1" style="@style/public_custom_dialog_default_text_style" />
+                    <cn.wps.moffice.common.beans.SafeRecordEditText android:gravity="start" android:id="@id/passwd_input_confirm_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/passwd_input_confirm_textview" android:inputType="textPassword" android:textAlignment="viewStart" style="@style/public_custom_dialog_default_text_style" />
+                </RelativeLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="31.0dip">
+                    <TextView android:id="@id/input_invalid_openPassText2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_inputPasswdInvalid" style="@style/public_custom_dialog_warning_text_style" />
+                    <TextView android:id="@id/input_diff_openPassText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_inputDiff" style="@style/public_custom_dialog_warning_text_style" />
+                </LinearLayout>
+                <cn.wps.moffice.common.beans.CustomCheckBox android:layout_gravity="start|center" android:id="@id/display_check1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:text="@string/public_displayPasswd" />
+            </LinearLayout>
+            <TextView android:textSize="14.0dip" android:textColor="@color/public_min_gray_text_color" android:id="@id/encrypt_tip" android:paddingTop="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_setPasswdTips" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

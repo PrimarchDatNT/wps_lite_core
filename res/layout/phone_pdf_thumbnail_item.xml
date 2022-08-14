@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.pdf.shell.common.views.ThumbnailItem android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/public_image_bg_style_bounded"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pdf_thumbnail_item_preview" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/pdf_thumbnail_item_loading" android:background="@drawable/phone_pdf_thumbnail_loading_selector" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip">
+        <ImageView android:src="@drawable/phone_pdf_thumbnails_loading_icon" style="@style/phone_pdf_thumbnail_loading_img" />
+    </LinearLayout>
+</cn.wps.moffice.pdf.shell.common.views.ThumbnailItem>

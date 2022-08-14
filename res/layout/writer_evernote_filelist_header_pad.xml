@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center_vertical" android:id="@id/titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/title_bar_return" android:src="@drawable/comp_common_back" android:tint="@color/normalIconColor" android:contentDescription="@string/reader_public_back" style="@style/public_titlebar_return" />
+        <TextView android:textColor="@color/mainTextColor" android:id="@id/title_bar_title" android:text="@string/public_evernote_title" android:layout_weight="1.0" style="@style/public_maintoolbar_title" />
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/btn_search" android:src="@drawable/phone_public_toptool_search" android:tint="@color/normalIconColor" android:contentDescription="@string/reader_public_search" style="@style/public_titlebar_close" />
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/btn_logout" android:src="@drawable/public_evernote_logout" android:tint="@color/normalIconColor" android:contentDescription="@string/reader_public_logout" style="@style/public_titlebar_close" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</FrameLayout>

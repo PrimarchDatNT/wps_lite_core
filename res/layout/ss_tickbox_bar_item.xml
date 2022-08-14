@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/tickbox_layout" android:background="@drawable/phone_public_list_white_selector" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center" android:id="@id/tickbox_img" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/public_icon_tickbox" />
+    <TextView android:ellipsize="end" android:id="@id/tickbox_text" android:singleLine="true" style="@style/phone_public_popumenu_text" />
+</LinearLayout>

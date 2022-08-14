@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/premium_need_upgrade_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="25.0dip" android:layout_marginStart="25.0dip">
+            <ImageView android:id="@id/icon_iv" android:layout_width="40.0dip" android:layout_height="43.0dip" android:src="@drawable/premium_need_upgrade_pdf_icon" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginStart="14.0dip">
+                <TextView android:textSize="20.0sp" android:textColor="@color/whiteMainTextColor" android:ellipsize="end" android:id="@id/title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_pdf_toolkit" android:singleLine="true" />
+                <TextView android:textSize="11.0sp" android:textColor="@color/whiteMainTextColor" android:ellipsize="end" android:id="@id/title_desc_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_pdf_subscribed" android:singleLine="true" android:alpha="0.8" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/cloud_storage_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="28.0dip" android:layout_marginStart="28.0dip" android:layout_marginEnd="28.0dip">
+            <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip">
+                <TextView android:textSize="9.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/public_roaming_space_usage_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_account_storage" android:layout_alignParentLeft="true" android:alpha="0.8" android:layout_alignParentStart="true" style="@style/home_account_item_desc" />
+                <TextView android:textSize="9.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/upgrade_space_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:alpha="0.8" android:layout_alignParentEnd="true" style="@style/home_account_item_desc" />
+            </RelativeLayout>
+            <ProgressBar android:id="@id/space_usage_progress" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/home_roaming_setting_cloudspace_item_progress_height" android:max="100" android:progress="0" android:progressDrawable="@drawable/home_account_space_usage_progress_selector" style="?android:progressBarStyleHorizontal" />
+        </LinearLayout>
+        <View android:layout_width="fill_parent" android:layout_height="10.0dip" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="81.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+                <ImageView android:id="@id/contact_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:src="@drawable/premium_need_upgrade_contact" android:layout_marginStart="30.0dip" />
+                <ImageView android:id="@id/upgrade_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="27.0dip" android:src="@drawable/premium_need_upgrade_upgrade" android:layout_marginStart="27.0dip" />
+            </LinearLayout>
+            <ImageView android:layout_gravity="end" android:layout_width="70.0dip" android:layout_height="55.0dip" android:layout_marginLeft="27.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/premium_need_upgrade_diamond" android:layout_marginStart="27.0dip" android:layout_marginEnd="10.0dip" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

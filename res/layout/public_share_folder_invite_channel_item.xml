@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/phone_public_list_white_selector" android:clickable="true" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wpsx.support.ui.KImageView android:layout_gravity="center_vertical" android:id="@id/iv_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" />
+        <cn.wpsx.support.ui.KTextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center_vertical" android:id="@id/tv_channel_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_weight="1.0" android:layout_marginStart="16.0dip" />
+        <cn.wpsx.support.ui.KImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/pub_list_screening_right_arrow" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:layout_marginLeft="52.0dip" android:layout_marginStart="52.0dip" style="@style/div_line" />
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.main.local.home.newui.theme.title.ThemeTitleLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ct_account_webview_nav_layout" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="48.0dip" style="@style/phone_public_titlebar_padding">
+            <cn.wpsx.support.ui.KNormalImageView android:gravity="center_vertical" android:id="@id/ct_account_webview_goback" android:src="@drawable/phone_public_back_black_icon" style="@style/phone_public_title_bar_icon" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/ct_account_webview_nav_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="@string/public_login_telecom_privicy_title" />
+        </cn.wps.moffice.main.local.home.newui.theme.title.ThemeTitleLinearLayout>
+        <View android:layout_gravity="bottom" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </FrameLayout>
+    <ProgressBar android:id="@id/ct_account_progressbar_gradient" android:layout_width="fill_parent" android:layout_height="2.0dip" android:max="100" android:progress="10" android:progressDrawable="@drawable/login_telecom_webview_progressbar" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <WebView android:id="@id/ct_account_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

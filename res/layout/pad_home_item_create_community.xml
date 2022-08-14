@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/phone_home_member_community_layout" android:background="@drawable/phone_public_list_transparent_selector" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:paddingLeft="@dimen/pad_home_membership_padding_left_inner" android:paddingRight="@dimen/pad_home_membership_padding_right_inner" android:layout_width="fill_parent" android:layout_height="@dimen/pad_home_settings_group_item_height_inner" android:layout_weight="1.0" android:paddingStart="@dimen/pad_home_membership_padding_left_inner" android:paddingEnd="@dimen/pad_home_membership_padding_right_inner">
+        <ImageView android:id="@id/phone_home_member_community_icon" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="0.0dip">
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/phone_home_member_community" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="152.0dip" android:text="@string/home_membership_community" android:maxLines="1" style="@style/itemTitleText" />
+        </RelativeLayout>
+        <View android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:ellipsize="end" android:gravity="end" android:id="@id/phone_home_member_community_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:maxWidth="120.0dip" android:maxLines="1" android:layout_marginStart="10.0dip" style="@style/itemOperationText" />
+    </LinearLayout>
+</LinearLayout>

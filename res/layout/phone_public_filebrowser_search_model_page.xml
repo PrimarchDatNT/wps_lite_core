@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_public_history_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tag_search_history" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/phone_public_history_clean" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_history_record_clear" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        </RelativeLayout>
+        <cn.wps.moffice.main.local.filebrowser.search.common.FlowLayout android:orientation="horizontal" android:id="@id/phone_public_history_flowlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" app:max_lines="3" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_public_recommend_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:id="@id/recommend_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_home_new_search_hotword" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="12.0dip" android:textColor="#ffea5035" android:id="@id/subject_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="60.0dip" android:text="@string/public_template_buy_dorcervip" android:maxLines="1" android:drawableRight="@drawable/public_forward_orange" android:drawablePadding="3.0dip" android:layout_toRightOf="@id/recommend_text" android:layout_centerVertical="true" />
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/phone_public_change_hotword" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_home_new_search_change" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        </RelativeLayout>
+        <cn.wps.moffice.main.local.filebrowser.search.common.FlowLayout android:orientation="horizontal" android:id="@id/phone_public_recommend_flowlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="14.0dip" app:max_lines="2" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_public_category_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_home_new_search_category" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/phone_public_category_more" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_more" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        </RelativeLayout>
+        <cn.wps.moffice.common.beans.DynamicLinearLayout android:orientation="horizontal" android:id="@id/phone_public_category_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" />
+    </LinearLayout>
+</LinearLayout>

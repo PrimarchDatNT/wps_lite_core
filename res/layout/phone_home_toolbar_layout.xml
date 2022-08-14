@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/secondBackgroundColor" style="@style/phone_home_top_shadow">
+        <View android:id="@id/phone_home_toolbar_top_shadow" android:visibility="visible" style="@style/phone_home_top_shadow" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/phone_home_toolbar_container_rt" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/phone_home_toolbar_container" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/phone_public_home_bottom_toolbar_height" />
+        <View android:id="@id/phone_home_toolbar_left_shadow" android:visibility="gone" android:layout_alignParentEnd="true" style="@style/phone_home_left_shadow" />
+    </RelativeLayout>
+</LinearLayout>

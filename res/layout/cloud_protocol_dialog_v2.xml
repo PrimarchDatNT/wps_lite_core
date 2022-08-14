@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0dip" android:textStyle="bold" android:textColor="@color/mainTextColor" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/public_wpsdrive_cloud_protocol_title" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip">
+                <ImageView android:id="@id/cloud_protocol_dialog_list_hor_icon_1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pub_cloud_platform_ios" />
+                <ImageView android:id="@id/cloud_protocol_dialog_list_hor_icon_2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/pub_cloud_platform_android" android:layout_marginStart="20.0dip" />
+                <ImageView android:id="@id/cloud_protocol_dialog_list_hor_icon_3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/pub_cloud_platform_macos" android:layout_marginStart="20.0dip" />
+                <ImageView android:id="@id/cloud_protocol_dialog_list_hor_icon_4" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/pub_cloud_platform_windows" android:layout_marginStart="20.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="49.329987dip" android:layout_marginLeft="44.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="44.0dip" android:text="@string/public_wpsdrive_cloud_protocol_main_description_text" android:lineSpacingExtra="8.0dip" android:layout_marginStart="44.0dip" android:layout_marginEnd="44.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_marginTop="28.0dip" android:layout_marginStart="80.0dip">
+                <ImageView android:id="@id/cloud_protocol_dialog_list_icon_1" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pub_cloud_function_device" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/public_wpsdrive_cloud_protocol_description_text_1" android:layout_marginStart="16.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="80.0dip">
+                <ImageView android:id="@id/cloud_protocol_dialog_list_icon_2" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pub_cloud_function_history" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/public_wpsdrive_cloud_protocol_description_text_2" android:layout_marginStart="16.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="80.0dip">
+                <ImageView android:id="@id/cloud_protocol_dialog_list_icon_3" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pub_cloud_function_cooperation" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/public_wpsdrive_cloud_protocol_description_text_3" android:layout_marginStart="16.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="80.0dip">
+                <ImageView android:id="@id/cloud_protocol_dialog_list_icon_4" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pub_cloud_function_backups" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/public_wpsdrive_cloud_protocol_description_text_4" android:layout_marginStart="16.0dip" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="80.0dip">
+                <ImageView android:id="@id/cloud_protocol_dialog_list_icon_5" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pub_cloud_function_cloud" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/public_wpsdrive_cloud_protocol_description_text_5" android:layout_marginStart="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="16.0dip" android:gravity="center" android:id="@id/cloud_protocol_dialog_start_btn" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="42.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="42.0dip" android:text="@string/public_wpsdrive_cloud_protocol_start_button" android:layout_marginStart="42.0dip" android:layout_marginEnd="42.0dip" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:layout_gravity="center_horizontal" android:id="@id/cloud_protocol_dialog_not_start_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/public_wpsdrive_cloud_protocol_not_start_button" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="center_horizontal" android:id="@id/cloud_protocol_dialog_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:layout_marginBottom="26.0dip" android:text="@string/public_cloud_setting_privacy" />
+    </LinearLayout>
+</LinearLayout>

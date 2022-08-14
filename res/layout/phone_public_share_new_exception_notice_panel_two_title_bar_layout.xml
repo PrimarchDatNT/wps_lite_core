@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/layout_phone_public_share_new_exception_notice_outer" android:focusable="true" android:visibility="gone" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/public_keyboard_mouse_no_background_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="0.0dip" android:layout_height="5.0dip" android:layout_weight="1.0" />
+    <include android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" layout="@layout/phone_public_share_new_exception_notice_panel_two" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/v10_phone_public_paneltab_indicator_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/invoice_helper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+            <ImageView android:id="@id/invoice_helper_icon" android:src="@drawable/comp_pdf_invoicetool_helper" style="@style/v10_phone_public_panel_list_img" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:ellipsize="end" android:id="@id/invoice_helper_name" android:layout_width="wrap_content" android:maxWidth="150.0dip" android:text="@string/apps_invoice_helper" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/v10_phone_public_panel_list_item_text_style" />
+                <ImageView android:id="@id/invoice_helper_superscript" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="12.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/public_share_recommend_shape" />
+            </LinearLayout>
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    </LinearLayout>
+</LinearLayout>

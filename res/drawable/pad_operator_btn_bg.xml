@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_selected="true" android:drawable="@drawable/pad_writer_color_btn_selected_background" />
+            <item android:state_pressed="true" android:drawable="@drawable/pad_writer_color_btn_selected_background" />
+            <item android:state_focused="true" android:drawable="@drawable/pad_writer_color_btn_selected_background" />
+            <item android:drawable="@drawable/pad_writer_color_btn_hover_2dp_bg" android:state_hovered="true" />
+            <item android:drawable="@drawable/pad_writer_color_btn_default_background" />
+        </selector>
+    </item>
+    <item android:drawable="?android:selectableItemBackground" />
+</layer-list>

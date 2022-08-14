@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.ExtendCollapsingToolbarLayout android:id="@id/header_collapsingToolbarLayout" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentScrim="@android:color/transparent" app:layout_scrollFlags="exitUntilCollapsed|scroll|snap">
+        <View android:id="@id/emptySpaceView" android:layout_width="fill_parent" android:layout_height="96.0dip" />
+        <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/skin_alphaLinearLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_collapseMode="parallax" app:layout_collapseParallaxMultiplier="1.0">
+            <cn.wps.moffice.main.local.home.newui.theme.title.ThemeImageView android:id="@id/skinImageView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        <cn.wps.moffice.common.beans.NotDispatchTouchAlphaFrameLayout android:id="@id/smallBannerRootLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="96.0dip" app:layout_collapseMode="parallax" app:layout_collapseParallaxMultiplier="1.0" />
+        <cn.wps.moffice.common.beans.NotDispatchTouchAlphaFrameLayout android:id="@id/bigBannerRootLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="176.0dip" app:layout_collapseMode="parallax" app:layout_collapseParallaxMultiplier="1.0">
+            <FrameLayout android:id="@id/bigBannerContainer" android:layout_width="fill_parent" android:layout_height="176.0dip" />
+        </cn.wps.moffice.common.beans.NotDispatchTouchAlphaFrameLayout>
+        <androidx.appcompat.widget.Toolbar android:id="@id/pin_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="pin">
+            <cn.wps.moffice.common.beans.TransferTouchFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:acceptTouchViewId1="@id/smallBannerRootLayout" app:acceptTouchViewId2="@id/bigBannerRootLayout">
+                <include android:id="@id/phone_home_activity_titlebar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/phone_home_activity_layout_titlebar_v2" />
+                <View android:id="@id/phone_home_main_separation" android:visibility="gone" style="@style/phone_home_top_shadow" />
+            </cn.wps.moffice.common.beans.TransferTouchFrameLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/searchRootLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/search_content_alphaLinearLayout" android:background="@drawable/searchbar_bg" android:paddingLeft="14.0dip" android:paddingRight="3.0dip" android:layout_width="fill_parent" android:layout_height="40.0dip" android:paddingStart="14.0dip" android:paddingEnd="3.0dip">
+                <cn.wpsx.support.ui.KNormalImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/home_title_search_icon" />
+                <TextView android:textSize="14.0dip" android:textColorHint="@color/descriptionColor" android:ellipsize="end" android:gravity="left" android:id="@id/search_hint_textView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:hint="" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="6.0dip" />
+                <cn.wps.moffice.common.beans.RippleAlphaImageView android:id="@id/scan_imageView" android:padding="11.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/pub_nav_scan" style="@style/public_image_bg_style" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        </FrameLayout>
+        <View android:layout_gravity="bottom" style="@style/phone_home_top_shadow" />
+    </com.google.android.material.appbar.ExtendCollapsingToolbarLayout>
+</merge>

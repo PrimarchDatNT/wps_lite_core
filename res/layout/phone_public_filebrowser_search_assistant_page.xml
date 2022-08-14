@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/phone_public_recommend_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/phone_public_search_assistant_icon" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/phone_home_new_search_detail_title" />
+            </LinearLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:id="@id/phone_public_change_hotword" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_home_new_search_change" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+        </RelativeLayout>
+        <cn.wps.moffice.main.local.filebrowser.search.common.FlowLayout android:orientation="horizontal" android:id="@id/phone_public_recommend_flowlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" app:max_lines="3" />
+    </LinearLayout>
+</LinearLayout>

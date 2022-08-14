@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/phone_public_panel_title_bg_color" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.pdf.shell.common.views.PDFTitleBar android:id="@id/pdf_test_title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" />
+    <View style="@style/phone_home_top_shadow" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="23.0dip" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="请输入任务执行时间：" />
+        <EditText android:textSize="23.0dip" android:id="@id/exec_duration_editor" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="单位为秒，不填则默认10秒" android:inputType="numberDecimal" />
+        <View style="@style/phone_home_top_shadow" />
+        <CheckBox android:textSize="23.0dip" android:id="@id/verify_save_checkbox" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="验证保存" />
+        <CheckBox android:textSize="23.0dip" android:id="@id/verify_id_checkbox" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="验证身份" />
+        <CheckBox android:textSize="23.0dip" android:id="@id/verify_permission_checkbox" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="验证密码" />
+        <View style="@style/phone_home_top_shadow" />
+        <TextView android:textSize="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="请选择执行结果（不选则默认成功）" />
+        <RadioGroup android:id="@id/result_group" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:textSize="20.0dip" android:id="@id/success_btn" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="成功" />
+            <RadioButton android:textSize="20.0dip" android:id="@id/partly_success_btn" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="部分成功" />
+            <RadioButton android:textSize="20.0dip" android:id="@id/fail_btn" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="失败" />
+        </RadioGroup>
+        <View style="@style/phone_home_top_shadow" />
+        <cn.wps.moffice.common.beans.phone.AlphaButton android:textSize="23.0dip" android:id="@id/pdf_test_confirm" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/public_ok" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 意大利语 -->
+<resource>
+    <outer type="string-array" size="">
+        <item>Nessuno</item>
+        <item>¥</item>
+        <item>$</item>
+        <item>US$</item>
+        <item>$‎ Cinese (Singapore)‎</item>
+        <item>$‎ Inglese (Stati Uniti)‎</item>
+        <item>$‎ Francese (Canada)‎</item>
+        <item>$‎ Malese (Brunei Darussalam)‎</item>
+        <item>$‎ Spagnolo (Argentina)‎</item>
+        <item>$‎ Spagnolo (Portorico)‎</item>
+        <item>‎$b‎ Spagnolo (Bolivia)‎</item>
+        <item>$U‎ Spagnolo (Uruguay)‎</item>
+        <item>£‎ Inglese (Regno Unito)‎</item>
+        <item>‎£‎ Gaelico scozzese (Regno Unito)</item>
+        <item>¥‎ Cinese (Repubblica popolare cinese)‎</item>
+        <item>¥‎ Giapponese‎</item>
+        <item>‎¥‎ Mongolo (mongolo tradizionale, Repubblica popolare cinese)‎</item>
+        <item>₭‎ Lao‎</item>
+        <item>₩‎ Coreano‎</item>
+        <item>‎€‎ Francese (Belgio)‎</item>
+        <item>€‎ Tedesco (Austria)‎</item>
+        <item>€‎ Irlandese‎</item>
+        <item>€‎ Italiano (Italia)‎</item>
+        <item>€‎ Portoghese (Portogallo)‎</item>
+        <item>R$‎ Portoghese (Brasile)‎</item>
+        <item>HK$‎ Cinese (Hong Kong)‎</item>
+        <item>р.‎ Russo‎</item>
+        <item>‎€‎ Francese (Francia)‎</item>
+        <item>‎€‎ Tedesco (Germania)‎</item>
+        <item>‎$‎ Spagnolo (Messico)‎</item>
+        <item>‎€‎ Spagnolo (internazionale)‎</item>
+        <item>‎€‎ Spagnolo (Spagna - ordinamento tradizionale)‎</item>
+    	<item>‎NT$‎ Cinese (Taiwan)‎</item>
+    	<item>‎₪‎ Ebraico‎</item>
+    	<item>‎ر.س.‏‎ Arabo (Arabia Saudita)‎</item>
+    	<item>‎лв.‎ Bulgaro‎</item>
+    	<item>‎Kč‎ Ceco‎</item>
+    	<item>‎kr.‎ Danese‎</item>
+    	<item>‎€‎ Greco‎</item>
+    	<item>‎€‎ Finlandese‎</item>
+    	<item>‎Ft‎ Ungherese‎</item>
+    	<item>‎€‎ Olandese (Paesi Bassi)‎</item>
+    	<item>‎kr‎ Norvegese (Bokmål)‎</item>
+    	<item>‎zł‎ Polacco‎</item>
+    	<item>‎lei‎ Romeno‎</item>
+    	<item>‎kn‎ Croato (Croazia)‎</item>
+    	<item>‎€‎ Slovacco‎</item>
+    	<item>‎฿‎ Tailandese‎</item>
+    	<item>‎₺‎ Turco‎</item>
+    	<item>‎Rp‎ Indonesiano‎</item>
+    	<item>‎₴‎ Ucraino‎</item>
+    	<item>‎€‎ Sloveno‎</item>
+    	<item>‎€‎ Estone‎</item>
+    	<item>‎Ls‎ Lettone‎</item>
+    	<item>‎Lt‎ Lituano‎</item>
+    	<item>‎ريال‎ Persiano‎</item>
+    	<item>‎₫‎ Vietnamita‎</item>
+    	<item>‎ден.‎ Macedone (Ex Rep. Jugoslava di Macedonia)‎</item>
+    	<item>‎₹‎ Hindi‎</item>
+    	<item>‎Din.‎ Serbo (alfabeto latino, Serbia)‎</item>
+    	<item>‎kr‎ Svedese (Svezia)‎</item>
+    	<item>‎KM‎ Bosniaco (alfabeto latino)‎</item>
+    	<item>‎RM‎ Malese (Malaysia)‎</item>
+    </outer>
+    <default type="string">22</default>
+</resource>

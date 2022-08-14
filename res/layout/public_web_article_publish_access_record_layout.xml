@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/doc2web_error_page" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsBtnText="@string/as_retry" app:tipsImgId="@drawable/pub_404_no_internet" app:tipsText="@string/public_network_error_message" />
+    <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:id="@id/material_progress_bar_cycle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/public_web_article_publish_read_list" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="56.669983dip" android:paddingStart="@dimen/home_item_padding_left" android:paddingEnd="@dimen/home_item_padding_right">
+                <LinearLayout android:gravity="start" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_read_user_count" />
+                    <TextView android:textSize="18.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/public_web_article_publish_read_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_marginStart="17.0dip" />
+                    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center_vertical" android:id="@id/public_document_access_record_help" android:padding="5.0dip" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/pub_file_status_help" android:layout_marginStart="9.0dip" style="@style/public_image_bg_style" />
+                </LinearLayout>
+                <View android:layout_gravity="bottom" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            </FrameLayout>
+            <cn.wps.moffice.common.beans.phone.recycleview.LoadingRecyclerView android:id="@id/web_article_recycler_view" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/public_web_article_publish_read_list" />
+        </RelativeLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@drawable/public_item_hover_with_selectable_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/Widget.Holo.Light.Button.Borderless.Small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/et_filter_func_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_centerHorizontal="true" />
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/vip_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:src="@drawable/pub_vip_wps_member_42" android:layout_marginStart="-7.0dip" android:layout_toEndOf="@id/et_filter_func_icon" />
+    <TextView android:textSize="@dimen/phone_ss_filter_btn_text_size" android:textColor="@color/subTextColor" android:id="@id/et_filter_func_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="13.0dip" android:layout_below="@id/et_filter_func_icon" android:layout_centerHorizontal="true" android:textAlignment="center" />
+</RelativeLayout>

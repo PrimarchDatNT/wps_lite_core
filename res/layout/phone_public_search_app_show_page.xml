@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/root_hot_search_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="11.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="9.0dip">
+            <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_phone_search_app_history" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <ImageView android:id="@id/phone_public_history_clean" android:padding="5.0dip" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/pub_docer_mall_search_delete" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/public_image_bg_style" />
+        </RelativeLayout>
+        <cn.wps.moffice.main.local.filebrowser.search.common.FlowLayout android:orientation="horizontal" android:id="@id/phone_public_recommend_flowlayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" app:max_lines="2" />
+    </LinearLayout>
+    <include android:id="@id/recommend_layout" layout="@layout/phone_public_app_search_recommend_layout" />
+</LinearLayout>

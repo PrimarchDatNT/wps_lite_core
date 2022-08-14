@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/writer_bookmark_dialog" android:background="@drawable/color_panel_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.writer.beans.DialogTitleBar android:id="@id/writer_bookmark_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <GridView android:scrollbarStyle="outsideOverlay" android:id="@id/bookmark_list" android:background="@color/backgroundColor" android:paddingLeft="@dimen/writer_bookmark_grid_padding_left_right_port" android:paddingRight="@dimen/writer_bookmark_grid_padding_left_right_port" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/public_bookmark_item_bg" android:scrollingCache="false" android:cacheColorHint="#00000000" android:horizontalSpacing="@dimen/writer_bookmark_grid_horizontal_space" android:verticalSpacing="@dimen/writer_bookmark_grid_vertical_space_port" android:stretchMode="columnWidth" android:layoutDirection="ltr" android:paddingStart="@dimen/writer_bookmark_grid_padding_left_right_port" android:paddingEnd="@dimen/writer_bookmark_grid_padding_left_right_port" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/subTextColor" android:layout_gravity="center" android:id="@id/bookmark_empty" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_bookmark_empty" />
+    </FrameLayout>
+</LinearLayout>

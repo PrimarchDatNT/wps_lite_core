@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/phone_ss_modify_panel_padding_top_1" android:paddingTop="@dimen/phone_ss_modify_panel_padding_top_1" android:paddingRight="@dimen/phone_ss_modify_panel_padding_top_1" android:paddingBottom="@dimen/phone_ss_modify_panel_padding_top_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/phone_ss_modify_panel_padding_top_1" android:paddingEnd="@dimen/phone_ss_modify_panel_padding_top_1"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.divideview.DivideView android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/phone_ss_modify_panel_padding_top_1" divide_cols="3">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/phone_public_divideview_bg" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/phone_ss_modify_row_height">
+            <LinearLayout android:id="@id/phone_ss_alignbtn1" style="@style/phone_public_panel_divide_layout">
+                <ImageView android:src="@drawable/phone_ss_alignbtn1" style="@style/phone_public_divide_item" />
+            </LinearLayout>
+            <View style="@style/phone_public_panel_divide_vline" />
+            <LinearLayout android:id="@id/phone_ss_alignbtn2" style="@style/phone_public_panel_divide_layout">
+                <ImageView android:src="@drawable/phone_ss_alignbtn2" style="@style/phone_public_divide_item" />
+            </LinearLayout>
+            <View style="@style/phone_public_panel_divide_vline" />
+            <LinearLayout android:id="@id/phone_ss_alignbtn3" style="@style/phone_public_panel_divide_layout">
+                <ImageView android:src="@drawable/phone_ss_alignbtn3" style="@style/phone_public_divide_item" />
+            </LinearLayout>
+        </LinearLayout>
+    </cn.wps.moffice.common.beans.phone.divideview.DivideView>
+    <cn.wps.moffice.common.beans.phone.divideview.DivideView android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/phone_ss_modify_panel_padding_top_1" divide_cols="3">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/phone_public_divideview_bg" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/phone_ss_modify_row_height">
+            <LinearLayout android:id="@id/phone_ss_alignbtn4" style="@style/phone_public_panel_divide_layout">
+                <ImageView android:src="@drawable/phone_ss_alignbtn4" style="@style/phone_public_divide_item" />
+            </LinearLayout>
+            <View style="@style/phone_public_panel_divide_vline" />
+            <LinearLayout android:id="@id/phone_ss_alignbtn5" style="@style/phone_public_panel_divide_layout">
+                <ImageView android:src="@drawable/phone_ss_alignbtn5" style="@style/phone_public_divide_item" />
+            </LinearLayout>
+            <View style="@style/phone_public_panel_divide_vline" />
+            <LinearLayout android:id="@id/phone_ss_alignbtn6" style="@style/phone_public_panel_divide_layout">
+                <ImageView android:src="@drawable/phone_ss_alignbtn6" style="@style/phone_public_divide_item" />
+            </LinearLayout>
+        </LinearLayout>
+    </cn.wps.moffice.common.beans.phone.divideview.DivideView>
+    <cn.wps.moffice.common.beans.phone.divideview.DivideView android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" divide_cols="3">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/phone_public_divideview_bg" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/phone_ss_modify_row_height">
+            <LinearLayout android:id="@id/phone_ss_alignbtn7" style="@style/phone_public_panel_divide_layout">
+                <ImageView android:src="@drawable/phone_ss_alignbtn7" style="@style/phone_public_divide_item" />
+            </LinearLayout>
+            <View style="@style/phone_public_panel_divide_vline" />
+            <LinearLayout android:id="@id/phone_ss_alignbtn8" style="@style/phone_public_panel_divide_layout">
+                <ImageView android:src="@drawable/phone_ss_alignbtn8" style="@style/phone_public_divide_item" />
+            </LinearLayout>
+            <View style="@style/phone_public_panel_divide_vline" />
+            <LinearLayout android:id="@id/phone_ss_alignbtn9" style="@style/phone_public_panel_divide_layout">
+                <ImageView android:src="@drawable/phone_ss_alignbtn9" style="@style/phone_public_divide_item" />
+            </LinearLayout>
+        </LinearLayout>
+    </cn.wps.moffice.common.beans.phone.divideview.DivideView>
+</LinearLayout>

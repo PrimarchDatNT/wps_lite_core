@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/lebo_cast_screen_wifi" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="8.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/search_device_list" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:layout_marginHorizontal="24.0dip">
+                    <TextView android:textSize="18.0dip" android:textColor="@color/mainTextColor" android:id="@id/device_search_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_found_following_device" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+                    <cn.wps.moffice.common.beans.circleloadingview.CircleLoaderView android:id="@id/search_device_list_loading" android:visibility="invisible" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="5.0dip" android:layout_toRightOf="@id/device_search_tips" android:layout_centerVertical="true" android:layout_marginStart="5.0dip" app:circleStrokeWidth="2.0dip" app:loadingcircleRadius="6.5dip" />
+                    <TextView android:textSize="14.0dip" android:textColor="@color/secondaryColor" android:id="@id/device_dialog_search_refresh" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_refresh" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+                </RelativeLayout>
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_browse" android:layout_width="fill_parent" android:layout_height="130.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_below="@id/device_search_tips" android:overScrollMode="never" android:layout_marginStart="8.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/search_no_device" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="24.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <cn.wps.moffice.common.beans.circleloadingview.CircleLoaderView android:layout_gravity="center" android:id="@id/lelink_loading_no_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip" app:circleStrokeWidth="2.0dip" app:loadingcircleRadius="6.5dip" />
+                    <TextView android:textSize="18.0dip" android:textColor="@color/subTextColor" android:id="@id/no_device_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:id="@id/search_no_device_tips" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <FrameLayout android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:layout_width="fill_parent" android:layout_height="68.0dip" android:paddingHorizontal="24.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:layout_gravity="center" android:id="@id/lelink_cancel" android:background="?android:selectableItemBackgroundBorderless" android:visibility="visible" android:layout_width="60.0dip" android:layout_height="40.0dip" android:text="@string/public_cancel" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:layout_gravity="end|center" android:id="@id/lelink_retry_dialog" android:background="?android:selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="40.0dip" android:text="@string/public_clear_file_retry" />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <include layout="@layout/internal_templete_docer_vip_introduce_layout" />
+    <include layout="@layout/internal_templete_super_vip_update_introduce_layout" />
+    <include layout="@layout/internal_templete_super_vip_renew_introduce_layout" />
+</merge>

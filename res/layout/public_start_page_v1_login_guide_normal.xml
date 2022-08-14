@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/wrap_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/rl_video_root" android:background="@color/backgroundColor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="320.0dip" android:layout_centerHorizontal="true">
+            <VideoView android:id="@id/vv_unboxing_video" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageView android:id="@id/iv_sound" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/public_comp_video_mute" android:scaleType="center" android:layout_alignParentRight="true" />
+            <RelativeLayout android:id="@id/rl_video_controller_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/iv_reset" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/public_comp_video_replay" android:scaleType="center" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                <ProgressBar android:id="@id/pb_video_progress" android:layout_width="fill_parent" android:layout_height="3.0dip" android:max="1000" android:progress="500" android:progressDrawable="@drawable/public_unboxing_video_progress_drawable" android:layout_alignParentBottom="true" style="@android:style/Widget.ProgressBar.Horizontal" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/wrap_container">
+        <View android:id="@id/div_login_guide_padding" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/logo_wps" android:layout_width="111.0dip" android:layout_height="18.0dip" android:layout_marginBottom="14.0dip" android:src="@drawable/pub_wpsoffice_font_gray" android:scaleType="fitCenter" />
+        <TextView android:textSize="26.0dip" android:textStyle="bold" android:textColor="@color/secondaryColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" android:text="@string/public_unboxing_title" android:letterSpacing="0.1" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/public_unboxing_title_2" android:letterSpacing="0.25" />
+        <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.68" />
+        <Button android:textSize="16.0dip" android:id="@id/login_guide_confirm_btn" android:layout_width="286.0dip" android:layout_height="42.0dip" android:layout_marginTop="12.0dip" android:text="@string/public_login_quickly" style="@style/KButtonStyle.Primary.Large" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/login_guide_cancel_btn" android:layout_width="85.0dip" android:layout_height="33.0dip" android:layout_marginTop="8.0dip" android:text="@string/public_notyet" />
+        <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.72" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@string/public_unboxing_bottom_tip" />
+    </LinearLayout>
+</RelativeLayout>

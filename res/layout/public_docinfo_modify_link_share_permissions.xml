@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/title_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <View android:id="@id/top_divide_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_below="@id/title_bar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/edit_link_share_permission_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_divide_line">
+        <LinearLayout android:orientation="vertical" android:id="@id/permission_only_read_btn" android:background="@drawable/phone_public_list_white_selector" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="64.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="11.0dip" android:text="@string/public_all_people_read_only" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="11.0dip" android:text="@string/public_linkshare_read_only_desc" />
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center|right" android:id="@id/permission_only_read_select_tag" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/pub_comp_radio_ios_checked" android:scaleType="centerInside" />
+            </FrameLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/permission_only_read_time_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="18.0dip">
+                <TextView android:textSize="13.0dip" android:textColor="@color/secondaryColor" android:id="@id/permission_only_read_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_list_screening_right_arrow_blue" android:scaleType="centerInside" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/permission_editable_btn" android:background="@drawable/phone_public_list_white_selector" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="64.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="11.0dip" android:text="@string/public_all_people_write" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="11.0dip" android:text="@string/public_linkshare_write_permission_desc" />
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center|right" android:id="@id/permission_editable_select_tag" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/pub_comp_radio_ios_checked" android:scaleType="centerInside" />
+            </FrameLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/permission_editable_time_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="18.0dip">
+                <TextView android:textSize="13.0dip" android:textColor="@color/secondaryColor" android:id="@id/permission_editable_time_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_list_screening_right_arrow_blue" android:scaleType="centerInside" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/permission_designated_member_btn" android:background="@drawable/phone_public_list_white_selector" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="64.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="11.0dip" android:text="@string/public_link_spec_member" />
+                <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="11.0dip" android:text="@string/public_link_spec_member_text" />
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center|right" android:id="@id/permission_designated_member_select_tag" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="16.0dip" android:src="@drawable/pub_comp_radio_ios_checked" android:scaleType="centerInside" />
+            </FrameLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/permission_manager_member_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginBottom="18.0dip">
+                <TextView android:textSize="13.0dip" android:textColor="@color/secondaryColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                <cn.wpsx.support.ui.KColorfulImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_list_screening_right_arrow_blue" android:scaleType="centerInside" />
+            </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+            <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="16.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+    <cn.wps.moffice.common.TouchEventInterceptFrameLayout android:id="@id/edit_link_share_expired_page" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_divide_line">
+        <include layout="@layout/public_docinfo_link_share_expired" />
+    </cn.wps.moffice.common.TouchEventInterceptFrameLayout>
+    <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/error_no_network_page" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_divide_line" app:tipsBtnText="@string/ppt_retry" app:tipsImgId="@drawable/pub_404_no_internet" app:tipsText="@string/documentmanager_cloudfile_no_network" />
+    <cn.wps.moffice.common.TouchEventInterceptFrameLayout android:id="@id/loading_progress_view" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_divide_line">
+        <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </cn.wps.moffice.common.TouchEventInterceptFrameLayout>
+</RelativeLayout>

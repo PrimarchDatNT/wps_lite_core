@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/public_reddot_msg_img" android:src="@drawable/pub_nav_app_task" style="@style/new_phone_public_title_bar_icon" />
+    <TextView android:textSize="8.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/public_reddot_msg_text" android:background="@drawable/phone_public_home_app_tips_red_msg_bg" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="13.0dip" android:layout_marginLeft="24.0dip" android:layout_marginTop="6.0dip" android:text="9" android:maxEms="3" android:textAlignment="center" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/pad_second_toolbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/ppt_font_bold" android:focusable="true" android:src="@drawable/pad_comp_style_font_bold" android:scaleType="centerInside" android:tint="@color/normalIconColor" android:contentDescription="@string/reader_public_bold" pressAlphaEnabled="false" style="@style/pad_second_toolbar_item_style" />
+    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/ppt_font_italic" android:focusable="true" android:src="@drawable/pad_comp_style_font_italic" android:scaleType="centerInside" android:tint="@color/normalIconColor" android:contentDescription="@string/reader_public_italic" pressAlphaEnabled="false" style="@style/pad_second_toolbar_item_style" />
+    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/ppt_font_underline" android:focusable="true" android:src="@drawable/pad_comp_style_font_underline_ppt" android:scaleType="centerInside" android:contentDescription="@string/reader_public_underline" pressAlphaEnabled="false" style="@style/pad_second_toolbar_item_style" />
+    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/ppt_font_shadow" android:focusable="true" android:src="@drawable/pad_comp_style_font_shadow" android:scaleType="centerInside" android:tint="@color/normalIconColor" android:contentDescription="@string/reader_public_shadow" pressAlphaEnabled="false" style="@style/pad_second_toolbar_item_style" />
+</LinearLayout>

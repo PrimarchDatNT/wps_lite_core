@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:styles xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" mc:Ignorable="w14">
+	<w:style w:type="table" w:default="1" w:styleId="Normal Table">
+		<w:name w:val="Normal Table"/>
+		<w:uiPriority w:val="99"/>
+		<w:tblPr>
+			<w:tblInd w:w="0" w:type="dxa"/>
+			<w:tblCellMar>
+				<w:top w:w="0" w:type="dxa"/>
+				<w:left w:w="108" w:type="dxa"/>
+				<w:bottom w:w="0" w:type="dxa"/>
+				<w:right w:w="108" w:type="dxa"/>
+			</w:tblCellMar>
+		</w:tblPr>
+	</w:style>
+	<w:style w:type="table">
+		<w:name w:val="Table Grid"/>
+		<w:basedOn w:val="Normal Table"/>
+		<w:uiPriority w:val="59"/>
+		<w:tblPr>
+			<w:tblInd w:w="0" w:type="dxa"/>
+			<w:tblBorders>
+				<w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+				<w:left w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+				<w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+				<w:right w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+				<w:insideH w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+				<w:insideV w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+			</w:tblBorders>
+			<w:tblCellMar>
+				<w:top w:w="0" w:type="dxa"/>
+				<w:left w:w="108" w:type="dxa"/>
+				<w:bottom w:w="0" w:type="dxa"/>
+				<w:right w:w="108" w:type="dxa"/>
+			</w:tblCellMar>
+		</w:tblPr>
+	</w:style>
+	<w:style w:type="table">
+		<w:name w:val="Medium Grid 3"/>
+		<w:basedOn w:val="Normal Table"/>
+		<w:uiPriority w:val="69"/>
+		<w:tblPr>
+			<w:tblStyleRowBandSize w:val="1"/>
+			<w:tblStyleColBandSize w:val="1"/>
+			<w:tblInd w:w="0" w:type="dxa"/>
+			<w:tblBorders>
+				<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideH w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideV w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+			</w:tblBorders>
+			<w:tblCellMar>
+				<w:top w:w="0" w:type="dxa"/>
+				<w:left w:w="108" w:type="dxa"/>
+				<w:bottom w:w="0" w:type="dxa"/>
+				<w:right w:w="108" w:type="dxa"/>
+			</w:tblCellMar>
+		</w:tblPr>
+		<w:tcPr>
+			<w:shd w:val="clear" w:color="auto" w:fill="C0C0C0" w:themeFill="text1" w:themeFillTint="3F"/>
+		</w:tcPr>
+		<w:tblStylePr w:type="firstRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="000000" w:themeFill="text1"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="000000" w:themeFill="text1"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="firstCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="000000" w:themeFill="text1"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="nil"/>
+					<w:left w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="nil"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="000000" w:themeFill="text1"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Vert">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="808080" w:themeFill="text1" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Horz">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="808080" w:themeFill="text1" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+	</w:style>
+	<w:style w:type="table">
+		<w:name w:val="Medium Grid 3 Accent 1"/>
+		<w:basedOn w:val="Normal Table"/>
+		<w:uiPriority w:val="69"/>
+		<w:tblPr>
+			<w:tblStyleRowBandSize w:val="1"/>
+			<w:tblStyleColBandSize w:val="1"/>
+			<w:tblInd w:w="0" w:type="dxa"/>
+			<w:tblBorders>
+				<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideH w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideV w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+			</w:tblBorders>
+			<w:tblCellMar>
+				<w:top w:w="0" w:type="dxa"/>
+				<w:left w:w="108" w:type="dxa"/>
+				<w:bottom w:w="0" w:type="dxa"/>
+				<w:right w:w="108" w:type="dxa"/>
+			</w:tblCellMar>
+		</w:tblPr>
+		<w:tcPr>
+			<w:shd w:val="clear" w:color="auto" w:fill="D3DFEE" w:themeFill="accent1" w:themeFillTint="3F"/>
+		</w:tcPr>
+		<w:tblStylePr w:type="firstRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="4F81BD" w:themeFill="accent1"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="4F81BD" w:themeFill="accent1"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="firstCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="4F81BD" w:themeFill="accent1"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="nil"/>
+					<w:left w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="nil"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="4F81BD" w:themeFill="accent1"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Vert">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="A7BFDE" w:themeFill="accent1" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Horz">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="A7BFDE" w:themeFill="accent1" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+	</w:style>
+	<w:style w:type="table">
+		<w:name w:val="Medium Grid 3 Accent 2"/>
+		<w:basedOn w:val="Normal Table"/>
+		<w:uiPriority w:val="69"/>
+		<w:tblPr>
+			<w:tblStyleRowBandSize w:val="1"/>
+			<w:tblStyleColBandSize w:val="1"/>
+			<w:tblInd w:w="0" w:type="dxa"/>
+			<w:tblBorders>
+				<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideH w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideV w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+			</w:tblBorders>
+			<w:tblCellMar>
+				<w:top w:w="0" w:type="dxa"/>
+				<w:left w:w="108" w:type="dxa"/>
+				<w:bottom w:w="0" w:type="dxa"/>
+				<w:right w:w="108" w:type="dxa"/>
+			</w:tblCellMar>
+		</w:tblPr>
+		<w:tcPr>
+			<w:shd w:val="clear" w:color="auto" w:fill="EFD3D2" w:themeFill="accent2" w:themeFillTint="3F"/>
+		</w:tcPr>
+		<w:tblStylePr w:type="firstRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="C0504D" w:themeFill="accent2"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="C0504D" w:themeFill="accent2"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="firstCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="C0504D" w:themeFill="accent2"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="nil"/>
+					<w:left w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="nil"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="C0504D" w:themeFill="accent2"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Vert">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="DFA7A6" w:themeFill="accent2" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Horz">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="DFA7A6" w:themeFill="accent2" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+	</w:style>
+	<w:style w:type="table">
+		<w:name w:val="Medium Grid 3 Accent 3"/>
+		<w:basedOn w:val="Normal Table"/>
+		<w:uiPriority w:val="69"/>
+		<w:tblPr>
+			<w:tblStyleRowBandSize w:val="1"/>
+			<w:tblStyleColBandSize w:val="1"/>
+			<w:tblInd w:w="0" w:type="dxa"/>
+			<w:tblBorders>
+				<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideH w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideV w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+			</w:tblBorders>
+			<w:tblCellMar>
+				<w:top w:w="0" w:type="dxa"/>
+				<w:left w:w="108" w:type="dxa"/>
+				<w:bottom w:w="0" w:type="dxa"/>
+				<w:right w:w="108" w:type="dxa"/>
+			</w:tblCellMar>
+		</w:tblPr>
+		<w:tcPr>
+			<w:shd w:val="clear" w:color="auto" w:fill="E6EED5" w:themeFill="accent3" w:themeFillTint="3F"/>
+		</w:tcPr>
+		<w:tblStylePr w:type="firstRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="9BBB59" w:themeFill="accent3"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="9BBB59" w:themeFill="accent3"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="firstCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="9BBB59" w:themeFill="accent3"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="nil"/>
+					<w:left w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="nil"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="9BBB59" w:themeFill="accent3"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Vert">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="CDDDAC" w:themeFill="accent3" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Horz">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="CDDDAC" w:themeFill="accent3" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+	</w:style>
+	<w:style w:type="table">
+		<w:name w:val="Medium Grid 3 Accent 4"/>
+		<w:basedOn w:val="Normal Table"/>
+		<w:uiPriority w:val="69"/>
+		<w:tblPr>
+			<w:tblStyleRowBandSize w:val="1"/>
+			<w:tblStyleColBandSize w:val="1"/>
+			<w:tblInd w:w="0" w:type="dxa"/>
+			<w:tblBorders>
+				<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideH w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideV w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+			</w:tblBorders>
+			<w:tblCellMar>
+				<w:top w:w="0" w:type="dxa"/>
+				<w:left w:w="108" w:type="dxa"/>
+				<w:bottom w:w="0" w:type="dxa"/>
+				<w:right w:w="108" w:type="dxa"/>
+			</w:tblCellMar>
+		</w:tblPr>
+		<w:tcPr>
+			<w:shd w:val="clear" w:color="auto" w:fill="DFD8E8" w:themeFill="accent4" w:themeFillTint="3F"/>
+		</w:tcPr>
+		<w:tblStylePr w:type="firstRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="8064A2" w:themeFill="accent4"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="8064A2" w:themeFill="accent4"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="firstCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="8064A2" w:themeFill="accent4"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="nil"/>
+					<w:left w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="nil"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="8064A2" w:themeFill="accent4"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Vert">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="BFB1D0" w:themeFill="accent4" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Horz">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="BFB1D0" w:themeFill="accent4" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+	</w:style>
+	<w:style w:type="table">
+		<w:name w:val="Medium Grid 3 Accent 5"/>
+		<w:basedOn w:val="Normal Table"/>
+		<w:uiPriority w:val="69"/>
+		<w:tblPr>
+			<w:tblStyleRowBandSize w:val="1"/>
+			<w:tblStyleColBandSize w:val="1"/>
+			<w:tblInd w:w="0" w:type="dxa"/>
+			<w:tblBorders>
+				<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideH w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideV w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+			</w:tblBorders>
+			<w:tblCellMar>
+				<w:top w:w="0" w:type="dxa"/>
+				<w:left w:w="108" w:type="dxa"/>
+				<w:bottom w:w="0" w:type="dxa"/>
+				<w:right w:w="108" w:type="dxa"/>
+			</w:tblCellMar>
+		</w:tblPr>
+		<w:tcPr>
+			<w:shd w:val="clear" w:color="auto" w:fill="D2EAF1" w:themeFill="accent5" w:themeFillTint="3F"/>
+		</w:tcPr>
+		<w:tblStylePr w:type="firstRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="4BACC6" w:themeFill="accent5"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="4BACC6" w:themeFill="accent5"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="firstCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="4BACC6" w:themeFill="accent5"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="nil"/>
+					<w:left w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="nil"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="4BACC6" w:themeFill="accent5"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Vert">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="A5D5E2" w:themeFill="accent5" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Horz">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="A5D5E2" w:themeFill="accent5" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+	</w:style>
+	<w:style w:type="table">
+		<w:name w:val="Medium Grid 3 Accent 6"/>
+		<w:basedOn w:val="Normal Table"/>
+		<w:uiPriority w:val="69"/>
+		<w:tblPr>
+			<w:tblStyleRowBandSize w:val="1"/>
+			<w:tblStyleColBandSize w:val="1"/>
+			<w:tblInd w:w="0" w:type="dxa"/>
+			<w:tblBorders>
+				<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideH w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				<w:insideV w:val="single" w:sz="6" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+			</w:tblBorders>
+			<w:tblCellMar>
+				<w:top w:w="0" w:type="dxa"/>
+				<w:left w:w="108" w:type="dxa"/>
+				<w:bottom w:w="0" w:type="dxa"/>
+				<w:right w:w="108" w:type="dxa"/>
+			</w:tblCellMar>
+		</w:tblPr>
+		<w:tcPr>
+			<w:shd w:val="clear" w:color="auto" w:fill="FDE4D0" w:themeFill="accent6" w:themeFillTint="3F"/>
+		</w:tcPr>
+		<w:tblStylePr w:type="firstRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="F79646" w:themeFill="accent6"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastRow">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="F79646" w:themeFill="accent6"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="firstCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="F79646" w:themeFill="accent6"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="lastCol">
+			<w:rPr>
+				<w:b/>
+				<w:bCs/>
+				<w:i w:val="0"/>
+				<w:iCs w:val="0"/>
+				<w:color w:val="CCE8CF" w:themeColor="background1"/>
+			</w:rPr>
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="nil"/>
+					<w:left w:val="single" w:sz="24" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="nil"/>
+					<w:right w:val="nil"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="F79646" w:themeFill="accent6"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Vert">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="nil"/>
+					<w:insideV w:val="nil"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="FBCAA2" w:themeFill="accent6" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+		<w:tblStylePr w:type="band1Horz">
+			<w:tblPr/>
+			<w:tcPr>
+				<w:tcBorders>
+					<w:top w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:left w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:bottom w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:right w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideH w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+					<w:insideV w:val="single" w:sz="8" w:space="0" w:color="CCE8CF" w:themeColor="background1"/>
+				</w:tcBorders>
+				<w:shd w:val="clear" w:color="auto" w:fill="FBCAA2" w:themeFill="accent6" w:themeFillTint="7F"/>
+			</w:tcPr>
+		</w:tblStylePr>
+	</w:style>
+</w:styles>

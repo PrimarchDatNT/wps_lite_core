@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/left_padding_v" android:layout_width="20.0dip" android:layout_height="wrap_content" />
+    <cn.wps.moffice.common.beans.RoundRectImageView android:id="@id/cover_iv" android:layout_width="124.0dip" android:layout_height="70.0dip" android:scaleType="fitXY" style="@style/public_image_bg_null_style_bounded" />
+    <View android:id="@id/right_padding_v" android:layout_width="10.0dip" android:layout_height="wrap_content" />
+</LinearLayout>

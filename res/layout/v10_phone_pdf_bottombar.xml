@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/normal_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v10_phone_pdf_bottombar_normal" />
+    <ViewStub android:id="@id/rom_layout_stub" android:layout="@layout/v10_phone_pdf_bottombar_rom" android:inflatedId="@id/rom_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

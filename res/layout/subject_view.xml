@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.RoundRectImageView android:layout_gravity="start" android:id="@id/subject_icon" android:layout_width="157.0dip" android:layout_height="80.0dip" android:layout_marginLeft="16.0dip" android:layout_marginStart="16.0dip" />
+</FrameLayout>

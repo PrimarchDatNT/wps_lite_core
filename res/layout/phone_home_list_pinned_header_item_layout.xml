@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.NotDispatchTouchAlphaRelativeLayout android:orientation="vertical" android:id="@id/home_list_pinned_header_layout" android:background="@color/secondBackgroundColor" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="36.0dip" android:paddingStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:id="@id/public_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/showModeButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pub_list_listview_style_symbol" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/pad_record_filter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="14.0dip" android:layout_alignParentEnd="true">
+        <TextView android:textSize="13.0dip" android:textColor="@color/descriptionColor" android:id="@id/record_filter_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="@string/public_filter_file_title" android:layout_marginEnd="5.0dip" />
+        <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center" android:id="@id/pad_record_filter_img" android:padding="3.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/pub_list_screening_filter" android:contentDescription="@null" android:layout_marginEnd="2.0dip" />
+    </LinearLayout>
+</cn.wps.moffice.common.beans.NotDispatchTouchAlphaRelativeLayout>

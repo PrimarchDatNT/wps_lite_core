@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/renew_docer_vip_layout" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="38.0dip" layout="@layout/internal_template_mine_renew_docer_vip_banner" />
+        <cn.wps.moffice.presentation.control.common.AutoRotateScreenGridView android:id="@id/ppt_template_previews" android:paddingTop="13.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@android:color/transparent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:id="@id/ppt_template_interceptor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:id="@id/ppt_template_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <cn.wps.moffice.docer.widget.DocerCommonErrorPage android:id="@id/ppt_template_no_my_template_tips" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsBtnText="@string/public_template_click_look" app:tipsImgId="@drawable/pub_404_no_template" app:tipsText="@string/template_none" />
+    <cn.wps.moffice.docer.widget.DocerCommonErrorPage android:id="@id/open_docker_vip_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:extLayout="@layout/internal_template_open_docer_vip_layout" app:tipsImgId="@drawable/pub_404_vip_docer_member_guidance" app:tipsText="@string/public_membership_docer_vip_introduce" />
+</RelativeLayout>

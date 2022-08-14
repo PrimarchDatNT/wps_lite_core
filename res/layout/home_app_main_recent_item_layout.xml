@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.RippleAlphaLinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="5.0dip" android:src="@drawable/pub_app_tool_default" />
+    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="11.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="2.0dip" android:text="长图片分享" android:maxLines="1" android:textAlignment="center" />
+</cn.wps.moffice.common.beans.RippleAlphaLinearLayout>

@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <node>
+        <countryCode>阿富汗</countryCode>
+        <countryName>Afghanistan</countryName>
+        <loacaCountryName>Afghanistan (افغانستان‎‎)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>阿尔巴尼亚</countryCode>
+        <countryName>Albania</countryName>
+        <loacaCountryName>Albania (Shqipërisë)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>阿尔及利亚</countryCode>
+        <countryName>Algeria</countryName>
+        <loacaCountryName>Algeria (الجزائر)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>美属萨摩亚</countryCode>
+        <countryName>American Samoa</countryName>
+        <loacaCountryName>American Samoa</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>安道尔</countryCode>
+        <countryName>Andorra</countryName>
+        <loacaCountryName>Andorra</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>安哥拉</countryCode>
+        <countryName>Angola</countryName>
+        <loacaCountryName>Angola</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>安圭拉</countryCode>
+        <countryName>Anguilla</countryName>
+        <loacaCountryName>Anguilla</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>安提瓜和巴布达</countryCode>
+        <countryName>Antigua and Barbuda</countryName>
+        <loacaCountryName>Antigua and Barbuda</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>阿根廷</countryCode>
+        <countryName>Argentina</countryName>
+        <loacaCountryName>Argentina</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>亚美尼亚</countryCode>
+        <countryName>Armenia</countryName>
+        <loacaCountryName>Armenia (Հայաստան)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>阿鲁巴</countryCode>
+        <countryName>Aruba</countryName>
+        <loacaCountryName>Aruba</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>澳大利亚</countryCode>
+        <countryName>Australia</countryName>
+        <loacaCountryName>Australia</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>奥地利</countryCode>
+        <countryName>Austria</countryName>
+        <loacaCountryName>Austria (Österreich)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>阿塞拜疆</countryCode>
+        <countryName>Azerbaijan</countryName>
+        <loacaCountryName>Azerbaijan (Azərbaycan)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>巴哈马</countryCode>
+        <countryName>Bahamas</countryName>
+        <loacaCountryName>Bahamas</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>巴林</countryCode>
+        <countryName>Bahrain</countryName>
+        <loacaCountryName>Bahrain (البحرين)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>孟加拉</countryCode>
+        <countryName>Bangladesh</countryName>
+        <loacaCountryName>Bangladesh (বাংলাদেশ)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>巴巴多斯</countryCode>
+        <countryName>Barbados</countryName>
+        <loacaCountryName>Barbados</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>白俄罗斯</countryCode>
+        <countryName>Belarus</countryName>
+        <loacaCountryName>Belarus (Беларусь)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>比利时</countryCode>
+        <countryName>Belgium</countryName>
+        <loacaCountryName>Belgium (België)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>伯利兹</countryCode>
+        <countryName>Belize</countryName>
+        <loacaCountryName>Belize</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>贝宁</countryCode>
+        <countryName>Benin</countryName>
+        <loacaCountryName>Benin (Bénin)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>百慕大</countryCode>
+        <countryName>Bermuda</countryName>
+        <loacaCountryName>Bermuda</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>不丹</countryCode>
+        <countryName>Bhutan</countryName>
+        <loacaCountryName>Bhutan (འབྲུག་ཡུལ་)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>玻利维亚</countryCode>
+        <countryName>Bolivia</countryName>
+        <loacaCountryName>Bolivia</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>波斯尼亚和黑塞哥维那</countryCode>
+        <countryName>Bosnia and Herzegovina</countryName>
+        <loacaCountryName>Bosnia and Herzegovina</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>博茨瓦纳</countryCode>
+        <countryName>Botswana</countryName>
+        <loacaCountryName>Botswana</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>巴西</countryCode>
+        <countryName>Brazil</countryName>
+        <loacaCountryName>Brazil (Brasil)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>文莱</countryCode>
+        <countryName>Brunei</countryName>
+        <loacaCountryName>Brunei</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>保加利亚</countryCode>
+        <countryName>Bulgaria</countryName>
+        <loacaCountryName>Bulgaria (България)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>布基纳法索</countryCode>
+        <countryName>Burkina Faso</countryName>
+        <loacaCountryName>Burkina Faso</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>布隆迪</countryCode>
+        <countryName>Burundi</countryName>
+        <loacaCountryName>Burundi</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>柬埔寨</countryCode>
+        <countryName>Cambodia</countryName>
+        <loacaCountryName>Cambodia (កម្ពុជា)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>喀麦隆</countryCode>
+        <countryName>Cameroon</countryName>
+        <loacaCountryName>Cameroon</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>加拿大</countryCode>
+        <countryName>Canada</countryName>
+        <loacaCountryName>Canada</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>佛得角</countryCode>
+        <countryName>Cape Verde</countryName>
+        <loacaCountryName>Cape Verde (Cabo Verde)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>开曼群岛</countryCode>
+        <countryName>Cayman Islands</countryName>
+        <loacaCountryName>Cayman Islands</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>中非</countryCode>
+        <countryName>Central African Republic</countryName>
+        <loacaCountryName>Central African Republic (Centrafrique)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>乍得</countryCode>
+        <countryName>Chad</countryName>
+        <loacaCountryName>Chad (تشاد‎)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>智利</countryCode>
+        <countryName>Chile</countryName>
+        <loacaCountryName>Chile</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>中国</countryCode>
+        <countryName>China</countryName>
+        <loacaCountryName>China (中国)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>圣诞岛</countryCode>
+        <countryName>Christmas Island</countryName>
+        <loacaCountryName>Christmas Island</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>科科斯群岛</countryCode>
+        <countryName>Cocos Islands</countryName>
+        <loacaCountryName>Cocos Islands</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>哥伦比亚</countryCode>
+        <countryName>Colombia</countryName>
+        <loacaCountryName>Colombia</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>科摩罗</countryCode>
+        <countryName>Comoros</countryName>
+        <loacaCountryName>Comoros (Comores)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>刚果共和国</countryCode>
+        <countryName>Republic of the Congo</countryName>
+        <loacaCountryName>Republic of the Congo</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>刚果民主共和国</countryCode>
+        <countryName>Democratic Republic of the Congo</countryName>
+        <loacaCountryName>Democratic Republic of the Congo</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>哥斯达黎加</countryCode>
+        <countryName>Costa Rica</countryName>
+        <loacaCountryName>Costa Rica</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>克罗地亚</countryCode>
+        <countryName>Croatia</countryName>
+        <loacaCountryName>Croatia (Hrvatska)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>古巴</countryCode>
+        <countryName>Cuba</countryName>
+        <loacaCountryName>Cuba</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>库拉索</countryCode>
+        <countryName>Curaçao</countryName>
+        <loacaCountryName>Curaçao</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>塞浦路斯</countryCode>
+        <countryName>Cyprus</countryName>
+        <loacaCountryName>Cyprus (Κύπρος)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>捷克</countryCode>
+        <countryName>Czech Republic</countryName>
+        <loacaCountryName>Czech Republic (Česká republika)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>科特迪瓦</countryCode>
+        <countryName>Côte d´Ivoire</countryName>
+        <loacaCountryName>Côte d´Ivoire</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>丹麦</countryCode>
+        <countryName>Denmark</countryName>
+        <loacaCountryName>Denmark</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>吉布提</countryCode>
+        <countryName>Djibouti</countryName>
+        <loacaCountryName>Djibouti (جيبوتي)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>多米尼克</countryCode>
+        <countryName>Dominica</countryName>
+        <loacaCountryName>Dominica</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>多米尼加</countryCode>
+        <countryName>Dominican Republic</countryName>
+        <loacaCountryName>Dominican Republic (República Dominicana)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>厄瓜多尔</countryCode>
+        <countryName>Ecuador</countryName>
+        <loacaCountryName>Ecuador</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>埃及</countryCode>
+        <countryName>Egypt</countryName>
+        <loacaCountryName>Egypt ( مصر)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>萨尔瓦多</countryCode>
+        <countryName>El Salvador</countryName>
+        <loacaCountryName>El Salvador</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>赤道几内亚</countryCode>
+        <countryName>Equatorial Guinea</countryName>
+        <loacaCountryName>Equatorial Guinea (Guinea Ecuatorial)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>厄立特里亚</countryCode>
+        <countryName>Eritrea</countryName>
+        <loacaCountryName>Eritrea (إرتريا)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>爱沙尼亚</countryCode>
+        <countryName>Estonia</countryName>
+        <loacaCountryName>Estonia (Eesti)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>埃塞俄比亚</countryCode>
+        <countryName>Ethiopia</countryName>
+        <loacaCountryName>Ethiopia (ኢትዮጵያ)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>福克兰群岛</countryCode>
+        <countryName>Falkland Islands</countryName>
+        <loacaCountryName>Falkland Islands</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>法罗群岛</countryCode>
+        <countryName>Faroe Islands</countryName>
+        <loacaCountryName>Faroe Islands (Føroyar)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>斐济</countryCode>
+        <countryName>Fiji</countryName>
+        <loacaCountryName>Fiji</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>芬兰</countryCode>
+        <countryName>Finland</countryName>
+        <loacaCountryName>Finland (Suomi)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>法国</countryCode>
+        <countryName>France</countryName>
+        <loacaCountryName>France</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>法属波利尼西亚</countryCode>
+        <countryName>French Polynesia</countryName>
+        <loacaCountryName>French Polynesia (Polynésie française)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>加蓬</countryCode>
+        <countryName>Gabon</countryName>
+        <loacaCountryName>Gabon (République Gabonaise)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>冈比亚</countryCode>
+        <countryName>Gambia</countryName>
+        <loacaCountryName>Gambia</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>格鲁吉亚</countryCode>
+        <countryName>Georgia</countryName>
+        <loacaCountryName>Georgia (საქართველო)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>德国</countryCode>
+        <countryName>Germany</countryName>
+        <loacaCountryName>Germany (Deutschland)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>加纳</countryCode>
+        <countryName>Ghana</countryName>
+        <loacaCountryName>Ghana</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>直布罗陀</countryCode>
+        <countryName>Gibraltar</countryName>
+        <loacaCountryName>Gibraltar</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>希腊</countryCode>
+        <countryName>Greece</countryName>
+        <loacaCountryName>Greece (Ελλάδα)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>格陵兰</countryCode>
+        <countryName>Greenland</countryName>
+        <loacaCountryName>Greenland (Kalaallit Nunaat)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>格林纳达</countryCode>
+        <countryName>Grenada</countryName>
+        <loacaCountryName>Grenada</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>关岛</countryCode>
+        <countryName>Guam</countryName>
+        <loacaCountryName>Guam</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>危地马拉</countryCode>
+        <countryName>Guatemala</countryName>
+        <loacaCountryName>Guatemala</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>根西岛</countryCode>
+        <countryName>Guernsey</countryName>
+        <loacaCountryName>Guernsey</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>几内亚</countryCode>
+        <countryName>Guinea</countryName>
+        <loacaCountryName>Guinea (Guinée)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>几内亚比绍</countryCode>
+        <countryName>Guinea-Bissau</countryName>
+        <loacaCountryName>Guinea-Bissau (Guiné-Bissau)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>圭亚那</countryCode>
+        <countryName>Guyana</countryName>
+        <loacaCountryName>Guyana</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>海地</countryCode>
+        <countryName>Haiti</countryName>
+        <loacaCountryName>Haiti (Haïti)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>洪都拉斯</countryCode>
+        <countryName>Honduras</countryName>
+        <loacaCountryName>Honduras</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>香港</countryCode>
+        <countryName>Hong Kong</countryName>
+        <loacaCountryName>Hong Kong (香港)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>匈牙利</countryCode>
+        <countryName>Hungary</countryName>
+        <loacaCountryName>Hungary (Magyarország)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>冰岛</countryCode>
+        <countryName>Iceland</countryName>
+        <loacaCountryName>Iceland (Ísland)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>印度</countryCode>
+        <countryName>India</countryName>
+        <loacaCountryName>India (भारत)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>印度尼西亚</countryCode>
+        <countryName>Indonesia</countryName>
+        <loacaCountryName>Indonesia</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>伊朗</countryCode>
+        <countryName>Iran</countryName>
+        <loacaCountryName>Iran (ایران)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>伊拉克</countryCode>
+        <countryName>Iraq</countryName>
+        <loacaCountryName>Iraq (العراق‎)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>爱尔兰</countryCode>
+        <countryName>Ireland</countryName>
+        <loacaCountryName>Ireland (Éire)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>马恩岛</countryCode>
+        <countryName>Isle of Man</countryName>
+        <loacaCountryName>Isle of Man</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>以色列</countryCode>
+        <countryName>Israel‎‎</countryName>
+        <loacaCountryName>Israel (יִשְׂרָאֵל)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>意大利</countryCode>
+        <countryName>Italy</countryName>
+        <loacaCountryName>Italy (Italia)‎‎</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>牙买加</countryCode>
+        <countryName>Jamaica</countryName>
+        <loacaCountryName>Jamaica</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>日本</countryCode>
+        <countryName>Japan</countryName>
+        <loacaCountryName>Japan (Nihon)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>泽西岛</countryCode>
+        <countryName>Jersey</countryName>
+        <loacaCountryName>Jersey</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>约旦</countryCode>
+        <countryName>Jordan</countryName>
+        <loacaCountryName>Jordan (الأردن)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>哈萨克斯坦</countryCode>
+        <countryName>Kazakhstan</countryName>
+        <loacaCountryName>Kazakhstan (Қазақстан)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>肯尼亚</countryCode>
+        <countryName>Kenya</countryName>
+        <loacaCountryName>Kenya</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>基里巴斯</countryCode>
+        <countryName>Kiribati</countryName>
+        <loacaCountryName>Kiribati</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>科威特</countryCode>
+        <countryName>Kuwait</countryName>
+        <loacaCountryName>Kuwait (دولة الكويت)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>吉尔吉斯斯坦</countryCode>
+        <countryName>Kyrgyzstan</countryName>
+        <loacaCountryName>Kyrgyzstan (Кыргызстан)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>老挝</countryCode>
+        <countryName>Laos</countryName>
+        <loacaCountryName>Laos (ເມືອງລາວ)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>拉脱维亚</countryCode>
+        <countryName>Latvia</countryName>
+        <loacaCountryName>Latvia (Latvija)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>黎巴嫩</countryCode>
+        <countryName>Lebanon</countryName>
+        <loacaCountryName>Lebanon (لبنان‎)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>莱索托</countryCode>
+        <countryName>Lesotho</countryName>
+        <loacaCountryName>Lesotho</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>利比里亚</countryCode>
+        <countryName>Liberia</countryName>
+        <loacaCountryName>Liberia</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>利比亚</countryCode>
+        <countryName>Libya</countryName>
+        <loacaCountryName>Libya ( ليبيا)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>列支敦士登</countryCode>
+        <countryName>Liechtenstein</countryName>
+        <loacaCountryName>Liechtenstein</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>立陶宛</countryCode>
+        <countryName>Lithuania</countryName>
+        <loacaCountryName>Lithuania (Lietuva)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>卢森堡</countryCode>
+        <countryName>Luxembourg</countryName>
+        <loacaCountryName>Luxembourg (Lëtzebuerg)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>澳门</countryCode>
+        <countryName>Macau</countryName>
+        <loacaCountryName>Macau (澳門)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>马其顿</countryCode>
+        <countryName>Macedonia</countryName>
+        <loacaCountryName>Macedonia (Македонија)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>马达加斯加</countryCode>
+        <countryName>Madagascar</countryName>
+        <loacaCountryName>Madagascar (Madagasikara)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>马拉维</countryCode>
+        <countryName>Malawi</countryName>
+        <loacaCountryName>Malawi</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>马来西亚</countryCode>
+        <countryName>Malaysia</countryName>
+        <loacaCountryName>Malaysia</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>马尔代夫</countryCode>
+        <countryName>Maldives</countryName>
+        <loacaCountryName>Maldives</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>马里</countryCode>
+        <countryName>Mali</countryName>
+        <loacaCountryName>Mali</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>马耳他</countryCode>
+        <countryName>Malta</countryName>
+        <loacaCountryName>Malta</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>马绍尔群岛</countryCode>
+        <countryName>Marshall Islands</countryName>
+        <loacaCountryName>Marshall Islands</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>毛里塔尼亚</countryCode>
+        <countryName>Mauritania</countryName>
+        <loacaCountryName>Mauritania (موريتانيا)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>毛里求斯</countryCode>
+        <countryName>Mauritius</countryName>
+        <loacaCountryName>Mauritius</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>墨西哥</countryCode>
+        <countryName>Mexico</countryName>
+        <loacaCountryName>Mexico (México)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>密克罗尼西亚联邦</countryCode>
+        <countryName>Federated States of Micronesia</countryName>
+        <loacaCountryName>Federated States of Micronesia</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>摩尔多瓦</countryCode>
+        <countryName>Moldova</countryName>
+        <loacaCountryName>Moldova</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>摩纳哥</countryCode>
+        <countryName>Monaco</countryName>
+        <loacaCountryName>Monaco</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>蒙古</countryCode>
+        <countryName>Mongolia</countryName>
+        <loacaCountryName>Mongolia (Монгол улс)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>黑山</countryCode>
+        <countryName>Montenegro</countryName>
+        <loacaCountryName>Montenegro (Црна Гора)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>蒙特塞拉特岛</countryCode>
+        <countryName>Montserrat</countryName>
+        <loacaCountryName>Montserrat</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>摩洛哥</countryCode>
+        <countryName>Morocco</countryName>
+        <loacaCountryName>Morocco (المغرب)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>莫桑比克</countryCode>
+        <countryName>Mozambique</countryName>
+        <loacaCountryName>Mozambique (Moçambique)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>缅甸</countryCode>
+        <countryName>Myanmar</countryName>
+        <loacaCountryName>Myanmar (မြန်မာ)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>纳米比亚</countryCode>
+        <countryName>Namibia</countryName>
+        <loacaCountryName>Namibia</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>瑙鲁</countryCode>
+        <countryName>Nauru</countryName>
+        <loacaCountryName>Nauru</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>尼泊尔</countryCode>
+        <countryName>Nepal</countryName>
+        <loacaCountryName>Nepal (नेपाल)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>荷兰</countryCode>
+        <countryName>Netherlands</countryName>
+        <loacaCountryName>Netherlands (Nederland)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>新喀里多尼亚</countryCode>
+        <countryName>New Caledonia</countryName>
+        <loacaCountryName>New Caledonia (Nouvelle-Calédonie)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>新西兰</countryCode>
+        <countryName>New Zealand</countryName>
+        <loacaCountryName>New Zealand</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>尼加拉瓜</countryCode>
+        <countryName>Nicaragua</countryName>
+        <loacaCountryName>Nicaragua</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>尼日尔</countryCode>
+        <countryName>Niger</countryName>
+        <loacaCountryName>Niger</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>尼日利亚</countryCode>
+        <countryName>Nigeria</countryName>
+        <loacaCountryName>Nigeria</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>朝鲜</countryCode>
+        <countryName>North Korea</countryName>
+        <loacaCountryName>North Korea (조선)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>北马里亚纳群岛</countryCode>
+        <countryName>Northern Mariana Islands</countryName>
+        <loacaCountryName>Northern Mariana Islands</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>挪威</countryCode>
+        <countryName>Norway</countryName>
+        <loacaCountryName>Norway (Norge)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>阿曼</countryCode>
+        <countryName>Oman</countryName>
+        <loacaCountryName>Oman (عُمان)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>巴基斯坦</countryCode>
+        <countryName>Pakistan)</countryName>
+        <loacaCountryName>Pakistan (پاکستان)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>帕劳</countryCode>
+        <countryName>Palau</countryName>
+        <loacaCountryName>Palau (Belau)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>巴拿马</countryCode>
+        <countryName>Panama</countryName>
+        <loacaCountryName>Panama (Panamá )</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>巴布亚新几内亚</countryCode>
+        <countryName>Papua New Guinea</countryName>
+        <loacaCountryName>Papua New Guinea</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>巴拉圭</countryCode>
+        <countryName>Paraguay</countryName>
+        <loacaCountryName>Paraguay</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>秘鲁</countryCode>
+        <countryName>Peru</countryName>
+        <loacaCountryName>Peru (Perú)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>菲律宾</countryCode>
+        <countryName>Philippines (Pilipinas)</countryName>
+        <loacaCountryName>Philippines (Pilipinas)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>皮特凯恩群岛</countryCode>
+        <countryName>Pitcairn Islands</countryName>
+        <loacaCountryName>Pitcairn Islands</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>波兰</countryCode>
+        <countryName>Poland</countryName>
+        <loacaCountryName>Poland (Polska)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>葡萄牙</countryCode>
+        <countryName>Portugal</countryName>
+        <loacaCountryName>Portugal</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>波多黎各</countryCode>
+        <countryName>Puerto Rico</countryName>
+        <loacaCountryName>Puerto Rico</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>卡塔尔</countryCode>
+        <countryName>Qatar</countryName>
+        <loacaCountryName>Qatar (قطر‎)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>罗马尼亚</countryCode>
+        <countryName>Romania</countryName>
+        <loacaCountryName>Romania (România)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>俄罗斯</countryCode>
+        <countryName>Russia</countryName>
+        <loacaCountryName>Russia (Россия)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>卢旺达</countryCode>
+        <countryName>Rwanda</countryName>
+        <loacaCountryName>Rwanda</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>圣巴泰勒米岛</countryCode>
+        <countryName>Saint Barthelemy</countryName>
+        <loacaCountryName>Saint Barthelemy (Saint-Barthélemy)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>圣阿特达</countryCode>
+        <countryName>Saint Helena, Ascension and Tristan da Cunha</countryName>
+        <loacaCountryName>Saint Helena, Ascension and Tristan da Cunha</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>圣基茨和尼维斯</countryCode>
+        <countryName>Saint Kitts and Nevis</countryName>
+        <loacaCountryName>Saint Kitts and Nevis</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>圣卢西亚</countryCode>
+        <countryName>Saint Lucia</countryName>
+        <loacaCountryName>Saint Lucia</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>圣皮埃尔和密克隆群岛</countryCode>
+        <countryName>Saint Pierre and Miquelon</countryName>
+        <loacaCountryName>Saint Pierre and Miquelon (Saint-Pierre et Miquelon)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>圣文森特和格林纳丁斯</countryCode>
+        <countryName>Saint Vincent and the Grenadines</countryName>
+        <loacaCountryName>Saint Vincent and the Grenadines</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>萨摩亚</countryCode>
+        <countryName>Samoa</countryName>
+        <loacaCountryName>Samoa</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>圣马力诺</countryCode>
+        <countryName>San Marino</countryName>
+        <loacaCountryName>San Marino</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>沙特阿拉伯</countryCode>
+        <countryName>Saudi Arabia</countryName>
+        <loacaCountryName>Saudi Arabia (المملكة العربية السعودية)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>塞内加尔</countryCode>
+        <countryName>Senegal</countryName>
+        <loacaCountryName>Senegal (Sénégal)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>塞尔维亚</countryCode>
+        <countryName>Serbia</countryName>
+        <loacaCountryName>Serbia (Србија)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>塞舌尔</countryCode>
+        <countryName>Seychelles</countryName>
+        <loacaCountryName>Seychelles (Sesel)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>塞拉利昂</countryCode>
+        <countryName>Sierra Leone</countryName>
+        <loacaCountryName>Sierra Leone</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>新加坡</countryCode>
+        <countryName>Singapore</countryName>
+        <loacaCountryName>Singapore (Singapura)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>荷属圣马丁</countryCode>
+        <countryName>Sint Maarten</countryName>
+        <loacaCountryName>Sint Maarten</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>斯洛伐克</countryCode>
+        <countryName>Slovakia</countryName>
+        <loacaCountryName>Slovakia (Slovensko)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>斯洛文尼亚</countryCode>
+        <countryName>Slovenia</countryName>
+        <loacaCountryName>Slovenia (Slovenija)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>所罗门群岛</countryCode>
+        <countryName>Solomon Islands</countryName>
+        <loacaCountryName>Solomon Islands</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>索马里</countryCode>
+        <countryName>Somalia</countryName>
+        <loacaCountryName>Somalia (Soomaaliya)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>南非</countryCode>
+        <countryName>South Africa</countryName>
+        <loacaCountryName>South Africa</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>韩国</countryCode>
+        <countryName>South Korea</countryName>
+        <loacaCountryName>South Korea (한국)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>南苏丹</countryCode>
+        <countryName>South Sudan</countryName>
+        <loacaCountryName>South Sudan</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>西班牙</countryCode>
+        <countryName>Spain</countryName>
+        <loacaCountryName>Spain (España)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>斯里兰卡</countryCode>
+        <countryName>Sri Lanka</countryName>
+        <loacaCountryName>Sri Lanka (ශ්‍රී ලංකාව)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>苏丹</countryCode>
+        <countryName>Sudan</countryName>
+        <loacaCountryName>Sudan (السودان)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>苏里南</countryCode>
+        <countryName>Suriname</countryName>
+        <loacaCountryName>Suriname</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>斯瓦尔巴</countryCode>
+        <countryName>Svalbard</countryName>
+        <loacaCountryName>Svalbard</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>斯威士兰</countryCode>
+        <countryName>Swaziland</countryName>
+        <loacaCountryName>Swaziland</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>瑞典</countryCode>
+        <countryName>Sweden</countryName>
+        <loacaCountryName>Sweden (Sverige)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>瑞士</countryCode>
+        <countryName>Switzerland</countryName>
+        <loacaCountryName>Switzerland (Schweiz)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>叙利亚</countryCode>
+        <countryName>Syria</countryName>
+        <loacaCountryName>Syria (سورية)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>圣多美和普林西比</countryCode>
+        <countryName>São Tomé and Príncipe</countryName>
+        <loacaCountryName>São Tomé and Príncipe</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>台湾</countryCode>
+        <countryName>Taiwan</countryName>
+        <loacaCountryName>Taiwan (台灣)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>塔吉克斯坦</countryCode>
+        <countryName>Tajikistan</countryName>
+        <loacaCountryName>Tajikistan (Тоҷикистон)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>坦桑尼亚</countryCode>
+        <countryName>Tanzania</countryName>
+        <loacaCountryName>Tanzania</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>泰国</countryCode>
+        <countryName>Thailand</countryName>
+        <loacaCountryName>Thailand (ประเทศไทย)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>东帝汶</countryCode>
+        <countryName>Timor-Leste</countryName>
+        <loacaCountryName>Timor-Leste (Timor Lorosa´e)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>多哥</countryCode>
+        <countryName>Togo</countryName>
+        <loacaCountryName>Togo (Togolaise)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>托克劳群岛</countryCode>
+        <countryName>Tokelau</countryName>
+        <loacaCountryName>Tokelau</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>汤加</countryCode>
+        <countryName>Tonga</countryName>
+        <loacaCountryName>Tonga</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>特多</countryCode>
+        <countryName>Trinidad and Tobago</countryName>
+        <loacaCountryName>Trinidad and Tobago</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>突尼西亞</countryCode>
+        <countryName>Tunisia</countryName>
+        <loacaCountryName>Tunisia (تونس)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>土耳其</countryCode>
+        <countryName>Turkey</countryName>
+        <loacaCountryName>Turkey (Türkiye)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>土库曼斯坦</countryCode>
+        <countryName>Turkmenistan</countryName>
+        <loacaCountryName>Turkmenistan (Türkmenistan)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>特克斯和凯科斯群岛</countryCode>
+        <countryName>Turks and Caicos Islands</countryName>
+        <loacaCountryName>Turks and Caicos Islands</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>图瓦卢</countryCode>
+        <countryName>Tuvalu</countryName>
+        <loacaCountryName>Tuvalu</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>乌干达</countryCode>
+        <countryName>Uganda</countryName>
+        <loacaCountryName>Uganda</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>乌克兰</countryCode>
+        <countryName>Ukraine</countryName>
+        <loacaCountryName>Ukraine (Україна)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>阿联酋</countryCode>
+        <countryName>United Arab Emirates</countryName>
+        <loacaCountryName>United Arab Emirates (الإمارات العربيّة المتّحدة)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>英国</countryCode>
+        <countryName>United Kingdom</countryName>
+        <loacaCountryName>United Kingdom</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>美国</countryCode>
+        <countryName>United States</countryName>
+        <loacaCountryName>United States</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>乌拉圭</countryCode>
+        <countryName>Uruguay</countryName>
+        <loacaCountryName>Uruguay</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>乌兹别克斯坦</countryCode>
+        <countryName>Uzbekistan</countryName>
+        <loacaCountryName>Uzbekistan (O´zbekiston)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>瓦努阿图</countryCode>
+        <countryName>Vanuatu</countryName>
+        <loacaCountryName>Vanuatu</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>梵蒂冈</countryCode>
+        <countryName>Vatican City</countryName>
+        <loacaCountryName>Vatican City (Città del Vaticano)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>委内瑞拉</countryCode>
+        <countryName>Venezuela</countryName>
+        <loacaCountryName>Venezuela</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>越南</countryCode>
+        <countryName>Vietnam</countryName>
+        <loacaCountryName>Vietnam (Việt Nam)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>英属维尔京群岛</countryCode>
+        <countryName>British Virgin Islands</countryName>
+        <loacaCountryName>British Virgin Islands</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>美属维尔京群岛</countryCode>
+        <countryName>United States Virgin Islands</countryName>
+        <loacaCountryName>United States Virgin Islands</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>瓦利斯和富图纳群岛</countryCode>
+        <countryName>Wallis and Futuna</countryName>
+        <loacaCountryName>Wallis and Futuna (Wallis-et-Futuna)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>也门</countryCode>
+        <countryName>Yemen</countryName>
+        <loacaCountryName>Yemen (اليمن‎)</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>赞比亚</countryCode>
+        <countryName>Zambia</countryName>
+        <loacaCountryName>Zambia</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>津巴布韦</countryCode>
+        <countryName>Zimbabwe</countryName>
+        <loacaCountryName>Zimbabwe</loacaCountryName>
+    </node>
+    <node>
+        <countryCode>奥兰群岛</countryCode>
+        <countryName>Åland Islands</countryName>
+        <loacaCountryName>Åland Islands</loacaCountryName>
+    </node>
+</root>

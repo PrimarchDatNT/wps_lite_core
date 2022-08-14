@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/phone_public_encrypt_security_item" />
+    <View android:id="@id/online_security_divideline" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/v10_phone_public_paneltab_div_line_margin" />
+    <cn.wps.moffice.spreadsheet.control.common.ToolbarItemView android:id="@id/file_permission" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="35.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="35.0dip" android:layout_marginEnd="0.0dip" />
+</LinearLayout>

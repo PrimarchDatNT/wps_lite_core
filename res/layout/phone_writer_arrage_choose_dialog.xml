@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.CustomRadioButton android:textSize="@dimen/phone_public_default_text_size_sp" android:id="@id/writer_read_arrange_flip" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/writer_read_arrange_flip" />
+    <cn.wps.moffice.common.CustomRadioButton android:textSize="@dimen/phone_public_default_text_size_sp" android:id="@id/writer_read_arrange_scroll" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/writer_read_arrange_scroll" />
+</LinearLayout>

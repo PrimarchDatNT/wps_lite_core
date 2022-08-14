@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/documents_about_item" android:background="@drawable/public_panel_item_third_bg_selector" style="@style/home_drop_down_dialog_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/documents_legal_item_text" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="18.0dip" style="@style/home_dialog_list_item_text" />
+</LinearLayout>

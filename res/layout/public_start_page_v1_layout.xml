@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarAlwaysDrawHorizontalTrack="false" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:fadeScrollbars="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="420.0dip" />
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/public_start_page_v1_loading" />
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/public_start_page_v1_login_guide_layout" />
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/public_start_page_v1_law_permission_layout" />
+        <include android:id="@id/public_first_start_webview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/public_first_start_webview" />
+    </FrameLayout>
+</ScrollView>

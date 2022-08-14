@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bind_phone_title" />
+    <TextView android:id="@id/contentTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/bind_phone_after_login_force_detainment_tip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+        <TextView android:id="@id/withholdTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/with_hold_login" />
+        <TextView android:id="@id/bindPhoneTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bind_phone_title" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

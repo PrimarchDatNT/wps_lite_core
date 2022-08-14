@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/scanNavBackgroundColor" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/iv_cancel" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textColor="@color/whiteMainTextColor" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:text="@string/public_cancel" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/iv_detection" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaImageView android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/public_scan_edit_detection_selector" android:scaleType="centerInside" />
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center" android:id="@id/iv_ok" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" style="@style/public_doc_scan_button">
+        <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textColor="@color/whiteMainTextColor" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:text="@string/public_ok" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.RecordEditText android:id="@id/input_datesign_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_public_dialog_content_view_margin_s" android:singleLine="true" style="@style/phone_public_font_m_black" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:id="@id/ppt_text2diagram_circle_progressbar" android:layout_width="25.0dip" android:layout_height="25.0dip" app:barColor1="@color/buttonSecondaryColor" app:barColor2="@color/buttonSecondaryColor" app:barColor3="@color/buttonSecondaryColor" app:barColor4="@color/buttonSecondaryColor" app:barWidth="2.0dip" />
+    <TextView android:textSize="10.0dip" android:id="@id/ppt_text2diagram_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/documentmanager_docinfo_loading" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_qing_roamingdoc_kickedout_tips" style="@style/phone_public_font_m_black.noScale" />
+    <TextView android:id="@id/info_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/documentmanager_qing_roamingdoc_kickedout_last_logintype" android:singleLine="true" style="@style/phone_public_font_m_black.noScale" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/last_load_info_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <ImageView android:id="@id/info_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="8.0dip" android:scaleType="fitCenter" android:layout_marginStart="0.0dip" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="16.0dip" android:id="@id/info_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_public_font_m_gray" />
+    </LinearLayout>
+</LinearLayout>

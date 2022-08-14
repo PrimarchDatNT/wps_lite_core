@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.MyScrollView android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/dialog_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/phone_pdf_guide_export_keynote" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center_horizontal" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:id="@id/dialog_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="24.0dip" android:layout_marginBottom="20.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <Button android:gravity="center" android:id="@id/dialog_okbuttom" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="26.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="16.0dip" android:text="@string/home_wps_drive_login_use_now" android:layout_marginStart="26.0dip" android:layout_marginEnd="26.0dip" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+    </LinearLayout>
+</cn.wps.moffice.common.beans.MyScrollView>

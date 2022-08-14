@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--朝鲜语-->
+<resource>
+    <outer type="string-array" size="">
+		<item>한 자릿수 분모 (1/4)</item>
+		<item>두 자릿수 분모 (21/25)</item>
+		<item>세 자릿수 분모 (312/943)</item>
+		<item>분모를 2로 (1/2)</item>
+		<item>분모를 4로 (2/4)</item>
+		<item>분모를 8로 (4/8)</item>
+		<item>분모를 16으로 (8/16)</item>
+		<item>분모를 10으로 (3/10)</item>
+		<item>분모를 100으로 (30/100)</item>
+	</outer>
+</resource>

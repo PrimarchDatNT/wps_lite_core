@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/et_freeze_list" android:focusable="true" android:descendantFocusability="beforeDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/public_keyboard_mouse_no_background_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/et_freeze_list_item_cell" android:layout_width="150.0dip" style="@style/public_toolbar_popupwindow_btn_withicon_layout">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/pad_comp_table_freeze_current_pane" style="@style/public_toolbar_popupwindow_icon" />
+        <TextView android:text="@string/et_freez_cell" style="@style/pad_public_titlebar_toolbar_list_item_text" />
+    </LinearLayout>
+    <ImageView style="@style/et_toolbar_popupwindow_btn_spliter" />
+    <LinearLayout android:id="@id/et_freeze_list_item_row" android:layout_width="150.0dip" style="@style/public_toolbar_popupwindow_btn_withicon_layout">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/pad_comp_table_first_line" style="@style/public_toolbar_popupwindow_icon" />
+        <TextView android:text="@string/et_freez_row" style="@style/pad_public_titlebar_toolbar_list_item_text" />
+    </LinearLayout>
+    <ImageView style="@style/et_toolbar_popupwindow_btn_spliter" />
+    <LinearLayout android:id="@id/et_freeze_list_item_col" android:layout_width="150.0dip" style="@style/public_toolbar_popupwindow_btn_withicon_layout">
+        <cn.wpsx.support.ui.KNormalImageView android:src="@drawable/pad_comp_table_begin_column" style="@style/public_toolbar_popupwindow_icon" />
+        <TextView android:text="@string/et_freez_col" style="@style/pad_public_titlebar_toolbar_list_item_text" />
+    </LinearLayout>
+</LinearLayout>

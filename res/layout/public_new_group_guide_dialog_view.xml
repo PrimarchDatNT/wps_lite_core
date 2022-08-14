@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/container_layout" android:paddingLeft="23.0dip" android:paddingTop="8.0dip" android:paddingRight="23.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="23.0dip" android:paddingEnd="23.0dip">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:id="@id/public_group_invite_guide_pic" android:layout_width="260.0dip" android:layout_height="154.0dip" android:src="@drawable/public_created_success" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_cloud_group_create_tips_title" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_cloud_group_create_tips_content" />
+            <RelativeLayout android:id="@id/public_group_invite_btn" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="26.0dip" android:layout_marginRight="12.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat">
+                <TextView android:textSize="16.0dip" android:textColor="@color/public_btn_text_selector_light" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/public_cloud_group_invite" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <cn.wps.moffice.common.beans.phone.AlphaAutoText android:textSize="14.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/public_group_invite_later" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginTop="18.0dip" android:layout_marginBottom="26.0dip" android:text="@string/public_cloud_group_invite_later" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

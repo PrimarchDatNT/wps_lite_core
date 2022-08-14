@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 葡萄牙语（葡萄牙） -->
+<resource>
+    <inner type="string-array" size="">
+		<item>0000</item>
+		<item>0000\-000</item>
+		<item>[&lt;=999999999]###\ ###\ ###;\(###\)\ ###\ ###\ ###</item>
+		<item>000000000</item>
+	</inner>
+	<outer type="string-array" size="">
+	    <item>Código Postal</item>
+		<item>Código Postal + 3</item>
+		<item>Número de Telefone</item>
+		<item>Número da Segurança Social</item>
+	</outer>
+</resource>

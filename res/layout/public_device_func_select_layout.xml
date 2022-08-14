@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.SizeLimitedLinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="0.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="0.0dip">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="52.0dip" android:text="@string/home_wps_assistant_file_radar" android:layout_marginStart="0.0dip" android:layout_marginEnd="52.0dip" style="@style/phone_public_font_l_black.noScale" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/title">
+            <TextView android:id="@id/info_detail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:text="@string/home_wps_assistant_file_radar_show_homepage_info" style="@style/phone_public_font_s_gray.noScale" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/gray_divide_line" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginBottom="8.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_label" android:background="@drawable/phone_public_dialog_list_selector" android:paddingLeft="@dimen/phone_public_dialog_padding_left" android:paddingRight="@dimen/phone_public_dialog_padding_right" android:layout_width="fill_parent" android:layout_height="48.0dip" android:minHeight="50.0dip" android:paddingStart="@dimen/phone_public_dialog_padding_left" android:paddingEnd="@dimen/phone_public_dialog_padding_right">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_disable" android:singleLine="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</cn.wps.moffice.common.beans.SizeLimitedLinearLayout>

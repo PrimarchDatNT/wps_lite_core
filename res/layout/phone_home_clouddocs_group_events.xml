@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:background="@color/phone_ss_fullscreen_bg_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.webview.BussinesSecurityWebView android:id="@id/group_events_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/public_webview_errorpage" />
+    <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:id="@id/public_frequent_circle_progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

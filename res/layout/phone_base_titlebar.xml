@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.local.home.newui.theme.title.ThemeTitleLinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/phone_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <cn.wps.moffice.main.common.viewcontrols.AbsTitleBar android:id="@id/abs_title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_titlebar_height" />
+    </cn.wps.moffice.main.local.home.newui.theme.title.ThemeTitleLinearLayout>
+</merge>

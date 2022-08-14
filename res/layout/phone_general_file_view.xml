@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/phone_home_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="vertical" android:id="@id/view_title_lay" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/home_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:customLayout="@layout/phone_public_filebrowser_titlebar_search_layout" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/check_file_state" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_below="@id/view_title_lay">
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:gravity="center_vertical" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/chat_document" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="6.0dip">
+            <cn.wps.moffice.main.local.filebrowser.generalfile.otherdex.view.CheckTextGroupView android:layout_gravity="center" android:id="@id/checkTextGroupView" android:layout_width="wrap_content" android:layout_height="fill_parent" app:checkModel="SIMPLE" app:checkedTextColor="@color/secondaryColor" app:drawTextGapWidth="4.0dip" app:drawableHeight="18.0dip" app:drawableWidth="18.0dip" app:innerTextSize="12.0dip" app:strokeModel="GONE" app:textGapWidth="4.0dip" app:textPaddingButtom="10.0dip" app:textPaddingLeft="10.0dip" app:textPaddingRight="10.0dip" app:textPaddingTop="10.0dip" app:unCheckedTextColor="@color/subTextColor" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:orientation="vertical" android:id="@id/content_lay" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/check_file_state">
+        <include android:id="@id/layout_listview_main" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/phone_recent_file_main_view" />
+        <cn.wps.moffice.common.beans.CommonErrorPage android:id="@id/public_recent_file_tips_no_found" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tipsImgId="@drawable/pub_404_no_search_results" />
+    </FrameLayout>
+    <View android:layout_below="@id/view_title_lay" style="@style/phone_home_top_shadow" />
+</RelativeLayout>

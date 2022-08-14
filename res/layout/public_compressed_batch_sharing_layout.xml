@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/title" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/wps_drive_title_shadow" android:layout_below="@id/title" style="@style/phone_home_top_shadow" />
+    <ListView android:id="@id/list_files" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="90.0dip" android:layout_below="@id/wps_drive_title_shadow" style="@style/public_wpsdrive_list_style" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="83.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12.0dip" android:textColor="@color/subTextColor" android:id="@id/vip_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/compressed_batch_share_tip" android:layout_above="@id/rl_compress" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/rl_compress" android:background="@drawable/public_round_rect_red_bg_3dp_1px_selector_light" android:layout_width="540.0dip" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="12.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/whiteMainTextColor" android:ellipsize="middle" android:gravity="center" android:id="@id/tv_compress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/compressed_batch_share_upgrade" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/vip_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/pub_vipbutton_vip_54px" android:scaleType="centerInside" android:layout_toLeftOf="@id/tv_compress" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

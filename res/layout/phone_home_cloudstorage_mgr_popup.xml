@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/cloudstorage_mgr_text" android:text="@string/public_manage" style="@style/phone_public_popumenu_textlist_item" />
+    <TextView android:id="@id/cloudstorage_sort_text" android:text="@string/public_sort" style="@style/phone_public_popumenu_textlist_item" />
+    <TextView android:id="@id/cloudstorage_arrange" android:text="@string/home_cloudstorage_arrange" style="@style/phone_public_popumenu_textlist_item" />
+    <TextView android:id="@id/cloudstorage_switch_evernote_server" android:text="@string/public_evernote_title" style="@style/phone_public_popumenu_textlist_item" />
+    <TextView android:id="@id/cloudstorage_logout_text" android:text="@string/documentmanager_logout" style="@style/phone_public_popumenu_textlist_item" />
+</LinearLayout>

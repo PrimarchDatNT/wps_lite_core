@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/pdf_note_page_titleBar" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <View android:layout_gravity="top" style="@style/phone_home_top_shadow" />
+        <ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0sp" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginBottom="9.0dip" android:text="@string/public_style" android:layout_marginStart="16.0dip" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_add_note_page" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" />
+                <cn.wps.moffice.common.beans.phone.AlphaFrameLayout android:id="@id/pdf_new_page_page_size" android:background="@drawable/public_pad_titlebar_item_selector" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="22.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pdf_page_size" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="end|center" android:id="@id/tv_pdf_new_note_page_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="18.0dip" />
+                    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="end|center" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_list_screening_right_arrow" />
+                </cn.wps.moffice.common.beans.phone.AlphaFrameLayout>
+                <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="16.0dip" />
+                <cn.wps.moffice.common.beans.phone.AlphaFrameLayout android:id="@id/pdf_new_page_orientation" android:background="@drawable/public_pad_titlebar_item_selector" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_gravity="start|center" android:id="@id/tv_orientation_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_page_orientation" />
+                    <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="end|center" android:id="@id/tv_pdf_new_note_page_orientation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="18.0dip" />
+                    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="end|center" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_list_screening_right_arrow" />
+                </cn.wps.moffice.common.beans.phone.AlphaFrameLayout>
+                <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="16.0dip" />
+                <FrameLayout android:background="@drawable/public_pad_titlebar_item_selector" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_ink_color" />
+                    <cn.wps.moffice.common.v10_colorpicker.SpectrumPalette android:layout_gravity="end" android:orientation="horizontal" android:id="@id/sp_add_page_bg_color" android:layout_width="160.0dip" android:layout_height="fill_parent" android:layout_marginEnd="6.0dip" app:spectrum_colorItemDimension="20.0dip" app:spectrum_columnCount="5" app:spectrum_itemHorPadding="10.0dip" app:spectrum_itemVerPadding="14.0dip" />
+                </FrameLayout>
+                <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="16.0dip" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                    <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_pagenum" />
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                        <cn.wpsx.support.ui.KNormalImageView android:id="@id/iv_add_page_decrease" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="28.0dip" android:layout_height="48.0dip" android:src="@drawable/comp_pdf_new_blank_note_pages_less" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+                        <TextView android:textSize="14.0sp" android:textColor="@color/descriptionColor" android:id="@id/tv_add_page_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1" android:inputType="number" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+                        <cn.wpsx.support.ui.KNormalImageView android:id="@id/iv_add_page_increase" android:paddingTop="15.0dip" android:paddingBottom="15.0dip" android:layout_width="28.0dip" android:layout_height="48.0dip" android:src="@drawable/comp_pdf_new_blank_note_pages_plus" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" />
+                    </LinearLayout>
+                </FrameLayout>
+                <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginStart="16.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/button_pdf_new_note_page" style="@style/phone_public_buttonStyle_fill_bottom_button">
+        <cn.wpsx.support.ui.KColorfulImageView android:id="@id/button_pdf_new_note_page_icon" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pub_vipbutton_vip_54px" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <TextView android:textSize="16.0dip" android:textColor="@drawable/phone_public_white_font_text_color" android:layout_gravity="center" android:id="@id/button_pdf_new_note_page_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_newfile" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+</LinearLayout>

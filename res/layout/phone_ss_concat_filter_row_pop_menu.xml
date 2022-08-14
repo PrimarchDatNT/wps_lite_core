@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/phone_public_pop_track" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/btn0" android:layout_width="48.0dip" android:layout_height="38.0dip" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/btn1" android:layout_width="48.0dip" android:layout_height="38.0dip" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/btn2" android:layout_width="48.0dip" android:layout_height="38.0dip" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/btn3" android:layout_width="48.0dip" android:layout_height="38.0dip" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/btn4" android:layout_width="48.0dip" android:layout_height="38.0dip" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/btn5" android:layout_width="48.0dip" android:layout_height="38.0dip" />
+    </LinearLayout>
+</ScrollView>

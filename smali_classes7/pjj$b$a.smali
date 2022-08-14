@@ -1,0 +1,77 @@
+.class public Lpjj$b$a;
+.super Ljava/lang/Object;
+.source "UploadListener.java"
+
+# interfaces
+.implements Leq6$b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lpjj$b;->run()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Leq6$b<",
+        "Ljava/lang/String;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lpjj$b;
+
+
+# direct methods
+.method public constructor <init>(Lpjj$b;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lpjj$b$a;->a:Lpjj$b;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
+
+    move-result p1
+
+    if-nez p1, :cond_0
+
+    .line 2
+    iget-object p1, p0, Lpjj$b$a;->a:Lpjj$b;
+
+    iget-object p1, p1, Lpjj$b;->B:Lpjj;
+
+    invoke-static {p1}, Lpjj;->pc(Lpjj;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public bridge synthetic callback(Ljava/lang/Object;)V
+    .locals 0
+
+    .line 1
+    check-cast p1, Ljava/lang/String;
+
+    invoke-virtual {p0, p1}, Lpjj$b$a;->a(Ljava/lang/String;)V
+
+    return-void
+.end method

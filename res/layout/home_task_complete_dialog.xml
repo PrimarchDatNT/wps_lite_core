@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="78.0dip" android:layout_height="78.0dip" android:src="@drawable/home_task_rice_icon" />
+    <TextView android:textSize="18.0dip" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/prompt" android:layout_width="250.0dip" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:singleLine="true" />
+</LinearLayout>

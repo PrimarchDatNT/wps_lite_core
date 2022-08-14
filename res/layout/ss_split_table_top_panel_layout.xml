@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <include android:id="@id/split_rule" layout="@layout/public_linear_item_with_arrow_layout" />
+    <include android:id="@id/head" layout="@layout/public_linear_item_with_arrow_layout" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="14.0sp" android:textColor="@color/subTextColor" android:gravity="start|center" android:id="@id/jump_range" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/public_share_long_pic_selection" android:maxLines="1" android:layout_marginStart="16.0dip" app:autoSizeMinTextSize="10.0sp" app:autoSizeTextType="uniform" />
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:enabled="false" android:gravity="center" android:layout_gravity="end|center" android:orientation="horizontal" android:id="@id/bottom_btn_layout" android:background="@drawable/public_round_rect_blue_bg_4dp_1px_selector" android:layout_width="wrap_content" android:layout_height="32.0dip" android:minWidth="146.0dip" android:layout_marginEnd="10.0dip" android:paddingHorizontal="6.0dip">
+            <cn.wpsx.support.ui.KColorfulImageView android:gravity="center_vertical" android:id="@id/vip_icon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/pub_vipbutton_vip_54px" android:layout_marginEnd="1.0dip" />
+            <TextView android:textSize="12.0sp" android:textColor="@color/whiteMainTextColor" android:ellipsize="middle" android:layout_gravity="center_vertical" android:id="@id/save_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/et_split" android:layout_marginStart="1.0dip" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

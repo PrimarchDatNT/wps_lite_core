@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 德语（德国） -->
+<resource>
+    <inner type="string-array" size="">
+		<item>dd\.mm\.yyyy</item>
+		<item>[$-F800]dddd\,\ mmmm\ dd\,\ yyyy</item>
+		<item>d\.m;@</item>
+		<item>d\.m\.yy;@</item>
+		<item>dd\.mm\.yy;@</item>
+		<item>[$-407]d\.\ mmm\.;@</item>
+		<item>[$-407]d\.\ mmm\.\ yy;@</item>
+		<item>[$-407]d\.\ mmm\ yy;@</item>
+		<item>[$-407]mmm\.\ yy;@</item>
+		<item>[$-407]mmmm\ yy;@</item>
+		<item>[$-407]d\.\ mmmm\ yyyy;@</item>
+		<item>[$-409]d\.m\.yy\ h:mm\ AM/PM;@</item>
+		<item>d\.m\.yy\ h:mm;@</item>
+		<item>[$-407]mmmmm;@</item>
+		<item>[$-407]mmmmm\ yy;@</item>
+		<item>d\.m\.yyyy;@</item>
+		<item>[$-407]d\.\ mmm\.\ yyyy;@</item>  
+	</inner>
+</resource>

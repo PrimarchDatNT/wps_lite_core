@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/v10_phone_public_base_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_horizontal_align" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="0.0dip" android:layout_height="42.0dip" app:layout_constraintHorizontal_weight="3.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/ll_bullet" app:layout_constraintTop_toTopOf="parent">
+            <cn.wps.moffice.common.beans.phone.AlphaFrameLayout android:id="@id/fl_align_left" android:background="@drawable/v10_phone_ppt_rounded_rectangle_16_alpha0d_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/comp_align_align_left" app:tint="@color/normalIconColor" />
+            </cn.wps.moffice.common.beans.phone.AlphaFrameLayout>
+            <View android:id="@id/line_1" android:background="@color/lineColor" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+            <cn.wps.moffice.common.beans.phone.AlphaFrameLayout android:id="@id/fl_align_center" android:background="@drawable/v10_phone_ppt_rounded_rectangle_16_alpha0d_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/comp_align_align_horiz" app:tint="@color/normalIconColor" />
+            </cn.wps.moffice.common.beans.phone.AlphaFrameLayout>
+            <View android:id="@id/line_2" android:background="@color/lineColor" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+            <cn.wps.moffice.common.beans.phone.AlphaFrameLayout android:id="@id/fl_align_right" android:background="@drawable/v10_phone_ppt_rounded_rectangle_16_alpha0d_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/comp_align_align_right" app:tint="@color/normalIconColor" />
+            </cn.wps.moffice.common.beans.phone.AlphaFrameLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_bullet" android:background="@drawable/v10_phone_public_rounded_rectangle_16_shape" android:layout_width="0.0dip" android:layout_height="42.0dip" android:layout_marginLeft="@dimen/v10_phone_public_base_padding" android:layout_marginStart="@dimen/v10_phone_public_base_padding" app:layout_constraintHorizontal_weight="2.0" app:layout_constraintLeft_toRightOf="@id/ll_horizontal_align" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <cn.wps.moffice.common.beans.phone.AlphaFrameLayout android:id="@id/fl_bullet_dot" android:background="@drawable/v10_phone_ppt_rounded_rectangle_16_alpha0d_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/comp_numbering_8" app:tint="@color/normalIconColor" />
+            </cn.wps.moffice.common.beans.phone.AlphaFrameLayout>
+            <View android:id="@id/line_3" android:background="@color/lineColor" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+            <cn.wps.moffice.common.beans.phone.AlphaFrameLayout android:id="@id/fl_bullet_num" android:background="@drawable/v10_phone_ppt_rounded_rectangle_16_alpha0d_selector" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/comp_numbering_1" app:tint="@color/normalIconColor" />
+            </cn.wps.moffice.common.beans.phone.AlphaFrameLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

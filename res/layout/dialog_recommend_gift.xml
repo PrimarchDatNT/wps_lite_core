@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/topImg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/recommend_gift_pop_top" android:scaleType="fitXY" />
+    <LinearLayout android:orientation="vertical" android:id="@id/contentLayout" android:background="@drawable/recommend_bg_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/topImg">
+        <cn.wps.moffice.reader.view.NovelTypefaceTextView android:textSize="21.0dip" android:textColor="@color/novel_subTextColor" android:id="@id/recommendText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="58.0dip" android:text="@string/reader_recommend_gift_tip" android:layout_marginStart="58.0dip" app:textStyle="bold" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="65.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="58.0dip" android:layout_marginStart="65.0dip" android:layout_marginEnd="40.0dip" />
+    </LinearLayout>
+    <cn.wps.moffice.recommend.CircleShapeView android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginRight="-23.0dip" android:layout_marginBottom="23.0dip" android:layout_alignRight="@id/contentLayout" android:layout_alignBottom="@id/contentLayout" android:layout_marginEnd="-23.0dip" app:color="#1affffff" />
+    <ImageView android:id="@id/closeImage" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/suspend_dialog_close" android:layout_alignParentRight="true" />
+</RelativeLayout>

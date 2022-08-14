@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.home.refresh.PullBounceBallAnimView android:layout_gravity="center" android:id="@id/public_home_bouncingball" android:visibility="visible" android:layout_width="60.0dip" android:layout_height="28.0dip" />
+    <cn.wps.moffice.home.refresh.HomeLogoAnimView android:layout_gravity="center" android:id="@id/home_logo_anim" android:visibility="visible" android:layout_width="16.0dip" android:layout_height="16.0dip" android:scaleType="fitCenter" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/premiumSubWhiteTextColor" android:layout_gravity="center_horizontal" android:id="@id/public_pull_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="42.0dip" android:text="@string/public_home_pulldown_refresh" />
+</FrameLayout>

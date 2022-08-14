@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/public_shareplay_titlebar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View style="@style/phone_home_top_shadow" />
+    <cn.wps.moffice.common.shareplay2.LeftRightSpaceView android:id="@id/public_shareplay_launch_pad_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

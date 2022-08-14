@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wpsx.support.ui.KTextView android:textSize="12.0dip" android:textColor="@color/secondaryColor" android:gravity="center" android:id="@id/public_wpsdrive_new_folder_enter_folder" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/public_not_to_invite_enter_folder" app:kmui_pressAlphaEnabled="true" />
+    <cn.wpsx.support.ui.KColorfulImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="0.58000004dip" android:src="@drawable/pub_list_screening_right_arrow_blue" android:scaleType="centerInside" />
+</LinearLayout>

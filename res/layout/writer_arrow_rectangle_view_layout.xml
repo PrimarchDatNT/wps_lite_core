@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:textSize="12.0sp" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ink_function_tip_text" android:padding="12.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_ink_function_guide_text" />
+</RelativeLayout>

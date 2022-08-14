@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/show_revison_at_right_bollow_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/show_revison_at_right_bollow_layout_text" android:layout_width="wrap_content" android:text="@string/writer_revision_in_right_bollom_panel" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/v10_phone_public_revision_detail_text_style" />
+        </RelativeLayout>
+        <ImageView android:id="@id/show_revison_at_right_bollow_layout_img" android:layout_marginRight="16.0dip" android:src="@drawable/v10_phone_public_revision_layout_choosed" style="@style/v10_phone_public_panel_list_img" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+    <View style="@style/v10_phone_public_panel_bottom_divideline_margin_50" />
+    <cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="horizontal" android:id="@id/show_revison_inline_layout" android:visibility="visible" android:layout_width="fill_parent" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" pressAlphaEnableWhenRipple="false" style="@style/v10_phone_public_panel_list_item">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <cn.wps.moffice.common.beans.phone.AutoAdjustTextView android:id="@id/show_revison_inline_layout_text" android:layout_width="wrap_content" android:text="@string/writer_revision_inline_mode" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" style="@style/v10_phone_public_revision_detail_text_style" />
+        </RelativeLayout>
+        <ImageView android:id="@id/show_revison_inline_layout_img" android:layout_marginRight="16.0dip" android:src="@drawable/v10_phone_public_revision_layout_choosed" style="@style/v10_phone_public_panel_list_img" />
+    </cn.wps.moffice.common.beans.phone.AlphaLinearLayout>
+</LinearLayout>

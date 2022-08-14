@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/play_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/pdf_play_autoplay_shade_layer" android:background="#8e000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <Button android:id="@id/play_pre" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+    <Button android:id="@id/play_next" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    <cn.wps.moffice.common.beans.RippleAlphaImageView android:id="@id/pdf_awake_autoplay" android:visibility="gone" android:layout_width="@dimen/pdf_autopla_central_btn_size" android:layout_height="@dimen/pdf_autopla_central_btn_size" android:src="@drawable/public_autoplay_play_drawable" android:layout_centerInParent="true" style="@style/public_image_bg_style" />
+    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/pdf_normal_play_indicator_vertical" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginBottom="45.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <cn.wps.moffice.common.beans.phone.AlphaImageView android:id="@id/pdf_normal_play_indicator_horizontal" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="35.0dip" android:layout_marginRight="0.0dip" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginStart="35.0dip" android:layout_marginEnd="0.0dip" android:layout_alignParentStart="true" />
+</RelativeLayout>

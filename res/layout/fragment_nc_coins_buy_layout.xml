@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:id="@id/nested_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/top_space_container" android:layout_width="fill_parent" android:layout_height="200.0dip">
+                <include android:id="@id/unlock_decor_container" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="136.0dip" layout="@layout/layout_unlock_top_decor" />
+                <View android:id="@id/top_left_space" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/unlock_decor_container" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/header_container" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <cn.wpsx.support.ui.KImageView android:layout_gravity="center_horizontal" android:id="@id/lock_icon_img" android:layout_width="wrap_content" android:layout_height="43.0dip" android:src="@drawable/wps_nc_unlock_icon" android:layout_centerHorizontal="true" />
+                <cn.wps.moffice.reader.view.NovelTypefaceTextView android:textSize="18.0dip" android:textColor="#b3000000" android:gravity="center" android:id="@id/label_price_tip_tv" android:layout_width="fill_parent" android:layout_height="20.0dip" android:text="@string/wps_home_choose_sku" android:includeFontPadding="false" android:layout_below="@id/lock_icon_img" android:layout_centerHorizontal="true" app:textStyle="bold" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <cn.wps.moffice.reader.view.NovelTypefaceTextView android:textSize="12.0dip" android:textColor="#66000000" android:id="@id/qa_tv" android:background="#ffffffff" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wps_home_coin_buy_tips" />
+            <View android:id="@id/bottom_space" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="127.0dip" android:layout_alignParentBottom="true" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/shadow_bg" android:background="@drawable/novel_wps_home_vertical_gradient_shadow" android:layout_width="fill_parent" android:layout_height="60.0dip" />
+        <FrameLayout android:id="@id/button_background" android:background="#ffffffff" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wps.moffice.reader.view.NovelTypefaceButton android:textSize="17.0dip" android:textColor="@color/cartoon_main_btn_text_color" android:gravity="center" android:id="@id/pay" android:background="@drawable/selector_wps_cartoon_main_button_bg" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/wps_home_pay_to_read_now" android:singleLine="true" android:textAllCaps="false" app:textStyle="bold" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

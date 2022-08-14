@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.cardview.CardView android:orientation="vertical" android:id="@id/menu_cardview" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardCornerRadius="4.0dip" app:cardElevation="4.0dip" app:cardMaxElevation="4.0dip" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="196.0dip" android:layout_height="wrap_content">
+        <ListView android:id="@id/lv_item_menu" android:background="@drawable/shape_doc_scan_popwindow_bg" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:overScrollMode="never" />
+    </RelativeLayout>
+</cn.wps.moffice.common.beans.cardview.CardView>

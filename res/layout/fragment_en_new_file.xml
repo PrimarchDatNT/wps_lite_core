@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.templatecommon.ext.widget.GridListView android:id="@id/main_content_gridview" android:paddingBottom="16.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:numColumns="1" android:overScrollMode="never" />
+    <cn.wps.moffice.foreigntemplate.newfile.fragment.view.ActualStickView android:id="@id/real_stick_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

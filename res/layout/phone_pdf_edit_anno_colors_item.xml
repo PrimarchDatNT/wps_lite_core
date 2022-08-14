@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="54.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.common.beans.V10CircleColorView android:layout_gravity="center" android:id="@id/pdf_edit_annot_panel_color" android:clickable="false" android:layout_width="28.0dip" android:layout_height="28.0dip" custom:circle_color="@color/phone_pdf_ink_color_red" custom:inner_width="20.0dip" custom:is_outside_circle="true" custom:outside_circle_width="1.0dip" />
+</FrameLayout>

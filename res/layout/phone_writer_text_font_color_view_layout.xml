@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" pressAlphaEnableWhenRipple="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:id="@id/writer_fill_color_item_img" android:focusable="true" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pad_comp_style_font_color" android:scaleType="centerInside" />
+    <cn.wps.moffice.common.beans.phone.ColorView android:layout_gravity="center" android:id="@id/writer_fill_color_item_colorview" android:background="@color/black" android:layout_width="15.0dip" android:layout_height="2.0dip" />
+</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

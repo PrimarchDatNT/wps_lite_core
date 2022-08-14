@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/thirdBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/multi_share_dialog_titlebar" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
+            <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:id="@id/multi_share_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_share_send" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@id/multi_title_divide_line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="vertical" android:id="@id/multi_share_panel_content_in_scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ListView android:id="@id/share_channel_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

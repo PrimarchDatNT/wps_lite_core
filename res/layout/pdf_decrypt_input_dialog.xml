@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="center" android:layout_width="320.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@drawable/color_black" android:id="@id/label_input_pwd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/documentmanager_loginView_toastpassword" />
+        <TextView android:textAppearance="@style/blackTextFont14sp" android:ellipsize="middle" android:id="@id/file_path" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        <cn.wps.moffice.common.beans.SafeRecordEditText android:textAppearance="@style/blackTextFont14sp" android:gravity="start" android:id="@id/passwd_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:password="true" android:singleLine="true" android:inputType="textPassword" android:textAlignment="viewStart" style="@style/public_edittext_errorable_style" />
+        <TextView android:textSize="12.0sp" android:textColor="@drawable/color_red" android:gravity="center" android:id="@id/input_wrong_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_checkPasswdFaild" />
+        <cn.wps.moffice.common.beans.CustomCheckBox android:textSize="14.0sp" android:id="@id/display_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" app:text="@string/public_displayPasswd" />
+    </LinearLayout>
+</ScrollView>

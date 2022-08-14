@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/pub_40_qr_share_card_bg" android:layout_width="750.0px" android:layout_height="1191.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="750.0px" android:layout_height="1191.0px">
+        <TextView android:textSize="33.0px" android:textColor="@color/white" android:ellipsize="middle" android:id="@id/share_from" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="42.0px" android:layout_marginTop="40.0px" android:layout_marginRight="48.0px" android:singleLine="true" />
+        <View android:id="@id/share_imgblock" android:visibility="gone" android:layout_width="7.0px" android:layout_height="32.0px" android:layout_marginLeft="101.0px" android:layout_marginTop="179.0px" />
+        <TextView android:textSize="32.0px" android:textColor="#ff5d5d5d" android:id="@id/share_superfunc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="126.0px" android:layout_marginTop="172.0px" android:text="WPS超级功能" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/func_img" android:layout_width="120.0px" android:layout_height="120.0px" android:layout_marginTop="294.0px" android:src="@drawable/pub_app_tool_export_highlighted_text" />
+        <TextView android:textSize="48.0px" android:textColor="#ff363e55" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/func_name" android:layout_width="wrap_content" android:layout_height="75.0px" android:layout_marginTop="435.0px" android:text="@string/paper_check_title_paper_check" android:maxLines="1" />
+        <View android:layout_gravity="center_horizontal" android:id="@id/divide_line" android:background="@color/public_dialog_divider_d8" android:layout_width="546.0px" android:layout_height="1.0px" android:layout_marginTop="549.0px" />
+        <TextView android:textSize="30.0px" android:textColor="#ff6c748a" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/func_desc" android:layout_width="fill_parent" android:layout_height="216.0px" android:layout_marginLeft="102.0px" android:layout_marginTop="600.0px" android:layout_marginRight="102.0px" android:maxLines="4" android:lineSpacingMultiplier="1.5" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/qr_code_img" android:background="@color/white" android:padding="9.0px" android:layout_width="150.0px" android:layout_height="150.0px" android:layout_marginTop="921.0px" />
+    </FrameLayout>
+</FrameLayout>

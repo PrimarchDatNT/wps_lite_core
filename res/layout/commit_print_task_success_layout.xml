@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="61.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="90.0dip" android:layout_height="90.0dip" android:src="@drawable/public_pay_success_icon" android:scaleType="fitXY" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/public_print_commit_success" style="@style/Common.TextAppearance.Content.Title" />
+    <TextView android:gravity="center" android:id="@id/tv_success_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="42.0dip" android:text="@string/public_print_commit_printer_success" style="@style/Common.TextAppearance.Content.SubTitle" />
+    <androidx.legacy.widget.Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:id="@id/tv_continue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:text="@string/public_print_continue" style="@style/Common.TextAppearance.Content.Clickable.Small" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/phone_ss_tabshost_tab_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="20.0dip" android:layout_height="wrap_content">
+        <ImageView android:id="@id/phone_ss_tab_color" android:layout_width="4.0dip" android:layout_height="24.0dip" android:layout_marginLeft="8.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="3.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+        <ImageView android:id="@id/phone_ss_tab_swap" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="30.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/phone_ss_sheet_op_swap" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+    </RelativeLayout>
+    <TextView android:ellipsize="end" android:gravity="start|center" android:id="@id/phone_ss_tab_name" android:layout_width="0.0dip" android:layout_height="30.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="8.0dip" android:singleLine="true" android:layout_weight="1.0" android:layout_marginStart="0.0dip" android:layout_marginEnd="8.0dip" style="@style/phone_public_font_m_black" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/phone_ss_tab_hide_icon" android:visibility="invisible" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_margin="4.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+</LinearLayout>

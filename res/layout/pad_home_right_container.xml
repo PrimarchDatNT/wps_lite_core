@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.main.local.home.phone.DragAndDropAcrossAppsView android:id="@id/layout_dragAndDropView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.TouchEventInterceptFrameLayout android:id="@id/left_tab" android:background="@color/componentToolbarBackgroundColor" android:clickable="true" android:layout_width="70.0dip" android:layout_height="fill_parent" />
+        <cn.wps.moffice.main.framework.pad.fragment.IFrameLayout android:id="@id/document_root" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <ViewStub android:id="@id/propel_info_viewstub" android:layout="@layout/pad_home_propel_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@id/circle_progressBar" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.wps.moffice.common.beans.circleloadingview.CircleLoaderView android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/home_soft_activate" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="bottom|center|left" android:id="@id/pad_payview" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="36.0dip" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip" />
+</merge>

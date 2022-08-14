@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.main.local.home.phone.multiselect.AutoEnableEffectLinearLayout android:orientation="vertical" android:paddingRight="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/item_special_content" android:layout_width="fill_parent" android:layout_height="70.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/history_record_item_content" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.64" style="@style/public_document_item_style_v2">
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@id/item_icon" android:scaleType="fitCenter" style="@style/public_document_item_image_style" />
+                <ImageView android:layout_gravity="center|right|top" android:id="@id/red_point" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="2.0dip" android:src="@drawable/public_fileradar_redpoint_icon" android:scaleType="fitXY" />
+            </FrameLayout>
+            <RelativeLayout android:paddingLeft="@dimen/public_document_item_title_margin_image_length" android:layout_width="203.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerVertical="true" android:paddingStart="@dimen/public_document_item_title_margin_image_length">
+                <TextView android:ellipsize="end" android:id="@id/item_title" android:layout_marginRight="0.0dip" android:singleLine="true" android:layout_marginEnd="0.0dip" style="@style/public_document_item_title_style" />
+                <TextView android:ellipsize="end" android:id="@id/item_description" android:paddingTop="@dimen/public_document_item_content_margin_top_length" android:singleLine="true" android:layout_below="@id/item_title" android:layout_alignLeft="@id/item_title" android:layout_alignStart="@id/item_title" style="@style/public_document_item_content_style" />
+            </RelativeLayout>
+            <ImageView android:id="@id/history_record_item_more_icon" android:visibility="gone" android:layout_width="39.0dip" android:layout_height="fill_parent" android:layout_marginRight="6.0dip" android:src="@drawable/pub_file_status_more_android" android:scaleType="center" android:layout_marginEnd="6.0dip" style="@style/public_image_bg_style" />
+        </LinearLayout>
+        <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/right_button_content" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.36" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" style="@style/public_document_item_style_v2">
+            <View android:layout_gravity="start|center" android:background="@color/phone_public_horizon_divideline_color" android:layout_width="0.33000004dip" android:layout_height="18.0dip" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <cn.wpsx.support.ui.KColorfulImageView android:id="@id/right_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="14.0dip" android:layout_marginStart="14.0dip" />
+                <TextView android:textSize="12.0dip" android:textColor="@color/mainTextColor" android:ellipsize="end" android:id="@id/right_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="16.0dip" android:singleLine="true" android:layout_marginStart="6.0dip" android:layout_marginEnd="16.0dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <View android:id="@id/line" android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="0.33000004dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/item_special_head_content" android:background="@color/secondBackgroundColor" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:textSize="14.0dip" android:ellipsize="end" android:id="@id/item_head_title" android:layout_marginLeft="16.0dip" android:layout_marginTop="11.329987dip" android:singleLine="true" android:layout_marginStart="16.0dip" style="@style/public_document_item_content_style" />
+    </LinearLayout>
+    <View android:id="@id/divide" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+</cn.wps.moffice.main.local.home.phone.multiselect.AutoEnableEffectLinearLayout>

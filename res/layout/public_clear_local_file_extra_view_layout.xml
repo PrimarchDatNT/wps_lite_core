@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/public_open_search_local_file_layout" />
+    <include layout="@layout/public_clear_local_file_finish_layout" />
+    <include layout="@layout/public_open_search_no_file_layout" />
+    <include layout="@layout/public_open_search_file_fail_layout" />
+</RelativeLayout>

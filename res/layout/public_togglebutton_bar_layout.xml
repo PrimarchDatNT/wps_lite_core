@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:id="@id/public_togglebutton_bar" android:background="@drawable/phone_public_divideview_bg" android:paddingLeft="22.0dip" android:paddingRight="22.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:paddingStart="22.0dip" android:paddingEnd="22.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/phone_public_default_text_size" android:textColor="@color/descriptionColor" android:id="@id/public_togglebutton_lefttext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="70.0dip" android:text="text" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="0.0dip" android:layout_marginEnd="70.0dip" />
+    <include android:id="@id/public_togglebutton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" layout="@layout/public_switch_layout" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/activity_cloud_base_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <cn.wps.moffice.cloud.widget.CloudToolbar android:id="@id/toolbar" android:tag="binding_1" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/v10_phone_public_titlebar_height" />
+    <View android:id="@id/wps_drive_title_shadow" style="@style/phone_home_top_shadow" />
+    <FrameLayout android:id="@id/fl_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

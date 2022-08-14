@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="120.0dip">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/home_roaming_login_wps_logo" android:layout_width="137.66dip" android:layout_height="38.599976dip" android:src="@drawable/home_roaming_login_wps_logo" android:scaleType="center" />
+        <TextView android:textSize="11.0dip" android:textColor="@color/subTextColor" android:layout_gravity="center_horizontal" android:id="@id/home_roaming_login_wps_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/home_roaming_login_third_button_Container" android:layout_width="248.0dip" android:layout_height="wrap_content" android:layout_marginTop="53.0dip" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/home_roaming_login_with_email_or_phone_layout" android:background="@drawable/public_round_rect_white_bg_4dp_1px_selector" android:layout_width="248.0dip" android:layout_height="45.0dip" android:layout_marginTop="17.0dip">
+            <cn.wpsx.support.ui.KColorfulImageView android:id="@id/home_roaming_login_with_email_or_phone_image" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/pub_login_button_phone" android:scaleType="fitCenter" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/subTextColor" android:gravity="center" android:id="@id/home_roaming_login_with_email_and_password" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/public_login_account_input_left" android:text="@string/public_login_with_email_and_password" android:layout_marginStart="@dimen/public_login_account_input_left" />
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/home_login_agreement_check" />
+    <View android:id="@id/view4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/filter_or_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip">
+        <View android:background="@color/lineColor" android:layout_width="4.0dip" android:layout_height="1.0dip" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/et_filter_or" />
+        <View android:background="@color/lineColor" android:layout_width="4.0dip" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bottom_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="33.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/emailLoginLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="22.0dip" android:layout_marginEnd="22.0dip">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/pub_login_mail_color" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/dingTalkLoginLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="22.0dip" android:layout_marginEnd="22.0dip">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/pub_login_dingding_color" />
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/home_roaming_login_qq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="22.0dip" android:layout_marginEnd="22.0dip">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:src="@drawable/pub_login_qq_color" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/home_roaming_login_more" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:src="@drawable/pub_login_more_color" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

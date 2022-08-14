@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.main.local.home.phone.DragAndDropAcrossAppsView android:id="@id/phone_layout_dragAndDropView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/phone_home_main_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="start|bottom|center" android:id="@id/phone_payview" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="36.0dip" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip" />
+</cn.wps.moffice.main.local.home.phone.DragAndDropAcrossAppsView>

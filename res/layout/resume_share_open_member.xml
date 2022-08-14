@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/checkjob_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="48.0dip" android:layout_marginRight="48.0dip">
+        <TextView android:textSize="15.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/open_member_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="24.0dip" android:layout_marginRight="24.0dip" android:text="@string/apps_resume_share_open_member" android:lineSpacingMultiplier="1.2" />
+        <View android:background="@color/lineColor" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="24.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip">
+            <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:gravity="center" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/public_cancel" android:layout_weight="1.0" />
+            <View android:background="@color/lineColor" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <TextView android:textSize="16.0dip" android:textColor="@color/buttonSecondaryColor" android:gravity="center" android:id="@id/openmember" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/home_membership_upgrade_member" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

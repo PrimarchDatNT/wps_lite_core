@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.presentation.control.common.PptAlphaLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/ppt_slideLayout_btn1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.presentation.control.layout.PictureView android:id="@id/ppt_slidelayout_item_img" android:layout_width="@dimen/phone_ppt_slidelayouts_item_width" android:layout_height="@dimen/phone_ppt_slidelayouts_item_height" android:scaleType="fitXY" />
+    <TextView android:id="@id/ppt_slidelayout_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/phone_ppt_panel_content_seperate_v_m" style="@style/phone_public_font_s_black" />
+</cn.wps.moffice.presentation.control.common.PptAlphaLinearLayout>

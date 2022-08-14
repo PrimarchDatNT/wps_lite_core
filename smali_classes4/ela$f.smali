@@ -1,0 +1,90 @@
+.class public final Lela$f;
+.super Ljava/lang/Object;
+.source "BuildDynamicLinkHandler.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lela;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "f"
+.end annotation
+
+
+# instance fields
+.field public a:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "domainUriPrefix"
+    .end annotation
+.end field
+
+.field public b:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "link"
+    .end annotation
+.end field
+
+.field public c:Lela$d;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "androidInfo"
+    .end annotation
+.end field
+
+.field public d:Lela$h;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "iosInfo"
+    .end annotation
+.end field
+
+.field public e:Lela$j;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "navigationInfo"
+    .end annotation
+.end field
+
+.field public f:Lela$c;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "analyticsInfo"
+    .end annotation
+.end field
+
+.field public g:Lela$k;
+    .annotation runtime Lcom/google/gson/annotations/Expose;
+    .end annotation
+
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "socialMetaTagInfo"
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

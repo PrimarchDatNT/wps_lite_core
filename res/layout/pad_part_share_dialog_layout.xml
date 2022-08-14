@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/share_choose_bg" android:background="@color/maskBackgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.common.beans.SizeLimitedLinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/share_choose_dialog" android:background="@color/backgroundColor" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip">
+        <FrameLayout android:background="@drawable/phone_public_panel_topbar_bg" android:layout_width="fill_parent" android:layout_height="50.0dip">
+            <cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup android:gravity="center" android:id="@id/share_choose_back" style="@style/v10_phone_public_bottombar_title_back">
+                <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="center" android:id="@id/back_imgbtn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comp_common_back" />
+            </cn.wps.moffice.common.beans.phone.LollipopSelectorAlphaViewGroup>
+            <TextView android:textSize="16.0dip" android:textColor="@color/mainTextColor" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/public_link_share_choose" />
+        </FrameLayout>
+        <TextView android:textSize="16.0dip" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/public_share_choose_tip" android:layout_marginStart="16.0dip" android:layout_marginVertical="12.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/share_choose_contain" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </cn.wps.moffice.common.beans.SizeLimitedLinearLayout>
+</FrameLayout>

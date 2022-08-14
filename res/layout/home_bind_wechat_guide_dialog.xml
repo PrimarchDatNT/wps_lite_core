@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.MyScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wps.moffice.common.beans.SizeLimitedLinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/container_layout" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wpsx.support.ui.KNormalImageView android:layout_gravity="end" android:id="@id/ivCancel" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/home_bind_dialog_close_btn" android:contentDescription="@string/reader_public_close" android:layout_marginEnd="6.0dip" />
+            <cn.wpsx.support.ui.KColorfulImageView android:layout_gravity="center_horizontal" android:id="@id/ivTipPicture" android:layout_width="248.0dip" android:layout_height="136.0dip" android:layout_marginTop="29.0dip" android:scaleType="fitCenter" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/btnBindWechat" android:background="@drawable/public_login_guide_button_green" android:layout_width="236.0dip" android:layout_height="40.0dip" android:layout_marginLeft="15.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="36.0dip">
+                <TextView android:textSize="16.0dip" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/home_bind_wechat" android:layout_centerInParent="true" />
+                <View android:id="@id/div2" android:background="#ff32a142" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginLeft="44.0dip" android:layout_marginStart="44.0dip" />
+                <View android:background="#ff4cc55e" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_toRightOf="@id/div2" android:layout_toEndOf="@id/div2" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:src="@drawable/public_login_by_wechat_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </cn.wps.moffice.common.beans.SizeLimitedLinearLayout>
+        <cn.wps.moffice.common.beans.MaterialProgressBarCycle android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</cn.wps.moffice.common.beans.MyScrollView>

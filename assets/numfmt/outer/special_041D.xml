@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 瑞典语 -->
+<resource>
+    <inner type="string-array" size="">
+		<item>000\ 00</item>
+		<item>"S-"000\ 00</item>
+		<item>##\-####\-###\-#</item>
+		<item>######\-####</item>
+	</inner>
+	<outer type="string-array" size="">
+	    <item>Postnummer</item>
+	    <item>S-Postnummer</item>
+		<item>ISBN</item>
+		<item>Personnummer</item>
+	</outer>
+</resource>

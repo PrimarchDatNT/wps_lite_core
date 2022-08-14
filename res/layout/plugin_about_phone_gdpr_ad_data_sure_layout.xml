@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/fragment_content" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="90.0dip" android:layout_height="90.0dip" android:layout_marginTop="60.0dip" android:src="@drawable/public_gdpr_ad_data_setting_finish" />
+    <TextView android:textSize="16.0dip" android:textColor="#ff535252" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/public_gdpr_data_collection_finish_txt1" />
+    <TextView android:textColor="#ff9b9b9b" android:id="@id/account_setting_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/public_gdpr_data_collection_finish_txt4" />
+</LinearLayout>

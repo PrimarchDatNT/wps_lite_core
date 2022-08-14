@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/et_backboard_multicells" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_marginTop="@dimen/et_backboard_h_firstline_margin_top" style="@style/et_backboard_line_layout">
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <cn.wps.moffice.common.beans.phone.AlphaButton android:textSize="14.0dip" android:id="@id/et_backboard_sum" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/phone_public_nobg_black" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <cn.wps.moffice.common.beans.phone.AlphaButton android:textSize="14.0dip" android:id="@id/et_backboard_max" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/phone_public_nobg_black" />
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <cn.wps.moffice.common.beans.phone.AlphaButton android:textSize="14.0dip" android:id="@id/et_backboard_count" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/phone_public_nobg_black" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@id/et_backboard_cellline" android:layout_marginTop="@dimen/et_backboard_h_secondline_margin_top" style="@style/et_backboard_line_layout">
+                <LinearLayout android:orientation="horizontal" android:id="@id/et_backboard_avgandmin" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.phone.AlphaButton android:textSize="14.0dip" android:id="@id/et_backboard_avg" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/phone_public_nobg_black" />
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                        <cn.wps.moffice.common.beans.phone.AlphaButton android:textSize="14.0dip" android:id="@id/et_backboard_min" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="@style/phone_public_nobg_black" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/et_backboard_blank" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/et_backboard_cell_and_phonemsgview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/et_backboard_margin_horizontal" android:layout_marginTop="@dimen/et_backboard_h_single_view_margin_top" android:layout_marginRight="@dimen/et_backboard_margin_horizontal" android:layout_marginStart="@dimen/et_backboard_margin_horizontal" android:layout_marginEnd="@dimen/et_backboard_margin_horizontal">
+            <cn.wps.moffice.common.beans.phone.AlphaButton android:textSize="14.0dip" android:id="@id/et_backboard_cell" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/et_backboard_line_height" android:singleLine="true" style="@style/phone_public_nobg_black" />
+            <cn.wps.moffice.spreadsheet.control.backboard.BackBoradExpandToolBarView android:id="@id/et_backboard_expand_toolbar" android:layout_width="wrap_content" android:layout_height="@dimen/et_backboard_h_single_view_expand_tool_height" android:layout_marginTop="@dimen/et_backboard_h_single_view_expand_tool_margin_top" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <View android:id="@id/phone_ss_titlebar_bottom_stroke_line" android:background="@color/phone_ss_panel_top_line_color" android:layout_width="fill_parent" android:layout_height="@dimen/phone_ss_dash_bar_shadow_height" />
+        <cn.wpsx.support.ui.KNormalImageView android:id="@id/phone_ss_titlebar_shadow" android:layout_width="fill_parent" android:layout_height="2.0dip" android:src="@drawable/phone_public_top_shadow" android:scaleType="fitXY" />
+    </LinearLayout>
+</FrameLayout>

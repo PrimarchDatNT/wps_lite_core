@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.SecondFullScreenLayout android:orientation="vertical" android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="fill_parent" app:use_default_color_bg="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <fragment android:name="cn.wps.moffice.main.membership.pursing.fragment.MyPursingAccountFragment" android:id="@id/account_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <fragment android:name="cn.wps.moffice.main.membership.pursing.fragment.MyPursingContentFragment" android:id="@id/setting_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <fragment android:name="cn.wps.moffice.main.membership.pursing.fragment.MyPursingBannerFragment" android:id="@id/my_pursing_banner_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" />
+            <fragment android:name="cn.wps.moffice.main.membership.pursing.fragment.MyPursingAdFragment" android:id="@id/my_pursing_ad_fragment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_pursing_default_empty" android:visibility="gone" android:layout_width="145.0dip" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:src="@drawable/mine_member_pursing_wallet_empty" android:adjustViewBounds="true" />
+            <TextView android:textSize="12.0dip" android:textColor="@color/descriptionColor" android:gravity="center" android:layout_width="fill_parent" android:layout_height="37.0dip" android:layout_marginBottom="6.0dip" android:text="WPS钱包，安全值得信赖" />
+        </LinearLayout>
+    </ScrollView>
+</cn.wps.moffice.common.beans.SecondFullScreenLayout>

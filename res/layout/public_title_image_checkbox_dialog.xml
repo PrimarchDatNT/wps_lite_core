@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/checkjob_dialog_bg" android:layout_width="290.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="290.0dip" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/title_image_checkbox_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip" android:text="@string/paper_check_report_tips" android:lineSpacingMultiplier="1.2" />
+        <ImageView android:id="@id/title_image_checkbox_dialog_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:src="@drawable/paper_check_report_tips" />
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip">
+            <cn.wps.moffice.common.CustomCheckButton android:textSize="@dimen/public_custom_dialog_msg_text_size" android:textColor="@color/public_custom_dialog_msg_text_color" android:id="@id/title_image_checkbox_dialog_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/public_no_remind" style="@style/public_checkbox_base" />
+        </LinearLayout>
+        <Button android:textSize="16.0dip" android:ellipsize="middle" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/title_image_checkbox_dialog_btn" android:layout_width="231.0dip" android:layout_height="42.0dip" android:layout_marginBottom="24.0dip" android:text="@string/docer_coupon_package_des_ok" style="@style/phone_public_buttonStyle_blue_4dp_corner_dark_compat" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 希伯来语 -->
+<resource>
+    <inner type="string-array" size="">
+		<item>[$-1000000]00000</item>
+		<item>[$-1000000]00000\-0000</item>
+		<item>[&lt;=9999999][$-1000000]###\-####;[$-1000000]\(###\)\ ###\-####</item>
+		<item>[$-1000000]00000000\-0</item>
+	</inner>
+	<outer type="string-array" size="">
+	    <item>דוקימ</item>
+	    <item>4 + דוקימ</item>
+	    <item>ןופלט רפסמ</item>
+	    <item>תוהז תדועת רפסמ</item>
+	</outer>
+</resource>

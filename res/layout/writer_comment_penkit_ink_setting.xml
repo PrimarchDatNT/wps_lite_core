@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/writer_insert_comment_dialog_bg" android:layout_width="fill_parent" android:layout_height="500.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="11.0dip" android:paddingTop="6.0dip" android:paddingRight="11.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wpsx.support.ui.KImageView android:id="@id/iv_setting_back" android:padding="9.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/comp_common_back" android:tint="@color/normalIconColor" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/documentmanager_phone_setting" />
+    </LinearLayout>
+    <View style="@style/div_line" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/comment_content_layout" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="482.0dip" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_ink_comment" android:background="@drawable/writer_comment_switch_selector" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/rb_ink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:button="@drawable/phone_public_radio_selector" />
+            <LinearLayout android:orientation="vertical" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_comment_switch_ink_title" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/descriptionColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/writer_comment_switch_ink_tips" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:src="@drawable/comp_penkit_ink_board" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_penkit_comment" android:background="@drawable/writer_comment_switch_selector" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+            <RadioButton android:id="@id/rb_penkit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:button="@drawable/phone_public_radio_selector" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mainTextColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/writer_comment_switch_penkit_title" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/descriptionColor" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/writer_comment_switch_penkit_tips" />
+                <ImageView android:id="@id/img_penkit" android:layout_width="240.0dip" android:layout_height="46.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/comp_penkit_drawing_board" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wps.moffice.writer.shell.pad.titletoolbar.view.TabGroupSwitcher android:id="@id/writer_maintoolbar_tab_group" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.TabItem android:id="@id/writer_maintoolbar_start_group_btn" android:text="@string/public_start" MaxLine="1" style="@style/writer_maintoolbar_tabitem" />
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.TabItem android:id="@id/writer_maintoolbar_insert_group_btn" android:text="@string/public_insert" MaxLine="1" style="@style/writer_maintoolbar_tabitem" />
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.TabItem android:id="@id/writer_maintoolbar_view_group_btn" android:text="@string/public_view" style="@style/writer_maintoolbar_tabitem" />
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.TabItem android:id="@id/writer_maintoolbar_peruse_group_btn" android:text="@string/public_peruse" MaxLine="1" style="@style/writer_maintoolbar_tabitem" />
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.TabItem android:id="@id/writer_maintoolbar_ink_group_btn" android:visibility="gone" android:text="@string/public_ink_pen_title" MaxLine="1" style="@style/writer_maintoolbar_tabitem" />
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.TabItem android:id="@id/writer_maintoolbar_papertool_group_btn" android:visibility="gone" android:text="@string/public_paper_pad_title" style="@style/writer_maintoolbar_tabitem" />
+        <cn.wps.moffice.writer.shell.pad.titletoolbar.view.TabItem android:id="@id/writer_maintoolbar_draw_tool_btn" android:background="@drawable/writer_pad_title_menu_bg_selector" android:layout_width="80.0dip" android:text="@string/write_frame_draw_tool_title_text" MaxLine="1" style="@style/writer_maintoolbar_tabitem" />
+    </cn.wps.moffice.writer.shell.pad.titletoolbar.view.TabGroupSwitcher>
+</merge>

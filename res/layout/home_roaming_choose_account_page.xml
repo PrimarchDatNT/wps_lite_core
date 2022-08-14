@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/boldLineColor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <cn.wps.moffice.main.common.viewcontrols.ViewTitleBar android:id="@id/titlebar" android:background="@color/navBackgroundColor" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <View style="@style/phone_home_top_shadow" />
+        </LinearLayout>
+        <TextView android:textSize="15.0dip" android:textColor="@color/descriptionColor" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="112.0dip" android:text="选择你要登录的帐号" />
+        <ListView android:id="@id/home_roaming_choose_account_listview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="154.0dip" android:listSelector="@android:color/transparent" android:dividerHeight="0.0dip" />
+        <cn.wps.moffice.common.brand.BrandProgressBarCycle android:layout_gravity="center" android:id="@id/home_roaming_login_progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@id/pad_home_alldocs_sort_by_time" layout="@layout/pad_checkbox_with_text_item" />
+        <include android:id="@id/pad_home_alldocs_sort_by_name" layout="@layout/pad_checkbox_with_text_item" />
+        <include android:id="@id/pad_home_alldocs_sort_by_size" layout="@layout/pad_checkbox_with_text_item" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 巴西葡语 -->
+<resource>
+    <inner type="string-array" size="">
+		<item>dd/mm/yyyy</item>
+		<item>[$-F800]dddd\,\ mmmm\ dd\,\ yyyy</item>
+		<item>d/m;@</item>
+		<item>d/m/yy;@</item>
+		<item>dd/mm/yy;@</item>
+		<item>[$-416]d\-mmm;@</item>
+		<item>[$-416]d\-mmm\-yy;@</item>
+		<item>[$-416]dd\-mmm\-yy;@</item>
+		<item>[$-416]mmm\-yy;@</item>
+		<item>[$-416]mmmm\-yy;@</item>
+		<item>[$-416]d\ \ mmmm\,\ yyy;@</item>
+		<item>[$-409]d/m/yy\ h:mm\ AM/PM;@</item>
+		<item>d/m/yy\ h:mm;@</item>
+	</inner>
+</resource>

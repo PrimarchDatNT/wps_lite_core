@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/option_setting" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <cn.wpsx.support.ui.KTextView android:id="@id/develop_item_text" android:text="@string/public_login_phone_number" app:kmui_autoSizeEnabled="true" style="@style/develop_item_text_style" />
+        <cn.wpsx.support.KDisableTouchSwitchCompat android:id="@id/develop_item_switch" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <View android:layout_marginLeft="16.0dip" android:layout_below="@id/option_setting" android:layout_marginStart="16.0dip" style="@style/public_separator_line" />
+</RelativeLayout>

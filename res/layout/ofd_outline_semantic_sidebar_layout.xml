@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:background="@color/thirdBackgroundColor" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/outline_semantic_contentview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="end" android:background="@color/lineColor" android:layout_width="1.0px" android:layout_height="fill_parent" />
+</FrameLayout>

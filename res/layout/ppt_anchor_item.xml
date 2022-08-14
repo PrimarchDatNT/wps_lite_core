@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.phone.AlphaLinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ppt_anchor_item_root" android:descendantFocusability="blocksDescendants" android:layout_width="30.0dip" android:layout_height="30.0dip" pressAlphaEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/ppt_anchor_item_img" style="@style/public_popwindow_grid_icon_image" />
+</cn.wps.moffice.common.beans.phone.AlphaLinearLayout>

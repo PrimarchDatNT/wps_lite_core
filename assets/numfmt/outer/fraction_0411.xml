@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource>
+    <outer type="string-array" size="">
+		<item>1桁増加</item>
+		<item>2桁増加</item>
+		<item>3桁増加</item>
+		<item>分母を2にする</item>
+		<item>分母を4にする</item>
+		<item>分母を8にする</item>
+		<item>分母を16にする</item>
+		<item>分母を10にする</item>
+		<item>分母を100にする</item>
+	</outer>
+</resource>

@@ -1,0 +1,37 @@
+.class public abstract Lebw$i;
+.super Ljava/lang/Object;
+.source "LoadBalancer.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lebw;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "i"
+.end annotation
+
+.annotation build Lio/grpc/ExperimentalApi;
+    value = "https://github.com/grpc/grpc-java/issues/1771"
+.end annotation
+
+.annotation build Ljavax/annotation/concurrent/ThreadSafe;
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract a(Lebw$f;)Lebw$e;
+.end method

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.wps.moffice.common.beans.AlphaRelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/phone_home_left_toolbar_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/phone_home_left_toolbar_item_image_bg" android:layout_width="@dimen/home_plus_opreate_toolbar_btn_width" android:layout_height="@dimen/home_plus_opreate_toolbar_btn_width">
+        <ImageView android:id="@id/phone_home_toolbar_item_image" android:background="@drawable/home_floating_button_bg" android:padding="@dimen/home_plus_opreate_toolbar_btn_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/phone_public_bottom_toolbar_gift" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="32.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/home_plus_opreate_toolbar_tips_margin_left" android:layout_toRightOf="@id/phone_home_left_toolbar_item_image_bg" android:layout_marginStart="@dimen/home_plus_opreate_toolbar_tips_margin_left" android:layout_toEndOf="@id/phone_home_left_toolbar_item_image_bg">
+        <ImageView android:id="@id/phone_home_toolbar_item_tips_image" android:visibility="invisible" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="6.0dip" android:src="@drawable/phone_public_bottom_toolbar_tips_redhot" android:scaleType="fitXY" android:layout_marginStart="2.0dip" />
+        <TextView android:textSize="@dimen/home_plus_toolbar_tips_textsize" android:textColor="@color/whiteMainTextColor" android:gravity="center" android:id="@id/phone_home_toolbar_item_tips_text" android:background="@drawable/phone_public_bottom_toolbar_item_tips_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxWidth="34.0dip" android:text="@string/public_findnew" android:maxLines="1" />
+    </FrameLayout>
+</cn.wps.moffice.common.beans.AlphaRelativeLayout>

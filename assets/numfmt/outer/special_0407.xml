@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 德语（德国） -->
+<resource>
+    <inner type="string-array" size="">
+		<item>00000</item>
+		<item>\A\-00000</item>
+		<item>\C\H\-00000</item>
+		<item>\D\-00000</item>
+		<item>\L\-00000</item>
+		<item>\[@\]</item>
+		<item>0000\-00\ 00\ 00</item>
+		<item>000\.00\.000\.000</item>
+		<item>\I\S\B\N\ #\-###\-#####\-#</item>
+		<item>\I\S\B\N\ #\-####\-####\-#</item>
+		<item>\I\S\B\N\ #\-#####\-###\-#</item>
+	</inner>
+	<outer type="string-array" size="">
+	    <item>Postleitzahl</item>
+		<item>Postleitzahl (A)</item>
+		<item>Postleitzahl (CH)</item>
+		<item>Postleitzahl (D)</item>
+		<item>Postleitzahl (L)</item>
+		<item>Versicherungsnachweis-Nr. (D)</item>
+		<item>Sozialversicherungsnummer (A)</item>
+		<item>Sozialversicherungsnummer (CH)</item>
+		<item>ISBN-Format (ISBN x-xxx-xxxxx-x)</item>
+		<item>ISBN-Format (ISBN x-xxxx-xxxx-x)</item>
+		<item>ISBN-Format (ISBN x-xxxxx-xxx-x)</item>
+	</outer>
+</resource>

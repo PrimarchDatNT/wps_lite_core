@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:focusable="true" android:descendantFocusability="blocksDescendants" android:layout_height="@dimen/writer_pad_popup_menu_list_icon_height" android:minWidth="@dimen/writer_pad_third_popup_menu_item_width" style="@style/public_toolbar_popupwindow_btn_withicon_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.wpsx.support.ui.KNormalImageView android:id="@id/writer_settinglist_item_image" android:layout_width="@dimen/writer_pad_popup_menu_icon_size" android:layout_height="@dimen/writer_pad_popup_menu_icon_size" android:scaleType="fitXY" style="@style/public_toolbar_popupwindow_icon" />
+    <TextView android:textSize="@dimen/public_default_mid_text_size" android:id="@id/writer_settinglist_item_text" android:paddingLeft="@dimen/writer_pad_titlebar_popup_btn_padding_left_right" android:layout_width="0.0dip" android:layout_height="@dimen/writer_pad_popup_menu_item_height" android:text="Page Layout" android:layout_weight="1.0" android:paddingStart="@dimen/writer_pad_titlebar_popup_btn_padding_left_right" style="@style/public_toolbar_popupwindow_btn_withicon" />
+    <ImageView android:id="@id/writer_settinglist_item_checked" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginLeft="12.0dip" android:src="@drawable/pad_public_radio_selector" android:layout_marginStart="12.0dip" />
+</LinearLayout>

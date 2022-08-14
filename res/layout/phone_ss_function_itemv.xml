@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/et_function_select_item_padding_horizontal" android:paddingTop="@dimen/et_function_select_item_padding_vertical" android:paddingRight="@dimen/et_function_select_listviewitem_padding_right" android:paddingBottom="@dimen/et_function_select_item_padding_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/et_function_select_item_padding_horizontal" android:paddingEnd="@dimen/et_function_select_listviewitem_padding_right"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:gravity="top" android:id="@id/et_function_itemv_name" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/phone_public_font_m_black" />
+    <TextView android:gravity="center_vertical" android:id="@id/et_function_itemv_params" android:paddingTop="@dimen/et_function_select_desc_padding_top" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/phone_ss_function_select_desc_text_style" />
+    <TextView android:id="@id/et_function_itemv_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/phone_ss_function_select_desc_text_style" />
+</LinearLayout>

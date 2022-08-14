@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:tag="layout/guide_app_recomend_item_0" android:layout_width="fill_parent" android:layout_height="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <cn.wpsx.support.ui.KColorfulImageView android:id="@id/home_app_recommend_item_image" android:tag="binding_1" android:layout_width="38.0dip" android:layout_height="38.0dip" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/subTextColor" android:ellipsize="end" android:id="@id/home_app_recommend_item_name" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" />
+</LinearLayout>
